@@ -7,6 +7,8 @@ BINARY_PREFIX=sim_
 
 PREFETCHERS= ampm_lite ip_stride next_line stream 
 
+.PHONY: clean
+
 all: $(PREFETCHERS)
 
 $(PREFETCHERS): %:src/%_prefetcher.c
