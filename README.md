@@ -2,10 +2,17 @@
 
 ## How to compile:
 
-Compile your prefetcher .c file against lib/dpc2sim.a, like this:
-
+In order to compile a prefetcher, place it on the src folder using the following convention:
 ```
-gcc -Wall -o dpc2sim example_prefetchers/stream_prefetcher.c lib/dpc2sim.a
+src/PREFETCHER_NAME_prefetcher.c
+```
+It can then be compiled by using:
+```
+make PREFETCHER_NAME
+```
+Which will generate the following file:
+```
+bin/sim_PREFETCHER_NAME
 ```
 
 ## How to run:
@@ -15,14 +22,14 @@ of binary data, so you must use the cat command and pipe it into the
 input of the simulator, like this:
 
 ```
-cat trace.dpc | ./dpc2sim
+cat trace.dpc | bin/sim_PREFETCHER_NAME
 ```
 
 The included traces have been zipped.  You can use zcat to feed these
 traces into the simulator without unzipping them beforehand:
 
 ```
-zcat trace.dpc.gz | ./dpc2sim
+zcat trace.dpc.gz | bin/sim_PREFETCHER_NAME
 ```
 
 There are several command line switches that you can use to configure the
