@@ -1,0 +1,8 @@
+dist: trusty
+language: bash
+
+install:
+    - cd $TRAVIS_BUILD_DIR/scripts; ./compile_all.sh
+
+script: 
+
