@@ -1,30 +1,10 @@
+## Data prefetchers [![Build Status](https://travis-ci.com/jsmont/data_prefetcher.svg?branch=master)](https://travis-ci.com/jsmont/data_prefetcher)
 
-Welcome to the 2nd Data Prefetching Championship!
-
-If you have not already done so, plase subscribe to the prefetching 
-competition mailing list by sending an empty email to:
-
-dpc-2-subscribe AT yahoogroups.com
-
-You do not need to have a Yahoo email account - you only need to 
-subscribe to the mailing list. When prompted, type in a dummy 
-message to the moderator. 
-
-This mailing list will be used for any announcements regarding the 
-competition, any simulation infrastructure updates, and participants 
-may post questions or report problems.
-
-You must provide a single .c file for your prefetcher.  There are several
-example prefetchers in the example_prefetchers directory.  Refer to them
-to learn how to interface with the DPC2 Simulator.
-
-*
-* How to compile:
-*
+# How to compile:
 
 Compile your prefetcher .c file against lib/dpc2sim.a, like this:
 
-gcc -Wall -o dpc2sim example_prefetchers/stream_prefetcher.c lib/dpc2sim.a
+``gcc -Wall -o dpc2sim example_prefetchers/stream_prefetcher.c lib/dpc2sim.a``
 
 *
 * How to run:
