@@ -12,7 +12,8 @@ PREFETCHERS= ampm_lite ip_stride next_line stream
 all: $(PREFETCHERS)
 
 $(PREFETCHERS): %:src/%_prefetcher.c
+	echo "Building $@"
 	$(CC) $(CFLAGS) -o $(TARGET_FOLDER)/$(BINARY_PREFIX)$@ $< $(LIBS)
 
 clean:
-	rm bin/*
+	rm -f bin/*
