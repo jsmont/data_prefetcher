@@ -2,7 +2,8 @@ dist: trusty
 language: bash
 
 install:
-    - cd $TRAVIS_BUILD_DIR/scripts; ./compile_all.sh
+    - cd $TRAVIS_BUILD_DIR;
+    - make
 
 script: 
 
