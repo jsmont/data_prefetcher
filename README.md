@@ -1,6 +1,6 @@
-## Data prefetchers [![Build Status](https://travis-ci.com/jsmont/data_prefetcher.svg?branch=master)](https://travis-ci.com/jsmont/data_prefetcher)
+# Data prefetchers [![Build Status](https://travis-ci.com/jsmont/data_prefetcher.svg?branch=master)](https://travis-ci.com/jsmont/data_prefetcher)
 
-# How to compile:
+## How to compile:
 
 Compile your prefetcher .c file against lib/dpc2sim.a, like this:
 
@@ -8,7 +8,7 @@ Compile your prefetcher .c file against lib/dpc2sim.a, like this:
 gcc -Wall -o dpc2sim example_prefetchers/stream_prefetcher.c lib/dpc2sim.a
 ```
 
-# How to run:
+## How to run:
 
 The DPC2 Simulator reads in an instruction trace from stdin in the form
 of binary data, so you must use the cat command and pipe it into the 
