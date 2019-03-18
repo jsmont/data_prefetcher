@@ -6,4 +6,6 @@ install:
     - make
 
 script: 
+    - cd $TRAVIS_BUILD_DIR;
+    - scripts/run_all.sh
 
