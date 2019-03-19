@@ -12,7 +12,7 @@ env:
 
 install:
     - cd $TRAVIS_BUILD_DIR;
-    - scripts/compile_valid.sh;
+    - scripts/compile_valid.sh $NUM_BUILDS $BUILD_ID;
 
 script: 
     - cd $TRAVIS_BUILD_DIR;
