@@ -1,11 +1,20 @@
 dist: trusty
 language: bash
 
+env:
+    global:
+        - NUM_BUILDS=4
+    matrix:
+        - BUILD_ID=0
+        - BUILD_ID=1
+        - BUILD_ID=2
+        - BUILD_ID=4
+
 install:
     - cd $TRAVIS_BUILD_DIR;
-    - make
+    - scripts/compile_valid.sh;
 
 script: 
     - cd $TRAVIS_BUILD_DIR;
-    - scripts/run_all.sh
+    - scripts/run_all.sh;
 
