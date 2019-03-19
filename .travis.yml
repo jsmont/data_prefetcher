@@ -8,7 +8,7 @@ env:
         - BUILD_ID=0
         - BUILD_ID=1
         - BUILD_ID=2
-        - BUILD_ID=4
+        - BUILD_ID=3
 
 install:
     - cd $TRAVIS_BUILD_DIR;
