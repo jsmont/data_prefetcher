@@ -12,9 +12,13 @@ env:
 
 install:
     - cd $TRAVIS_BUILD_DIR;
-    - scripts/compile_valid.sh $NUM_BUILDS $BUILD_ID;
+    - make
 
 script: 
     - cd $TRAVIS_BUILD_DIR;
-    - scripts/run_all.sh;
+    - scripts/run_valid.sh $NUM_BUILDS $BUILD_ID;
 
+deploy:
+    skip_cleanup: true
+    - cd $TRAVIS_BUILD_DIR;
+    - scripts/atomic_push.sh

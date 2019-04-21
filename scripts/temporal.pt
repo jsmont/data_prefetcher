@@ -1,7 +1,7 @@
 set term png 
 set output "temporal.png"
-set linestyle 1 lc rgb "green"
-set linestyle 2 lc rgb "orange"
+set linestyle 1 lc rgb "green" lw 2
+set linestyle 2 lc rgb "orange" lw 2
 
 set title "IPC Evolution"
 set xlabel "# of instructions"

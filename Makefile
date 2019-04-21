@@ -7,7 +7,7 @@ BINARY_PREFIX=sim_
 SOURCEDIR=src
 
 
-PREFETCHER_FILES=$(shell find $(SOURCEDIR) -name '*.c')
+PREFETCHER_FILES=$(shell find $(SOURCEDIR) -name '*prefetcher.c')
 
 PREFETCHERS=$(PREFETCHER_FILES:src/%_prefetcher.c=%)
 
