@@ -18,6 +18,6 @@ script:
     - cd $TRAVIS_BUILD_DIR;
     - scripts/run_valid.sh $NUM_BUILDS $BUILD_ID;
 
-after_success:
+after_success: |
     - cd $TRAVIS_BUILD_DIR;
     - scripts/atomic_push.sh
