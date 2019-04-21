@@ -25,8 +25,9 @@ void l2_prefetcher_initialize(int cpu_num)
   printf("No Prefetching\n");
   // you can inspect these knob values from your code to see which configuration you're runnig in
   printf("Knobs visible from prefetcher: %d %d %d\n", knob_scramble_loads, knob_small_llc, knob_low_bandwidth);
-  printf("Resetting history queue.");
-  for(int i = 0; i < SIZE_OF_HIST; i++){
+  printf("Resetting history queue.\n");
+  int i;
+  for(i = 0; i < SIZE_OF_HIST; i++){
       recent_requests[i].valid = 0;
   }
 }
@@ -34,13 +35,13 @@ void l2_prefetcher_initialize(int cpu_num)
 void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned long long int ip, int cache_hit)
 {
   // uncomment this line to see all the information available to make prefetch decisions
-    printf("(0x%llx 0x%llx %d %d %d) ", addr, ip, cache_hit, get_l2_read_queue_occupancy(0), get_l2_mshr_occupancy(0));
+    //printf("(0x%llx 0x%llx %d %d %d) ", addr, ip, cache_hit, get_l2_read_queue_occupancy(0), get_l2_mshr_occupancy(0));
 }
 
 void l2_cache_fill(int cpu_num, unsigned long long int addr, int set, int way, int prefetch, unsigned long long int evicted_addr)
 {
   // uncomment this line to see the information available to you when there is a cache fill event
-    printf("0x%llx %d %d %d 0x%llx\n", addr, set, way, prefetch, evicted_addr);
+    //printf("0x%llx %d %d %d 0x%llx\n", addr, set, way, prefetch, evicted_addr);
 }
 
 void l2_prefetcher_heartbeat_stats(int cpu_num)

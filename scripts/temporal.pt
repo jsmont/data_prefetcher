@@ -1,0 +1,12 @@
+set term png 
+set output "temporal.png"
+set linestyle 1 lc rgb "green"
+set linestyle 2 lc rgb "orange"
+
+set title "IPC Evolution"
+set xlabel "# of instructions"
+set ylabel "IPC"
+
+plot 'datafile.csv' using 1:2 with lines ls 1 title 'Temporal',\
+     'datafile.csv' using 1:3 with lines ls 2 title 'Accumulative'
+     set term x11
