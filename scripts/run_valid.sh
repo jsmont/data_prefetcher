@@ -28,12 +28,12 @@ for simulator in $BIN_FOLDER/*; do
         module=$((counter % NUM_BUILDS))
         if [ "$module" == "$BUILD_ID" ]; then
             mkdir -p $LOG_FOLDER/$tr
-            counter=$((counter+1))
             sim=$(basename -- "$simulator")
             tr=$(basename -- "$trace")
             tr=${tr%.*}
             echo "Running $sim <- $tr"
             zcat $trace | $simulator > "$LOG_FOLDER/$tr/$sim.log"
         fi
+        counter=$((counter+1))
     done
 done
