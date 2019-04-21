@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-Wall
+CFLAGS=-Wall 
 LIBS=lib/dpc2sim.a
 
 TARGET_FOLDER=bin
