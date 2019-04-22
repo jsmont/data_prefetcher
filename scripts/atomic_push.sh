@@ -29,7 +29,7 @@ upload_files() {
 
   until git push origin master --quiet
   do
-    git pull
+    git pull origin master
   done
 }
 
