@@ -4,6 +4,7 @@ language: bash
 env:
     global:
         - NUM_BUILDS=4
+        - GEN_GH=1
     matrix:
         - BUILD_ID=0
         - BUILD_ID=1
@@ -16,7 +17,9 @@ install:
 
 script: 
     - cd $TRAVIS_BUILD_DIR;
+    - rm -rf logs/*;
     - scripts/run_valid.sh $NUM_BUILDS $BUILD_ID;
+    - scripts/plot_valid.sh;
 
 after_success:
     - cd $TRAVIS_BUILD_DIR;

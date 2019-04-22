@@ -15,6 +15,7 @@ commit_files() {
   dateAndMonth=`date "+%b %Y"`
   # Stage the modified files in dist/output
   git add $REPOROOT/logs
+  git add $REPOROOT/docs
   # Create a new commit with a custom build message
   # with "[skip ci]" to avoid a build loop
   # and Travis build number for reference
