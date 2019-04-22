@@ -1,10 +1,11 @@
 dist: trusty
 language: bash
 os:
-      - linux
+    - linux
 addons:
-      apt:
-          - gnuplot
+    apt:
+        packages:
+            - gnuplot
 
 env:
     global:

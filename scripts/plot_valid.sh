@@ -25,9 +25,18 @@ for trace in $LOG_FOLDER/*; do
 
         echo -e "Instructions\t$(basename $sim)" > $sim.csv
         grep "Instructions Retired" $simulator >> $sim.csv
-        sed -i "s/.*Retired: \([0-9]\+\) .*IPC: \([0-9.]\+\) .*IPC: \([0-9.]\+\).*/\1\t\2/g" $sim.csv
+        sed -i "s/.*Retired: \([0-9]\+\) .*IPC: \([0-9.]\+\) .*IPC: \([0-9.]\+\).*/\1\t\2\t\3/g" $sim.csv
     done
     if [ -z "$GEN_GH" ]; then
+    echo "
+        set title \"$tr IPC evolution\"
+        set xlabel \"\# of instructions\"
+        set format x \"%.0f\"
+        set ylabel \"IPC\"
+        set key autotitle columnhead
+        FILES = system(\"ls -1 *.csv\")
+        plot for [data in FILES] data using 1:2 with lines lw 2
+    " | gnuplot --persist
     echo "
         set title \"$tr IPC evolution\"
         set xlabel \"\# of instructions\"
