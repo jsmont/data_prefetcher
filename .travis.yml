@@ -20,4 +20,4 @@ script:
 
 after_success: |
     - cd $TRAVIS_BUILD_DIR;
-    - scripts/atomic_push.sh
+    - scripts/atomic_push.sh;

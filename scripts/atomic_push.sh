@@ -33,8 +33,13 @@ upload_files() {
   done
 }
 
+echo "Setting up git"
 setup_git
 
+echo "Commiting files"
 commit_files
 
+echo "Pushing results"
 upload_files
+
+echo "Done."
