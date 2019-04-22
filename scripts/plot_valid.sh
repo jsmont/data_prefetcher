@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 REPOROOT=$(git rev-parse --show-toplevel)
 LOG_FOLDER=$REPOROOT/logs
