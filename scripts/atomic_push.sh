@@ -32,6 +32,7 @@ upload_files() {
   do
     git pull --rebase origin master
     $REPOROOT/scripts/plot_valid.sh
+    commit_files
   done
 }
 
