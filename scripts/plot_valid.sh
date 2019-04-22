@@ -10,6 +10,7 @@ if [ ! -z "$GEN_GH" ]; then
     echo "<html>
 <head>
 <title>Data prefetcher stats</title>
+<style>img{ width: 49%;} </style>
 </head>
 <body>" > $GH_FILE
 fi
