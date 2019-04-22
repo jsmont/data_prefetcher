@@ -25,7 +25,7 @@ upload_files() {
   # Remove existing "origin"
   git remote rm origin
   # Add new "origin" with access token in the git URL for authentication
-  git remote add origin https://jsmont:${GH_TOKEN}@github.com/jsmont/data_prefetcher.git > /dev/null 2>&1
+  git remote add origin https://jsmont:${GIT_TOKEN}@github.com/jsmont/data_prefetcher.git > /dev/null 2>&1
 
   until git push origin master --quiet
   do
