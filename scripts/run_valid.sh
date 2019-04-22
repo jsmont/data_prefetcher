@@ -31,7 +31,7 @@ for simulator in $BIN_FOLDER/*; do
             tr=$(basename -- "$trace")
             tr=${tr%.*}
 
-            if [ ! -d $LOG_FOLDER/$tr]; then
+            if [ ! -d $LOG_FOLDER/$tr ]; then
                 mkdir $LOG_FOLDER/$tr
             fi
 
