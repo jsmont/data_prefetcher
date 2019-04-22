@@ -31,6 +31,7 @@ for trace in $LOG_FOLDER/*; do
     echo "
         set title \"$tr IPC evolution\"
         set xlabel \"\# of instructions\"
+        set format x \"%.0f\"
         set ylabel \"IPC\"
         set key autotitle columnhead
         FILES = system(\"ls -1 *.csv\")
@@ -43,6 +44,7 @@ for trace in $LOG_FOLDER/*; do
             set title \"$tr IPC evolution\"
             set xlabel \"\# of instructions\"
             set ylabel \"IPC\"
+            set format x \"%.0f\"
             set key autotitle columnhead
             FILES = system(\"ls -1 *.csv\")
             plot for [data in FILES] data using 1:2 with lines lw 2
