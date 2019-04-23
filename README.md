@@ -1,5 +1,4 @@
 # Data prefetchers [![Build Status](https://travis-ci.com/jsmont/data_prefetcher.svg?branch=master)](https://travis-ci.com/jsmont/data_prefetcher)
-
 ## How to compile:
 
 In order to compile a prefetcher, place it on the src folder using the following convention:
