@@ -30,9 +30,7 @@ upload_files() {
 
   until git push origin master --quiet
   do
-    git pull -s ours origin master
-    $REPOROOT/scripts/plot_valid.sh
-    commit_files
+    git pull --rebase -s ours origin master
   done
 }
 
