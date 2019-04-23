@@ -23,7 +23,7 @@ for trace in $LOG_FOLDER/*; do
         tr=$(basename -- "$trace")
         tr=${tr%.*}
 
-        echo -e "Instructions\t$(basename $sim)" > $sim.csv
+        echo -e "Instructions\t$(basename $sim)\t$(basename $sim)" > $sim.csv
         grep "Instructions Retired" $simulator >> $sim.csv
         sed -i "s/.*Retired: \([0-9]\+\) .*IPC: \([0-9.]\+\) .*IPC: \([0-9.]\+\).*/\1\t\2\t\3/g" $sim.csv
     done
@@ -38,18 +38,18 @@ for trace in $LOG_FOLDER/*; do
         plot for [data in FILES] data using 1:2 with lines lw 2
     " | gnuplot --persist
     echo "
-        set title \"$tr IPC evolution\"
+        set title \"$tr accumulative IPC\"
         set xlabel \"\# of instructions\"
         set format x \"%.0f\"
         set ylabel \"IPC\"
         set key autotitle columnhead
         FILES = system(\"ls -1 *.csv\")
-        plot for [data in FILES] data using 1:2 with lines lw 2
+        plot for [data in FILES] data using 1:3 with lines lw 2
     " | gnuplot --persist
     else
         echo "
             set term png
-            set output \"$REPOROOT/docs/img/$tr.png\"
+            set output \"$REPOROOT/docs/img/$tr_temporal.png\"
             set title \"$tr IPC evolution\"
             set xlabel \"\# of instructions\"
             set ylabel \"IPC\"
@@ -59,7 +59,20 @@ for trace in $LOG_FOLDER/*; do
             plot for [data in FILES] data using 1:2 with lines lw 2
             set term x11
         " | gnuplot
-        echo "<img src=\"img/$tr.png\" alt=\"Temporal IPC evolution for all prefetchers on $tr code.\">" >> $GH_FILE
+        echo "<img src=\"img/$tr_temporal.png\" alt=\"Temporal IPC evolution for all prefetchers on $tr code.\">" >> $GH_FILE
+        echo "
+            set term png
+            set output \"$REPOROOT/docs/img/$tr_accumulative.png\"
+            set title \"$tr accumulative IPC\"
+            set xlabel \"\# of instructions\"
+            set ylabel \"IPC\"
+            set format x \"%.0f\"
+            set key autotitle columnhead
+            FILES = system(\"ls -1 *.csv\")
+            plot for [data in FILES] data using 1:3 with lines lw 2
+            set term x11
+        " | gnuplot
+        echo "<img src=\"img/$tr_accumulative.png\" alt=\"Temporal IPC evolution for all prefetchers on $tr code.\">" >> $GH_FILE
     fi
     rm *.csv
     cd $LOG_FOLDER
