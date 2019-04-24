@@ -97,7 +97,7 @@ for trace in $LOG_FOLDER/*; do
             plot '${tr}_aggregated.csv' using 2:xticlabels(1) with histogram,\
                  \"\"  using 0:(\$2):(\$2) with labels notitle offset 2,1
         " | gnuplot --persist
-        echo "<img src=\"img/${tr}_histogram\" alt=\"Temporal IPC evolution for all prefetchers on $tr code.\">" >> $GH_FILE
+        echo "<img src=\"img/${tr}_histogram.png\" alt=\"Temporal IPC evolution for all prefetchers on $tr code.\">" >> $GH_FILE
     fi
     rm *.csv
     cd $LOG_FOLDER
