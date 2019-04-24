@@ -4,11 +4,6 @@ REPOROOT=$(git rev-parse --show-toplevel)
 
 # Credit: https://gist.github.com/willprice/e07efd73fb7f13f917ea
 
-setup_git() {
-    git config --global user.email "travis@travis-ci.org"
-    git config --global user.name "Travis CI"
-}
-
 commit_files() {
     git checkout master
     # Current month and year, e.g: Apr 2018
@@ -23,12 +18,6 @@ commit_files() {
 }
 
 upload_files() {
-    if [ ! -z "$GIT_TOKEN" ]; then
-        # Remove existing "origin"
-        git remote rm origin
-        # Add new "origin" with access token in the git URL for authentication
-        git remote add origin https://jsmont:${GIT_TOKEN}@github.com/jsmont/data_prefetcher.git > /dev/null 2>&1
-    fi
 
     until git push origin master --quiet
     do
@@ -48,9 +37,6 @@ save_state() {
     done
     git checkout master
 }
-
-echo "Setting up git"
-setup_git
 
 echo "Commiting files"
 commit_files

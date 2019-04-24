@@ -16,6 +16,7 @@ env:
 
 install:
     - cd $TRAVIS_BUILD_DIR;
+    - atomic/setup_git.sh
     - make
 
 script: 
