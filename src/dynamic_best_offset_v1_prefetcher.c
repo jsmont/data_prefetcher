@@ -10,8 +10,7 @@
 #include "../inc/prefetcher.h"
 
 #define SIZE_OF_HIST 64
-#define SIZE_OF_OFFSETS 127
-#define MAX_OFFSET_SCORE 127
+#define SIZE_OF_OFFSETS 256
 #define MSHR_LIMIT 0.8*L2_MSHR_COUNT 
 
 #define TAG_OFFSET (int)(log2(CACHE_LINE_SIZE))
@@ -30,18 +29,8 @@ typedef struct {
 #define GET(val, h, l) ((((uint64_t)val) % (((uint64_t)1)<< h)) >> l)
 
 RR_Entry RECENT_REQUESTS[SIZE_OF_HIST];
-uint16_t RR_INSERT_POINTER;
 Offset OFFSET_TABLE[SIZE_OF_OFFSETS];
 Offset BEST_OFFSET;
-uint16_t OT_TRAIN_POINTER;
-
-uint16_t get_RR_position(uint16_t tag){
-    int i;
-    for(i = 0; i < SIZE_OF_HIST; ++i){
-        if (RECENT_REQUESTS[i].tag == tag) return i;
-    }
-    return -1;
-}
 
 void l2_prefetcher_initialize(int cpu_num)
 {
@@ -52,14 +41,11 @@ void l2_prefetcher_initialize(int cpu_num)
     for(i = 0; i < SIZE_OF_HIST; i++){
         RECENT_REQUESTS[i].valid = 0;
     }
-    RR_INSERT_POINTER=0;
-
     printf("Resetting offset table\n");
     for(i = 0; i < SIZE_OF_OFFSETS; ++i){
         OFFSET_TABLE[i].offset=i+1;
         OFFSET_TABLE[i].score=0;
     }
-    OT_TRAIN_POINTER=0;
 
     printf("Setting initial offset to 1\n");
     OFFSET_TABLE[0].score++; //Setting initial offset to 1
@@ -72,7 +58,6 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
 {
     // uncomment this line to see all the information available to make prefetch decisions
     //printf("(0x%llx 0x%llx %d %d %d) ", addr, ip, cache_hit, get_l2_read_queue_occupancy(0), get_l2_mshr_occupancy(0));
-    uint8_t tag = addr >> TAG_OFFSET;
 
     //PREFETCH
     unsigned long long int pf_addr = addr + (BEST_OFFSET.offset << TAG_OFFSET);
@@ -81,43 +66,18 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
 
     l2_prefetch_line(cpu_num, addr, pf_addr, fill_level);
 
-    //UPDATE
-    RECENT_REQUESTS[RR_INSERT_POINTER].valid=0;
-    RECENT_REQUESTS[RR_INSERT_POINTER].tag = tag;
-
-    RR_INSERT_POINTER=(RR_INSERT_POINTER+1)%SIZE_OF_HIST;
-
     //TRAIN
-    uint16_t rr_hit = get_RR_position(tag - OFFSET_TABLE[OT_TRAIN_POINTER].offset);
-    if(rr_hit >= 0 && (RECENT_REQUESTS[rr_hit].valid == 1)){
-        //printf("RR Hit\n");
-        if(OFFSET_TABLE[OT_TRAIN_POINTER].score < MAX_OFFSET_SCORE) OFFSET_TABLE[OT_TRAIN_POINTER].score++;
-        if(OFFSET_TABLE[OT_TRAIN_POINTER].score > BEST_OFFSET.score){
-            BEST_OFFSET = OFFSET_TABLE[OT_TRAIN_POINTER];
-            printf("Offset switch to: %d\tWith score: %d\n", BEST_OFFSET.offset, BEST_OFFSET.score);
-        }
-    } else {
-        //printf("RR Miss\n");
-        if(OFFSET_TABLE[OT_TRAIN_POINTER].score > 0) OFFSET_TABLE[OT_TRAIN_POINTER].score--;
-        if(OFFSET_TABLE[OT_TRAIN_POINTER].offset == BEST_OFFSET.offset) BEST_OFFSET.score--;
-    }
-
-    OT_TRAIN_POINTER = (OT_TRAIN_POINTER+1)%SIZE_OF_OFFSETS;
-    
 }
 
 void l2_cache_fill(int cpu_num, unsigned long long int addr, int set, int way, int prefetch, unsigned long long int evicted_addr)
 {
     // uncomment this line to see the information available to you when there is a cache fill event
     //printf("0x%llx %d %d %d 0x%llx\n", addr, set, way, prefetch, evicted_addr);
-    uint16_t tag = addr >> TAG_OFFSET;
-    uint16_t index = get_RR_position(tag);
-    if(index >= 0) RECENT_REQUESTS[index].valid=1;
 }
 
 void l2_prefetcher_heartbeat_stats(int cpu_num)
 {
-    printf("Cycle: %lld\tBest offset: %d\tScore: %d\n", get_current_cycle(0), BEST_OFFSET.offset, BEST_OFFSET.score);
+    printf("Prefetcher heartbeat stats\n");
 }
 
 void l2_prefetcher_warmup_stats(int cpu_num)
