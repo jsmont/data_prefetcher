@@ -1,0 +1,77 @@
+
+*** Data Prefetching Championship 2 Simulator ***
+
+Warmup Instructions: 10000000
+Simulation Instructions: 100000000
+Scramble loads OFF
+Using 1MB Last Level Cache
+Using 12.8 GB/s DRAM bandwidth
+Knobs visible from prefetcher: 0 0 0
+Resetting history queue.
+Resetting offset table
+Setting initial offset to 1
+Tag offset: 6
+Instructions Retired: 100001 Cycle: 49818 Hearbeat IPC: 2.007327 Cumulative IPC: 2.007327
+Prefetcher heartbeat stats
+Instructions Retired: 200000 Cycle: 84749 Hearbeat IPC: 2.862758 Cumulative IPC: 2.359910
+Prefetcher heartbeat stats
+Instructions Retired: 300003 Cycle: 118552 Hearbeat IPC: 2.958406 Cumulative IPC: 2.530560
+Prefetcher heartbeat stats
+Instructions Retired: 400002 Cycle: 150786 Hearbeat IPC: 3.102283 Cumulative IPC: 2.652779
+Prefetcher heartbeat stats
+Instructions Retired: 500000 Cycle: 351935 Hearbeat IPC: 0.497134 Cumulative IPC: 1.420717
+Prefetcher heartbeat stats
+Instructions Retired: 600001 Cycle: 496668 Hearbeat IPC: 0.690934 Cumulative IPC: 1.208053
+Prefetcher heartbeat stats
+Instructions Retired: 700001 Cycle: 536145 Hearbeat IPC: 2.533121 Cumulative IPC: 1.305619
+Prefetcher heartbeat stats
+Instructions Retired: 800000 Cycle: 570606 Hearbeat IPC: 2.901802 Cumulative IPC: 1.402018
+Prefetcher heartbeat stats
+Instructions Retired: 900001 Cycle: 604701 Hearbeat IPC: 2.933011 Cumulative IPC: 1.488340
+Prefetcher heartbeat stats
+Instructions Retired: 1000002 Cycle: 636830 Hearbeat IPC: 3.112484 Cumulative IPC: 1.570281
+Prefetcher heartbeat stats
+Instructions Retired: 1100000 Cycle: 669182 Hearbeat IPC: 3.090937 Cumulative IPC: 1.643798
+Prefetcher heartbeat stats
+Instructions Retired: 1200000 Cycle: 746236 Hearbeat IPC: 1.297791 Cumulative IPC: 1.608070
+Prefetcher heartbeat stats
+Instructions Retired: 1300001 Cycle: 833231 Hearbeat IPC: 1.149503 Cumulative IPC: 1.560193
+Prefetcher heartbeat stats
+Instructions Retired: 1400000 Cycle: 868701 Hearbeat IPC: 2.819256 Cumulative IPC: 1.611602
+Prefetcher heartbeat stats
+Instructions Retired: 1500003 Cycle: 902777 Hearbeat IPC: 2.934705 Cumulative IPC: 1.661543
+Prefetcher heartbeat stats
+Instructions Retired: 1600000 Cycle: 937876 Hearbeat IPC: 2.848999 Cumulative IPC: 1.705982
+Prefetcher heartbeat stats
+Instructions Retired: 1700000 Cycle: 969944 Hearbeat IPC: 3.118373 Cumulative IPC: 1.752679
+Prefetcher heartbeat stats
+Instructions Retired: 1800000 Cycle: 1002244 Hearbeat IPC: 3.095975 Cumulative IPC: 1.795970
+Prefetcher heartbeat stats
+Instructions Retired: 1900001 Cycle: 1062654 Hearbeat IPC: 1.655372 Cumulative IPC: 1.787977
+Prefetcher heartbeat stats
+Instructions Retired: 2000004 Cycle: 1159874 Hearbeat IPC: 1.028626 Cumulative IPC: 1.724329
+Prefetcher heartbeat stats
+Instructions Retired: 2100001 Cycle: 1194232 Hearbeat IPC: 2.910443 Cumulative IPC: 1.758453
+Prefetcher heartbeat stats
+Instructions Retired: 2200000 Cycle: 1229040 Hearbeat IPC: 2.872874 Cumulative IPC: 1.790015
+Prefetcher heartbeat stats
+Instructions Retired: 2300001 Cycle: 1263955 Hearbeat IPC: 2.864127 Cumulative IPC: 1.819686
+Prefetcher heartbeat stats
+Instructions Retired: 2400001 Cycle: 1296035 Hearbeat IPC: 3.117207 Cumulative IPC: 1.851803
+Prefetcher heartbeat stats
+Instructions Retired: 2500000 Cycle: 1328380 Hearbeat IPC: 3.091637 Cumulative IPC: 1.881992
+Prefetcher heartbeat stats
+Instructions Retired: 2600000 Cycle: 1374515 Hearbeat IPC: 2.167552 Cumulative IPC: 1.891576
+Prefetcher heartbeat stats
+Instructions Retired: 2700003 Cycle: 1529019 Hearbeat IPC: 0.647252 Cumulative IPC: 1.765840
+Prefetcher heartbeat stats
+Instructions Retired: 2800001 Cycle: 1561781 Hearbeat IPC: 3.052256 Cumulative IPC: 1.792826
+Prefetcher heartbeat stats
+Instructions Retired: 2900004 Cycle: 1599902 Hearbeat IPC: 2.623305 Cumulative IPC: 1.812613
+Prefetcher heartbeat stats
+Instructions Retired: 3000000 Cycle: 1635168 Hearbeat IPC: 2.835479 Cumulative IPC: 1.834674
+Prefetcher heartbeat stats
+
+Simulation complete. Instructions retired: 3099755 Cycles elapsed: 1667344 IPC: 1.859097
+
+Prefetcher final stats
