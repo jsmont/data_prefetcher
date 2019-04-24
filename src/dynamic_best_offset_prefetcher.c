@@ -135,7 +135,7 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
     //COMMIT TRAINING
     if(OT_TRAIN_POINTER == 0) TABLE_ROUND = TABLE_ROUND+1;
 
-    if(TABLE_ROUND==MAX_TABLE_ROUND || BEST_TRAINED_OFFSET.score == MAX_OFFSET_SCORE){
+    if(TABLE_ROUND==MAX_TABLE_ROUND || (BEST_TRAINED_OFFSET.score == MAX_OFFSET_SCORE && OT_TRAIN_POINTER==0)){
         if(BEST_OFFSET.offset != BEST_TRAINED_OFFSET.offset) printf("Offset switch to: %d\tWith score: %d\n", BEST_TRAINED_OFFSET.offset, BEST_TRAINED_OFFSET.score);
         BEST_OFFSET = BEST_TRAINED_OFFSET;
 
