@@ -1,0 +1,77 @@
+
+*** Data Prefetching Championship 2 Simulator ***
+
+Warmup Instructions: 10000000
+Simulation Instructions: 100000000
+Scramble loads OFF
+Using 1MB Last Level Cache
+Using 12.8 GB/s DRAM bandwidth
+Knobs visible from prefetcher: 0 0 0
+Resetting history queue.
+Resetting offset table
+Setting initial offset to 1
+Tag offset: 6
+Instructions Retired: 100002 Cycle: 45803 Hearbeat IPC: 2.183307 Cumulative IPC: 2.183307
+Prefetcher heartbeat stats
+Instructions Retired: 200005 Cycle: 89230 Hearbeat IPC: 2.302784 Cumulative IPC: 2.241455
+Prefetcher heartbeat stats
+Instructions Retired: 300005 Cycle: 130476 Hearbeat IPC: 2.424478 Cumulative IPC: 2.299312
+Prefetcher heartbeat stats
+Instructions Retired: 400001 Cycle: 168577 Hearbeat IPC: 2.624498 Cumulative IPC: 2.372809
+Prefetcher heartbeat stats
+Instructions Retired: 500005 Cycle: 206129 Hearbeat IPC: 2.663080 Cumulative IPC: 2.425690
+Prefetcher heartbeat stats
+Instructions Retired: 600004 Cycle: 242483 Hearbeat IPC: 2.750701 Cumulative IPC: 2.474417
+Prefetcher heartbeat stats
+Instructions Retired: 700005 Cycle: 278928 Hearbeat IPC: 2.743888 Cumulative IPC: 2.509626
+Prefetcher heartbeat stats
+Instructions Retired: 800005 Cycle: 316381 Hearbeat IPC: 2.670013 Cumulative IPC: 2.528613
+Prefetcher heartbeat stats
+Instructions Retired: 900001 Cycle: 355497 Hearbeat IPC: 2.556396 Cumulative IPC: 2.531670
+Prefetcher heartbeat stats
+Instructions Retired: 1000000 Cycle: 394003 Hearbeat IPC: 2.596972 Cumulative IPC: 2.538052
+Prefetcher heartbeat stats
+Instructions Retired: 1100002 Cycle: 432217 Hearbeat IPC: 2.616894 Cumulative IPC: 2.545022
+Prefetcher heartbeat stats
+Instructions Retired: 1200005 Cycle: 474773 Hearbeat IPC: 2.349916 Cumulative IPC: 2.527534
+Prefetcher heartbeat stats
+Instructions Retired: 1300002 Cycle: 522934 Hearbeat IPC: 2.076307 Cumulative IPC: 2.485977
+Prefetcher heartbeat stats
+Instructions Retired: 1400002 Cycle: 571961 Hearbeat IPC: 2.039692 Cumulative IPC: 2.447723
+Prefetcher heartbeat stats
+Instructions Retired: 1500003 Cycle: 624161 Hearbeat IPC: 1.915728 Cumulative IPC: 2.403231
+Prefetcher heartbeat stats
+Instructions Retired: 1600001 Cycle: 673347 Hearbeat IPC: 2.033058 Cumulative IPC: 2.376191
+Prefetcher heartbeat stats
+Instructions Retired: 1700002 Cycle: 732823 Hearbeat IPC: 1.681367 Cumulative IPC: 2.319799
+Prefetcher heartbeat stats
+Instructions Retired: 1800002 Cycle: 791155 Hearbeat IPC: 1.714325 Cumulative IPC: 2.275157
+Prefetcher heartbeat stats
+Instructions Retired: 1900002 Cycle: 847249 Hearbeat IPC: 1.782722 Cumulative IPC: 2.242554
+Prefetcher heartbeat stats
+Instructions Retired: 2000002 Cycle: 903040 Hearbeat IPC: 1.792404 Cumulative IPC: 2.214744
+Prefetcher heartbeat stats
+Instructions Retired: 2100002 Cycle: 958388 Hearbeat IPC: 1.806750 Cumulative IPC: 2.191181
+Prefetcher heartbeat stats
+Instructions Retired: 2200003 Cycle: 1014650 Hearbeat IPC: 1.777416 Cumulative IPC: 2.168238
+Prefetcher heartbeat stats
+Instructions Retired: 2300001 Cycle: 1069721 Hearbeat IPC: 1.815801 Cumulative IPC: 2.150094
+Prefetcher heartbeat stats
+Instructions Retired: 2400002 Cycle: 1138119 Hearbeat IPC: 1.462046 Cumulative IPC: 2.108744
+Prefetcher heartbeat stats
+Instructions Retired: 2500003 Cycle: 1206897 Hearbeat IPC: 1.453968 Cumulative IPC: 2.071430
+Prefetcher heartbeat stats
+Instructions Retired: 2600000 Cycle: 1264900 Hearbeat IPC: 1.723997 Cumulative IPC: 2.055498
+Prefetcher heartbeat stats
+Instructions Retired: 2700002 Cycle: 1315473 Hearbeat IPC: 1.977379 Cumulative IPC: 2.052495
+Prefetcher heartbeat stats
+Instructions Retired: 2800000 Cycle: 1371967 Hearbeat IPC: 1.770064 Cumulative IPC: 2.040865
+Prefetcher heartbeat stats
+Instructions Retired: 2900004 Cycle: 1431184 Hearbeat IPC: 1.688772 Cumulative IPC: 2.026297
+Prefetcher heartbeat stats
+Instructions Retired: 3000000 Cycle: 1501036 Hearbeat IPC: 1.431541 Cumulative IPC: 1.998620
+Prefetcher heartbeat stats
+
+Simulation complete. Instructions retired: 3099754 Cycles elapsed: 1571529 IPC: 1.972445
+
+Prefetcher final stats
