@@ -40,9 +40,10 @@ upload_files() {
 
 save_state() {
     git checkout -b last_state
-    git pull --rebase
+    git pull --rebase origin last_state
     git merge master
     git push -u origin last_state
+    git checkout master
 }
 
 echo "Setting up git"
