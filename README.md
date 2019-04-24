@@ -12,7 +12,7 @@ make PREFETCHER_NAME
 ```
 Which will generate the following file:
 ```
-bin/sim_PREFETCHER_NAME
+bin/PREFETCHER_NAME
 ```
 
 ## How to run:
@@ -22,14 +22,19 @@ of binary data, so you must use the cat command and pipe it into the
 input of the simulator, like this:
 
 ```
-cat trace.dpc | bin/sim_PREFETCHER_NAME
+cat trace.dpc | bin/PREFETCHER_NAME
 ```
 
 The included traces have been zipped.  You can use zcat to feed these
 traces into the simulator without unzipping them beforehand:
 
 ```
-zcat trace.dpc.gz | bin/sim_PREFETCHER_NAME
+zcat trace.dpc | bin/PREFETCHER_NAME
+```
+
+Or you can run them with the custom command on the scripts folder, which will store the resulting log in ```logs/TRACE_NAME/PREFETCHER_NAME```:
+```
+scripts/run src/PREFETCHER_FILE traces/TRACE_FILE
 ```
 
 There are several command line switches that you can use to configure the
