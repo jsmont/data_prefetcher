@@ -113,6 +113,10 @@ void l2_cache_fill(int cpu_num, unsigned long long int addr, int set, int way, i
     uint16_t tag = addr >> TAG_OFFSET;
     uint16_t index = get_RR_position(tag);
     if(index >= 0) RECENT_REQUESTS[index].valid=1;
+
+    uint16_t evicted_tag = evicted_addr >> TAG_OFFSET;
+    index = get_RR_position(evicted_tag);
+    if(index >= 0) RECENT_REQUESTS[index].valid=0;
 }
 
 void l2_prefetcher_heartbeat_stats(int cpu_num)
