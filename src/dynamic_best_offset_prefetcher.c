@@ -125,7 +125,7 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
         uint8_t increment=1 + RECENT_REQUESTS[rr_hit].filled;
         //printf("RR Hit\n");
         if(OFFSET_TABLE[OT_TRAIN_POINTER].score + increment <= MAX_OFFSET_SCORE) OFFSET_TABLE[OT_TRAIN_POINTER].score+=increment;
-        if(OFFSET_TABLE[OT_TRAIN_POINTER].score > BEST_TRAINED_OFFSET.score){
+        if(OFFSET_TABLE[OT_TRAIN_POINTER].score >= BEST_TRAINED_OFFSET.score){
             BEST_TRAINED_OFFSET = OFFSET_TABLE[OT_TRAIN_POINTER];
         }
     }
