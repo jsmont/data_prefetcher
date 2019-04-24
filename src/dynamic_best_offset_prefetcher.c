@@ -13,8 +13,9 @@
 
 #define SIZE_OF_HIST 64
 #define SIZE_OF_OFFSETS 128
-#define MAX_OFFSET_SCORE 127
+#define MAX_OFFSET_SCORE 31
 #define MSHR_LIMIT 0.8*L2_MSHR_COUNT 
+#define MAX_TABLE_ROUND 100
 
 #define TAG_OFFSET (int)(log2(CACHE_LINE_SIZE))
 
@@ -33,9 +34,13 @@ typedef struct {
 
 RR_Entry RECENT_REQUESTS[SIZE_OF_HIST];
 uint16_t RR_INSERT_POINTER;
+
 Offset OFFSET_TABLE[SIZE_OF_OFFSETS];
+Offset BEST_TRAINED_OFFSET;
 Offset BEST_OFFSET;
 uint16_t OT_TRAIN_POINTER;
+
+uint8_t TABLE_ROUND;
 
 uint16_t get_RR_position(uint16_t tag){
     int i;
@@ -79,7 +84,7 @@ void l2_prefetcher_initialize(int cpu_num)
     OT_TRAIN_POINTER=0;
 
     printf("Setting initial offset to 1\n");
-    OFFSET_TABLE[0].score++; //Setting initial offset to 1
+    BEST_TRAINED_OFFSET = OFFSET_TABLE[0];
     BEST_OFFSET = OFFSET_TABLE[0];
 
     printf("Tag offset: %d\n", TAG_OFFSET);
@@ -87,6 +92,9 @@ void l2_prefetcher_initialize(int cpu_num)
     printf("Ressetting hit rate\n");
     hit_rate=1;
     number_of_requests=0;
+
+    printf("Resetting rable rounds\n");
+    TABLE_ROUND=0;
 }
 
 void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned long long int ip, int cache_hit)
@@ -113,17 +121,28 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
     if(rr_hit >= 0 && (RECENT_REQUESTS[rr_hit].valid == 1)){
         //printf("RR Hit\n");
         if(OFFSET_TABLE[OT_TRAIN_POINTER].score < MAX_OFFSET_SCORE) OFFSET_TABLE[OT_TRAIN_POINTER].score++;
-        if(OFFSET_TABLE[OT_TRAIN_POINTER].score > BEST_OFFSET.score){
-            BEST_OFFSET = OFFSET_TABLE[OT_TRAIN_POINTER];
-            printf("Offset switch to: %d\tWith score: %d\n", BEST_OFFSET.offset, BEST_OFFSET.score);
+        if(OFFSET_TABLE[OT_TRAIN_POINTER].score > BEST_TRAINED_OFFSET.score){
+            BEST_TRAINED_OFFSET = OFFSET_TABLE[OT_TRAIN_POINTER];
         }
-    } else {
-        //printf("RR Miss\n");
-        if(OFFSET_TABLE[OT_TRAIN_POINTER].score > 0) OFFSET_TABLE[OT_TRAIN_POINTER].score--;
-        if(OFFSET_TABLE[OT_TRAIN_POINTER].offset == BEST_OFFSET.offset && BEST_OFFSET.score > 0) BEST_OFFSET.score--;
     }
 
     OT_TRAIN_POINTER = (OT_TRAIN_POINTER+1)%SIZE_OF_OFFSETS;
+
+    //COMMIT TRAINING
+    if(OT_TRAIN_POINTER == 0) TABLE_ROUND = TABLE_ROUND+1;
+
+    if(TABLE_ROUND==MAX_TABLE_ROUND || BEST_TRAINED_OFFSET.score == MAX_OFFSET_SCORE){
+        BEST_OFFSET = BEST_TRAINED_OFFSET;
+
+        printf("Offset switch to: %d\tWith score: %d\n", BEST_OFFSET.offset, BEST_OFFSET.score);
+
+        TABLE_ROUND=0;
+        OT_TRAIN_POINTER = 0;
+
+        int i;
+        for(i = 0; i < SIZE_OF_OFFSETS; ++i) OFFSET_TABLE[i].score = 0;
+    }
+
 
     //Update hit rate
     hit_rate = ((hit_rate*number_of_requests)+cache_hit)/(number_of_requests+1);
