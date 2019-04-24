@@ -11,7 +11,7 @@ set ytics nomirror
 set y2tics
 set y2label "Offset value"
 set autoscale  y
-set autoscale y2
+set y2range [0:128]
 
 plot 'datafile.csv' using 1:2 with lines ls 1 title 'Temporal' axis x1y1,\
      'datafile.csv' using 1:3 with lines ls 2 title 'Accumulative' axis x1y1,\

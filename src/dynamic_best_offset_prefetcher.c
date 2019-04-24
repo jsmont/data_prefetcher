@@ -15,7 +15,7 @@
 #define SIZE_OF_OFFSETS 128
 #define MAX_OFFSET_SCORE 63
 #define MSHR_LIMIT 0.8*L2_MSHR_COUNT 
-#define MAX_TABLE_ROUND 100
+#define MAX_TABLE_ROUND 50
 
 #define TAG_OFFSET (int)(log2(CACHE_LINE_SIZE))
 
@@ -136,9 +136,8 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
     if(OT_TRAIN_POINTER == 0) TABLE_ROUND = TABLE_ROUND+1;
 
     if(TABLE_ROUND==MAX_TABLE_ROUND || BEST_TRAINED_OFFSET.score == MAX_OFFSET_SCORE){
+        if(BEST_OFFSET.offset != BEST_TRAINED_OFFSET.offset) printf("Offset switch to: %d\tWith score: %d\n", BEST_TRAINED_OFFSET.offset, BEST_TRAINED_OFFSET.score);
         BEST_OFFSET = BEST_TRAINED_OFFSET;
-
-        printf("Offset switch to: %d\tWith score: %d\n", BEST_OFFSET.offset, BEST_OFFSET.score);
 
         TABLE_ROUND=0;
         OT_TRAIN_POINTER = 0;
@@ -146,6 +145,7 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
         int i;
         for(i = 0; i < SIZE_OF_OFFSETS; ++i) OFFSET_TABLE[i].score = 0;
         BEST_OFFSET.score = 0;
+        BEST_TRAINED_OFFSET.score = 0;
     }
 
 
@@ -178,7 +178,7 @@ void l2_prefetcher_heartbeat_stats(int cpu_num)
 
     printf("\t---- Offset table ----\nOffset -> Score\n");
     int i;
-    for(i=0; i < SIZE_OF_OFFSETS; ++i){
+    for(i=0; i < SIZE_OF_OFFSETS && i < 4; ++i){
         printf("%d -> %d\n", sorted_table[i].offset, sorted_table[i].score);
     }
     printf("\t----------------------\n");
