@@ -1,7 +1,9 @@
 #!/bin/sh
 
-echo "Setting up git"
+REPOROOT=$(git rev-parse --show-toplevel)
+cd $REPOROOT
 
+echo "Setting up git"
 if [ ! -z "$GIT_TOKEN" ]; then
     git config --global user.email "travis@travis-ci.org"
     git config --global user.name "Travis CI"
