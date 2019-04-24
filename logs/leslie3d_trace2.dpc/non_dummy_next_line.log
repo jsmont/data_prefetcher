@@ -1,0 +1,77 @@
+
+*** Data Prefetching Championship 2 Simulator ***
+
+Warmup Instructions: 10000000
+Simulation Instructions: 100000000
+Scramble loads OFF
+Using 1MB Last Level Cache
+Using 12.8 GB/s DRAM bandwidth
+Knobs visible from prefetcher: 0 0 0
+Resetting history queue.
+Resetting offset table
+Setting initial offset to 1
+Tag offset: 6
+Instructions Retired: 100001 Cycle: 52783 Hearbeat IPC: 1.894568 Cumulative IPC: 1.894568
+Prefetcher heartbeat stats
+Instructions Retired: 200001 Cycle: 101608 Hearbeat IPC: 2.048131 Cumulative IPC: 1.968359
+Prefetcher heartbeat stats
+Instructions Retired: 300000 Cycle: 154506 Hearbeat IPC: 1.890412 Cumulative IPC: 1.941672
+Prefetcher heartbeat stats
+Instructions Retired: 400005 Cycle: 204272 Hearbeat IPC: 2.009505 Cumulative IPC: 1.958198
+Prefetcher heartbeat stats
+Instructions Retired: 500005 Cycle: 253113 Hearbeat IPC: 2.047460 Cumulative IPC: 1.975422
+Prefetcher heartbeat stats
+Instructions Retired: 600003 Cycle: 300486 Hearbeat IPC: 2.110865 Cumulative IPC: 1.996775
+Prefetcher heartbeat stats
+Instructions Retired: 700005 Cycle: 351332 Hearbeat IPC: 1.966762 Cumulative IPC: 1.992432
+Prefetcher heartbeat stats
+Instructions Retired: 800002 Cycle: 406610 Hearbeat IPC: 1.808984 Cumulative IPC: 1.967492
+Prefetcher heartbeat stats
+Instructions Retired: 900000 Cycle: 455564 Hearbeat IPC: 2.042693 Cumulative IPC: 1.975573
+Prefetcher heartbeat stats
+Instructions Retired: 1000001 Cycle: 503296 Hearbeat IPC: 2.095052 Cumulative IPC: 1.986904
+Prefetcher heartbeat stats
+Instructions Retired: 1100005 Cycle: 564164 Hearbeat IPC: 1.642965 Cumulative IPC: 1.949797
+Prefetcher heartbeat stats
+Instructions Retired: 1200004 Cycle: 633557 Hearbeat IPC: 1.441053 Cumulative IPC: 1.894074
+Prefetcher heartbeat stats
+Instructions Retired: 1300004 Cycle: 704855 Hearbeat IPC: 1.402564 Cumulative IPC: 1.844357
+Prefetcher heartbeat stats
+Instructions Retired: 1400001 Cycle: 782295 Hearbeat IPC: 1.291284 Cumulative IPC: 1.789608
+Prefetcher heartbeat stats
+Instructions Retired: 1500003 Cycle: 863200 Hearbeat IPC: 1.236042 Cumulative IPC: 1.737724
+Prefetcher heartbeat stats
+Instructions Retired: 1600005 Cycle: 936369 Hearbeat IPC: 1.366726 Cumulative IPC: 1.708733
+Prefetcher heartbeat stats
+Instructions Retired: 1700005 Cycle: 1006029 Hearbeat IPC: 1.435544 Cumulative IPC: 1.689817
+Prefetcher heartbeat stats
+Instructions Retired: 1800004 Cycle: 1080596 Hearbeat IPC: 1.341062 Cumulative IPC: 1.665751
+Prefetcher heartbeat stats
+Instructions Retired: 1900005 Cycle: 1152206 Hearbeat IPC: 1.396467 Cumulative IPC: 1.649015
+Prefetcher heartbeat stats
+Instructions Retired: 2000003 Cycle: 1224896 Hearbeat IPC: 1.375678 Cumulative IPC: 1.632794
+Prefetcher heartbeat stats
+Instructions Retired: 2100002 Cycle: 1308057 Hearbeat IPC: 1.202475 Cumulative IPC: 1.605436
+Prefetcher heartbeat stats
+Instructions Retired: 2200000 Cycle: 1383904 Hearbeat IPC: 1.318417 Cumulative IPC: 1.589706
+Prefetcher heartbeat stats
+Instructions Retired: 2300000 Cycle: 1455644 Hearbeat IPC: 1.393922 Cumulative IPC: 1.580057
+Prefetcher heartbeat stats
+Instructions Retired: 2400002 Cycle: 1530329 Hearbeat IPC: 1.338984 Cumulative IPC: 1.568292
+Prefetcher heartbeat stats
+Instructions Retired: 2500000 Cycle: 1606958 Hearbeat IPC: 1.304963 Cumulative IPC: 1.555735
+Prefetcher heartbeat stats
+Instructions Retired: 2600000 Cycle: 1678717 Hearbeat IPC: 1.393553 Cumulative IPC: 1.548802
+Prefetcher heartbeat stats
+Instructions Retired: 2700000 Cycle: 1755516 Hearbeat IPC: 1.302100 Cumulative IPC: 1.538009
+Prefetcher heartbeat stats
+Instructions Retired: 2800000 Cycle: 1835030 Hearbeat IPC: 1.257640 Cumulative IPC: 1.525861
+Prefetcher heartbeat stats
+Instructions Retired: 2900005 Cycle: 1906051 Hearbeat IPC: 1.408105 Cumulative IPC: 1.521473
+Prefetcher heartbeat stats
+Instructions Retired: 3000001 Cycle: 1981128 Hearbeat IPC: 1.331913 Cumulative IPC: 1.514289
+Prefetcher heartbeat stats
+
+Simulation complete. Instructions retired: 3099754 Cycles elapsed: 2069979 IPC: 1.497481
+
+Prefetcher final stats
