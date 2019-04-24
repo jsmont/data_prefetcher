@@ -1,0 +1,51 @@
+#!/bin/bash
+
+REPOROOT=$(git rev-parse --show-toplevel)
+VALID_FILE=$REPOROOT/valid_prefetchers
+BIN_FOLDER=$REPOROOT/bin
+TRACE_FOLDER=$REPOROOT/traces
+LOG_FOLDER=$REPOROOT/logs
+
+PREF_PATH=$1
+TRACE_PATH=$2
+
+echo "Pref path: $PREF_PATH"
+echo "Trace path: $TRACE_PATH"
+
+if [ -z "$PREF_PATH" ]; then
+    echo "Usage: run prefetcher trace"
+    echo -e "\tMissing prefetcher"
+    exit 1
+fi
+
+if [ -z "$TRACE_PATH" ]; then
+    echo "Usage: run prefetcher trace"
+    echo -e "\tMissing trace"
+    exit 1
+fi
+
+if [ ! -f "$PREF_PATH" ]; then
+    echo -e "\tPrefetcher file does not exist\n"
+    exit 1
+fi
+
+if [ ! -f "$TRACE_PATH" ]; then
+    echo -e "\tTrace file does not exist\n"
+    exit 1
+fi
+
+sim=$(basename -- "$PREF_PATH")
+sim="$(sed "s/\(.*\)_prefetcher.c/\1/g" <<<$sim)"
+
+tr=$(basename -- "$TRACE_PATH")
+tr=${tr%.*}
+
+cd $REPOROOT
+make $sim
+
+if [ ! -d $LOG_FOLDER/$tr ]; then
+    mkdir $LOG_FOLDER/$tr
+fi
+
+echo "Running $sim <- $tr"
+zcat $TRACE_FOLDER/$tr | $BIN_FOLDER/$sim > "$LOG_FOLDER/$tr/$sim.log"

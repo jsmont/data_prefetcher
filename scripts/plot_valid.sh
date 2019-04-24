@@ -21,7 +21,7 @@ for trace in $LOG_FOLDER/*; do
     cd $trace
     for simulator in $trace/*.log; do
         sim=$(basename -- "$simulator")
-        sim="$(sed "s/sim_\(.*\).log/\1/g" <<<$sim)"
+        sim="$(sed "s/\(.*\).log/\1/g" <<<$sim)"
         tr=$(basename -- "$trace")
         tr=${tr%.*}
 

@@ -3,7 +3,6 @@ CFLAGS=-Wall
 LIBS=lib/dpc2sim.a
 
 TARGET_FOLDER=bin
-BINARY_PREFIX=sim_
 SOURCEDIR=src
 
 
@@ -17,7 +16,7 @@ all: $(PREFETCHERS)
 
 $(PREFETCHERS): %:src/%_prefetcher.c
 	echo "Building $@"
-	$(CC) $(CFLAGS) -o $(TARGET_FOLDER)/$(BINARY_PREFIX)$@ $< $(LIBS)
+	$(CC) $(CFLAGS) -o $(TARGET_FOLDER)/$@ $< $(LIBS)
 
 clean:
 	rm -f bin/*
