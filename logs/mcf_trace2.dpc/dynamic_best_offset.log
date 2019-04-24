@@ -12,569 +12,68 @@ Resetting offset table
 Setting initial offset to 1
 Tag offset: 6
 Offset switch to: 10	With score: 1
-Offset switch to: 10	With score: 2
-Offset switch to: 10	With score: 3
-Offset switch to: 11	With score: 4
-Offset switch to: 11	With score: 5
-Offset switch to: 11	With score: 6
-Offset switch to: 11	With score: 7
-Offset switch to: 11	With score: 8
-Offset switch to: 11	With score: 9
-Offset switch to: 11	With score: 10
-Offset switch to: 13	With score: 11
-Offset switch to: 13	With score: 12
-Offset switch to: 13	With score: 13
-Offset switch to: 13	With score: 14
-Offset switch to: 13	With score: 15
-Offset switch to: 13	With score: 16
-Offset switch to: 13	With score: 17
-Offset switch to: 13	With score: 18
-Offset switch to: 13	With score: 19
-Offset switch to: 13	With score: 20
-Offset switch to: 13	With score: 21
-Offset switch to: 13	With score: 22
-Offset switch to: 13	With score: 23
-Offset switch to: 13	With score: 24
-Offset switch to: 13	With score: 25
-Offset switch to: 13	With score: 26
-Offset switch to: 88	With score: 26
-Offset switch to: 88	With score: 27
-Offset switch to: 88	With score: 28
-Offset switch to: 88	With score: 29
-Offset switch to: 107	With score: 29
-Offset switch to: 13	With score: 30
-Offset switch to: 13	With score: 31
-Offset switch to: 13	With score: 32
-Offset switch to: 13	With score: 33
-Offset switch to: 13	With score: 34
-Offset switch to: 13	With score: 35
-Offset switch to: 13	With score: 36
-Offset switch to: 13	With score: 37
-Offset switch to: 13	With score: 38
-Offset switch to: 13	With score: 39
-Offset switch to: 13	With score: 40
-Offset switch to: 13	With score: 41
-Offset switch to: 13	With score: 42
-Offset switch to: 13	With score: 43
-Offset switch to: 13	With score: 44
-Offset switch to: 13	With score: 45
-Offset switch to: 13	With score: 46
-Offset switch to: 13	With score: 47
-Offset switch to: 13	With score: 48
-Offset switch to: 13	With score: 49
-Offset switch to: 13	With score: 50
-Offset switch to: 13	With score: 51
-Offset switch to: 13	With score: 52
-Offset switch to: 13	With score: 53
-Offset switch to: 13	With score: 54
-Offset switch to: 13	With score: 55
-Offset switch to: 13	With score: 56
-Offset switch to: 13	With score: 56
-Offset switch to: 13	With score: 57
-Offset switch to: 13	With score: 58
-Offset switch to: 13	With score: 59
-Offset switch to: 13	With score: 59
-Offset switch to: 13	With score: 60
-Offset switch to: 13	With score: 61
-Instructions Retired: 100004 Cycle: 253686 Hearbeat IPC: 0.394204 Cumulative IPC: 0.394204
-Cycle: 253686	Best offset: 13	Score: 61
-Offset switch to: 13	With score: 62
-Offset switch to: 13	With score: 62
-Offset switch to: 97	With score: 63
-Offset switch to: 97	With score: 64
-Offset switch to: 97	With score: 65
-Offset switch to: 97	With score: 66
-Offset switch to: 89	With score: 66
-Offset switch to: 97	With score: 67
-Offset switch to: 97	With score: 68
-Offset switch to: 102	With score: 68
-Offset switch to: 111	With score: 69
-Offset switch to: 111	With score: 70
-Offset switch to: 111	With score: 71
-Offset switch to: 111	With score: 72
-Offset switch to: 111	With score: 73
-Offset switch to: 111	With score: 74
-Offset switch to: 111	With score: 75
-Offset switch to: 84	With score: 75
-Offset switch to: 84	With score: 76
-Offset switch to: 84	With score: 77
-Offset switch to: 84	With score: 78
-Offset switch to: 84	With score: 79
-Offset switch to: 84	With score: 80
-Offset switch to: 84	With score: 81
-Offset switch to: 84	With score: 82
-Offset switch to: 84	With score: 83
-Offset switch to: 112	With score: 84
-Offset switch to: 84	With score: 84
-Offset switch to: 84	With score: 85
-Offset switch to: 97	With score: 86
-Offset switch to: 97	With score: 87
-Offset switch to: 97	With score: 88
-Offset switch to: 97	With score: 89
-Offset switch to: 97	With score: 90
-Offset switch to: 97	With score: 91
-Offset switch to: 97	With score: 92
-Offset switch to: 97	With score: 93
-Offset switch to: 97	With score: 94
-Offset switch to: 97	With score: 95
-Offset switch to: 97	With score: 95
-Offset switch to: 97	With score: 96
-Offset switch to: 97	With score: 97
-Offset switch to: 97	With score: 98
-Offset switch to: 97	With score: 98
-Offset switch to: 97	With score: 99
-Offset switch to: 97	With score: 100
-Offset switch to: 97	With score: 101
-Offset switch to: 97	With score: 102
-Offset switch to: 97	With score: 103
-Offset switch to: 97	With score: 104
-Offset switch to: 97	With score: 105
-Offset switch to: 108	With score: 105
-Offset switch to: 112	With score: 106
-Offset switch to: 112	With score: 107
-Offset switch to: 112	With score: 108
-Offset switch to: 112	With score: 109
-Offset switch to: 112	With score: 110
-Offset switch to: 112	With score: 111
-Offset switch to: 97	With score: 111
-Offset switch to: 97	With score: 112
-Offset switch to: 97	With score: 113
-Offset switch to: 97	With score: 114
-Offset switch to: 97	With score: 115
-Offset switch to: 116	With score: 116
-Offset switch to: 90	With score: 117
-Offset switch to: 90	With score: 118
-Offset switch to: 90	With score: 119
-Offset switch to: 90	With score: 120
-Offset switch to: 90	With score: 121
-Offset switch to: 90	With score: 122
-Offset switch to: 90	With score: 123
-Offset switch to: 90	With score: 124
-Offset switch to: 90	With score: 125
-Offset switch to: 90	With score: 126
-Instructions Retired: 200000 Cycle: 582540 Hearbeat IPC: 0.304074 Cumulative IPC: 0.343324
-Cycle: 582540	Best offset: 90	Score: 126
-Offset switch to: 90	With score: 126
-Offset switch to: 90	With score: 127
-Offset switch to: 91	With score: 127
-Offset switch to: 93	With score: 127
-Offset switch to: 94	With score: 127
-Offset switch to: 95	With score: 127
-Offset switch to: 96	With score: 127
-Offset switch to: 97	With score: 127
-Offset switch to: 98	With score: 127
-Offset switch to: 99	With score: 127
-Offset switch to: 100	With score: 127
-Offset switch to: 102	With score: 127
-Offset switch to: 103	With score: 127
-Instructions Retired: 300001 Cycle: 966099 Hearbeat IPC: 0.260719 Cumulative IPC: 0.310528
-Cycle: 966099	Best offset: 103	Score: 127
-Offset switch to: 104	With score: 127
-Offset switch to: 105	With score: 127
-Offset switch to: 106	With score: 127
-Offset switch to: 107	With score: 127
-Offset switch to: 109	With score: 127
-Offset switch to: 110	With score: 127
-Offset switch to: 112	With score: 127
-Offset switch to: 113	With score: 127
-Offset switch to: 114	With score: 127
-Offset switch to: 115	With score: 127
-Offset switch to: 116	With score: 127
-Offset switch to: 117	With score: 127
-Instructions Retired: 400002 Cycle: 1159863 Hearbeat IPC: 0.516097 Cumulative IPC: 0.344870
-Cycle: 1159863	Best offset: 117	Score: 127
-Offset switch to: 118	With score: 127
-Offset switch to: 120	With score: 127
-Offset switch to: 121	With score: 127
-Offset switch to: 122	With score: 127
-Offset switch to: 123	With score: 127
-Offset switch to: 125	With score: 127
-Offset switch to: 126	With score: 127
-Offset switch to: 127	With score: 127
-Offset switch to: 1	With score: 127
-Offset switch to: 2	With score: 127
-Offset switch to: 3	With score: 127
-Offset switch to: 4	With score: 127
-Offset switch to: 9	With score: 127
-Offset switch to: 10	With score: 127
-Offset switch to: 11	With score: 127
-Offset switch to: 12	With score: 127
-Offset switch to: 13	With score: 127
-Offset switch to: 14	With score: 127
-Offset switch to: 15	With score: 127
-Offset switch to: 16	With score: 127
-Offset switch to: 17	With score: 127
-Offset switch to: 18	With score: 127
-Offset switch to: 19	With score: 127
-Instructions Retired: 500005 Cycle: 1507705 Hearbeat IPC: 0.287495 Cumulative IPC: 0.331633
-Cycle: 1507705	Best offset: 19	Score: 127
-Offset switch to: 21	With score: 127
-Offset switch to: 22	With score: 127
-Offset switch to: 23	With score: 127
-Offset switch to: 24	With score: 127
-Offset switch to: 26	With score: 127
-Offset switch to: 32	With score: 127
-Offset switch to: 34	With score: 127
-Offset switch to: 35	With score: 127
-Offset switch to: 36	With score: 127
-Instructions Retired: 600002 Cycle: 1780659 Hearbeat IPC: 0.366351 Cumulative IPC: 0.336955
-Cycle: 1780659	Best offset: 36	Score: 127
-Offset switch to: 37	With score: 127
-Offset switch to: 38	With score: 127
-Instructions Retired: 700005 Cycle: 1999465 Hearbeat IPC: 0.457040 Cumulative IPC: 0.350096
-Cycle: 1999465	Best offset: 38	Score: 127
-Offset switch to: 39	With score: 127
-Offset switch to: 40	With score: 127
-Offset switch to: 41	With score: 127
-Offset switch to: 42	With score: 127
-Offset switch to: 44	With score: 127
-Offset switch to: 45	With score: 127
-Offset switch to: 49	With score: 127
-Offset switch to: 50	With score: 127
-Offset switch to: 51	With score: 127
-Offset switch to: 53	With score: 127
-Instructions Retired: 800003 Cycle: 2242873 Hearbeat IPC: 0.410825 Cumulative IPC: 0.356687
-Cycle: 2242873	Best offset: 53	Score: 127
-Offset switch to: 54	With score: 127
-Offset switch to: 57	With score: 127
-Offset switch to: 60	With score: 127
-Offset switch to: 62	With score: 127
-Instructions Retired: 900005 Cycle: 2582412 Hearbeat IPC: 0.294523 Cumulative IPC: 0.348513
-Cycle: 2582412	Best offset: 62	Score: 127
-Offset switch to: 63	With score: 127
-Offset switch to: 64	With score: 127
-Offset switch to: 65	With score: 127
-Offset switch to: 66	With score: 127
-Offset switch to: 68	With score: 127
-Offset switch to: 69	With score: 127
-Offset switch to: 70	With score: 127
-Offset switch to: 72	With score: 127
-Offset switch to: 73	With score: 127
-Offset switch to: 76	With score: 127
-Offset switch to: 77	With score: 127
-Offset switch to: 78	With score: 127
-Offset switch to: 80	With score: 127
-Instructions Retired: 1000005 Cycle: 2986999 Hearbeat IPC: 0.247166 Cumulative IPC: 0.334786
-Cycle: 2986999	Best offset: 80	Score: 127
-Offset switch to: 81	With score: 127
-Offset switch to: 82	With score: 127
-Offset switch to: 83	With score: 127
-Offset switch to: 84	With score: 127
-Offset switch to: 85	With score: 127
-Offset switch to: 86	With score: 127
-Offset switch to: 87	With score: 127
-Offset switch to: 88	With score: 127
-Offset switch to: 89	With score: 127
-Offset switch to: 90	With score: 127
-Offset switch to: 91	With score: 127
-Offset switch to: 92	With score: 127
-Offset switch to: 94	With score: 127
-Offset switch to: 95	With score: 127
-Offset switch to: 96	With score: 127
-Offset switch to: 97	With score: 127
-Offset switch to: 98	With score: 127
-Offset switch to: 99	With score: 127
-Offset switch to: 100	With score: 127
-Offset switch to: 102	With score: 127
-Instructions Retired: 1100003 Cycle: 3626805 Hearbeat IPC: 0.156294 Cumulative IPC: 0.303298
-Cycle: 3626805	Best offset: 102	Score: 127
-Offset switch to: 103	With score: 127
-Offset switch to: 104	With score: 127
-Offset switch to: 105	With score: 127
-Offset switch to: 106	With score: 127
-Offset switch to: 108	With score: 127
-Offset switch to: 110	With score: 127
-Offset switch to: 112	With score: 127
-Offset switch to: 114	With score: 127
-Offset switch to: 115	With score: 127
-Offset switch to: 116	With score: 127
-Offset switch to: 117	With score: 127
-Offset switch to: 118	With score: 127
-Offset switch to: 119	With score: 127
-Offset switch to: 120	With score: 127
-Offset switch to: 122	With score: 127
-Offset switch to: 123	With score: 127
-Offset switch to: 125	With score: 127
-Offset switch to: 126	With score: 127
-Offset switch to: 127	With score: 127
-Offset switch to: 2	With score: 127
-Offset switch to: 3	With score: 127
-Offset switch to: 4	With score: 127
-Offset switch to: 5	With score: 127
-Offset switch to: 6	With score: 127
-Offset switch to: 7	With score: 127
-Offset switch to: 9	With score: 127
-Offset switch to: 10	With score: 127
-Instructions Retired: 1200000 Cycle: 4430504 Hearbeat IPC: 0.124421 Cumulative IPC: 0.270850
-Cycle: 4430504	Best offset: 10	Score: 127
-Offset switch to: 11	With score: 127
-Offset switch to: 12	With score: 127
-Offset switch to: 13	With score: 127
-Offset switch to: 15	With score: 127
-Offset switch to: 16	With score: 127
-Offset switch to: 17	With score: 127
-Offset switch to: 18	With score: 127
-Offset switch to: 19	With score: 127
-Offset switch to: 20	With score: 127
-Offset switch to: 21	With score: 127
-Offset switch to: 22	With score: 127
-Offset switch to: 28	With score: 127
-Offset switch to: 29	With score: 127
-Offset switch to: 30	With score: 127
-Offset switch to: 33	With score: 127
-Offset switch to: 34	With score: 127
-Offset switch to: 35	With score: 127
-Offset switch to: 36	With score: 127
-Offset switch to: 37	With score: 127
-Offset switch to: 38	With score: 127
-Offset switch to: 39	With score: 127
-Offset switch to: 40	With score: 127
-Offset switch to: 41	With score: 127
-Offset switch to: 43	With score: 127
-Offset switch to: 44	With score: 127
-Offset switch to: 45	With score: 127
-Offset switch to: 48	With score: 127
-Offset switch to: 49	With score: 127
-Offset switch to: 50	With score: 127
-Offset switch to: 52	With score: 127
-Offset switch to: 53	With score: 127
-Offset switch to: 54	With score: 127
-Offset switch to: 55	With score: 127
-Offset switch to: 57	With score: 127
-Offset switch to: 58	With score: 127
-Offset switch to: 59	With score: 127
-Offset switch to: 60	With score: 127
-Offset switch to: 61	With score: 127
-Offset switch to: 62	With score: 127
-Offset switch to: 63	With score: 127
-Offset switch to: 64	With score: 127
-Offset switch to: 65	With score: 127
-Offset switch to: 66	With score: 127
-Offset switch to: 67	With score: 127
-Offset switch to: 68	With score: 127
-Offset switch to: 70	With score: 127
-Offset switch to: 71	With score: 127
-Offset switch to: 72	With score: 127
-Instructions Retired: 1300002 Cycle: 5133584 Hearbeat IPC: 0.142234 Cumulative IPC: 0.253235
-Cycle: 5133584	Best offset: 72	Score: 127
-Offset switch to: 73	With score: 127
-Offset switch to: 74	With score: 127
-Offset switch to: 75	With score: 127
-Offset switch to: 76	With score: 127
-Offset switch to: 77	With score: 127
-Offset switch to: 78	With score: 127
-Offset switch to: 79	With score: 127
-Offset switch to: 80	With score: 127
-Offset switch to: 81	With score: 127
-Offset switch to: 82	With score: 127
-Offset switch to: 83	With score: 127
-Offset switch to: 84	With score: 127
-Offset switch to: 86	With score: 127
-Offset switch to: 87	With score: 127
-Offset switch to: 89	With score: 127
-Instructions Retired: 1400003 Cycle: 5564712 Hearbeat IPC: 0.231952 Cumulative IPC: 0.251586
-Cycle: 5564712	Best offset: 89	Score: 127
-Offset switch to: 91	With score: 127
-Offset switch to: 93	With score: 127
-Offset switch to: 94	With score: 127
-Offset switch to: 95	With score: 127
-Instructions Retired: 1500001 Cycle: 5794844 Hearbeat IPC: 0.434525 Cumulative IPC: 0.258851
-Cycle: 5794844	Best offset: 95	Score: 127
-Offset switch to: 96	With score: 127
-Offset switch to: 97	With score: 127
-Offset switch to: 98	With score: 127
-Offset switch to: 100	With score: 127
-Offset switch to: 101	With score: 127
-Instructions Retired: 1600004 Cycle: 6070172 Hearbeat IPC: 0.363214 Cumulative IPC: 0.263585
-Cycle: 6070172	Best offset: 101	Score: 127
-Offset switch to: 104	With score: 127
-Offset switch to: 105	With score: 127
-Offset switch to: 106	With score: 127
-Offset switch to: 107	With score: 127
-Offset switch to: 108	With score: 127
-Instructions Retired: 1700004 Cycle: 6389394 Hearbeat IPC: 0.313262 Cumulative IPC: 0.266067
-Cycle: 6389394	Best offset: 108	Score: 127
-Offset switch to: 110	With score: 127
-Offset switch to: 112	With score: 127
-Offset switch to: 116	With score: 127
-Offset switch to: 117	With score: 127
-Offset switch to: 118	With score: 127
-Offset switch to: 119	With score: 127
-Offset switch to: 120	With score: 127
-Instructions Retired: 1800004 Cycle: 6671657 Hearbeat IPC: 0.354280 Cumulative IPC: 0.269799
-Cycle: 6671657	Best offset: 120	Score: 127
-Offset switch to: 122	With score: 127
-Offset switch to: 123	With score: 127
-Offset switch to: 124	With score: 127
-Offset switch to: 125	With score: 127
-Offset switch to: 127	With score: 127
-Offset switch to: 6	With score: 127
-Offset switch to: 8	With score: 127
-Offset switch to: 10	With score: 127
-Offset switch to: 13	With score: 127
-Offset switch to: 15	With score: 127
-Instructions Retired: 1900002 Cycle: 7071322 Hearbeat IPC: 0.250205 Cumulative IPC: 0.268691
-Cycle: 7071322	Best offset: 15	Score: 127
-Offset switch to: 16	With score: 127
-Offset switch to: 17	With score: 127
-Offset switch to: 18	With score: 127
-Offset switch to: 20	With score: 127
-Offset switch to: 21	With score: 127
-Offset switch to: 22	With score: 127
-Offset switch to: 23	With score: 127
-Offset switch to: 24	With score: 127
-Offset switch to: 26	With score: 127
-Offset switch to: 27	With score: 127
-Offset switch to: 28	With score: 127
-Offset switch to: 29	With score: 127
-Offset switch to: 32	With score: 127
-Offset switch to: 34	With score: 127
-Instructions Retired: 2000003 Cycle: 7270350 Hearbeat IPC: 0.502447 Cumulative IPC: 0.275090
-Cycle: 7270350	Best offset: 34	Score: 127
-Offset switch to: 35	With score: 127
-Offset switch to: 36	With score: 127
-Offset switch to: 37	With score: 127
-Offset switch to: 38	With score: 127
-Offset switch to: 39	With score: 127
-Offset switch to: 40	With score: 127
-Offset switch to: 42	With score: 127
-Offset switch to: 43	With score: 127
-Offset switch to: 44	With score: 127
-Offset switch to: 47	With score: 127
-Offset switch to: 49	With score: 127
-Offset switch to: 50	With score: 127
-Offset switch to: 51	With score: 127
-Offset switch to: 52	With score: 127
-Offset switch to: 53	With score: 127
-Offset switch to: 54	With score: 127
-Offset switch to: 55	With score: 127
-Instructions Retired: 2100001 Cycle: 7592781 Hearbeat IPC: 0.310138 Cumulative IPC: 0.276579
-Cycle: 7592781	Best offset: 55	Score: 127
-Offset switch to: 59	With score: 127
-Offset switch to: 60	With score: 127
-Offset switch to: 61	With score: 127
-Offset switch to: 62	With score: 127
-Offset switch to: 64	With score: 127
-Offset switch to: 65	With score: 127
-Offset switch to: 66	With score: 127
-Offset switch to: 68	With score: 127
-Offset switch to: 69	With score: 127
-Offset switch to: 70	With score: 127
-Offset switch to: 71	With score: 127
-Offset switch to: 73	With score: 127
-Offset switch to: 74	With score: 127
-Offset switch to: 75	With score: 127
-Offset switch to: 76	With score: 127
-Offset switch to: 77	With score: 127
-Instructions Retired: 2200004 Cycle: 7730751 Hearbeat IPC: 0.724817 Cumulative IPC: 0.284578
-Cycle: 7730751	Best offset: 77	Score: 127
-Offset switch to: 78	With score: 127
-Offset switch to: 79	With score: 127
-Offset switch to: 80	With score: 127
-Offset switch to: 81	With score: 127
-Offset switch to: 82	With score: 127
-Offset switch to: 83	With score: 127
-Offset switch to: 85	With score: 127
-Offset switch to: 86	With score: 127
-Offset switch to: 87	With score: 127
-Instructions Retired: 2300000 Cycle: 7830336 Hearbeat IPC: 1.004127 Cumulative IPC: 0.293729
-Cycle: 7830336	Best offset: 87	Score: 127
-Offset switch to: 90	With score: 127
-Offset switch to: 91	With score: 127
-Offset switch to: 92	With score: 127
-Offset switch to: 93	With score: 127
-Offset switch to: 94	With score: 127
-Offset switch to: 95	With score: 127
-Offset switch to: 96	With score: 127
-Offset switch to: 97	With score: 127
-Offset switch to: 99	With score: 127
-Offset switch to: 101	With score: 127
-Offset switch to: 102	With score: 127
-Instructions Retired: 2400004 Cycle: 7934488 Hearbeat IPC: 0.960174 Cumulative IPC: 0.302477
-Cycle: 7934488	Best offset: 102	Score: 127
-Offset switch to: 103	With score: 127
-Offset switch to: 104	With score: 127
-Offset switch to: 105	With score: 127
-Offset switch to: 106	With score: 127
-Offset switch to: 107	With score: 127
-Offset switch to: 108	With score: 127
-Offset switch to: 109	With score: 127
-Offset switch to: 110	With score: 127
-Offset switch to: 111	With score: 127
-Instructions Retired: 2500002 Cycle: 8051654 Hearbeat IPC: 0.853473 Cumulative IPC: 0.310495
-Cycle: 8051654	Best offset: 111	Score: 127
-Offset switch to: 112	With score: 127
-Offset switch to: 113	With score: 127
-Offset switch to: 115	With score: 127
-Offset switch to: 116	With score: 127
-Offset switch to: 117	With score: 127
-Offset switch to: 118	With score: 127
-Offset switch to: 119	With score: 127
-Offset switch to: 120	With score: 127
-Offset switch to: 121	With score: 127
-Offset switch to: 122	With score: 127
-Instructions Retired: 2600000 Cycle: 8221162 Hearbeat IPC: 0.589931 Cumulative IPC: 0.316257
-Cycle: 8221162	Best offset: 122	Score: 127
-Offset switch to: 123	With score: 127
-Offset switch to: 124	With score: 127
-Offset switch to: 125	With score: 127
-Offset switch to: 126	With score: 127
-Offset switch to: 127	With score: 127
-Instructions Retired: 2700004 Cycle: 8389044 Hearbeat IPC: 0.595680 Cumulative IPC: 0.321849
-Cycle: 8389044	Best offset: 127	Score: 127
-Offset switch to: 1	With score: 127
-Offset switch to: 4	With score: 127
-Offset switch to: 8	With score: 127
-Offset switch to: 9	With score: 127
-Offset switch to: 11	With score: 127
-Offset switch to: 13	With score: 127
-Offset switch to: 14	With score: 127
-Offset switch to: 17	With score: 127
-Offset switch to: 18	With score: 127
-Offset switch to: 19	With score: 127
-Offset switch to: 20	With score: 127
-Offset switch to: 21	With score: 127
-Offset switch to: 22	With score: 127
-Instructions Retired: 2800001 Cycle: 8531548 Hearbeat IPC: 0.701714 Cumulative IPC: 0.328194
-Cycle: 8531548	Best offset: 22	Score: 127
-Offset switch to: 26	With score: 127
-Offset switch to: 27	With score: 127
-Offset switch to: 28	With score: 127
-Offset switch to: 29	With score: 127
-Offset switch to: 31	With score: 127
-Offset switch to: 32	With score: 127
-Offset switch to: 33	With score: 127
-Offset switch to: 34	With score: 127
-Offset switch to: 35	With score: 127
-Offset switch to: 37	With score: 127
-Offset switch to: 38	With score: 127
-Offset switch to: 39	With score: 127
-Offset switch to: 40	With score: 127
-Instructions Retired: 2900001 Cycle: 8741953 Hearbeat IPC: 0.475274 Cumulative IPC: 0.331734
-Cycle: 8741953	Best offset: 40	Score: 127
-Offset switch to: 42	With score: 127
-Offset switch to: 43	With score: 127
-Offset switch to: 44	With score: 127
-Offset switch to: 45	With score: 127
-Offset switch to: 46	With score: 127
-Offset switch to: 47	With score: 127
-Offset switch to: 50	With score: 127
-Offset switch to: 51	With score: 127
-Offset switch to: 52	With score: 127
-Offset switch to: 53	With score: 127
-Instructions Retired: 3000001 Cycle: 8852812 Hearbeat IPC: 0.902047 Cumulative IPC: 0.338876
-Cycle: 8852812	Best offset: 53	Score: 127
-Offset switch to: 55	With score: 127
-Offset switch to: 56	With score: 127
-Offset switch to: 57	With score: 127
-Offset switch to: 60	With score: 127
-Offset switch to: 61	With score: 127
-Offset switch to: 63	With score: 127
-Offset switch to: 64	With score: 127
-Offset switch to: 65	With score: 127
-Offset switch to: 66	With score: 127
-Offset switch to: 67	With score: 127
+Instructions Retired: 100004 Cycle: 255506 Hearbeat IPC: 0.391396 Cumulative IPC: 0.391396
+Cycle: 255506	Best offset: 10	Score: 193
+Instructions Retired: 200000 Cycle: 577620 Hearbeat IPC: 0.310437 Cumulative IPC: 0.346248
+Cycle: 577620	Best offset: 10	Score: 110
+Instructions Retired: 300001 Cycle: 925919 Hearbeat IPC: 0.287113 Cumulative IPC: 0.324004
+Cycle: 925919	Best offset: 10	Score: 22
+Instructions Retired: 400002 Cycle: 1113405 Hearbeat IPC: 0.533378 Cumulative IPC: 0.359260
+Cycle: 1113405	Best offset: 10	Score: 201
+Instructions Retired: 500005 Cycle: 1466141 Hearbeat IPC: 0.283507 Cumulative IPC: 0.341035
+Cycle: 1466141	Best offset: 10	Score: 102
+Instructions Retired: 600002 Cycle: 1717864 Hearbeat IPC: 0.397250 Cumulative IPC: 0.349272
+Cycle: 1717864	Best offset: 10	Score: 49
+Instructions Retired: 700000 Cycle: 1915095 Hearbeat IPC: 0.507010 Cumulative IPC: 0.365517
+Cycle: 1915095	Best offset: 10	Score: 10
+Instructions Retired: 800003 Cycle: 2131183 Hearbeat IPC: 0.462788 Cumulative IPC: 0.375380
+Cycle: 2131183	Best offset: 10	Score: 221
+Instructions Retired: 900002 Cycle: 2435687 Hearbeat IPC: 0.328400 Cumulative IPC: 0.369506
+Cycle: 2435687	Best offset: 10	Score: 151
+Instructions Retired: 1000003 Cycle: 2735539 Hearbeat IPC: 0.333501 Cumulative IPC: 0.365560
+Cycle: 2735539	Best offset: 10	Score: 86
+Instructions Retired: 1100000 Cycle: 3436500 Hearbeat IPC: 0.142657 Cumulative IPC: 0.320093
+Cycle: 3436500	Best offset: 10	Score: 176
+Instructions Retired: 1200000 Cycle: 4305720 Hearbeat IPC: 0.115046 Cumulative IPC: 0.278699
+Cycle: 4305720	Best offset: 10	Score: 198
+Instructions Retired: 1300005 Cycle: 5073635 Hearbeat IPC: 0.130229 Cumulative IPC: 0.256228
+Cycle: 5073635	Best offset: 10	Score: 223
+Instructions Retired: 1400001 Cycle: 5504280 Hearbeat IPC: 0.232201 Cumulative IPC: 0.254348
+Cycle: 5504280	Best offset: 10	Score: 107
+Instructions Retired: 1500002 Cycle: 5675661 Hearbeat IPC: 0.583501 Cumulative IPC: 0.264287
+Cycle: 5675661	Best offset: 10	Score: 67
+Instructions Retired: 1600004 Cycle: 5881935 Hearbeat IPC: 0.484802 Cumulative IPC: 0.272020
+Cycle: 5881935	Best offset: 10	Score: 24
+Offset switch to: 11	With score: 1
+Instructions Retired: 1700004 Cycle: 6104114 Hearbeat IPC: 0.450088 Cumulative IPC: 0.278501
+Cycle: 6104114	Best offset: 11	Score: 230
+Instructions Retired: 1800004 Cycle: 6326665 Hearbeat IPC: 0.449335 Cumulative IPC: 0.284511
+Cycle: 6326665	Best offset: 11	Score: 182
+Instructions Retired: 1900001 Cycle: 6709301 Hearbeat IPC: 0.261337 Cumulative IPC: 0.283189
+Cycle: 6709301	Best offset: 11	Score: 103
+Instructions Retired: 2000003 Cycle: 6874923 Hearbeat IPC: 0.603797 Cumulative IPC: 0.290913
+Cycle: 6874923	Best offset: 11	Score: 35
+Instructions Retired: 2100001 Cycle: 7170138 Hearbeat IPC: 0.338729 Cumulative IPC: 0.292882
+Cycle: 7170138	Best offset: 11	Score: 201
+Instructions Retired: 2200004 Cycle: 7312176 Hearbeat IPC: 0.704058 Cumulative IPC: 0.300869
+Cycle: 7312176	Best offset: 11	Score: 127
+Instructions Retired: 2300000 Cycle: 7414480 Hearbeat IPC: 0.977440 Cumulative IPC: 0.310204
+Cycle: 7414480	Best offset: 11	Score: 63
+Instructions Retired: 2400004 Cycle: 7523951 Hearbeat IPC: 0.913520 Cumulative IPC: 0.318982
+Cycle: 7523951	Best offset: 11	Score: 255
+Instructions Retired: 2500002 Cycle: 7642248 Hearbeat IPC: 0.845313 Cumulative IPC: 0.327129
+Cycle: 7642248	Best offset: 11	Score: 190
+Instructions Retired: 2600000 Cycle: 7847903 Hearbeat IPC: 0.486242 Cumulative IPC: 0.331299
+Cycle: 7847903	Best offset: 11	Score: 110
+Instructions Retired: 2700004 Cycle: 8038607 Hearbeat IPC: 0.524394 Cumulative IPC: 0.335880
+Cycle: 8038607	Best offset: 11	Score: 38
+Instructions Retired: 2800001 Cycle: 8160727 Hearbeat IPC: 0.818842 Cumulative IPC: 0.343107
+Cycle: 8160727	Best offset: 11	Score: 231
+Instructions Retired: 2900001 Cycle: 8346359 Hearbeat IPC: 0.538700 Cumulative IPC: 0.347457
+Cycle: 8346359	Best offset: 11	Score: 159
+Instructions Retired: 3000001 Cycle: 8456756 Hearbeat IPC: 0.905822 Cumulative IPC: 0.354746
+Cycle: 8456756	Best offset: 11	Score: 94
 
-Simulation complete. Instructions retired: 3099757 Cycles elapsed: 8954014 IPC: 0.346186
+Simulation complete. Instructions retired: 3099757 Cycles elapsed: 8557086 IPC: 0.362244
 
 Prefetcher final stats
