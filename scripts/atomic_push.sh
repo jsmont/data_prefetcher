@@ -36,6 +36,13 @@ upload_files() {
   done
 }
 
+save_state() {
+    git checkout -b last_state
+    git pull --rebase
+    git merge master
+    git push -u origin last_state
+}
+
 echo "Setting up git"
 setup_git
 
@@ -44,5 +51,8 @@ commit_files
 
 echo "Pushing results"
 upload_files
+
+echo "Saving state"
+save_state
 
 echo "Done."
