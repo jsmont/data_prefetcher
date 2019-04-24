@@ -88,14 +88,14 @@ for trace in $LOG_FOLDER/*; do
         echo "
             set term png
             set output \"$REPOROOT/docs/img/${tr}_histogram.png\"
-            set title "$tr execution cycles"
+            set title \"$tr execution cycles\"
             set style data histograms
-            set ylabel "Cycles"
+            set ylabel \"Cycles\"
             set style fill solid 1.00 border lt -1
             set xtics border in scale 1,0.5 nomirror rotate by -90 offset character 0, 0, 0
             unset key
             plot '${tr}_aggregated.csv' using 2:xticlabels(1) with histogram,\
-                 \"\"  using 0:($2):($2) with labels notitle offset 2,1
+                 \"\"  using 0:(\$2):(\$2) with labels notitle offset 2,1
         " | gnuplot --persist
         echo "<img src=\"img/${tr}_histogram\" alt=\"Temporal IPC evolution for all prefetchers on $tr code.\">" >> $GH_FILE
     fi
