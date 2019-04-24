@@ -39,10 +39,13 @@ upload_files() {
 }
 
 save_state() {
-    git checkout -b last_state
+    git checkout last_state
     git pull --rebase origin last_state
     git merge master
-    git push -u origin last_state
+    until git push -u origin last_state
+    do
+        git pull --rebase origin last_state
+    done
     git checkout master
 }
 

@@ -31,12 +31,16 @@ for simulator in $BIN_FOLDER/*; do
             tr=$(basename -- "$trace")
             tr=${tr%.*}
 
-            if [ ! -d $LOG_FOLDER/$tr ]; then
-                mkdir $LOG_FOLDER/$tr
-            fi
+            if [ ! -d $LOG_FOLDER/$tr ] || [ ! -z "$(git diff origin/last_state --name-only $REPOROOT/src | grep "${sim}_prefetcher.c")" ] || [ ! -f "$LOG_FOLDER/$tr/$sim.log" ]; then
+                if [ ! -d $LOG_FOLDER/$tr ]; then
+                    mkdir $LOG_FOLDER/$tr
+                fi
 
-            echo "Running $sim <- $tr"
-            zcat $trace | $simulator > "$LOG_FOLDER/$tr/$sim.log"
+                echo "Running $sim <- $tr"
+                zcat $trace | $simulator > "$LOG_FOLDER/$tr/$sim.log"
+            else
+                echo "Discarted $sim <- $tr"
+            fi
         fi
         counter=$((counter+1))
     done
