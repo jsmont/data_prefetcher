@@ -13,7 +13,7 @@
 
 #define SIZE_OF_HIST 64
 #define SIZE_OF_OFFSETS 128
-#define MAX_OFFSET_SCORE 31
+#define MAX_OFFSET_SCORE 63
 #define MSHR_LIMIT 0.8*L2_MSHR_COUNT 
 #define MAX_TABLE_ROUND 100
 
@@ -21,6 +21,7 @@
 
 typedef struct {
     uint8_t valid;
+    uint8_t filled;
     uint16_t tag;
 } RR_Entry;
 
@@ -55,8 +56,9 @@ int comp(const void* e1, const void* e2){
     Offset o1 = *((Offset*)e1);
     Offset o2 = *((Offset*)e2);
 
+
     if(o1.score > o2.score) return -1;
-    if(o1.score > o2.score) return 1;
+    if(o2.score > o1.score) return 1;
     if(o1.offset < o2.offset) return -1;
     return 1;
 }
@@ -111,16 +113,18 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
     l2_prefetch_line(cpu_num, addr, pf_addr, fill_level);
 
     //UPDATE
-    RECENT_REQUESTS[RR_INSERT_POINTER].valid=0;
+    RECENT_REQUESTS[RR_INSERT_POINTER].valid = 1;
+    RECENT_REQUESTS[RR_INSERT_POINTER].filled = cache_hit;
     RECENT_REQUESTS[RR_INSERT_POINTER].tag = tag;
 
     RR_INSERT_POINTER=(RR_INSERT_POINTER+1)%SIZE_OF_HIST;
 
     //TRAIN
     uint16_t rr_hit = get_RR_position(tag - OFFSET_TABLE[OT_TRAIN_POINTER].offset);
-    if(rr_hit >= 0 && (RECENT_REQUESTS[rr_hit].valid == 1)){
+    if(rr_hit >= 0 && RECENT_REQUESTS[rr_hit].valid){
+        uint8_t increment=1 + RECENT_REQUESTS[rr_hit].filled;
         //printf("RR Hit\n");
-        if(OFFSET_TABLE[OT_TRAIN_POINTER].score < MAX_OFFSET_SCORE) OFFSET_TABLE[OT_TRAIN_POINTER].score++;
+        if(OFFSET_TABLE[OT_TRAIN_POINTER].score + increment <= MAX_OFFSET_SCORE) OFFSET_TABLE[OT_TRAIN_POINTER].score+=increment;
         if(OFFSET_TABLE[OT_TRAIN_POINTER].score > BEST_TRAINED_OFFSET.score){
             BEST_TRAINED_OFFSET = OFFSET_TABLE[OT_TRAIN_POINTER];
         }
@@ -141,6 +145,7 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
 
         int i;
         for(i = 0; i < SIZE_OF_OFFSETS; ++i) OFFSET_TABLE[i].score = 0;
+        BEST_OFFSET.score = 0;
     }
 
 
@@ -155,11 +160,11 @@ void l2_cache_fill(int cpu_num, unsigned long long int addr, int set, int way, i
     //printf("0x%llx %d %d %d 0x%llx\n", addr, set, way, prefetch, evicted_addr);
     uint16_t tag = addr >> TAG_OFFSET;
     uint16_t index = get_RR_position(tag);
-    if(index >= 0) RECENT_REQUESTS[index].valid=1;
+    if(index >= 0) RECENT_REQUESTS[index].filled = 1;
 
     uint16_t evicted_tag = evicted_addr >> TAG_OFFSET;
     index = get_RR_position(evicted_tag);
-    if(index >= 0) RECENT_REQUESTS[index].valid=0;
+    if(index >= 0) RECENT_REQUESTS[index].valid = 0;
 }
 
 Offset sorted_table[SIZE_OF_OFFSETS];
