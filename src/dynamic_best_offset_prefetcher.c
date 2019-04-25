@@ -43,7 +43,7 @@ uint16_t OT_TRAIN_POINTER;
 
 uint8_t TABLE_ROUND;
 
-uint16_t get_RR_position(uint16_t tag){
+int16_t get_RR_position(uint16_t tag){
     int i;
     for(i = 0; i < SIZE_OF_HIST; ++i){
         if (RECENT_REQUESTS[i].tag == tag) return i;
@@ -120,9 +120,9 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
     RR_INSERT_POINTER=(RR_INSERT_POINTER+1)%SIZE_OF_HIST;
 
     //TRAIN
-    uint16_t rr_hit = get_RR_position(tag - OFFSET_TABLE[OT_TRAIN_POINTER].offset);
+    int16_t rr_hit = get_RR_position(tag - OFFSET_TABLE[OT_TRAIN_POINTER].offset);
     if(rr_hit >= 0 && RECENT_REQUESTS[rr_hit].valid){
-        uint8_t increment=1 + RECENT_REQUESTS[rr_hit].filled;
+        uint8_t increment=1 + RECENT_REQUESTS[rr_hit].filled; //TODO: Look for an alternative
         //printf("RR Hit\n");
         if(OFFSET_TABLE[OT_TRAIN_POINTER].score + increment <= MAX_OFFSET_SCORE) OFFSET_TABLE[OT_TRAIN_POINTER].score+=increment;
         if(OFFSET_TABLE[OT_TRAIN_POINTER].score >= BEST_TRAINED_OFFSET.score){
@@ -137,6 +137,7 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
 
     if(TABLE_ROUND==MAX_TABLE_ROUND || (BEST_TRAINED_OFFSET.score == MAX_OFFSET_SCORE && OT_TRAIN_POINTER==0)){
         if(BEST_OFFSET.offset != BEST_TRAINED_OFFSET.offset) printf("Offset switch to: %d\tWith score: %d\n", BEST_TRAINED_OFFSET.offset, BEST_TRAINED_OFFSET.score);
+        
         BEST_OFFSET = BEST_TRAINED_OFFSET;
 
         TABLE_ROUND=0;
@@ -159,10 +160,10 @@ void l2_cache_fill(int cpu_num, unsigned long long int addr, int set, int way, i
     // uncomment this line to see the information available to you when there is a cache fill event
     //printf("0x%llx %d %d %d 0x%llx\n", addr, set, way, prefetch, evicted_addr);
     uint16_t tag = addr >> TAG_OFFSET;
-    uint16_t index = get_RR_position(tag);
+    int16_t index = get_RR_position(tag);
     if(index >= 0) RECENT_REQUESTS[index].filled = 1;
 
-    uint16_t evicted_tag = evicted_addr >> TAG_OFFSET;
+    int16_t evicted_tag = evicted_addr >> TAG_OFFSET;
     index = get_RR_position(evicted_tag);
     if(index >= 0) RECENT_REQUESTS[index].valid = 0;
 }
