@@ -17,13 +17,16 @@ if [ ! -z "$GEN_GH" ]; then
 <body>" > $GH_FILE
 fi
 
-for trace in $LOG_FOLDER/*; do
+for config_folder in $LOG_FOLDER/*; do
+    cd $config_folder
+    for trace in $config_folder/*; do
     cd $trace
     for simulator in $trace/*.log; do
         sim=$(basename -- "$simulator")
         sim="$(sed "s/\(.*\).log/\1/g" <<<$sim)"
         tr=$(basename -- "$trace")
         tr=${tr%.*}
+        config=$(basename -- "$config_folder")
 
         echo -e "Instructions\t$(basename $sim)\t$(basename $sim)" > ${sim}_temporal.csv
         grep "Instructions Retired" $simulator >> ${sim}_temporal.csv
@@ -33,7 +36,7 @@ for trace in $LOG_FOLDER/*; do
     done
     if [ -z "$GEN_GH" ]; then
     echo "
-        set title \"$tr IPC evolution\"
+        set title \"[$config] $tr IPC evolution\"
         set xlabel \"\# of instructions\"
         set format x \"%.0f\"
         set ylabel \"IPC\"
@@ -42,7 +45,7 @@ for trace in $LOG_FOLDER/*; do
         plot for [data in FILES] data using 1:2 with lines lw 2
     " | gnuplot --persist
     echo "
-        set title \"$tr accumulative IPC\"
+        set title \"[$config] $tr accumulative IPC\"
         set xlabel \"\# of instructions\"
         set format x \"%.0f\"
         set ylabel \"IPC\"
@@ -51,7 +54,7 @@ for trace in $LOG_FOLDER/*; do
         plot for [data in FILES] data using 1:3 with lines lw 2
     " | gnuplot --persist
     echo "
-    set title \"$tr execution cycles\"
+    set title \"[$config] $tr execution cycles\"
     set style data histograms
     set ylabel \"Cycles\"
     set style fill solid 1.00 border lt -1
@@ -63,8 +66,8 @@ for trace in $LOG_FOLDER/*; do
     else
         echo "
             set term png
-            set output \"$REPOROOT/docs/img/${tr}_temporal.png\"
-            set title \"$tr IPC evolution\"
+            set output \"$REPOROOT/docs/img/${config}_${tr}_temporal.png\"
+            set title \"[$config] $tr IPC evolution\"
             set xlabel \"\# of instructions\"
             set ylabel \"IPC\"
             set format x \"%.0f\"
@@ -72,11 +75,11 @@ for trace in $LOG_FOLDER/*; do
             FILES = system(\"ls -1 *_temporal.csv\")
             plot for [data in FILES] data using 1:2 with lines lw 2
         " | gnuplot
-        echo "<img src=\"img/${tr}_temporal.png\" alt=\"Temporal IPC evolution for all prefetchers on $tr code.\">" >> $GH_FILE
+        echo "<img src=\"img/${config}_${tr}_temporal.png\" alt=\"Temporal IPC evolution for all prefetchers on $tr code.\">" >> $GH_FILE
         echo "
             set term png
-            set output \"$REPOROOT/docs/img/${tr}_accumulative.png\"
-            set title \"$tr accumulative IPC\"
+            set output \"$REPOROOT/docs/img/${config}_${tr}_accumulative.png\"
+            set title \"[$config] $tr accumulative IPC\"
             set xlabel \"\# of instructions\"
             set ylabel \"IPC\"
             set format x \"%.0f\"
@@ -84,11 +87,11 @@ for trace in $LOG_FOLDER/*; do
             FILES = system(\"ls -1 *_temporal.csv\")
             plot for [data in FILES] data using 1:3 with lines lw 2
         " | gnuplot
-        echo "<img src=\"img/${tr}_accumulative.png\" alt=\"Temporal IPC evolution for all prefetchers on $tr code.\">" >> $GH_FILE
+        echo "<img src=\"img/${config}_${tr}_accumulative.png\" alt=\"Temporal IPC evolution for all prefetchers on $tr code.\">" >> $GH_FILE
         echo "
             set term png
-            set output \"$REPOROOT/docs/img/${tr}_histogram.png\"
-            set title \"$tr execution cycles\"
+            set output \"$REPOROOT/docs/img/${config}_${tr}_histogram.png\"
+            set title \"[$config] $tr execution cycles\"
             set style data histograms
             set ylabel \"Cycles\"
             set style fill solid 1.00 border lt -1
@@ -97,9 +100,12 @@ for trace in $LOG_FOLDER/*; do
             plot '${tr}_aggregated.csv' using 2:xticlabels(1) with histogram,\
                  \"\"  using 0:(\$2):(\$2) with labels notitle offset 2,1
         " | gnuplot --persist
-        echo "<img src=\"img/${tr}_histogram.png\" alt=\"Temporal IPC evolution for all prefetchers on $tr code.\">" >> $GH_FILE
+        echo "<img src=\"img/${config}_${tr}_histogram.png\" alt=\"Temporal IPC evolution for all prefetchers on $tr code.\">" >> $GH_FILE
     fi
     rm *.csv
+    cd $config_folder
+done
+
     cd $LOG_FOLDER
 done
 

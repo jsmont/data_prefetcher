@@ -10,12 +10,23 @@ LOG_FOLDER=$REPOROOT/logs
 NUM_BUILDS=1;
 BUILD_ID=0;
 
+CONFIG=""
+
+#if [ ! -z "$1" ]; then
+#    NUM_BUILDS=$1;
+#fi
+#
+#if [ ! -z "$2" ]; then
+#    BUILD_ID=$2;
+#fi
 if [ ! -z "$1" ]; then
-    NUM_BUILDS=$1;
+    CONFIG=$1;
 fi
 
-if [ ! -z "$2" ]; then
-    BUILD_ID=$2;
+config_flag="-$CONFIG"
+if [ -z "$CONFIG" ]; then
+    CONFIG="base"
+    config_flag=""
 fi
 
 echo "Running for build $BUILD_ID/$NUM_BUILDS"
@@ -36,8 +47,8 @@ for simulator in $BIN_FOLDER/*; do
                     mkdir $LOG_FOLDER/$tr
                 fi
 
-                echo "Running $sim <- $tr"
-                zcat $trace | $simulator > "$LOG_FOLDER/$tr/$sim.log"
+                echo "Running $sim <- $tr [$CONFIG]"
+                zcat $trace | $simulator $config_flag > "$LOG_FOLDER/$CONFIG/$tr/$sim.log"
             else
                 echo "Discarted $sim <- $tr"
             fi

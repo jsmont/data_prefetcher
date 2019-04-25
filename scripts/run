@@ -8,6 +8,7 @@ LOG_FOLDER=$REPOROOT/logs
 
 PREF_PATH=$1
 TRACE_PATH=$2
+CONFIG=$3
 
 echo "Pref path: $PREF_PATH"
 echo "Trace path: $TRACE_PATH"
@@ -34,6 +35,12 @@ if [ ! -f "$TRACE_PATH" ]; then
     exit 1
 fi
 
+config_flag="-$CONFIG"
+if [ ! -z "$CONFIG" ]; then
+    config_flag=""
+    CONFIG="base"
+fi
+
 sim=$(basename -- "$PREF_PATH")
 sim="$(sed "s/\(.*\)_prefetcher.c/\1/g" <<<$sim)"
 
@@ -47,5 +54,5 @@ if [ ! -d $LOG_FOLDER/$tr ]; then
     mkdir $LOG_FOLDER/$tr
 fi
 
-echo "Running $sim <- $tr"
-zcat $TRACE_FOLDER/$tr | $BIN_FOLDER/$sim > "$LOG_FOLDER/$tr/$sim.log"
+echo "Running $sim <- $tr [$CONFIG]"
+zcat $TRACE_FOLDER/$tr | $BIN_FOLDER/$sim $config_flag> "$LOG_FOLDER/$CONFIG/$tr/$sim.log"
