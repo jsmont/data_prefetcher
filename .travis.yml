@@ -21,7 +21,10 @@ install:
 
 script: 
     - cd $TRAVIS_BUILD_DIR;
-    - scripts/run_valid.sh $NUM_BUILDS $BUILD_ID;
+    - scripts/run_valid.sh;
+    - scripts/run_valid.sh small_llc;
+    - scripts/run_valid.sh low_bandwidth;
+    - scripts/run_valid.sh scramble_loads;
     - scripts/plot_valid.sh;
 
 after_success:
