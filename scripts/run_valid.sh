@@ -33,6 +33,11 @@ echo "Running for build $BUILD_ID/$NUM_BUILDS"
 
 cd $REPOROOT
 
+
+if [ ! -d $LOG_FOLDER/$CONFIG ]; then
+    mkdir $LOG_FOLDER/$CONFIG
+fi
+
 for simulator in $BIN_FOLDER/*; do
     counter=0
     for trace in $TRACE_FOLDER/*; do
@@ -42,9 +47,9 @@ for simulator in $BIN_FOLDER/*; do
             tr=$(basename -- "$trace")
             tr=${tr%.*}
 
-            if [ ! -d $LOG_FOLDER/$tr ] || [ ! -z "$(git diff origin/last_state --name-only -- $REPOROOT/src | grep "${sim}_prefetcher.c")" ] || [ ! -f "$LOG_FOLDER/$CONFIG/$tr/$sim.log" ]; then
-                if [ ! -d $LOG_FOLDER/$tr ]; then
-                    mkdir $LOG_FOLDER/$tr
+            if [ ! -d $LOG_FOLDER/$CONFIG/$tr ] || [ ! -z "$(git diff origin/last_state --name-only -- $REPOROOT/src | grep "${sim}_prefetcher.c")" ] || [ ! -f "$LOG_FOLDER/$CONFIG/$tr/$sim.log" ]; then
+                if [ ! -d $LOG_FOLDER/$CONFIG/$tr ]; then
+                    mkdir $LOG_FOLDER/$CONFIG/$tr
                 fi
 
                 echo "Running $sim <- $tr [$CONFIG]"
