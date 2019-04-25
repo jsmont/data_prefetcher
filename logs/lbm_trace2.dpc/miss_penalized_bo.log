@@ -12,4018 +12,6369 @@ Resetting offset table
 Setting initial offset to 1
 Tag offset: 6
 Ressetting hit rate
-Offset switch to: 9	With score: 1
-Offset switch to: 35	With score: 1
-Offset switch to: 18	With score: 1
-Offset switch to: 61	With score: 2
-Instructions Retired: 100002 Cycle: 83744 Hearbeat IPC: 1.194139 Cumulative IPC: 1.194139
-Cycle: 83744	Best offset: 61	Score: 1	Hit Rate: 0.196299
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 1
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 1
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 1
-80 -> 1
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 1
-111 -> 1
-112 -> 1
-113 -> 1
-114 -> 1
-115 -> 0
-116 -> 1
-117 -> 0
-118 -> 1
-119 -> 1
-120 -> 1
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Offset switch to: 114	With score: 2
-Offset switch to: 44	With score: 1
-Instructions Retired: 200003 Cycle: 161847 Hearbeat IPC: 1.280373 Cumulative IPC: 1.235754
-Cycle: 161847	Best offset: 44	Score: 0	Hit Rate: 0.184365
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 300005 Cycle: 242901 Hearbeat IPC: 1.233770 Cumulative IPC: 1.235092
-Cycle: 242901	Best offset: 44	Score: 0	Hit Rate: 0.128923
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 400003 Cycle: 323154 Hearbeat IPC: 1.246034 Cumulative IPC: 1.237809
-Cycle: 323154	Best offset: 44	Score: 0	Hit Rate: 0.101397
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 500005 Cycle: 392844 Hearbeat IPC: 1.434955 Cumulative IPC: 1.272783
-Cycle: 392844	Best offset: 44	Score: 0	Hit Rate: 0.092396
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 600004 Cycle: 463962 Hearbeat IPC: 1.406100 Cumulative IPC: 1.293218
-Cycle: 463962	Best offset: 44	Score: 0	Hit Rate: 0.078616
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 700003 Cycle: 533433 Hearbeat IPC: 1.439435 Cumulative IPC: 1.312260
-Cycle: 533433	Best offset: 44	Score: 0	Hit Rate: 0.068468
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 800004 Cycle: 599710 Hearbeat IPC: 1.508834 Cumulative IPC: 1.333985
-Cycle: 599710	Best offset: 44	Score: 0	Hit Rate: 0.060628
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 900005 Cycle: 670587 Hearbeat IPC: 1.410909 Cumulative IPC: 1.342115
-Cycle: 670587	Best offset: 44	Score: 0	Hit Rate: 0.057992
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 1000003 Cycle: 737684 Hearbeat IPC: 1.490350 Cumulative IPC: 1.355598
-Cycle: 737684	Best offset: 44	Score: 0	Hit Rate: 0.053836
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Offset switch to: 43	With score: 1
-Offset switch to: 1	With score: 1
-Offset switch to: 15	With score: 1
-Instructions Retired: 1100005 Cycle: 805445 Hearbeat IPC: 1.475805 Cumulative IPC: 1.365711
-Cycle: 805445	Best offset: 15	Score: 0	Hit Rate: 0.057928
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Offset switch to: 3	With score: 1
+Index 26
+Index 19
+Index 35
+Index 16
+Index 35
+Index 35
+Index 58
+Index 6
+Index 23
+Index 11
+Index 4
+Index 52
+Index 23
+Index 19
+Index 17
+Index 12
+Index 41
+Index 50
+Index 7
+Index 30
+Index 33
+Index 36
+Index 30
+Index 33
+Index 11
+Index 22
+Index 40
+Index 43
+Index 14
+Index 15
+Index 19
+Index 25
+Index 16
+Index 50
+Index 63
+Index 48
+Index 30
+Index 25
+Index 29
+Index 54
+Index 33
+Index 8
+Index 32
+Index 26
+Index 63
+Index 50
+Index 23
+Index 41
+Index 36
+Index 17
+Index 50
+Index 25
+Index 6
+Index 26
+Index 0
+Index 39
+Index 45
+Index 55
+Index 12
+Index 46
+Index 55
+Index 29
+Index 58
+Index 3
+Index 19
+Index 27
+Index 52
+Index 62
+Index 61
+Index 25
+Index 16
+Index 43
+Index 29
+Index 47
+Index 40
+Index 48
+Index 62
+Index 56
+Index 3
+Index 19
+Index 13
+Index 58
+Index 48
+Index 46
+Index 31
+Index 1
+Index 11
+Index 40
+Index 24
+Index 10
+Index 15
+Index 24
+Index 25
+Index 9
+Index 32
+Index 31
+Index 26
+Index 55
+Index 21
+Index 6
+Index 47
+Index 56
+Index 54
+Index 47
+Index 45
+Index 10
+Index 8
+Index 6
+Index 17
+Index 30
+Index 39
+Index 35
+Index 30
+Index 21
+Index 20
+Index 10
+Index 55
+Index 11
+Index 33
+Index 0
+Index 26
+Index 54
+Index 43
+Index 36
+Index 25
+Index 35
+Index 44
+Index 26
+Index 27
+Index 52
+Index 48
+Index 49
+Index 38
+Index 0
+Index 63
+Index 9
+Index 15
+Index 14
+Index 42
+Index 26
+Index 57
+Index 32
+Index 2
+Index 33
+Index 9
+Index 58
+Index 51
+Index 45
+Index 33
+Index 22
+Index 3
+Index 17
+Index 11
+Index 27
+Index 13
+Index 1
+Index 39
+Index 17
+Index 37
+Index 44
+Index 42
+Index 62
+Index 32
+Index 17
+Index 1
+Index 25
+Index 6
+Index 51
+Index 1
+Index 41
+Index 5
+Index 8
+Index 37
+Index 54
+Index 2
+Index 46
+Index 57
+Index 55
+Index 6
+Index 2
+Index 24
+Index 30
+Index 19
+Index 6
+Index 38
+Index 11
+Index 52
+Index 51
+Index 2
+Index 10
+Index 30
+Index 19
+Index 33
+Index 46
+Index 22
+Index 15
+Index 30
+Index 7
+Index 13
+Index 27
+Index 22
+Index 63
+Index 60
+Index 10
+Index 35
+Index 14
+Index 6
+Index 28
+Index 44
+Index 57
+Index 20
+Index 16
+Index 44
+Index 60
+Index 60
+Index 30
+Index 21
+Index 4
+Index 28
+Index 9
+Index 8
+Index 25
+Index 13
+Index 24
+Index 32
+Index 55
+Index 13
+Index 13
+Index 49
+Index 7
+Index 21
+Instructions Retired: 100002 Cycle: 45803 Hearbeat IPC: 2.183307 Cumulative IPC: 2.183307
+Cycle: 45803	Best offset: 1	Score: 0	Hit Rate: 0.414182
+Index 11
+Index 46
+Index 7
+Index 25
+Index 28
+Index 47
+Index 4
+Index 50
+Index 43
+Index 12
+Index 30
+Index 18
+Index 22
+Index 39
+Index 19
+Index 16
+Index 16
+Index 42
+Index 6
+Index 24
+Index 63
+Index 1
+Index 26
+Index 52
+Index 16
+Index 23
+Index 60
+Index 61
+Index 61
+Index 45
+Index 3
+Index 29
+Index 56
+Index 27
+Index 16
+Index 24
+Index 18
+Index 30
+Index 45
+Index 27
+Index 29
+Index 22
+Index 11
+Index 56
+Index 21
+Index 32
+Index 25
+Index 20
+Index 57
+Index 37
+Index 63
+Index 10
+Index 27
+Index 23
+Index 12
+Index 28
+Index 25
+Index 3
+Index 29
+Index 61
+Index 32
+Index 50
+Index 51
+Index 21
+Index 15
+Index 27
+Index 13
+Index 62
+Index 48
+Index 44
+Index 23
+Index 48
+Index 35
+Index 41
+Index 16
+Index 5
+Index 25
+Index 25
+Index 2
+Index 44
+Index 13
+Index 1
+Index 46
+Index 37
+Index 20
+Index 57
+Index 33
+Index 62
+Index 62
+Index 19
+Index 24
+Index 49
+Index 5
+Index 13
+Index 3
+Index 33
+Index 2
+Index 45
+Index 25
+Index 59
+Index 9
+Index 10
+Index 2
+Index 17
+Index 30
+Index 16
+Index 56
+Index 48
+Index 48
+Index 28
+Index 58
+Index 16
+Index 27
+Index 41
+Index 20
+Index 2
+Index 15
+Index 15
+Index 52
+Index 22
+Index 23
+Index 26
+Index 48
+Index 48
+Index 15
+Index 5
+Index 23
+Index 25
+Index 36
+Index 2
+Index 18
+Index 32
+Index 54
+Index 14
+Index 39
+Index 13
+Index 24
+Index 10
+Index 39
+Index 39
+Index 6
+Index 55
+Index 45
+Index 25
+Index 35
+Index 62
+Index 31
+Index 20
+Index 4
+Index 16
+Index 9
+Index 28
+Index 29
+Index 31
+Index 43
+Index 29
+Index 29
+Index 27
+Index 9
+Index 9
+Index 32
+Index 18
+Index 53
+Index 29
+Index 14
+Index 62
+Index 18
+Index 39
+Index 12
+Index 39
+Index 30
+Index 14
+Index 26
+Index 24
+Index 20
+Index 0
+Index 43
+Index 13
+Index 4
+Index 39
+Index 39
+Index 44
+Index 56
+Index 23
+Index 21
+Index 25
+Index 34
+Index 19
+Index 60
+Index 10
+Index 27
+Index 59
+Index 5
+Index 21
+Index 43
+Index 33
+Index 63
+Index 51
+Index 2
+Index 1
+Index 10
+Index 48
+Index 39
+Index 14
+Index 25
+Index 4
+Index 24
+Index 0
+Index 38
+Index 48
+Index 20
+Index 62
+Index 53
+Index 33
+Index 62
+Index 39
+Index 32
+Index 55
+Index 35
+Index 50
+Instructions Retired: 200005 Cycle: 89230 Hearbeat IPC: 2.302784 Cumulative IPC: 2.241455
+Cycle: 89230	Best offset: 1	Score: 0	Hit Rate: 0.411316
+Index 32
+Index 54
+Index 1
+Index 13
+Index 62
+Index 25
+Index 7
+Index 4
+Index 49
+Index 10
+Index 22
+Index 33
+Index 46
+Index 35
+Index 9
+Index 60
+Index 59
+Index 13
+Index 63
+Index 61
+Index 58
+Index 21
+Index 14
+Index 9
+Index 1
+Index 56
+Index 60
+Index 60
+Index 28
+Index 3
+Index 42
+Index 10
+Index 19
+Index 25
+Index 63
+Index 1
+Index 53
+Index 59
+Index 45
+Index 16
+Index 33
+Index 10
+Index 58
+Index 10
+Index 17
+Index 17
+Index 23
+Index 4
+Index 25
+Index 10
+Index 5
+Index 6
+Index 20
+Index 34
+Index 15
+Index 16
+Index 15
+Index 60
+Index 22
+Index 20
+Index 16
+Index 24
+Index 43
+Index 38
+Index 31
+Index 5
+Index 62
+Index 40
+Index 16
+Index 22
+Index 38
+Index 62
+Index 26
+Index 58
+Index 27
+Index 45
+Index 7
+Index 30
+Index 19
+Index 7
+Index 44
+Index 28
+Index 46
+Index 0
+Index 6
+Index 14
+Index 57
+Index 4
+Index 27
+Index 39
+Index 24
+Index 23
+Index 23
+Index 17
+Index 25
+Index 57
+Index 19
+Index 1
+Index 59
+Index 40
+Index 18
+Index 28
+Index 56
+Index 44
+Index 19
+Index 13
+Index 3
+Index 25
+Index 32
+Index 56
+Index 24
+Index 20
+Index 10
+Index 56
+Index 21
+Index 24
+Index 33
+Index 50
+Index 55
+Index 37
+Index 55
+Index 53
+Index 8
+Index 43
+Index 22
+Index 6
+Index 33
+Index 14
+Index 28
+Index 53
+Index 49
+Index 17
+Index 50
+Index 24
+Index 46
+Index 27
+Index 2
+Index 0
+Index 40
+Index 9
+Index 13
+Index 18
+Index 25
+Index 58
+Index 34
+Index 34
+Index 6
+Index 52
+Index 39
+Index 33
+Index 49
+Index 35
+Index 15
+Index 35
+Index 10
+Index 37
+Index 4
+Index 30
+Index 30
+Index 1
+Index 45
+Index 58
+Index 24
+Index 41
+Index 56
+Index 34
+Index 60
+Index 11
+Index 30
+Index 0
+Index 9
+Index 32
+Index 57
+Index 6
+Index 29
+Index 57
+Index 36
+Index 61
+Index 56
+Index 37
+Index 51
+Index 6
+Index 40
+Index 52
+Index 51
+Index 60
+Index 25
+Index 29
+Index 10
+Index 39
+Index 25
+Index 23
+Index 23
+Index 58
+Index 9
+Index 44
+Index 9
+Index 28
+Index 10
+Index 51
+Index 40
+Index 50
+Index 32
+Index 3
+Index 32
+Index 45
+Index 19
+Index 40
+Index 39
+Index 22
+Index 58
+Index 44
+Index 9
+Index 0
+Index 42
+Index 16
+Index 60
+Index 54
+Index 32
+Instructions Retired: 300005 Cycle: 130476 Hearbeat IPC: 2.424478 Cumulative IPC: 2.299312
+Cycle: 130476	Best offset: 1	Score: 0	Hit Rate: 0.433720
+Index 57
+Index 6
+Index 2
+Index 2
+Index 40
+Index 21
+Index 17
+Index 56
+Index 14
+Index 56
+Index 8
+Index 30
+Index 23
+Index 5
+Index 0
+Index 34
+Index 48
+Index 34
+Index 56
+Index 51
+Index 61
+Index 13
+Index 15
+Index 0
+Index 25
+Index 2
+Index 10
+Index 6
+Index 36
+Index 36
+Index 24
+Index 45
+Index 12
+Index 33
+Index 43
+Index 35
+Index 15
+Index 39
+Index 51
+Index 15
+Index 9
+Index 18
+Index 44
+Index 27
+Index 32
+Index 36
+Index 5
+Index 53
+Index 21
+Index 55
+Index 38
+Index 12
+Index 14
+Index 24
+Index 48
+Index 1
+Index 4
+Index 30
+Index 17
+Index 51
+Index 54
+Index 59
+Index 8
+Index 41
+Index 8
+Index 25
+Index 61
+Index 47
+Index 14
+Index 34
+Index 14
+Index 28
+Index 23
+Index 7
+Index 55
+Index 0
+Index 10
+Index 39
+Index 14
+Index 43
+Index 54
+Index 29
+Index 27
+Index 10
+Index 53
+Index 62
+Index 47
+Index 3
+Index 25
+Index 16
+Index 38
+Index 29
+Index 13
+Index 3
+Index 19
+Index 13
+Index 57
+Index 48
+Index 46
+Index 52
+Index 40
+Index 52
+Index 28
+Index 15
+Index 54
+Index 48
+Index 48
+Index 28
+Index 24
+Index 5
+Index 18
+Index 4
+Index 27
+Index 49
+Index 6
+Index 20
+Index 19
+Index 0
+Index 47
+Index 28
+Index 16
+Index 23
+Index 49
+Index 39
+Index 7
+Index 27
+Index 58
+Index 15
+Index 10
+Index 0
+Index 5
+Index 63
+Index 21
+Index 32
+Index 18
+Index 43
+Index 43
+Index 24
+Index 32
+Index 47
+Index 2
+Index 22
+Index 50
+Index 16
+Index 55
+Index 36
+Index 55
+Index 40
+Index 14
+Index 43
+Index 19
+Index 52
+Index 3
+Index 62
+Index 11
+Index 61
+Index 33
+Index 36
+Index 53
+Index 17
+Index 50
+Index 26
+Index 46
+Index 28
+Index 9
+Index 15
+Index 26
+Index 18
+Index 32
+Index 1
+Index 46
+Index 8
+Index 58
+Index 26
+Index 2
+Index 45
+Index 33
+Index 3
+Index 10
+Index 27
+Index 43
+Index 20
+Index 53
+Index 62
+Index 35
+Index 5
+Index 35
+Index 61
+Index 10
+Index 3
+Index 3
+Index 0
+Index 63
+Index 39
+Index 24
+Index 63
+Index 26
+Index 21
+Index 21
+Index 24
+Index 12
+Index 40
+Index 6
+Index 38
+Index 23
+Index 53
+Index 34
+Index 61
+Index 48
+Index 43
+Index 23
+Instructions Retired: 400001 Cycle: 168577 Hearbeat IPC: 2.624498 Cumulative IPC: 2.372809
+Cycle: 168577	Best offset: 1	Score: 0	Hit Rate: 0.445496
+Index 41
+Index 8
+Index 54
+Index 34
+Index 34
+Index 32
+Index 34
+Index 20
+Index 25
+Index 58
+Index 31
+Index 1
+Index 6
+Index 61
+Index 61
+Index 29
+Index 44
+Index 26
+Index 14
+Index 15
+Index 62
+Index 29
+Index 10
+Index 52
+Index 57
+Index 3
+Index 11
+Index 20
+Index 25
+Index 23
+Index 23
+Index 20
+Index 43
+Index 46
+Index 22
+Index 25
+Index 34
+Index 55
+Index 45
+Index 54
+Index 3
+Index 38
+Index 11
+Index 26
+Index 7
+Index 23
+Index 45
+Index 21
+Index 17
+Index 24
+Index 58
+Index 16
+Index 33
+Index 15
+Index 9
+Index 63
+Index 41
+Index 16
+Index 60
+Index 56
+Index 32
+Index 18
+Index 44
+Index 26
+Index 14
+Index 22
+Index 7
+Index 7
+Index 41
+Index 51
+Index 17
+Index 8
+Index 32
+Index 5
+Index 25
+Index 43
+Index 3
+Index 62
+Index 48
+Index 11
+Index 11
+Index 41
+Index 33
+Index 48
+Index 54
+Index 22
+Index 2
+Index 2
+Index 2
+Index 45
+Index 50
+Index 55
+Index 25
+Index 12
+Index 35
+Index 32
+Index 13
+Index 14
+Index 0
+Index 58
+Index 7
+Index 14
+Index 29
+Index 62
+Index 55
+Index 7
+Index 1
+Index 60
+Index 44
+Index 6
+Index 14
+Index 5
+Index 48
+Index 4
+Index 25
+Index 26
+Index 43
+Index 10
+Index 1
+Index 28
+Index 30
+Index 52
+Index 28
+Index 57
+Index 45
+Index 36
+Index 56
+Index 21
+Index 34
+Index 37
+Index 16
+Index 7
+Index 45
+Index 55
+Index 22
+Index 62
+Index 26
+Index 24
+Index 57
+Index 51
+Index 36
+Index 53
+Index 2
+Index 28
+Index 3
+Index 52
+Index 60
+Index 34
+Index 56
+Index 45
+Index 37
+Index 31
+Index 38
+Index 59
+Index 46
+Index 43
+Index 39
+Index 61
+Index 24
+Index 24
+Index 27
+Index 41
+Index 37
+Index 62
+Index 50
+Index 21
+Index 26
+Index 24
+Index 33
+Index 50
+Index 55
+Index 17
+Index 26
+Index 10
+Index 23
+Index 8
+Index 48
+Index 44
+Index 25
+Index 54
+Index 10
+Index 44
+Index 57
+Index 38
+Index 22
+Index 26
+Index 51
+Index 20
+Index 54
+Index 45
+Index 59
+Index 15
+Index 44
+Index 32
+Index 57
+Index 14
+Index 41
+Index 41
+Index 25
+Instructions Retired: 500005 Cycle: 206129 Hearbeat IPC: 2.663080 Cumulative IPC: 2.425690
+Cycle: 206129	Best offset: 1	Score: 0	Hit Rate: 0.459316
+Index 33
+Index 4
+Index 16
+Index 3
+Index 2
+Index 55
+Index 53
+Index 20
+Index 9
+Index 3
+Index 58
+Index 36
+Index 63
+Index 35
+Index 63
+Index 16
+Index 55
+Index 55
+Index 62
+Index 27
+Index 42
+Index 18
+Index 17
+Index 27
+Index 24
+Index 46
+Index 47
+Index 33
+Index 36
+Index 36
+Index 43
+Index 35
+Index 10
+Index 36
+Index 41
+Index 35
+Index 29
+Index 15
+Index 46
+Index 25
+Index 32
+Index 17
+Index 35
+Index 21
+Index 21
+Index 21
+Index 26
+Index 1
+Index 42
+Index 10
+Index 36
+Index 54
+Index 32
+Index 50
+Index 16
+Index 57
+Index 1
+Index 28
+Index 28
+Index 21
+Index 36
+Index 45
+Index 54
+Index 28
+Index 12
+Index 25
+Index 35
+Index 25
+Index 41
+Index 26
+Index 58
+Index 41
+Index 33
+Index 41
+Index 10
+Index 34
+Index 0
+Index 21
+Index 15
+Index 14
+Index 63
+Index 47
+Index 31
+Index 5
+Index 63
+Index 49
+Index 8
+Index 50
+Index 24
+Index 1
+Index 19
+Index 33
+Index 48
+Index 28
+Index 55
+Index 4
+Index 43
+Index 36
+Index 23
+Index 55
+Index 32
+Index 13
+Index 6
+Index 37
+Index 37
+Index 31
+Index 13
+Index 19
+Index 63
+Index 27
+Index 43
+Index 30
+Index 30
+Index 14
+Index 3
+Index 25
+Index 18
+Index 25
+Index 35
+Index 2
+Index 39
+Index 48
+Index 53
+Index 32
+Index 53
+Index 29
+Index 10
+Index 32
+Index 43
+Index 5
+Index 5
+Index 13
+Index 17
+Index 31
+Index 63
+Index 11
+Index 62
+Index 21
+Index 61
+Index 15
+Index 41
+Index 63
+Index 15
+Index 8
+Index 30
+Index 49
+Index 54
+Index 12
+Index 8
+Index 49
+Index 5
+Index 13
+Index 19
+Index 62
+Index 24
+Index 23
+Index 26
+Index 14
+Index 49
+Index 62
+Index 41
+Index 13
+Index 13
+Index 49
+Index 33
+Index 46
+Index 8
+Index 26
+Index 46
+Index 62
+Index 59
+Index 23
+Index 40
+Index 2
+Index 27
+Index 21
+Index 46
+Index 16
+Index 31
+Index 25
+Index 57
+Index 7
+Index 31
+Index 38
+Index 14
+Index 25
+Index 0
+Index 42
+Index 48
+Index 29
+Index 33
+Index 42
+Index 50
+Instructions Retired: 600004 Cycle: 242483 Hearbeat IPC: 2.750701 Cumulative IPC: 2.474417
+Cycle: 242483	Best offset: 1	Score: 0	Hit Rate: 0.465586
+Index 49
+Index 60
+Index 14
+Index 28
+Index 7
+Index 37
+Index 30
+Index 48
+Index 62
+Index 33
+Index 38
+Index 47
+Index 28
+Index 57
+Index 56
+Index 13
+Index 0
+Index 49
+Index 18
+Index 39
+Index 25
+Index 25
+Index 2
+Index 6
+Index 58
+Index 57
+Index 17
+Index 0
+Index 60
+Index 7
+Index 35
+Index 55
+Index 8
+Index 17
+Index 3
+Index 23
+Index 19
+Index 42
+Index 46
+Index 24
+Index 41
+Index 41
+Index 34
+Index 25
+Index 33
+Index 55
+Index 37
+Index 55
+Index 53
+Index 8
+Index 10
+Index 43
+Index 58
+Index 51
+Index 28
+Index 49
+Index 17
+Index 54
+Index 51
+Index 41
+Index 58
+Index 9
+Index 6
+Index 3
+Index 25
+Index 8
+Index 26
+Index 59
+Index 51
+Index 45
+Index 22
+Index 15
+Index 40
+Index 15
+Index 10
+Index 37
+Index 30
+Index 15
+Index 21
+Index 20
+Index 63
+Index 60
+Index 27
+Index 1
+Index 6
+Index 62
+Index 13
+Index 26
+Index 38
+Index 39
+Index 38
+Index 25
+Index 39
+Index 33
+Index 55
+Index 19
+Index 57
+Index 38
+Index 22
+Index 23
+Index 2
+Index 44
+Index 6
+Index 44
+Index 56
+Index 53
+Index 45
+Index 21
+Index 57
+Index 14
+Index 43
+Index 25
+Index 52
+Index 56
+Index 53
+Index 24
+Index 4
+Index 1
+Index 19
+Index 3
+Index 38
+Index 4
+Index 21
+Index 34
+Index 16
+Index 2
+Index 58
+Index 36
+Index 58
+Index 27
+Index 10
+Index 0
+Index 49
+Index 49
+Index 27
+Index 57
+Index 15
+Index 3
+Index 25
+Index 3
+Index 49
+Index 38
+Index 14
+Index 14
+Index 1
+Index 52
+Index 49
+Index 62
+Index 14
+Index 7
+Index 25
+Index 4
+Index 15
+Index 26
+Index 22
+Index 32
+Index 59
+Index 13
+Index 12
+Index 56
+Index 22
+Index 21
+Index 16
+Index 16
+Index 36
+Index 2
+Index 23
+Index 1
+Index 10
+Index 20
+Index 11
+Index 16
+Index 12
+Index 19
+Index 17
+Index 19
+Index 25
+Index 45
+Index 34
+Index 53
+Index 38
+Index 40
+Index 16
+Index 32
+Index 51
+Index 32
+Index 18
+Instructions Retired: 700005 Cycle: 278928 Hearbeat IPC: 2.743888 Cumulative IPC: 2.509626
+Cycle: 278928	Best offset: 1	Score: 0	Hit Rate: 0.470956
+Index 34
+Index 63
+Index 34
+Index 19
+Index 22
+Index 35
+Index 27
+Index 58
+Index 46
+Index 35
+Index 5
+Index 52
+Index 22
+Index 47
+Index 47
+Index 43
+Index 1
+Index 3
+Index 30
+Index 11
+Index 11
+Index 43
+Index 39
+Index 55
+Index 32
+Index 2
+Index 0
+Index 14
+Index 36
+Index 40
+Index 40
+Index 25
+Index 17
+Index 56
+Index 50
+Index 44
+Index 50
+Index 18
+Index 43
+Index 26
+Index 8
+Index 27
+Index 1
+Index 57
+Index 4
+Index 54
+Index 33
+Index 19
+Index 51
+Index 44
+Index 22
+Index 60
+Index 62
+Index 18
+Index 26
+Index 42
+Index 43
+Index 62
+Index 30
+Index 20
+Index 61
+Index 9
+Index 6
+Index 39
+Index 27
+Index 6
+Index 54
+Index 7
+Index 26
+Index 51
+Index 31
+Index 53
+Index 30
+Index 25
+Index 49
+Index 49
+Index 9
+Index 20
+Index 62
+Index 19
+Index 37
+Index 25
+Index 55
+Index 10
+Index 58
+Index 39
+Index 61
+Index 48
+Index 13
+Index 51
+Index 52
+Index 46
+Index 7
+Index 7
+Index 44
+Index 3
+Index 45
+Index 40
+Index 32
+Index 15
+Index 24
+Index 21
+Index 44
+Index 54
+Index 26
+Index 23
+Index 49
+Index 54
+Index 10
+Index 59
+Index 19
+Index 42
+Index 50
+Index 15
+Index 26
+Index 49
+Index 12
+Index 28
+Index 38
+Index 48
+Index 27
+Index 9
+Index 9
+Index 2
+Index 53
+Index 23
+Index 34
+Index 12
+Index 35
+Index 49
+Index 33
+Index 32
+Index 56
+Index 58
+Index 56
+Index 11
+Index 27
+Index 27
+Index 54
+Index 25
+Index 10
+Index 58
+Index 17
+Index 60
+Index 53
+Index 46
+Index 37
+Index 4
+Index 47
+Index 45
+Index 33
+Index 11
+Index 15
+Index 57
+Index 9
+Index 22
+Index 22
+Index 54
+Index 4
+Index 58
+Index 25
+Index 63
+Index 41
+Index 10
+Index 35
+Index 31
+Index 0
+Index 30
+Index 11
+Index 48
+Index 44
+Index 46
+Index 27
+Index 18
+Index 36
+Index 17
+Index 8
+Index 30
+Index 3
+Index 8
+Index 14
+Index 21
+Index 41
+Index 25
+Index 58
+Index 16
+Index 61
+Index 1
+Index 14
+Index 25
+Index 6
+Index 10
+Index 41
+Index 32
+Instructions Retired: 800005 Cycle: 316381 Hearbeat IPC: 2.670013 Cumulative IPC: 2.528613
+Cycle: 316381	Best offset: 1	Score: 0	Hit Rate: 0.476186
+Index 31
+Index 2
+Index 18
+Index 44
+Index 5
+Index 46
+Index 37
+Index 0
+Index 30
+Index 61
+Index 22
+Index 19
+Index 30
+Index 43
+Index 47
+Index 38
+Index 2
+Index 1
+Index 13
+Index 6
+Index 35
+Index 48
+Index 53
+Index 10
+Index 12
+Index 20
+Index 32
+Index 27
+Index 24
+Index 41
+Index 43
+Index 41
+Index 50
+Index 27
+Index 30
+Index 53
+Index 33
+Index 8
+Index 48
+Index 41
+Index 22
+Index 28
+Index 2
+Index 48
+Index 42
+Index 1
+Index 4
+Index 36
+Index 39
+Index 54
+Index 59
+Index 40
+Index 32
+Index 63
+Index 50
+Index 23
+Index 40
+Index 7
+Index 50
+Index 50
+Index 23
+Index 6
+Index 59
+Index 1
+Index 32
+Index 46
+Index 0
+Index 30
+Index 7
+Index 38
+Index 20
+Index 6
+Index 54
+Index 40
+Index 31
+Index 18
+Index 63
+Index 59
+Index 59
+Index 53
+Index 63
+Index 45
+Index 36
+Index 35
+Index 24
+Index 11
+Index 2
+Index 38
+Index 62
+Index 10
+Index 63
+Index 31
+Index 52
+Index 33
+Index 12
+Index 32
+Index 29
+Index 56
+Index 35
+Index 10
+Index 45
+Index 24
+Index 56
+Index 10
+Index 44
+Index 59
+Index 62
+Index 46
+Index 44
+Index 33
+Index 28
+Index 48
+Index 41
+Index 44
+Index 19
+Index 50
+Index 16
+Index 40
+Index 61
+Index 23
+Index 25
+Index 43
+Index 8
+Index 1
+Index 28
+Index 17
+Index 4
+Index 3
+Index 18
+Index 17
+Index 63
+Index 55
+Index 20
+Index 58
+Index 61
+Index 15
+Index 11
+Index 12
+Index 40
+Index 27
+Index 9
+Index 4
+Index 54
+Index 24
+Index 58
+Index 32
+Index 2
+Index 9
+Index 59
+Index 52
+Index 46
+Index 33
+Index 48
+Index 19
+Index 17
+Index 11
+Index 53
+Index 42
+Index 35
+Index 38
+Index 43
+Index 54
+Index 2
+Index 22
+Index 62
+Instructions Retired: 900001 Cycle: 355497 Hearbeat IPC: 2.556396 Cumulative IPC: 2.531670
+Cycle: 355497	Best offset: 1	Score: 0	Hit Rate: 0.481522
+Index 23
+Index 8
+Index 53
+Index 55
+Index 9
+Index 59
+Index 11
+Index 36
+Index 63
+Index 22
+Index 54
+Index 6
+Index 19
+Index 38
+Index 32
+Index 28
+Index 50
+Index 46
+Index 3
+Index 42
+Index 7
+Index 40
+Index 12
+Index 52
+Index 54
+Index 61
+Index 31
+Index 20
+Index 33
+Index 3
+Index 18
+Index 41
+Index 46
+Index 6
+Index 26
+Index 11
+Index 32
+Index 44
+Index 33
+Index 10
+Index 28
+Index 56
+Index 33
+Index 48
+Index 27
+Index 57
+Index 4
+Index 35
+Index 57
+Index 13
+Index 41
+Index 7
+Index 44
+Index 4
+Index 58
+Index 58
+Index 6
+Index 41
+Index 21
+Index 20
+Index 60
+Index 41
+Index 31
+Index 22
+Index 25
+Index 18
+Index 25
+Index 35
+Index 2
+Index 0
+Index 48
+Index 10
+Index 14
+Index 8
+Index 9
+Index 21
+Index 28
+Index 23
+Index 48
+Index 26
+Index 18
+Index 21
+Index 13
+Index 61
+Index 13
+Index 6
+Index 35
+Index 23
+Index 41
+Index 10
+Index 38
+Index 46
+Index 2
+Index 28
+Index 35
+Index 17
+Index 62
+Index 9
+Index 14
+Index 3
+Index 16
+Index 24
+Index 24
+Index 27
+Index 13
+Index 50
+Index 54
+Index 30
+Index 61
+Index 42
+Index 13
+Index 38
+Index 33
+Index 46
+Index 46
+Index 63
+Index 0
+Index 49
+Index 23
+Index 7
+Index 18
+Index 28
+Index 18
+Index 57
+Index 51
+Index 5
+Index 47
+Index 53
+Index 15
+Index 21
+Index 10
+Index 29
+Index 54
+Index 20
+Index 31
+Index 23
+Index 19
+Index 17
+Index 37
+Index 27
+Index 23
+Index 12
+Index 12
+Index 25
+Index 3
+Index 18
+Index 11
+Index 61
+Index 46
+Index 61
+Index 32
+Index 50
+Index 10
+Index 51
+Index 34
+Index 1
+Index 34
+Index 21
+Index 5
+Index 49
+Index 62
+Index 34
+Index 27
+Index 63
+Index 40
+Index 31
+Index 40
+Index 10
+Index 0
+Index 45
+Index 39
+Index 38
+Index 21
+Index 59
+Index 33
+Index 33
+Index 28
+Index 32
+Index 60
+Index 52
+Index 14
+Index 49
+Index 35
+Index 4
+Index 13
+Instructions Retired: 1000000 Cycle: 394003 Hearbeat IPC: 2.596972 Cumulative IPC: 2.538052
+Cycle: 394003	Best offset: 1	Score: 0	Hit Rate: 0.481991
+Index 6
+Index 33
+Index 41
+Index 45
+Index 45
+Index 25
+Index 8
+Index 9
+Index 2
+Index 20
+Index 30
+Index 16
+Index 20
+Index 55
+Index 50
+Index 24
+Index 61
+Index 53
+Index 37
+Index 45
+Index 8
+Index 40
+Index 20
+Index 28
+Index 13
+Index 53
+Index 14
+Index 46
+Index 24
+Index 23
+Index 54
+Index 12
+Index 25
+Index 7
+Index 26
+Index 8
+Index 7
+Index 28
+Index 54
+Index 45
+Index 39
+Index 15
+Index 8
+Index 19
+Index 26
+Index 33
+Index 16
+Index 61
+Index 36
+Index 13
+Index 58
+Index 48
+Index 43
+Index 13
+Index 46
+Index 54
+Index 24
+Index 9
+Index 49
+Index 28
+Index 5
+Index 47
+Index 15
+Index 41
+Index 41
+Index 28
+Index 40
+Index 27
+Index 56
+Index 36
+Index 45
+Index 31
+Index 5
+Index 56
+Index 10
+Index 6
+Index 33
+Index 28
+Index 40
+Index 33
+Index 19
+Index 59
+Index 16
+Index 4
+Index 36
+Index 9
+Index 9
+Index 61
+Index 25
+Index 29
+Index 18
+Index 38
+Index 37
+Index 26
+Index 56
+Index 1
+Index 20
+Index 0
+Index 44
+Index 15
+Index 4
+Index 40
+Index 40
+Index 47
+Index 56
+Index 7
+Index 21
+Index 30
+Index 37
+Index 24
+Index 42
+Index 7
+Index 21
+Index 35
+Index 15
+Index 9
+Index 60
+Index 6
+Index 22
+Index 15
+Index 43
+Index 33
+Index 21
+Index 63
+Offset switch to: 66	With score: 1
+Index 51
+Index 2
+Index 43
+Index 13
+Index 15
+Index 54
+Index 20
+Index 20
+Index 24
+Index 18
+Index 62
+Index 28
+Index 9
+Index 55
+Index 43
+Index 24
+Index 25
+Index 3
+Index 3
+Index 13
+Index 13
+Index 15
 Offset switch to: 72	With score: 1
-Offset switch to: 15	With score: 2
-Instructions Retired: 1200002 Cycle: 856230 Hearbeat IPC: 1.969026 Cumulative IPC: 1.401495
-Cycle: 856230	Best offset: 15	Score: 0	Hit Rate: 0.084900
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 1
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
+Index 2
+Index 54
+Index 21
+Index 17
+Index 11
+Index 11
+Index 14
+Index 26
+Index 14
+Index 26
+Index 22
+Index 22
+Index 15
+Index 63
+Index 61
+Index 58
+Index 23
+Index 2
+Index 7
+Index 17
+Index 2
+Index 1
+Index 8
+Index 53
+Index 48
+Index 3
+Index 42
+Index 7
+Index 18
+Index 45
+Index 24
+Index 63
+Index 1
+Index 26
+Index 12
+Index 49
+Index 39
+Index 57
+Index 55
+Index 11
+Index 2
+Index 45
+Index 53
+Index 30
+Index 57
+Index 21
+Index 57
+Index 6
+Index 6
+Index 58
+Index 51
+Index 21
+Index 22
+Index 47
+Index 13
+Index 17
+Index 13
+Index 21
+Index 40
+Index 58
+Index 10
+Index 27
+Index 18
+Index 34
+Index 55
+Index 26
+Index 30
+Index 63
+Index 31
+Index 17
+Index 47
+Instructions Retired: 1100005 Cycle: 448846 Hearbeat IPC: 1.823478 Cumulative IPC: 2.450740
+Cycle: 448846	Best offset: 72	Score: 1	Hit Rate: 0.469529
+Index 41
+Index 23
+Index 0
+Index 50
+Index 52
+Index 60
+Index 22
+Index 25
+Index 42
+Index 62
+Index 36
+Index 29
+Index 47
+Index 56
+Index 32
+Index 3
+Index 13
+Index 7
+Index 47
+Index 48
+Index 29
+Index 46
+Index 39
+Index 17
+Index 56
+Index 4
+Index 28
+Index 39
+Index 25
+Index 35
+Index 17
+Index 40
+Index 25
+Index 9
+Index 32
+Index 57
+Index 47
+Index 15
+Index 61
+Index 50
+Index 50
+Index 30
+Index 5
+Index 6
+Index 24
+Index 13
+Index 16
+Index 10
+Index 63
+Index 6
+Index 55
+Index 29
+Index 17
+Index 58
+Index 30
+Index 42
+Index 12
+Index 7
+Index 25
+Index 19
+Index 60
+Index 37
+Index 60
+Index 28
+Index 10
+Index 2
+Index 23
+Index 15
+Index 18
+Index 12
+Index 12
+Index 54
+Index 62
+Index 9
+Index 47
+Index 15
+Index 50
+Index 63
+Index 27
+Index 43
+Index 26
+Index 8
+Index 0
+Index 57
+Index 19
+Index 14
+Index 10
+Index 4
+Index 39
+Index 4
+Index 0
+Index 6
+Index 55
+Index 45
+Index 25
+Index 7
+Index 9
+Index 15
+Index 42
+Index 26
+Index 42
+Index 36
+Index 44
+Index 53
+Index 8
+Index 33
+Index 2
+Index 15
+Index 2
+Index 26
+Index 52
+Index 52
+Index 42
+Index 30
+Index 11
+Index 11
+Index 42
+Index 43
+Index 32
+Index 2
+Index 0
+Index 36
+Index 14
+Index 2
+Index 21
+Index 42
+Index 4
+Index 10
+Offset switch to: 95	With score: 1
+Index 24
+Index 44
+Index 54
+Index 26
+Index 7
+Index 60
+Index 36
+Index 16
+Index 58
+Index 55
+Index 53
+Index 16
+Index 35
+Index 63
+Index 51
+Index 2
+Index 1
+Index 30
+Index 42
+Index 57
+Index 27
+Index 0
+Index 33
+Index 33
+Index 50
+Index 26
+Index 20
+Index 63
+Index 21
+Index 19
+Index 12
+Index 44
+Index 25
+Index 24
+Index 34
+Index 24
+Index 48
+Index 59
+Index 3
+Index 28
+Index 39
+Index 15
+Offset switch to: 72	With score: 1
+Index 43
+Index 46
+Index 49
+Index 12
+Index 54
+Index 4
+Index 1
+Index 44
+Index 4
+Index 35
+Index 35
+Index 54
+Index 24
+Index 46
+Index 50
+Index 9
+Index 30
+Index 61
+Index 52
+Index 12
+Instructions Retired: 1200002 Cycle: 532117 Hearbeat IPC: 1.200862 Cumulative IPC: 2.255147
+Cycle: 532117	Best offset: 72	Score: 1	Hit Rate: 0.432577
+Index 15
+Index 40
+Index 21
+Index 40
+Index 6
+Index 37
+Index 52
+Index 34
+Index 34
+Index 31
+Index 30
+Index 55
+Index 41
+Index 27
+Index 6
+Index 35
+Index 61
+Index 58
+Index 61
+Index 28
+Index 5
+Index 39
+Index 11
+Index 20
 Offset switch to: 4	With score: 1
-Instructions Retired: 1300000 Cycle: 908562 Hearbeat IPC: 1.910838 Cumulative IPC: 1.430833
-Cycle: 908562	Best offset: 4	Score: 0	Hit Rate: 0.116901
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Offset switch to: 47	With score: 1
-Offset switch to: 74	With score: 1
-Offset switch to: 56	With score: 1
-Offset switch to: 123	With score: 1
-Offset switch to: 22	With score: 1
-Offset switch to: 53	With score: 1
-Instructions Retired: 1400000 Cycle: 996369 Hearbeat IPC: 1.138861 Cumulative IPC: 1.405102
-Cycle: 996369	Best offset: 53	Score: 0	Hit Rate: 0.113689
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 1
-93 -> 1
-94 -> 1
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Offset switch to: 83	With score: 1
-Offset switch to: 112	With score: 1
-Instructions Retired: 1500003 Cycle: 1084289 Hearbeat IPC: 1.137432 Cumulative IPC: 1.383398
-Cycle: 1084289	Best offset: 112	Score: 0	Hit Rate: 0.111391
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 1600001 Cycle: 1170431 Hearbeat IPC: 1.160851 Cumulative IPC: 1.367019
-Cycle: 1170431	Best offset: 112	Score: 0	Hit Rate: 0.106062
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 1700005 Cycle: 1266173 Hearbeat IPC: 1.044515 Cumulative IPC: 1.342633
-Cycle: 1266173	Best offset: 112	Score: 0	Hit Rate: 0.100046
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 1800002 Cycle: 1369046 Hearbeat IPC: 0.972043 Cumulative IPC: 1.314786
-Cycle: 1369046	Best offset: 112	Score: 0	Hit Rate: 0.094666
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 1900005 Cycle: 1464014 Hearbeat IPC: 1.053018 Cumulative IPC: 1.297805
-Cycle: 1464014	Best offset: 112	Score: 0	Hit Rate: 0.089856
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 2000002 Cycle: 1560252 Hearbeat IPC: 1.039059 Cumulative IPC: 1.281845
-Cycle: 1560252	Best offset: 112	Score: 0	Hit Rate: 0.085470
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 2100001 Cycle: 1661418 Hearbeat IPC: 0.988464 Cumulative IPC: 1.263981
-Cycle: 1661418	Best offset: 112	Score: 0	Hit Rate: 0.081530
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 2200003 Cycle: 1764563 Hearbeat IPC: 0.969528 Cumulative IPC: 1.246769
-Cycle: 1764563	Best offset: 112	Score: 0	Hit Rate: 0.077915
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 2300001 Cycle: 1868583 Hearbeat IPC: 0.961334 Cumulative IPC: 1.230880
-Cycle: 1868583	Best offset: 112	Score: 0	Hit Rate: 0.074601
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 2400000 Cycle: 1978687 Hearbeat IPC: 0.908223 Cumulative IPC: 1.212926
-Cycle: 1978687	Best offset: 112	Score: 0	Hit Rate: 0.070744
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 2500003 Cycle: 2093818 Hearbeat IPC: 0.868602 Cumulative IPC: 1.193992
-Cycle: 2093818	Best offset: 112	Score: 0	Hit Rate: 0.067341
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 2600000 Cycle: 2188833 Hearbeat IPC: 1.052434 Cumulative IPC: 1.187848
-Cycle: 2188833	Best offset: 112	Score: 0	Hit Rate: 0.064856
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 2700002 Cycle: 2283885 Hearbeat IPC: 1.052077 Cumulative IPC: 1.182197
-Cycle: 2283885	Best offset: 112	Score: 0	Hit Rate: 0.062569
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 2800000 Cycle: 2377660 Hearbeat IPC: 1.066361 Cumulative IPC: 1.177628
-Cycle: 2377660	Best offset: 112	Score: 0	Hit Rate: 0.060424
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 2900005 Cycle: 2476404 Hearbeat IPC: 1.012770 Cumulative IPC: 1.171055
-Cycle: 2476404	Best offset: 112	Score: 0	Hit Rate: 0.058329
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
-Instructions Retired: 3000000 Cycle: 2589605 Hearbeat IPC: 0.883340 Cumulative IPC: 1.158478
-Cycle: 2589605	Best offset: 112	Score: 0	Hit Rate: 0.056202
-	---- Offset table ----
-Offset -> Score
-1 -> 0
-2 -> 0
-3 -> 0
-4 -> 0
-5 -> 0
-6 -> 0
-7 -> 0
-8 -> 0
-9 -> 0
-10 -> 0
-11 -> 0
-12 -> 0
-13 -> 0
-14 -> 0
-15 -> 0
-16 -> 0
-17 -> 0
-18 -> 0
-19 -> 0
-20 -> 0
-21 -> 0
-22 -> 0
-23 -> 0
-24 -> 0
-25 -> 0
-26 -> 0
-27 -> 0
-28 -> 0
-29 -> 0
-30 -> 0
-31 -> 0
-32 -> 0
-33 -> 0
-34 -> 0
-35 -> 0
-36 -> 0
-37 -> 0
-38 -> 0
-39 -> 0
-40 -> 0
-41 -> 0
-42 -> 0
-43 -> 0
-44 -> 0
-45 -> 0
-46 -> 0
-47 -> 0
-48 -> 0
-49 -> 0
-50 -> 0
-51 -> 0
-52 -> 0
-53 -> 0
-54 -> 0
-55 -> 0
-56 -> 0
-57 -> 0
-58 -> 0
-59 -> 0
-60 -> 0
-61 -> 0
-62 -> 0
-63 -> 0
-64 -> 0
-65 -> 0
-66 -> 0
-67 -> 0
-68 -> 0
-69 -> 0
-70 -> 0
-71 -> 0
-72 -> 0
-73 -> 0
-74 -> 0
-75 -> 0
-76 -> 0
-77 -> 0
-78 -> 0
-79 -> 0
-80 -> 0
-81 -> 0
-82 -> 0
-83 -> 0
-84 -> 0
-85 -> 0
-86 -> 0
-87 -> 0
-88 -> 0
-89 -> 0
-90 -> 0
-91 -> 0
-92 -> 0
-93 -> 0
-94 -> 0
-95 -> 0
-96 -> 0
-97 -> 0
-98 -> 0
-99 -> 0
-100 -> 0
-101 -> 0
-102 -> 0
-103 -> 0
-104 -> 0
-105 -> 0
-106 -> 0
-107 -> 0
-108 -> 0
-109 -> 0
-110 -> 0
-111 -> 0
-112 -> 0
-113 -> 0
-114 -> 0
-115 -> 0
-116 -> 0
-117 -> 0
-118 -> 0
-119 -> 0
-120 -> 0
-121 -> 0
-122 -> 0
-123 -> 0
-124 -> 0
-125 -> 0
-126 -> 0
-127 -> 0
-128 -> 0
-	----------------------
+Index 14
+Index 13
+Index 55
+Index 23
+Index 50
+Index 36
+Index 3
+Index 38
+Index 38
+Index 33
+Index 5
+Index 58
+Index 45
+Index 26
+Index 15
+Index 63
+Index 28
+Index 30
+Index 36
+Index 49
+Index 32
+Index 47
+Index 17
+Index 37
+Index 25
+Index 9
+Index 37
+Index 23
+Index 13
+Index 1
+Index 62
+Index 41
+Index 16
+Index 58
+Index 29
+Index 44
+Index 15
+Index 17
+Index 62
+Index 20
+Index 26
+Offset switch to: 67	With score: 1
+Index 13
+Index 29
+Index 1
+Index 1
+Index 41
+Index 18
+Index 21
+Index 1
+Index 27
+Index 12
+Index 5
+Index 2
+Index 40
+Index 62
+Index 10
+Index 56
+Index 20
+Index 1
+Index 1
+Index 14
+Index 14
+Index 15
+Index 49
+Index 25
+Index 37
+Index 13
+Index 24
+Index 63
+Index 62
+Index 59
+Index 10
+Index 14
+Index 17
+Index 10
+Index 1
+Index 61
+Index 58
+Index 6
+Index 35
+Index 24
+Index 33
+Index 15
+Index 42
+Index 15
+Index 10
+Index 19
+Index 35
+Index 25
+Index 54
+Index 28
+Index 30
+Index 29
+Index 58
+Index 44
+Index 16
+Index 43
+Index 26
+Index 3
+Index 61
+Index 20
+Index 21
+Index 0
+Index 54
+Index 57
+Index 44
+Index 39
+Index 59
+Index 63
+Index 28
+Index 57
+Index 34
+Index 1
+Index 35
+Index 5
+Index 46
+Index 10
+Index 57
+Index 37
+Index 9
+Index 21
+Index 20
+Index 59
+Index 57
+Index 28
+Index 0
+Index 8
+Index 59
+Index 58
+Index 5
+Index 34
+Index 11
+Index 32
+Index 41
+Index 54
+Index 45
+Index 25
+Index 55
+Index 17
+Index 10
+Index 21
+Index 52
+Index 21
+Index 35
+Index 24
+Index 11
+Index 0
+Index 61
+Index 61
+Index 59
+Index 49
+Index 54
+Index 20
+Index 1
+Index 27
+Index 21
+Index 54
+Index 12
+Index 63
+Index 54
+Index 26
+Index 25
+Index 10
+Index 13
+Index 5
+Index 24
+Index 63
+Index 30
+Index 39
+Index 21
+Index 15
+Index 10
+Index 47
+Index 6
+Index 4
+Index 23
+Index 7
+Index 30
+Index 63
+Index 0
+Index 42
+Index 34
+Index 25
+Index 58
+Index 58
+Index 52
+Index 7
+Index 41
+Instructions Retired: 1300002 Cycle: 615774 Hearbeat IPC: 1.195357 Cumulative IPC: 2.111167
+Cycle: 615774	Best offset: 67	Score: 0	Hit Rate: 0.411956
+Index 26
+Index 20
+Index 30
+Index 48
+Index 2
+Index 57
+Index 24
+Index 35
+Index 13
+Index 57
+Index 12
+Index 26
+Index 42
+Index 57
+Index 44
+Index 19
+Index 44
+Index 36
+Index 31
+Index 62
+Index 3
+Index 3
+Index 33
+Index 8
+Index 24
+Index 18
+Index 0
+Index 12
+Index 44
+Index 34
+Index 57
+Index 52
+Index 7
+Index 48
+Index 32
+Index 40
+Index 35
+Index 49
+Index 1
+Index 30
+Index 24
+Index 46
+Index 13
+Index 0
+Index 42
+Index 43
+Index 18
+Index 33
+Index 18
+Index 15
+Index 55
+Index 31
+Index 63
+Index 48
+Index 7
+Index 13
+Index 14
+Index 42
+Index 14
+Index 10
+Index 19
+Index 35
+Index 25
+Index 27
+Index 61
+Index 41
+Index 10
+Index 25
+Index 14
+Index 33
+Index 46
+Index 7
+Index 46
+Index 63
+Index 60
+Index 46
+Index 14
+Index 57
+Index 32
+Index 24
+Index 44
+Index 18
+Index 0
+Index 27
+Index 54
+Index 53
+Index 29
+Index 3
+Index 25
+Index 43
+Index 55
+Index 1
+Index 24
+Index 52
+Index 35
+Index 28
+Index 7
+Index 25
+Index 54
+Index 36
+Index 47
+Index 61
+Index 2
+Index 18
+Index 12
+Index 32
+Index 40
+Index 10
+Index 3
+Index 10
+Index 54
+Index 10
+Index 50
+Index 61
+Index 43
+Index 19
+Index 25
+Index 55
+Index 43
+Index 2
+Index 28
+Index 57
+Index 28
+Index 40
+Index 62
+Index 50
+Index 60
+Index 50
+Index 9
+Index 39
+Index 55
+Index 8
+Index 1
+Index 54
+Index 6
+Index 32
+Index 14
+Index 17
+Index 57
+Index 17
+Index 48
+Index 4
+Index 34
+Index 25
+Index 27
+Index 30
+Index 52
+Index 29
+Index 58
+Index 16
+Index 3
+Index 61
+Index 56
+Index 21
+Index 0
+Index 54
+Index 57
+Index 45
+Index 39
+Index 3
+Index 59
+Index 23
+Index 8
+Index 26
+Index 16
+Index 51
+Index 7
+Index 46
+Index 37
+Index 37
+Index 53
+Index 5
+Index 28
+Index 22
+Index 52
+Index 60
+Index 29
+Index 58
+Index 56
+Instructions Retired: 1400000 Cycle: 713524 Hearbeat IPC: 1.022997 Cumulative IPC: 1.962092
+Cycle: 713524	Best offset: 67	Score: 0	Hit Rate: 0.384116
+Index 24
+Index 35
+Index 7
+Index 25
+Index 54
+Index 3
+Index 61
+Index 61
+Index 55
+Index 2
+Index 58
+Index 23
+Index 62
+Index 4
+Index 38
+Index 17
+Index 25
+Index 35
+Index 22
+Index 48
+Index 24
+Index 31
+Index 24
+Index 20
+Index 8
+Index 32
+Index 18
+Index 42
+Index 56
+Index 38
+Index 22
+Index 8
+Index 35
+Index 55
+Index 9
+Index 45
+Index 1
+Index 51
+Index 37
+Index 49
+Index 12
+Index 57
+Index 18
+Index 41
+Index 23
+Index 2
+Index 19
+Index 7
+Index 6
+Index 51
+Index 51
+Index 28
+Index 61
+Index 14
+Index 4
+Index 60
+Index 63
+Index 27
+Index 31
+Index 26
+Index 53
+Index 15
+Index 49
+Index 63
+Index 14
+Index 58
+Index 14
+Index 40
+Index 28
+Index 57
+Index 2
+Index 37
+Index 35
+Index 34
+Index 58
+Index 51
+Index 45
+Index 33
+Index 22
+Index 3
+Index 52
+Index 17
+Index 61
+Index 35
+Index 51
+Index 10
+Index 30
+Index 44
+Index 30
+Index 16
+Index 11
+Index 13
+Index 5
+Index 27
+Index 59
+Index 22
+Index 20
+Index 22
+Index 25
+Index 6
+Index 24
+Index 52
+Index 12
+Index 7
+Index 40
+Index 6
+Index 16
+Index 45
+Index 0
+Index 51
+Index 63
+Index 42
+Index 61
+Index 61
+Index 44
+Index 5
+Index 3
+Index 52
+Index 61
+Index 53
+Index 29
+Index 12
+Index 34
+Index 4
+Index 21
+Index 0
+Index 14
+Index 37
+Index 4
+Index 41
+Index 41
+Index 26
+Index 23
+Index 47
+Index 11
+Index 3
+Index 3
+Index 16
+Index 26
+Index 7
+Index 21
+Index 35
+Index 16
+Index 9
+Index 28
+Index 58
+Index 0
+Index 44
+Index 14
+Index 44
+Index 13
+Index 50
+Index 44
+Index 13
+Index 36
+Index 28
+Index 1
+Index 38
+Index 25
+Index 57
+Index 17
+Index 5
+Index 26
+Index 49
+Index 17
+Index 12
+Index 50
+Index 53
+Index 41
+Index 41
+Index 51
+Index 13
+Index 51
+Index 42
+Index 3
+Index 25
+Index 60
+Index 17
+Index 60
+Index 20
+Index 2
+Index 3
+Index 3
+Index 16
+Instructions Retired: 1500003 Cycle: 808687 Hearbeat IPC: 1.050860 Cumulative IPC: 1.854862
+Cycle: 808687	Best offset: 67	Score: 0	Hit Rate: 0.359718
+Index 61
+Index 17
+Index 48
+Index 29
+Index 21
+Index 39
+Index 47
+Index 6
+Index 0
+Index 50
+Index 3
+Index 35
+Index 26
+Index 34
+Index 37
+Index 56
+Index 52
+Index 17
+Index 34
+Index 45
+Index 18
+Index 17
+Index 62
+Index 61
+Index 61
+Index 45
+Index 38
+Index 1
+Index 49
+Index 49
+Index 7
+Index 35
+Index 10
+Index 35
+Index 51
+Index 56
+Index 22
+Index 17
+Index 3
+Index 51
+Index 43
+Index 34
+Index 54
+Index 24
+Index 6
+Index 3
+Index 35
+Index 28
+Index 46
+Index 61
+Index 55
+Index 10
+Index 45
+Index 29
+Index 57
+Index 4
+Index 38
+Index 24
+Index 44
+Index 26
+Index 58
+Index 43
+Index 44
+Index 53
+Index 16
+Index 9
+Index 36
+Index 60
+Index 55
+Index 10
+Index 20
+Index 3
+Index 60
+Index 41
+Index 46
+Index 5
+Index 19
+Index 49
+Index 2
+Index 35
+Index 25
+Index 13
+Index 2
+Index 42
+Index 16
+Index 44
+Index 52
+Index 18
+Index 34
+Index 45
+Index 45
+Index 7
+Index 18
+Index 11
+Index 45
+Index 11
+Index 45
+Index 1
+Index 15
+Index 59
+Index 11
+Index 40
+Index 19
+Index 18
+Index 34
+Index 10
+Index 58
+Index 43
+Index 51
+Index 14
+Index 45
+Index 17
+Index 15
+Index 10
+Index 36
+Index 17
+Index 50
+Index 1
+Index 21
+Index 32
+Index 24
+Index 55
+Index 16
+Index 34
+Index 20
+Index 3
+Index 20
+Index 21
+Index 59
+Index 5
+Index 9
+Index 20
+Index 21
+Index 15
+Index 6
+Index 11
+Index 48
+Index 39
+Index 11
+Index 49
+Index 12
+Index 30
+Index 48
+Index 43
+Index 34
+Index 23
+Index 44
+Index 5
+Index 58
+Index 53
+Index 46
+Index 21
+Index 13
+Index 50
+Index 14
+Index 61
+Index 42
+Index 0
+Index 52
+Index 56
+Index 54
+Index 53
+Index 47
+Index 13
+Index 18
+Index 25
+Index 58
+Index 28
+Index 10
+Index 21
+Index 16
+Index 21
+Instructions Retired: 1600001 Cycle: 899043 Hearbeat IPC: 1.106711 Cumulative IPC: 1.779671
+Cycle: 899043	Best offset: 67	Score: 0	Hit Rate: 0.338126
+Index 36
+Index 29
+Index 49
+Index 24
+Index 59
+Index 4
+Index 53
+Index 26
+Index 24
+Index 59
+Index 32
+Index 22
+Index 46
+Index 21
+Index 3
+Index 25
+Index 7
+Index 0
+Index 47
+Index 9
+Index 2
+Index 51
+Index 61
+Index 51
+Index 0
+Index 25
+Index 60
+Index 35
+Index 16
+Index 9
+Index 10
+Index 19
+Index 7
+Index 16
+Index 58
+Index 54
+Index 36
+Index 23
+Index 45
+Index 49
+Index 8
+Index 9
+Index 48
+Index 22
+Index 12
+Index 47
+Index 63
+Index 40
+Index 50
+Index 57
+Index 30
+Index 56
+Index 35
+Index 17
+Index 32
+Index 27
+Index 32
+Index 31
+Index 35
+Index 53
+Index 21
+Index 28
+Index 38
+Index 50
+Index 15
+Index 16
+Index 0
+Index 27
+Index 25
+Index 41
+Index 17
+Index 24
+Index 45
+Index 4
+Index 17
+Index 13
+Index 43
+Index 14
+Index 8
+Index 63
+Index 53
+Index 25
+Index 10
+Index 14
+Index 21
+Index 46
+Index 49
+Index 23
+Index 18
+Index 43
+Index 26
+Index 46
+Index 26
+Index 41
+Index 21
+Index 35
+Index 1
+Index 14
+Index 32
+Index 13
+Index 43
+Index 55
+Index 29
+Index 58
+Index 53
+Index 20
+Index 44
+Index 3
+Index 10
+Index 61
+Index 26
+Index 10
+Index 55
+Index 3
+Index 18
+Index 30
+Index 41
+Index 52
+Index 57
+Index 48
+Index 25
+Index 46
+Index 27
+Index 10
+Index 20
+Index 57
+Index 22
+Index 22
+Index 4
+Index 15
+Index 22
+Index 18
+Index 24
+Index 2
+Index 6
+Index 0
+Index 44
+Index 57
+Index 1
+Index 47
+Index 57
+Index 47
+Index 36
+Index 4
+Index 17
+Index 47
+Index 35
+Index 23
+Index 30
+Index 6
+Index 59
+Index 45
+Index 17
+Index 57
+Index 35
+Index 11
+Index 41
+Index 25
+Index 47
+Index 21
+Index 50
+Index 37
+Index 53
+Index 8
+Index 19
+Index 44
+Index 61
+Index 11
+Index 60
+Index 14
+Index 36
+Index 28
+Index 53
+Index 48
+Index 50
+Index 9
+Index 35
+Index 13
+Index 39
+Index 27
+Index 57
+Index 31
+Index 9
+Index 58
+Index 13
+Index 51
+Index 0
+Index 45
+Index 33
+Index 3
+Index 52
+Index 17
+Index 11
+Index 27
+Index 20
+Index 53
+Index 61
+Index 38
+Index 34
+Index 57
+Index 56
+Index 44
+Instructions Retired: 1700005 Cycle: 995629 Hearbeat IPC: 1.035388 Cumulative IPC: 1.707468
+Cycle: 995629	Best offset: 67	Score: 0	Hit Rate: 0.319092
+Index 17
+Index 2
+Index 25
+Index 40
+Index 6
+Index 63
+Index 9
+Index 14
+Index 21
+Index 15
+Index 5
+Index 42
+Index 37
+Index 54
+Index 46
+Index 49
+Index 6
+Index 37
+Index 63
+Index 12
+Index 9
+Index 12
+Index 16
+Index 58
+Index 56
+Index 4
+Index 61
+Index 11
+Index 10
+Index 55
+Index 21
+Index 41
+Index 58
+Index 13
+Index 22
+Index 33
+Index 54
+Index 44
+Index 3
+Index 43
+Index 11
+Index 45
+Index 15
+Index 57
+Index 7
+Index 26
+Index 57
+Index 34
+Index 8
+Index 37
+Index 22
+Index 35
+Index 16
+Index 48
+Index 59
+Index 29
+Index 31
+Index 17
+Index 44
+Index 34
+Index 6
+Index 22
+Index 61
+Index 55
+Index 36
+Index 24
+Index 6
+Index 6
+Index 27
+Index 17
+Index 55
+Index 38
+Index 55
+Index 36
+Index 59
+Index 13
+Index 15
+Index 63
+Index 23
+Index 11
+Index 39
+Index 6
+Index 32
+Index 63
+Index 33
+Index 61
+Index 23
+Index 26
+Index 19
+Index 5
+Index 23
+Index 43
+Index 52
+Index 6
+Index 26
+Index 49
+Index 42
+Index 2
+Index 32
+Index 27
+Index 11
+Index 51
+Index 50
+Index 45
+Index 2
+Index 10
+Index 15
+Index 2
+Index 10
+Index 25
+Index 43
+Index 46
+Index 29
+Index 14
+Index 10
+Index 0
+Index 6
+Index 8
+Index 6
+Index 7
+Index 38
+Index 20
+Index 43
+Index 52
+Index 31
+Index 54
+Index 16
+Index 44
+Index 25
+Index 16
+Index 51
+Index 44
+Index 60
+Index 30
+Index 4
+Index 25
+Index 57
+Index 63
+Index 9
+Index 12
+Index 45
+Index 33
+Index 38
+Index 50
+Index 44
+Index 58
+Index 29
+Index 13
+Index 52
+Index 45
+Index 50
+Index 36
+Index 4
+Index 11
+Index 8
+Index 39
+Index 36
+Index 26
+Index 36
+Index 13
+Index 12
+Index 46
+Index 14
+Index 62
+Index 58
+Index 11
+Index 37
+Index 6
+Index 10
+Index 59
+Instructions Retired: 1800002 Cycle: 1097390 Hearbeat IPC: 0.982665 Cumulative IPC: 1.640257
+Cycle: 1097390	Best offset: 67	Score: 0	Hit Rate: 0.302000
+Index 14
+Index 45
+Index 42
+Index 41
+Index 60
+Index 26
+Index 27
+Index 35
+Index 48
+Index 2
+Index 18
+Index 2
+Index 8
+Index 45
+Index 31
+Index 21
+Index 46
+Index 21
+Index 11
+Index 61
+Index 3
+Index 23
+Index 27
+Index 0
+Index 17
+Index 30
+Index 15
+Index 25
+Index 56
+Index 44
+Index 54
+Index 0
+Index 53
+Index 2
+Index 51
+Index 28
+Index 3
+Index 52
+Index 60
+Index 58
+Index 56
+Index 11
+Index 37
+Index 31
+Index 0
+Index 63
+Index 33
+Index 25
+Index 32
+Index 17
+Index 35
+Index 21
+Index 40
+Index 53
+Index 21
+Index 26
+Index 24
+Index 48
+Index 33
+Index 16
+Index 31
+Index 4
+Index 54
+Index 8
+Index 2
+Index 20
+Index 47
+Index 2
+Index 60
+Index 43
+Index 25
+Index 22
+Index 3
+Index 10
+Index 36
+Index 0
+Index 15
+Index 14
+Index 53
+Index 48
+Index 43
+Index 9
+Index 28
+Index 4
+Index 14
+Index 61
+Index 12
+Index 52
+Index 10
+Index 28
+Index 48
+Index 26
+Index 55
+Index 4
+Index 55
+Index 43
+Index 36
+Index 17
+Index 23
+Index 55
+Index 32
+Index 44
+Index 24
+Index 23
+Index 51
+Index 21
+Index 1
+Index 41
+Index 7
+Index 44
+Index 55
+Index 22
+Index 25
+Index 19
+Index 25
+Index 34
+Index 2
+Index 0
+Index 48
+Index 10
+Index 60
+Index 31
+Index 53
+Index 10
+Index 47
+Index 55
+Index 56
+Index 22
+Index 11
+Index 21
+Index 9
+Index 63
+Index 56
+Index 18
+Index 30
+Index 49
+Index 55
+Index 55
+Index 46
+Index 11
+Index 18
+Index 46
+Index 41
+Index 33
+Index 42
+Index 11
+Index 24
+Index 24
+Index 26
+Index 16
+Index 49
+Index 63
+Index 41
+Index 13
+Index 33
+Index 46
+Index 24
+Index 46
+Index 63
+Index 0
+Index 23
+Index 59
+Index 23
+Index 29
+Index 62
+Index 7
+Index 17
+Index 3
+Index 5
+Index 25
+Index 56
+Index 52
+Index 31
+Index 37
+Index 9
+Index 28
+Index 27
+Index 54
+Index 21
+Instructions Retired: 1900005 Cycle: 1194595 Hearbeat IPC: 1.028785 Cumulative IPC: 1.590501
+Cycle: 1194595	Best offset: 67	Score: 0	Hit Rate: 0.286789
+Index 20
+Index 11
+Index 19
+Index 33
+Index 25
+Index 18
+Index 16
+Index 61
+Index 37
+Index 33
+Index 43
+Index 48
+Index 20
+Index 1
+Index 24
+Index 9
+Index 3
+Index 35
+Index 28
+Index 61
+Index 6
+Index 31
+Index 49
+Index 31
+Index 21
+Index 14
+Index 53
+Index 27
+Index 13
+Index 63
+Index 48
+Index 9
+Index 63
+Index 16
+Index 5
+Index 25
+Index 0
+Index 2
+Index 42
+Index 33
+Index 42
+Index 13
+Index 45
+Index 40
+Index 20
+Index 15
+Index 14
+Index 11
+Index 49
+Index 57
+Index 57
+Index 32
+Index 32
+Index 22
+Index 62
+Index 52
+Index 56
+Index 23
+Index 56
+Index 32
+Index 54
+Index 11
+Index 44
+Index 24
+Index 9
+Index 10
+Index 2
+Index 10
+Index 18
+Index 5
+Index 39
+Index 56
+Index 35
+Index 48
+Index 48
+Index 28
+Index 58
+Index 14
+Index 57
+Index 48
+Index 51
+Index 16
+Index 16
+Index 55
+Index 10
+Index 16
+Index 55
+Index 12
+Index 39
+Index 30
+Index 49
+Index 39
+Index 13
+Index 13
+Index 12
+Index 12
+Index 25
+Index 57
+Index 33
+Index 37
+Index 35
+Index 34
+Index 9
+Index 57
+Index 24
+Index 47
+Index 48
+Index 58
+Index 44
+Index 28
+Index 12
+Index 20
+Index 46
+Index 0
+Index 60
+Index 26
+Index 44
+Index 33
+Index 56
+Index 9
+Index 59
+Index 59
+Index 38
+Index 23
+Index 8
+Index 47
+Index 50
+Index 32
+Index 36
+Index 20
+Index 1
+Index 18
+Index 31
+Index 33
+Index 3
+Index 62
+Index 54
+Index 59
+Index 40
+Index 6
+Index 21
+Index 51
+Index 15
+Index 13
+Index 27
+Index 3
+Index 22
+Index 17
+Index 13
+Index 54
+Index 10
+Index 13
+Index 62
+Index 49
+Index 14
+Index 55
+Index 32
+Index 53
+Index 10
+Index 3
+Index 15
+Index 28
+Index 55
+Index 35
+Index 55
+Index 10
+Index 0
+Index 49
+Index 23
+Index 55
+Index 30
+Index 44
+Index 57
+Index 25
+Index 24
+Index 53
+Index 53
+Index 40
+Index 3
+Index 16
+Index 36
+Index 42
+Index 6
+Index 21
+Index 3
+Index 23
+Index 5
+Index 0
+Index 26
+Index 45
+Index 37
+Index 14
+Index 9
+Index 15
+Index 38
+Index 14
+Index 5
+Index 21
+Index 17
+Index 2
+Index 41
+Index 10
+Index 38
+Index 28
+Index 16
+Index 9
+Index 58
+Index 54
+Index 27
+Index 9
+Index 51
+Index 56
+Instructions Retired: 2000002 Cycle: 1292938 Hearbeat IPC: 1.016819 Cumulative IPC: 1.546866
+Cycle: 1292938	Best offset: 67	Score: 0	Hit Rate: 0.272837
+Index 26
+Index 14
+Index 10
+Index 14
+Index 22
+Index 5
+Index 46
+Index 5
+Index 11
+Index 8
+Index 51
+Index 32
+Index 42
+Index 2
+Index 15
+Index 47
+Index 34
+Index 42
+Index 5
+Index 61
+Index 55
+Index 22
+Index 50
+Index 37
+Index 37
+Index 61
+Index 53
+Index 46
+Index 34
+Index 40
+Index 26
+Index 53
+Index 53
+Index 22
+Index 5
+Index 24
+Index 47
+Index 16
+Index 12
+Index 25
+Index 16
+Index 59
+Index 34
+Index 49
+Index 44
+Index 44
+Index 28
+Index 47
+Index 14
+Index 30
+Index 3
+Index 3
+Index 22
+Index 52
+Index 35
+Index 45
+Index 35
+Index 34
+Index 34
+Index 1
+Index 25
+Index 57
+Index 17
+Index 5
+Index 26
+Index 49
+Index 17
+Index 11
+Index 24
+Index 27
+Index 55
+Index 40
+Index 40
+Index 51
+Index 54
+Index 20
+Index 2
+Index 35
+Index 36
+Index 19
+Index 56
+Index 45
+Index 22
+Index 20
+Index 22
+Index 13
+Index 1
+Index 21
+Index 52
+Index 14
+Index 33
+Index 50
+Index 11
+Index 4
+Index 22
+Index 29
+Index 47
+Index 57
+Index 25
+Index 2
+Index 42
+Index 17
+Index 52
+Index 34
+Index 25
+Index 61
+Index 59
+Index 18
+Index 15
+Index 12
+Index 46
+Index 28
+Index 28
+Index 15
+Index 36
+Index 3
+Index 25
+Index 19
+Index 18
+Index 34
+Index 7
+Index 43
+Index 62
+Index 12
+Index 19
+Index 32
+Index 25
+Index 42
+Index 61
+Index 37
+Index 0
+Index 24
+Index 27
+Index 38
+Index 53
+Index 24
+Index 42
+Index 62
+Index 28
+Index 61
+Index 31
+Index 3
+Index 13
+Index 7
+Index 48
+Index 29
+Index 46
+Index 45
+Index 1
+Index 54
+Index 20
+Index 28
+Index 54
+Index 35
+Index 32
+Index 36
+Index 15
+Index 6
+Index 23
+Index 28
+Index 31
+Index 24
+Index 23
+Index 13
+Index 52
+Index 49
+Index 32
+Index 26
+Index 10
+Index 56
+Index 44
+Index 18
+Index 46
+Index 33
+Index 24
+Index 29
+Index 53
+Index 45
+Index 54
+Index 3
+Instructions Retired: 2100001 Cycle: 1394138 Hearbeat IPC: 0.988132 Cumulative IPC: 1.506308
+Cycle: 1394138	Best offset: 67	Score: 0	Hit Rate: 0.260340
+Index 4
+Index 8
+Index 27
+Index 46
+Index 20
+Index 38
+Index 16
+Index 40
+Index 0
+Index 18
+Index 60
+Index 29
+Index 60
+Index 19
+Index 1
+Index 62
+Index 32
+Index 15
+Index 35
+Index 16
+Index 18
+Index 51
+Index 0
+Index 49
+Index 38
+Index 12
+Index 13
+Index 34
+Index 13
+Index 24
+Index 45
+Index 6
+Index 54
+Index 15
+Index 52
+Index 16
+Index 15
+Index 13
+Index 15
+Index 28
+Index 32
+Index 26
+Index 42
+Index 37
+Index 0
+Index 22
+Index 27
+Index 38
+Index 53
+Index 53
+Index 33
+Index 12
+Index 28
+Index 8
+Index 26
+Index 6
+Index 56
+Index 18
+Index 36
+Index 56
+Index 47
+Index 61
+Index 38
+Index 61
+Index 34
+Index 0
+Index 62
+Index 3
+Index 37
+Index 49
+Index 42
+Index 21
+Index 30
+Index 2
+Index 14
+Index 63
+Index 22
+Index 34
+Index 38
+Index 2
+Index 25
+Index 25
+Index 29
+Index 6
+Index 34
+Index 58
+Index 26
+Index 0
+Index 12
+Index 49
+Index 8
+Index 44
+Index 46
+Index 53
+Index 25
+Index 54
+Index 51
+Index 39
+Index 25
+Index 57
+Index 57
+Index 20
+Index 41
+Index 21
+Index 56
+Index 56
+Index 14
+Index 17
+Index 37
+Index 26
+Index 59
+Index 16
+Index 3
+Index 52
+Index 4
+Index 49
+Index 13
+Index 23
+Index 38
+Index 7
+Index 61
+Index 23
+Index 19
+Index 56
+Index 16
+Index 31
+Index 25
+Index 6
+Index 6
+Index 28
+Index 17
+Index 56
+Index 39
+Index 49
+Index 30
+Index 19
+Index 26
+Index 21
+Index 43
+Index 2
+Index 10
+Index 57
+Index 42
+Index 12
+Index 2
+Index 45
+Index 17
+Index 14
+Index 37
+Index 27
+Index 9
+Index 46
+Index 53
+Index 12
+Index 50
+Index 42
+Index 42
+Index 28
+Index 22
+Index 56
+Index 24
+Index 19
+Index 61
+Index 31
+Index 33
+Index 6
+Index 45
+Index 33
+Index 37
+Index 5
+Index 54
+Index 21
+Index 26
+Index 33
+Index 60
+Index 14
+Index 24
+Index 48
+Index 56
+Index 1
+Index 51
+Index 42
+Index 25
+Index 28
+Index 59
+Index 7
+Index 40
+Index 16
+Index 46
+Index 15
+Index 50
+Index 53
+Index 23
+Index 53
+Index 5
+Index 27
+Index 61
+Index 22
+Index 42
+Index 27
+Index 44
+Index 13
+Index 53
+Index 33
+Index 19
+Index 47
+Index 48
+Index 14
+Index 9
+Index 55
+Index 16
+Index 11
+Index 62
+Index 42
+Index 55
+Index 27
+Index 59
+Index 6
+Index 28
+Index 39
+Instructions Retired: 2200003 Cycle: 1496104 Hearbeat IPC: 0.980739 Cumulative IPC: 1.470488
+Cycle: 1496104	Best offset: 67	Score: 0	Hit Rate: 0.248879
+Index 44
+Index 25
+Index 38
+Index 32
+Index 27
+Index 40
+Index 27
+Index 20
+Index 16
+Index 40
+Index 57
+Index 19
+Index 35
+Index 21
+Index 39
+Index 54
+Index 20
+Index 61
+Index 37
+Index 25
+Index 45
+Index 33
+Index 6
+Index 1
+Index 26
+Index 36
+Index 21
+Index 8
+Index 37
+Index 21
+Index 43
+Index 41
+Index 23
+Index 29
+Index 6
+Index 36
+Index 27
+Index 1
+Index 54
+Index 48
+Index 2
+Index 42
+Index 38
+Index 5
+Index 21
+Index 50
+Index 59
+Index 54
+Index 45
+Index 17
+Index 14
+Index 8
+Index 6
+Index 62
+Index 20
+Index 56
+Index 56
+Index 3
+Index 7
+Index 26
+Index 10
+Index 46
+Index 10
+Index 55
+Index 11
+Index 33
+Index 60
+Index 29
+Index 60
+Index 17
+Index 1
+Index 36
+Index 25
+Index 26
+Index 14
+Index 55
+Index 38
+Index 48
+Index 11
+Index 25
+Index 45
+Index 49
+Index 32
+Index 4
+Index 10
+Index 43
+Index 56
+Index 23
+Index 25
+Index 36
+Index 27
+Index 58
+Index 21
+Index 45
+Index 3
+Index 34
+Index 14
+Index 34
+Index 43
+Index 17
+Index 7
+Index 56
+Index 5
+Index 5
+Index 53
+Index 15
+Index 24
+Index 45
+Index 63
+Index 31
+Index 62
+Index 60
+Index 14
+Index 10
+Index 33
+Index 35
+Index 8
+Index 41
+Index 15
+Index 3
+Index 6
+Index 45
+Index 33
+Index 57
+Index 51
+Index 0
+Index 10
+Index 29
+Index 35
+Index 29
+Index 51
+Index 45
+Index 6
+Index 11
+Index 54
+Index 10
+Index 28
+Index 4
+Index 22
+Index 20
+Index 46
+Index 8
+Index 63
+Index 1
+Index 38
+Index 25
+Index 52
+Index 51
+Index 2
+Index 26
+Index 59
+Index 37
+Index 6
+Index 31
+Index 61
+Index 16
+Index 29
+Index 55
+Index 14
+Index 36
+Index 36
+Index 48
+Index 26
+Index 58
+Index 16
+Index 1
+Index 55
+Index 52
+Index 54
+Index 41
+Index 4
+Index 12
+Index 56
+Index 14
+Index 56
+Index 30
+Index 4
+Index 29
+Index 24
+Index 18
+Index 24
+Index 36
+Index 22
+Index 8
+Index 60
+Index 53
+Index 4
+Index 35
+Index 56
+Index 43
+Index 31
+Index 17
+Index 49
+Index 45
+Index 54
+Index 14
+Index 37
+Index 0
+Index 62
+Index 27
+Index 3
+Index 34
+Index 60
+Index 8
+Index 30
+Index 16
+Instructions Retired: 2300001 Cycle: 1597944 Hearbeat IPC: 0.981913 Cumulative IPC: 1.439350
+Cycle: 1597944	Best offset: 67	Score: 0	Hit Rate: 0.238339
+Index 57
+Index 26
+Index 49
+Index 58
+Index 44
+Index 17
+Index 32
+Index 34
+Index 6
+Index 45
+Index 34
+Index 33
+Index 5
+Index 8
+Index 16
+Index 36
+Index 59
+Index 24
+Index 43
+Index 4
+Index 9
+Index 27
+Index 4
+Index 4
+Index 22
+Index 22
+Index 43
+Index 59
+Index 7
+Index 42
+Index 9
+Index 47
+Index 13
+Index 63
+Index 20
+Index 31
+Index 25
+Index 29
+Index 8
+Index 6
+Index 26
+Index 18
+Index 26
+Index 36
+Index 9
+Index 38
+Index 22
+Index 37
+Index 16
+Index 9
+Index 22
+Index 26
+Index 32
+Index 12
+Index 55
+Index 5
+Index 25
+Index 53
+Index 52
+Index 39
+Index 8
+Index 37
+Index 8
+Index 27
+Index 13
+Index 56
+Index 5
+Index 27
+Index 49
+Index 42
+Index 37
+Index 43
+Index 53
+Index 41
+Index 41
+Index 51
+Index 13
+Index 51
+Index 3
+Index 59
+Index 49
+Index 49
+Index 38
+Index 17
+Index 16
+Index 1
+Index 26
+Index 34
+Index 3
+Index 21
+Index 60
+Index 20
+Index 14
+Index 63
+Index 61
+Index 34
+Index 52
+Index 13
+Index 48
+Index 8
+Index 56
+Index 6
+Index 32
+Index 42
+Index 19
+Index 35
+Index 24
+Index 63
+Index 2
+Index 26
+Index 53
+Index 58
+Index 44
+Index 16
+Index 62
+Index 43
+Index 57
+Index 34
+Index 25
+Index 19
+Index 11
+Index 52
+Index 60
+Index 60
+Index 44
+Index 38
+Index 55
+Index 23
+Index 8
+Index 48
+Index 24
+Index 59
+Index 39
+Index 26
+Index 57
+Index 44
+Index 36
+Index 8
+Index 22
+Index 23
+Index 42
+Index 27
+Index 28
+Index 56
+Index 45
+Index 54
+Index 24
+Index 31
+Index 34
+Index 20
+Index 3
+Index 19
+Index 6
+Index 58
+Index 49
+Index 54
+Index 9
+Index 22
+Index 22
+Index 35
+Index 55
+Index 18
+Index 55
+Index 25
+Index 63
+Index 2
+Index 41
+Index 32
+Index 41
+Index 15
+Index 11
+Index 48
+Index 31
+Index 48
+Index 11
+Index 11
+Index 49
+Index 13
+Index 0
+Index 51
+Index 8
+Index 1
+Index 45
+Index 2
+Index 19
+Index 32
+Index 14
+Index 27
+Index 55
+Index 34
+Index 55
+Index 10
+Index 0
+Index 60
+Index 23
+Index 23
+Index 58
+Index 30
+Index 43
+Index 13
+Index 38
+Index 14
+Index 14
+Index 51
+Index 21
+Index 28
+Index 30
+Index 30
+Index 10
+Index 14
+Index 3
+Index 25
+Index 25
+Index 35
+Index 2
+Index 0
+Index 1
+Index 48
+Index 10
+Index 38
+Index 53
+Index 28
+Index 10
+Index 13
+Index 12
+Index 43
+Index 5
+Index 5
+Index 12
+Index 48
+Index 63
+Index 29
+Index 56
+Index 63
+Index 62
+Index 11
+Index 45
+Index 45
+Index 62
+Index 15
+Index 40
+Index 63
+Index 15
+Index 8
+Index 30
+Index 54
+Index 55
+Index 12
+Index 33
+Index 2
+Index 7
+Instructions Retired: 2400000 Cycle: 1709782 Hearbeat IPC: 0.894142 Cumulative IPC: 1.403688
+Cycle: 1709782	Best offset: 67	Score: 0	Hit Rate: 0.226090
+Index 27
+Index 18
+Index 20
+Index 33
+Index 15
+Index 46
+Index 25
+Index 17
+Index 26
+Index 63
+Index 1
+Index 38
+Index 28
+Index 58
+Index 50
+Index 61
+Index 13
+Index 12
+Index 12
+Index 46
+Index 7
+Index 26
+Index 46
+Index 23
+Index 59
+Index 23
+Index 40
+Index 2
+Index 22
+Index 50
+Index 23
+Index 25
+Index 52
+Index 0
+Index 52
+Index 31
+Index 46
+Index 8
+Index 16
+Index 48
+Index 22
+Index 55
+Index 21
+Index 32
+Index 20
+Index 18
+Index 37
+Index 54
+Index 23
+Index 4
+Index 43
+Index 48
+Index 25
+Index 53
+Index 25
+Index 9
+Index 3
+Index 17
+Index 29
+Index 46
+Index 61
+Index 6
+Index 32
+Index 1
+Index 60
+Index 54
+Index 10
+Index 35
+Index 47
+Index 13
+Index 14
+Index 46
+Index 31
+Index 18
+Index 26
+Index 4
+Index 63
+Index 2
+Index 43
+Index 33
+Index 43
+Index 13
+Index 32
+Index 46
+Index 31
+Index 46
+Index 20
+Index 57
+Index 13
+Index 50
+Index 6
+Index 28
+Index 2
+Index 7
+Index 21
+Index 0
+Index 15
+Index 8
+Index 2
+Index 17
+Index 28
+Index 52
+Index 23
+Index 48
+Index 8
+Index 60
+Index 21
+Index 48
+Index 4
+Index 28
+Index 12
+Index 36
+Index 42
+Index 38
+Index 55
+Index 32
+Index 9
+Index 2
+Index 9
+Index 59
+Index 63
+Index 11
+Index 36
+Index 25
+Index 17
+Index 55
+Index 50
+Index 43
+Index 50
+Index 31
+Index 42
+Index 18
+Index 28
+Index 32
+Index 26
+Index 46
+Index 59
+Index 10
+Index 27
+Index 32
+Index 4
+Index 30
+Index 58
+Index 0
+Index 9
+Index 21
+Index 49
+Index 59
+Index 61
+Index 17
+Index 27
+Index 13
+Index 6
+Index 3
+Index 19
+Index 31
+Index 47
+Index 61
+Index 7
+Index 39
+Index 5
+Index 38
+Index 25
+Index 7
+Index 24
+Index 32
+Index 49
+Index 32
+Index 53
+Index 45
+Index 27
+Index 23
+Index 47
+Index 9
+Index 61
+Index 19
+Index 19
+Index 36
+Index 25
+Index 55
+Index 10
+Index 58
+Index 39
+Index 61
+Index 42
+Index 28
+Index 15
+Index 16
+Index 57
+Index 27
+Index 30
+Index 3
+Index 47
+Index 36
+Index 15
+Index 24
+Index 40
+Index 5
+Index 18
+Index 57
+Index 35
+Index 11
+Index 41
+Index 41
+Index 34
+Index 26
+Index 33
+Index 47
+Index 37
+Index 47
+Index 11
+Index 35
+Index 38
+Index 28
+Index 22
+Index 44
+Index 14
+Index 51
+Index 26
+Index 49
+Index 17
+Index 50
+Index 40
+Index 2
+Index 0
+Index 23
+Index 30
+Index 25
+Index 56
+Index 34
+Index 37
+Index 9
+Index 57
+Index 50
+Index 20
+Index 37
+Index 51
+Index 27
+Index 20
+Index 53
+Index 38
+Index 51
+Index 56
+Index 30
+Index 43
+Index 54
+Index 2
+Index 1
+Index 1
+Index 39
+Index 19
+Index 22
+Index 22
+Index 46
+Index 48
+Index 10
+Index 50
+Index 24
+Index 0
+Index 1
+Index 44
+Index 23
+Index 17
+Index 2
+Index 29
+Index 34
+Index 31
+Index 45
+Index 6
+Index 28
+Index 2
+Index 62
+Index 5
+Index 20
+Instructions Retired: 2500003 Cycle: 1822940 Hearbeat IPC: 0.883747 Cumulative IPC: 1.371413
+Cycle: 1822940	Best offset: 67	Score: 0	Hit Rate: 0.215072
+Index 55
+Index 56
+Index 6
+Index 61
+Index 14
+Index 13
+Index 55
+Index 23
+Index 50
+Index 36
+Index 5
+Index 58
+Index 33
+Index 54
+Index 44
+Index 53
+Index 3
+Index 43
+Index 10
+Index 32
+Index 13
+Index 25
+Index 33
+Index 8
+Index 37
+Index 20
+Index 36
+Index 16
+Index 41
+Index 37
+Index 22
+Index 6
+Index 56
+Index 16
+Index 33
+Index 35
+Index 49
+Index 43
+Index 44
+Index 21
+Index 59
+Index 25
+Index 18
+Index 28
+Index 34
+Index 27
+Index 28
+Index 49
+Index 49
+Index 7
+Index 11
+Index 63
+Index 32
+Index 53
+Index 41
+Index 41
+Index 51
+Index 13
+Index 39
+Index 33
+Index 15
+Index 33
+Index 16
+Index 10
+Index 9
+Index 24
+Index 23
+Index 43
+Index 22
+Index 32
+Index 19
+Index 6
+Index 35
+Index 48
+Index 28
+Index 18
+Index 49
+Index 56
+Index 47
+Index 36
+Index 46
+Index 45
+Index 39
+Index 6
+Index 16
+Index 27
+Index 46
+Index 21
+Index 17
+Index 2
+Index 1
+Index 18
+Index 17
+Index 43
+Index 43
+Index 60
+Index 34
+Index 60
+Index 53
+Index 49
+Index 13
+Index 30
+Index 42
+Index 28
+Index 1
+Index 6
+Index 9
+Index 2
+Index 54
+Index 24
+Index 18
+Index 17
+Index 27
+Index 34
+Index 24
+Index 45
+Index 59
+Index 48
+Index 26
+Index 35
+Index 12
+Index 59
+Index 53
+Index 15
+Index 39
+Index 55
+Index 36
+Index 63
+Index 54
+Index 25
+Index 55
+Index 17
+Index 35
+Index 45
+Index 60
+Index 37
+Index 8
+Index 50
+Index 9
+Index 31
+Index 0
+Index 3
+Index 42
+Index 19
+Index 2
+Index 56
+Index 22
+Index 46
+Index 5
+Index 5
+Index 26
+Index 24
+Index 41
+Index 10
+Index 35
+Index 52
+Index 29
+Index 30
+Index 38
+Index 21
+Index 11
+Index 7
+Index 4
+Index 8
+Index 44
+Index 52
+Index 4
+Index 13
+Index 54
+Index 57
+Index 30
+Index 25
+Index 10
+Index 56
+Index 30
+Index 56
+Index 14
+Index 7
+Index 33
+Index 55
+Index 49
+Index 28
+Index 59
+Index 3
+Index 5
+Index 8
+Index 4
+Index 49
+Instructions Retired: 2600000 Cycle: 1918365 Hearbeat IPC: 1.047912 Cumulative IPC: 1.355321
+Cycle: 1918365	Best offset: 67	Score: 0	Hit Rate: 0.207157
+Index 21
+Index 62
+Index 41
+Index 24
+Index 5
+Index 6
+Index 27
+Index 17
+Index 56
+Index 34
+Index 38
+Index 36
+Index 14
+Index 19
+Index 26
+Index 21
+Index 10
+Index 36
+Index 13
+Index 58
+Index 11
+Index 36
+Index 25
+Index 45
+Index 49
+Index 9
+Index 52
+Index 5
+Index 41
+Index 41
+Index 22
+Index 56
+Index 24
+Index 44
+Index 61
+Index 17
+Index 31
+Index 47
+Index 6
+Index 45
+Index 54
+Index 0
+Index 39
+Index 29
+Index 1
+Index 20
+Index 34
+Index 25
+Index 7
+Index 29
+Index 23
+Index 54
+Index 31
+Index 59
+Index 43
+Index 54
+Index 30
+Index 18
+Index 1
+Index 44
+Index 12
+Index 4
+Index 4
+Index 32
+Index 44
+Index 49
+Index 26
+Index 57
+Index 15
+Index 27
+Index 15
+Index 0
+Index 39
+Index 53
+Index 54
+Index 14
+Index 32
+Index 19
+Index 63
+Index 59
+Index 14
+Index 25
+Index 2
+Index 42
+Index 56
+Index 45
+Index 39
+Index 28
+Index 8
+Index 32
+Index 2
+Index 21
+Index 29
+Index 15
+Index 7
+Index 22
+Index 27
+Index 55
+Index 10
+Index 44
+Index 2
+Index 48
+Index 60
+Index 9
+Index 34
+Index 4
+Index 60
+Index 22
+Index 25
+Index 31
+Index 15
+Index 42
+Index 24
+Index 14
+Index 36
+Index 60
+Index 8
+Index 26
+Index 36
+Index 12
+Index 10
+Index 55
+Index 6
+Index 37
+Index 54
+Index 52
+Index 19
+Index 5
+Index 61
+Index 50
+Index 30
+Index 20
+Index 53
+Index 22
+Index 53
+Index 13
+Index 4
+Index 3
+Index 8
+Index 15
+Index 13
+Index 13
+Index 0
+Index 2
+Index 34
+Index 19
+Index 4
+Index 16
+Index 27
+Index 42
+Index 34
+Index 23
+Index 63
+Index 49
+Index 47
+Index 24
+Index 34
+Index 5
+Index 1
+Index 36
+Index 55
+Index 11
+Index 5
+Index 43
+Index 2
+Index 39
+Index 16
+Index 57
+Index 39
+Index 24
+Index 62
+Index 25
+Index 43
+Index 32
+Index 55
+Index 9
+Index 59
+Index 25
+Index 53
+Index 0
+Instructions Retired: 2700002 Cycle: 2012397 Hearbeat IPC: 1.063489 Cumulative IPC: 1.341685
+Cycle: 2012397	Best offset: 67	Score: 0	Hit Rate: 0.199886
+Index 6
+Index 33
+Index 3
+Index 58
+Index 52
+Index 6
+Index 24
+Index 44
+Index 47
+Index 36
+Index 33
+Index 44
+Index 24
+Index 22
+Index 27
+Index 3
+Index 22
+Index 47
+Index 60
+Index 8
+Index 27
+Index 13
+Index 1
+Index 32
+Index 5
+Index 43
+Index 26
+Index 35
+Index 43
+Index 20
+Index 53
+Index 42
+Index 36
+Index 23
+Index 35
+Index 52
+Index 22
+Index 5
+Index 11
+Index 55
+Index 7
+Index 53
+Index 13
+Index 24
+Index 25
+Index 24
+Index 32
+Index 17
+Index 63
+Index 42
+Index 26
+Index 8
+Index 44
+Index 10
+Index 9
+Index 57
+Index 52
+Index 55
+Index 25
+Index 27
+Index 12
+Index 33
+Index 16
+Index 14
+Index 39
+Index 59
+Index 50
+Index 29
+Index 22
+Index 16
+Index 7
+Index 28
+Index 20
+Index 2
+Index 40
+Index 2
+Index 10
+Index 50
+Index 31
+Index 43
+Index 12
+Index 18
+Index 26
+Index 10
+Index 10
+Index 61
+Index 18
+Index 27
+Index 30
+Index 62
+Index 39
+Index 27
+Index 31
+Index 52
+Index 60
+Index 8
+Index 8
+Index 58
+Index 53
+Index 26
+Index 27
+Index 3
+Index 3
+Index 25
+Index 6
+Index 48
+Index 12
+Index 25
+Index 34
+Index 18
+Index 10
+Index 26
+Index 54
+Index 48
+Index 42
+Index 15
+Index 42
+Index 43
+Index 22
+Index 26
+Index 51
+Index 54
+Index 63
+Index 50
+Index 22
+Index 50
+Index 12
+Index 24
+Index 54
+Index 23
+Index 29
+Index 1
+Index 32
+Index 11
+Index 7
+Index 23
+Index 16
+Index 48
+Index 15
+Index 37
+Index 10
+Index 9
+Index 9
+Index 12
+Index 22
+Index 51
+Index 23
+Index 55
+Index 58
+Index 47
+Index 22
+Index 18
+Index 19
+Index 28
+Index 26
+Index 57
+Index 35
+Index 46
+Index 19
+Index 5
+Index 3
+Index 60
+Index 22
+Index 25
+Index 32
+Index 17
+Index 31
+Index 17
+Index 35
+Index 60
+Index 57
+Index 24
+Instructions Retired: 2800000 Cycle: 2104614 Hearbeat IPC: 1.084377 Cumulative IPC: 1.330410
+Cycle: 2104614	Best offset: 67	Score: 0	Hit Rate: 0.193067
+Index 32
+Index 35
+Index 54
+Index 36
+Index 54
+Index 52
+Index 8
+Index 54
+Index 41
+Index 50
+Index 30
+Index 15
+Index 15
+Index 17
+Index 50
+Index 0
+Index 46
+Index 39
+Index 25
+Index 16
+Index 50
+Index 5
+Index 28
+Index 46
+Index 20
+Index 31
+Index 34
+Index 26
+Index 7
+Index 36
+Index 35
+Index 34
+Index 9
+Index 56
+Index 20
+Index 23
+Index 2
+Index 17
+Index 0
+Index 39
+Index 58
+Index 10
+Index 35
+Index 4
+Index 29
+Index 40
+Index 29
+Index 17
+Index 13
+Index 43
+Index 59
+Index 17
+Index 26
+Index 36
+Index 63
+Index 11
+Index 27
+Index 16
+Index 25
+Index 25
+Index 32
+Index 1
+Index 31
+Index 44
+Index 58
+Index 36
+Index 31
+Index 49
+Index 2
+Index 47
+Index 11
+Index 60
+Index 42
+Index 36
+Index 33
+Index 5
+Index 62
+Index 41
+Index 44
+Index 20
+Index 22
+Index 35
+Index 3
+Index 20
+Index 33
+Index 33
+Index 22
+Index 15
+Index 11
+Index 62
+Index 52
+Index 56
+Index 23
+Index 17
+Index 29
+Index 17
+Index 58
+Index 29
+Index 0
+Index 6
+Index 26
+Index 60
+Index 3
+Index 26
+Index 10
+Index 18
+Index 59
+Index 11
+Index 2
+Index 54
+Index 42
+Index 23
+Index 53
+Index 44
+Index 14
+Index 14
+Index 55
+Index 62
+Index 10
+Index 40
+Index 63
+Index 40
+Index 8
+Index 14
+Index 13
+Index 13
+Index 24
+Index 57
+Index 34
+Index 34
+Index 6
+Index 38
+Index 24
+Index 39
+Index 33
+Index 47
+Index 18
+Index 40
+Index 63
+Index 58
+Index 40
+Index 10
+Index 36
+Index 30
+Index 12
+Index 20
+Index 46
+Index 62
+Index 24
+Index 55
+Index 17
+Index 35
+Index 21
+Index 3
+Index 21
+Index 20
+Index 6
+Index 7
+Index 9
+Index 47
+Index 33
+Index 59
+Index 50
+Index 1
+Index 22
+Index 32
+Index 4
+Index 44
+Index 12
+Index 62
+Index 42
+Index 36
+Index 25
+Index 41
+Index 41
+Index 44
+Index 20
+Index 50
+Index 47
+Index 47
+Index 8
+Index 54
+Index 11
+Index 28
+Index 35
+Index 55
+Index 49
+Index 5
+Index 11
+Index 25
+Index 5
+Index 24
+Index 18
+Index 35
+Index 13
+Index 2
+Index 55
+Index 10
+Index 1
+Index 41
+Index 16
+Index 61
+Index 61
+Index 57
+Index 43
+Index 26
+Index 53
+Index 52
+Index 7
+Index 7
+Index 58
+Index 60
+Index 14
+Index 24
+Index 53
+Index 24
+Index 37
+Instructions Retired: 2900005 Cycle: 2200720 Hearbeat IPC: 1.040570 Cumulative IPC: 1.317753
+Cycle: 2200720	Best offset: 67	Score: 0	Hit Rate: 0.186395
+Index 4
+Index 49
+Index 35
+Index 25
+Index 47
+Index 59
+Index 38
+Index 40
+Index 28
+Index 49
+Index 38
+Index 12
+Index 55
+Index 5
+Index 5
+Index 52
+Index 25
+Index 46
+Index 45
+Index 21
+Index 15
+Index 41
+Index 50
+Index 15
+Index 10
+Index 36
+Index 55
+Index 44
+Index 33
+Index 2
+Index 7
+Index 27
+Index 11
+Index 0
+Index 32
+Index 13
+Index 50
+Index 4
+Index 19
+Index 52
+Index 25
+Index 55
+Index 0
+Index 50
+Index 42
+Index 28
+Index 9
+Index 24
+Index 62
+Index 60
+Index 46
+Index 40
+Index 57
+Index 38
+Index 0
+Index 22
+Index 24
+Index 44
+Index 50
+Index 50
+Index 31
+Index 45
+Index 40
+Index 41
+Index 50
+Index 60
+Index 4
+Index 29
+Index 31
+Index 27
+Index 22
+Index 37
+Index 6
+Index 31
+Index 11
+Index 27
+Index 53
+Index 32
+Index 8
+Index 27
+Index 6
+Index 24
+Index 10
+Index 54
+Index 3
+Index 16
+Index 46
+Index 6
+Index 10
+Index 31
+Index 22
+Index 4
+Index 37
+Index 44
+Index 12
+Index 40
+Index 53
+Index 19
+Index 27
+Index 2
+Index 14
+Index 63
+Index 31
+Index 60
+Index 56
+Index 17
+Index 17
+Index 1
+Index 23
+Index 30
+Index 2
+Index 55
+Index 10
+Index 58
+Index 61
+Index 40
+Index 26
+Index 48
+Index 46
+Index 27
+Index 30
+Index 10
+Index 0
+Index 7
+Index 47
+Index 33
+Index 18
+Index 41
+Index 41
+Index 24
+Index 42
+Index 8
+Index 1
+Index 50
+Index 55
+Index 4
+Index 1
+Index 37
+Index 55
+Index 44
+Index 30
+Index 37
+Index 58
+Index 59
+Index 61
+Index 14
+Index 15
+Index 11
+Index 42
+Index 49
+Index 26
+Index 37
+Index 59
+Index 3
+Index 25
+Index 19
+Index 18
+Index 45
+Index 58
+Index 25
+Index 19
+Index 4
+Index 26
+Index 46
+Index 19
+Index 53
+Index 62
+Index 62
+Index 7
+Index 6
+Index 61
+Index 26
+Index 1
+Index 46
+Index 62
+Index 23
+Index 55
+Index 16
+Index 34
+Index 20
+Index 40
+Index 53
+Index 21
+Index 37
+Index 24
+Index 63
+Index 61
+Index 33
+Index 50
+Index 16
+Index 57
+Index 27
+Index 27
+Index 21
+Index 55
+Index 5
+Index 59
+Index 43
+Index 41
+Index 23
+Index 30
+Index 36
+Index 18
+Index 24
+Index 55
+Index 21
+Index 12
+Index 47
+Index 34
+Index 29
+Index 15
+Index 18
+Index 15
+Index 10
+Index 8
+Index 6
+Index 21
+Index 9
+Index 3
+Index 7
+Index 24
+Index 61
+Index 55
+Index 11
+Index 8
+Index 34
+Index 56
+Index 52
+Index 17
+Index 46
+Index 35
+Index 45
+Index 14
+Index 25
+Index 14
+Instructions Retired: 3000000 Cycle: 2313053 Hearbeat IPC: 0.890166 Cumulative IPC: 1.296987
+Cycle: 2313053	Best offset: 67	Score: 0	Hit Rate: 0.179490
+Index 55
+Index 62
+Index 11
+Index 37
+Index 43
+Index 32
+Index 62
+Index 24
+Index 57
+Index 46
+Index 11
+Index 25
+Index 21
+Index 4
+Index 45
+Index 48
+Index 53
+Index 29
+Index 17
+Index 56
+Index 39
+Index 26
+Index 22
+Index 44
+Index 30
+Index 10
+Index 2
+Index 52
+Index 2
+Index 63
+Index 63
+Index 37
+Index 39
+Index 62
+Index 60
+Index 16
+Index 7
+Index 11
+Index 47
+Index 35
+Index 62
+Index 8
+Index 38
+Index 22
+Index 15
+Index 4
+Index 16
+Index 3
+Index 54
+Index 48
+Index 28
+Index 50
+Index 19
+Index 32
+Index 19
+Index 32
+Index 57
+Index 15
+Index 30
+Index 61
+Index 43
+Index 60
+Index 15
+Index 60
+Index 27
+Index 25
+Index 24
+Index 10
+Index 35
+Index 62
+Index 4
+Index 12
+Index 25
+Index 22
+Index 22
+Index 20
+Index 55
+Index 43
+Index 23
+Index 25
+Index 28
+Index 44
+Index 53
+Index 29
+Index 38
+Index 9
+Index 24
+Index 46
+Index 24
+Index 17
+Index 24
+Index 58
+Index 33
+Index 15
+Index 2
+Index 16
+Index 15
+Index 37
+Index 55
+Index 44
+Index 37
+Index 55
+Index 15
+Index 41
+Index 24
+Index 48
+Index 52
+Index 44
+Index 36
+Index 35
+Index 50
+Index 30
+Index 39
+Index 7
+Index 23
+Index 56
+Index 27
+Index 31
+Index 9
+Index 12
+Index 8
+Index 12
+Index 38
+Index 25
+Index 32
+Index 22
+Index 3
+Index 3
+Index 2
+Index 44
+Index 48
+Index 59
+Index 26
+Index 16
+Index 25
+Index 13
+Index 12
+Index 47
+Index 15
+Index 0
+Index 59
+Index 14
+Index 17
+Index 50
+Index 6
+Index 26
+Index 17
+Index 20
+Index 31
+Index 13
+Index 39
+Index 7
+Index 44
+Index 25
+Index 28
+Index 29
+Index 63
+Index 24
+Index 14
+Index 47
+Index 25
+Index 62
+Index 8
+Index 47
+Index 56
+Index 22
+Index 36
+Index 1
+Index 2
+Index 19
+Index 18
+Index 29
+Index 37
+Index 24
+Index 35
+Index 60
+Index 20
+Index 9
+Index 27
+Index 19
+Index 30
+Index 44
+Index 25
+Index 44
+Index 40
+Index 16
+Index 24
+Index 53
+Index 53
+Index 35
+Index 47
+Index 25
+Index 54
+Index 5
+Index 47
+Index 61
+Index 50
+Index 10
+Index 22
+Index 4
+Index 37
+Index 12
+Index 39
+Index 27
+Index 13
+Index 63
+Index 48
+Index 24
+Index 23
+Index 61
+Index 25
+Index 25
+Index 3
+Index 33
+Index 10
+Index 13
+Index 1
+Index 47
+Index 1
+Index 41
+Index 40
+Index 4
+Index 33
+Index 58
+Index 53
+Index 46
+Index 33
+Index 48
+Index 0
+Index 40
+Index 57
+Index 26
+Index 56
+Index 2
+Index 31
+Index 33
+Index 3
+Index 24
+Index 0
+Index 35
+Index 14
+Index 52
+Index 12
+Index 32
+Index 18
+Index 7
+Index 2
+Index 37
+Index 25
+Index 36
+Index 35
+Index 36
 
-Simulation complete. Instructions retired: 3099758 Cycles elapsed: 2707311 IPC: 1.144958
+Simulation complete. Instructions retired: 3099758 Cycles elapsed: 2430256 IPC: 1.275486
 
 Prefetcher final stats
