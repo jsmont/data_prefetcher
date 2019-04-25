@@ -1,0 +1,77 @@
+
+*** Data Prefetching Championship 2 Simulator ***
+
+Warmup Instructions: 10000000
+Simulation Instructions: 100000000
+Scramble loads ON
+Using 1MB Last Level Cache
+Using 12.8 GB/s DRAM bandwidth
+Knobs visible from prefetcher: 1 0 0
+Resetting history queue.
+Resetting offset table
+Setting initial offset to 1
+Tag offset: 6
+Instructions Retired: 100001 Cycle: 49486 Hearbeat IPC: 2.020794 Cumulative IPC: 2.020794
+Prefetcher heartbeat stats
+Instructions Retired: 200000 Cycle: 84514 Hearbeat IPC: 2.854831 Cumulative IPC: 2.366472
+Prefetcher heartbeat stats
+Instructions Retired: 300003 Cycle: 118326 Hearbeat IPC: 2.957619 Cumulative IPC: 2.535394
+Prefetcher heartbeat stats
+Instructions Retired: 400002 Cycle: 150581 Hearbeat IPC: 3.100264 Cumulative IPC: 2.656391
+Prefetcher heartbeat stats
+Instructions Retired: 500000 Cycle: 353636 Hearbeat IPC: 0.492468 Cumulative IPC: 1.413883
+Prefetcher heartbeat stats
+Instructions Retired: 600001 Cycle: 498283 Hearbeat IPC: 0.691345 Cumulative IPC: 1.204137
+Prefetcher heartbeat stats
+Instructions Retired: 700001 Cycle: 537208 Hearbeat IPC: 2.569043 Cumulative IPC: 1.303035
+Prefetcher heartbeat stats
+Instructions Retired: 800000 Cycle: 571706 Hearbeat IPC: 2.898690 Cumulative IPC: 1.399321
+Prefetcher heartbeat stats
+Instructions Retired: 900001 Cycle: 605987 Hearbeat IPC: 2.917097 Cumulative IPC: 1.485182
+Prefetcher heartbeat stats
+Instructions Retired: 1000002 Cycle: 638170 Hearbeat IPC: 3.107262 Cumulative IPC: 1.566984
+Prefetcher heartbeat stats
+Instructions Retired: 1100000 Cycle: 670527 Hearbeat IPC: 3.090460 Cumulative IPC: 1.640501
+Prefetcher heartbeat stats
+Instructions Retired: 1200000 Cycle: 747551 Hearbeat IPC: 1.298297 Cumulative IPC: 1.605242
+Prefetcher heartbeat stats
+Instructions Retired: 1300001 Cycle: 834954 Hearbeat IPC: 1.144137 Cumulative IPC: 1.556973
+Prefetcher heartbeat stats
+Instructions Retired: 1400000 Cycle: 870535 Hearbeat IPC: 2.810461 Cumulative IPC: 1.608206
+Prefetcher heartbeat stats
+Instructions Retired: 1500003 Cycle: 904734 Hearbeat IPC: 2.924150 Cumulative IPC: 1.657949
+Prefetcher heartbeat stats
+Instructions Retired: 1600000 Cycle: 940035 Hearbeat IPC: 2.832696 Cumulative IPC: 1.702064
+Prefetcher heartbeat stats
+Instructions Retired: 1700000 Cycle: 972103 Hearbeat IPC: 3.118373 Cumulative IPC: 1.748786
+Prefetcher heartbeat stats
+Instructions Retired: 1800000 Cycle: 1004437 Hearbeat IPC: 3.092720 Cumulative IPC: 1.792049
+Prefetcher heartbeat stats
+Instructions Retired: 1900001 Cycle: 1067324 Hearbeat IPC: 1.590170 Cumulative IPC: 1.780154
+Prefetcher heartbeat stats
+Instructions Retired: 2000004 Cycle: 1165529 Hearbeat IPC: 1.018309 Cumulative IPC: 1.715962
+Prefetcher heartbeat stats
+Instructions Retired: 2100001 Cycle: 1199944 Hearbeat IPC: 2.905622 Cumulative IPC: 1.750082
+Prefetcher heartbeat stats
+Instructions Retired: 2200000 Cycle: 1235074 Hearbeat IPC: 2.846541 Cumulative IPC: 1.781270
+Prefetcher heartbeat stats
+Instructions Retired: 2300001 Cycle: 1270146 Hearbeat IPC: 2.851306 Cumulative IPC: 1.810816
+Prefetcher heartbeat stats
+Instructions Retired: 2400001 Cycle: 1302257 Hearbeat IPC: 3.114198 Cumulative IPC: 1.842955
+Prefetcher heartbeat stats
+Instructions Retired: 2500000 Cycle: 1334631 Hearbeat IPC: 3.088868 Cumulative IPC: 1.873177
+Prefetcher heartbeat stats
+Instructions Retired: 2600000 Cycle: 1381270 Hearbeat IPC: 2.144128 Cumulative IPC: 1.882326
+Prefetcher heartbeat stats
+Instructions Retired: 2700003 Cycle: 1531889 Hearbeat IPC: 0.663947 Cumulative IPC: 1.762532
+Prefetcher heartbeat stats
+Instructions Retired: 2800001 Cycle: 1564671 Hearbeat IPC: 3.050394 Cumulative IPC: 1.789514
+Prefetcher heartbeat stats
+Instructions Retired: 2900004 Cycle: 1602577 Hearbeat IPC: 2.638184 Cumulative IPC: 1.809588
+Prefetcher heartbeat stats
+Instructions Retired: 3000000 Cycle: 1638406 Hearbeat IPC: 2.790924 Cumulative IPC: 1.831048
+Prefetcher heartbeat stats
+
+Simulation complete. Instructions retired: 3099755 Cycles elapsed: 1670603 IPC: 1.855471
+
+Prefetcher final stats

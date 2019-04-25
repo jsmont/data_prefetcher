@@ -1,0 +1,77 @@
+
+*** Data Prefetching Championship 2 Simulator ***
+
+Warmup Instructions: 10000000
+Simulation Instructions: 100000000
+Scramble loads OFF
+Using 1MB Last Level Cache
+Using 3.2 GB/s DRAM bandwidth
+Knobs visible from prefetcher: 0 0 1
+Resetting history queue.
+Resetting offset table
+Setting initial offset to 1
+Tag offset: 6
+Instructions Retired: 100000 Cycle: 127870 Hearbeat IPC: 0.782044 Cumulative IPC: 0.782044
+Prefetcher heartbeat stats
+Instructions Retired: 200000 Cycle: 255281 Hearbeat IPC: 0.784862 Cumulative IPC: 0.783450
+Prefetcher heartbeat stats
+Instructions Retired: 300000 Cycle: 381849 Hearbeat IPC: 0.790089 Cumulative IPC: 0.785651
+Prefetcher heartbeat stats
+Instructions Retired: 400000 Cycle: 508506 Hearbeat IPC: 0.789534 Cumulative IPC: 0.786618
+Prefetcher heartbeat stats
+Instructions Retired: 500000 Cycle: 635783 Hearbeat IPC: 0.785688 Cumulative IPC: 0.786432
+Prefetcher heartbeat stats
+Instructions Retired: 600000 Cycle: 762073 Hearbeat IPC: 0.791828 Cumulative IPC: 0.787326
+Prefetcher heartbeat stats
+Instructions Retired: 700000 Cycle: 889776 Hearbeat IPC: 0.783067 Cumulative IPC: 0.786715
+Prefetcher heartbeat stats
+Instructions Retired: 800000 Cycle: 1016960 Hearbeat IPC: 0.786262 Cumulative IPC: 0.786658
+Prefetcher heartbeat stats
+Instructions Retired: 900000 Cycle: 1169808 Hearbeat IPC: 0.654245 Cumulative IPC: 0.769357
+Prefetcher heartbeat stats
+Instructions Retired: 1000000 Cycle: 1351034 Hearbeat IPC: 0.551797 Cumulative IPC: 0.740174
+Prefetcher heartbeat stats
+Instructions Retired: 1100000 Cycle: 1521915 Hearbeat IPC: 0.585203 Cumulative IPC: 0.722774
+Prefetcher heartbeat stats
+Instructions Retired: 1200000 Cycle: 1691640 Hearbeat IPC: 0.589188 Cumulative IPC: 0.709371
+Prefetcher heartbeat stats
+Instructions Retired: 1300000 Cycle: 1876207 Hearbeat IPC: 0.541809 Cumulative IPC: 0.692887
+Prefetcher heartbeat stats
+Instructions Retired: 1400000 Cycle: 2057618 Hearbeat IPC: 0.551234 Cumulative IPC: 0.680398
+Prefetcher heartbeat stats
+Instructions Retired: 1500000 Cycle: 2224621 Hearbeat IPC: 0.598792 Cumulative IPC: 0.674272
+Prefetcher heartbeat stats
+Instructions Retired: 1600000 Cycle: 2423098 Hearbeat IPC: 0.503837 Cumulative IPC: 0.660312
+Prefetcher heartbeat stats
+Instructions Retired: 1700000 Cycle: 2574504 Hearbeat IPC: 0.660476 Cumulative IPC: 0.660321
+Prefetcher heartbeat stats
+Instructions Retired: 1800000 Cycle: 2755242 Hearbeat IPC: 0.553287 Cumulative IPC: 0.653300
+Prefetcher heartbeat stats
+Instructions Retired: 1900000 Cycle: 2944811 Hearbeat IPC: 0.527512 Cumulative IPC: 0.645203
+Prefetcher heartbeat stats
+Instructions Retired: 2000000 Cycle: 3094160 Hearbeat IPC: 0.669573 Cumulative IPC: 0.646379
+Prefetcher heartbeat stats
+Instructions Retired: 2100000 Cycle: 3283613 Hearbeat IPC: 0.527835 Cumulative IPC: 0.639539
+Prefetcher heartbeat stats
+Instructions Retired: 2200004 Cycle: 3457248 Hearbeat IPC: 0.575944 Cumulative IPC: 0.636345
+Prefetcher heartbeat stats
+Instructions Retired: 2300000 Cycle: 3618760 Hearbeat IPC: 0.619124 Cumulative IPC: 0.635577
+Prefetcher heartbeat stats
+Instructions Retired: 2400000 Cycle: 3815898 Hearbeat IPC: 0.507259 Cumulative IPC: 0.628948
+Prefetcher heartbeat stats
+Instructions Retired: 2500000 Cycle: 3988622 Hearbeat IPC: 0.578958 Cumulative IPC: 0.626783
+Prefetcher heartbeat stats
+Instructions Retired: 2600000 Cycle: 4154993 Hearbeat IPC: 0.601066 Cumulative IPC: 0.625753
+Prefetcher heartbeat stats
+Instructions Retired: 2700000 Cycle: 4336103 Hearbeat IPC: 0.552151 Cumulative IPC: 0.622679
+Prefetcher heartbeat stats
+Instructions Retired: 2800000 Cycle: 4513285 Hearbeat IPC: 0.564391 Cumulative IPC: 0.620391
+Prefetcher heartbeat stats
+Instructions Retired: 2900000 Cycle: 4684416 Hearbeat IPC: 0.584348 Cumulative IPC: 0.619074
+Prefetcher heartbeat stats
+Instructions Retired: 3000004 Cycle: 4862125 Hearbeat IPC: 0.562740 Cumulative IPC: 0.617015
+Prefetcher heartbeat stats
+
+Simulation complete. Instructions retired: 3099754 Cycles elapsed: 5042248 IPC: 0.614756
+
+Prefetcher final stats

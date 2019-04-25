@@ -1,0 +1,77 @@
+
+*** Data Prefetching Championship 2 Simulator ***
+
+Warmup Instructions: 10000000
+Simulation Instructions: 100000000
+Scramble loads OFF
+Using 256KB Last Level Cache
+Using 12.8 GB/s DRAM bandwidth
+Knobs visible from prefetcher: 0 1 0
+Resetting history queue.
+Resetting offset table
+Setting initial offset to 1
+Tag offset: 6
+Instructions Retired: 100001 Cycle: 52783 Hearbeat IPC: 1.894568 Cumulative IPC: 1.894568
+Prefetcher heartbeat stats
+Instructions Retired: 200000 Cycle: 101400 Hearbeat IPC: 2.056873 Cumulative IPC: 1.972387
+Prefetcher heartbeat stats
+Instructions Retired: 300004 Cycle: 162861 Hearbeat IPC: 1.627113 Cumulative IPC: 1.842086
+Prefetcher heartbeat stats
+Instructions Retired: 400000 Cycle: 237473 Hearbeat IPC: 1.340213 Cumulative IPC: 1.684402
+Prefetcher heartbeat stats
+Instructions Retired: 500005 Cycle: 312797 Hearbeat IPC: 1.327664 Cumulative IPC: 1.598497
+Prefetcher heartbeat stats
+Instructions Retired: 600003 Cycle: 390922 Hearbeat IPC: 1.279974 Cumulative IPC: 1.534841
+Prefetcher heartbeat stats
+Instructions Retired: 700005 Cycle: 470562 Hearbeat IPC: 1.255676 Cumulative IPC: 1.487594
+Prefetcher heartbeat stats
+Instructions Retired: 800004 Cycle: 555992 Hearbeat IPC: 1.170537 Cumulative IPC: 1.438877
+Prefetcher heartbeat stats
+Instructions Retired: 900002 Cycle: 631144 Hearbeat IPC: 1.330610 Cumulative IPC: 1.425985
+Prefetcher heartbeat stats
+Instructions Retired: 1000000 Cycle: 696538 Hearbeat IPC: 1.529162 Cumulative IPC: 1.435672
+Prefetcher heartbeat stats
+Instructions Retired: 1100002 Cycle: 774709 Hearbeat IPC: 1.279272 Cumulative IPC: 1.419891
+Prefetcher heartbeat stats
+Instructions Retired: 1200004 Cycle: 852607 Hearbeat IPC: 1.283756 Cumulative IPC: 1.407453
+Prefetcher heartbeat stats
+Instructions Retired: 1300000 Cycle: 923210 Hearbeat IPC: 1.416314 Cumulative IPC: 1.408130
+Prefetcher heartbeat stats
+Instructions Retired: 1400003 Cycle: 998148 Hearbeat IPC: 1.334476 Cumulative IPC: 1.402601
+Prefetcher heartbeat stats
+Instructions Retired: 1500004 Cycle: 1074014 Hearbeat IPC: 1.318127 Cumulative IPC: 1.396634
+Prefetcher heartbeat stats
+Instructions Retired: 1600005 Cycle: 1150817 Hearbeat IPC: 1.302045 Cumulative IPC: 1.390321
+Prefetcher heartbeat stats
+Instructions Retired: 1700001 Cycle: 1225684 Hearbeat IPC: 1.335649 Cumulative IPC: 1.386981
+Prefetcher heartbeat stats
+Instructions Retired: 1800004 Cycle: 1300980 Hearbeat IPC: 1.328132 Cumulative IPC: 1.383575
+Prefetcher heartbeat stats
+Instructions Retired: 1900000 Cycle: 1374706 Hearbeat IPC: 1.356319 Cumulative IPC: 1.382114
+Prefetcher heartbeat stats
+Instructions Retired: 2000003 Cycle: 1446764 Hearbeat IPC: 1.387813 Cumulative IPC: 1.382398
+Prefetcher heartbeat stats
+Instructions Retired: 2100004 Cycle: 1522274 Hearbeat IPC: 1.324341 Cumulative IPC: 1.379518
+Prefetcher heartbeat stats
+Instructions Retired: 2200002 Cycle: 1598786 Hearbeat IPC: 1.306958 Cumulative IPC: 1.376045
+Prefetcher heartbeat stats
+Instructions Retired: 2300002 Cycle: 1673557 Hearbeat IPC: 1.337417 Cumulative IPC: 1.374319
+Prefetcher heartbeat stats
+Instructions Retired: 2400002 Cycle: 1747157 Hearbeat IPC: 1.358696 Cumulative IPC: 1.373661
+Prefetcher heartbeat stats
+Instructions Retired: 2500000 Cycle: 1820723 Hearbeat IPC: 1.359296 Cumulative IPC: 1.373081
+Prefetcher heartbeat stats
+Instructions Retired: 2600005 Cycle: 1893103 Hearbeat IPC: 1.381666 Cumulative IPC: 1.373409
+Prefetcher heartbeat stats
+Instructions Retired: 2700004 Cycle: 1968647 Hearbeat IPC: 1.323719 Cumulative IPC: 1.371502
+Prefetcher heartbeat stats
+Instructions Retired: 2800001 Cycle: 2046659 Hearbeat IPC: 1.281816 Cumulative IPC: 1.368084
+Prefetcher heartbeat stats
+Instructions Retired: 2900000 Cycle: 2120773 Hearbeat IPC: 1.349259 Cumulative IPC: 1.367426
+Prefetcher heartbeat stats
+Instructions Retired: 3000001 Cycle: 2195872 Hearbeat IPC: 1.331589 Cumulative IPC: 1.366200
+Prefetcher heartbeat stats
+
+Simulation complete. Instructions retired: 3099753 Cycles elapsed: 2283392 IPC: 1.357521
+
+Prefetcher final stats

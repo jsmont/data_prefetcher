@@ -1,0 +1,77 @@
+
+*** Data Prefetching Championship 2 Simulator ***
+
+Warmup Instructions: 10000000
+Simulation Instructions: 100000000
+Scramble loads OFF
+Using 256KB Last Level Cache
+Using 12.8 GB/s DRAM bandwidth
+Knobs visible from prefetcher: 0 1 0
+Resetting history queue.
+Resetting offset table
+Setting initial offset to 1
+Tag offset: 6
+Instructions Retired: 100001 Cycle: 49818 Hearbeat IPC: 2.007327 Cumulative IPC: 2.007327
+Prefetcher heartbeat stats
+Instructions Retired: 200000 Cycle: 84749 Hearbeat IPC: 2.862758 Cumulative IPC: 2.359910
+Prefetcher heartbeat stats
+Instructions Retired: 300003 Cycle: 118552 Hearbeat IPC: 2.958406 Cumulative IPC: 2.530560
+Prefetcher heartbeat stats
+Instructions Retired: 400002 Cycle: 150786 Hearbeat IPC: 3.102283 Cumulative IPC: 2.652779
+Prefetcher heartbeat stats
+Instructions Retired: 500000 Cycle: 358323 Hearbeat IPC: 0.481832 Cumulative IPC: 1.395389
+Prefetcher heartbeat stats
+Instructions Retired: 600001 Cycle: 512629 Hearbeat IPC: 0.648069 Cumulative IPC: 1.170439
+Prefetcher heartbeat stats
+Instructions Retired: 700001 Cycle: 553005 Hearbeat IPC: 2.476719 Cumulative IPC: 1.265813
+Prefetcher heartbeat stats
+Instructions Retired: 800000 Cycle: 587901 Hearbeat IPC: 2.865629 Cumulative IPC: 1.360773
+Prefetcher heartbeat stats
+Instructions Retired: 900001 Cycle: 622932 Hearbeat IPC: 2.854643 Cumulative IPC: 1.444782
+Prefetcher heartbeat stats
+Instructions Retired: 1000002 Cycle: 655052 Hearbeat IPC: 3.113356 Cumulative IPC: 1.526599
+Prefetcher heartbeat stats
+Instructions Retired: 1100000 Cycle: 687449 Hearbeat IPC: 3.086644 Cumulative IPC: 1.600119
+Prefetcher heartbeat stats
+Instructions Retired: 1200000 Cycle: 859020 Hearbeat IPC: 0.582849 Cumulative IPC: 1.396941
+Prefetcher heartbeat stats
+Instructions Retired: 1300001 Cycle: 1052643 Hearbeat IPC: 0.516473 Cumulative IPC: 1.234987
+Prefetcher heartbeat stats
+Instructions Retired: 1400000 Cycle: 1092891 Hearbeat IPC: 2.484571 Cumulative IPC: 1.281006
+Prefetcher heartbeat stats
+Instructions Retired: 1500003 Cycle: 1126991 Hearbeat IPC: 2.932639 Cumulative IPC: 1.330980
+Prefetcher heartbeat stats
+Instructions Retired: 1600000 Cycle: 1163208 Hearbeat IPC: 2.761051 Cumulative IPC: 1.375506
+Prefetcher heartbeat stats
+Instructions Retired: 1700000 Cycle: 1195252 Hearbeat IPC: 3.120709 Cumulative IPC: 1.422294
+Prefetcher heartbeat stats
+Instructions Retired: 1800000 Cycle: 1227548 Hearbeat IPC: 3.096359 Cumulative IPC: 1.466338
+Prefetcher heartbeat stats
+Instructions Retired: 1900001 Cycle: 1354291 Hearbeat IPC: 0.789006 Cumulative IPC: 1.402949
+Prefetcher heartbeat stats
+Instructions Retired: 2000004 Cycle: 1593002 Hearbeat IPC: 0.418929 Cumulative IPC: 1.255494
+Prefetcher heartbeat stats
+Instructions Retired: 2100001 Cycle: 1631388 Hearbeat IPC: 2.605038 Cumulative IPC: 1.287248
+Prefetcher heartbeat stats
+Instructions Retired: 2200000 Cycle: 1666977 Hearbeat IPC: 2.809829 Cumulative IPC: 1.319754
+Prefetcher heartbeat stats
+Instructions Retired: 2300001 Cycle: 1703247 Hearbeat IPC: 2.757127 Cumulative IPC: 1.350363
+Prefetcher heartbeat stats
+Instructions Retired: 2400001 Cycle: 1735316 Hearbeat IPC: 3.118276 Cumulative IPC: 1.383034
+Prefetcher heartbeat stats
+Instructions Retired: 2500000 Cycle: 1767615 Hearbeat IPC: 3.096040 Cumulative IPC: 1.414335
+Prefetcher heartbeat stats
+Instructions Retired: 2600000 Cycle: 1842300 Hearbeat IPC: 1.338957 Cumulative IPC: 1.411279
+Prefetcher heartbeat stats
+Instructions Retired: 2700003 Cycle: 2204919 Hearbeat IPC: 0.275780 Cumulative IPC: 1.224536
+Prefetcher heartbeat stats
+Instructions Retired: 2800001 Cycle: 2238145 Hearbeat IPC: 3.009631 Cumulative IPC: 1.251036
+Prefetcher heartbeat stats
+Instructions Retired: 2900004 Cycle: 2279963 Hearbeat IPC: 2.391387 Cumulative IPC: 1.271952
+Prefetcher heartbeat stats
+Instructions Retired: 3000000 Cycle: 2315525 Hearbeat IPC: 2.811878 Cumulative IPC: 1.295603
+Prefetcher heartbeat stats
+
+Simulation complete. Instructions retired: 3099755 Cycles elapsed: 2347685 IPC: 1.320345
+
+Prefetcher final stats
