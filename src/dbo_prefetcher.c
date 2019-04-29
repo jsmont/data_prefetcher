@@ -26,7 +26,7 @@ typedef struct {
 } RR_Entry;
 
 typedef struct {
-    int8_t offset;
+    uint8_t offset;
     uint8_t score;
 } Offset;
 
@@ -122,7 +122,7 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
     //TRAIN
     int16_t rr_hit = get_RR_position(tag - OFFSET_TABLE[OT_TRAIN_POINTER].offset);
     if(rr_hit >= 0 && RECENT_REQUESTS[rr_hit].valid){
-        uint8_t increment=1;// + RECENT_REQUESTS[rr_hit].filled; //TODO: Look for an alternative
+        uint8_t increment=1 + RECENT_REQUESTS[rr_hit].filled; //TODO: Look for an alternative
         //printf("RR Hit\n");
         if(OFFSET_TABLE[OT_TRAIN_POINTER].score + increment <= MAX_OFFSET_SCORE) OFFSET_TABLE[OT_TRAIN_POINTER].score+=increment;
         if(OFFSET_TABLE[OT_TRAIN_POINTER].score >= BEST_TRAINED_OFFSET.score){
