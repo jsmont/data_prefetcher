@@ -80,7 +80,7 @@ void l2_prefetcher_initialize(int cpu_num)
 
     printf("Resetting offset table\n");
     for(i = 0; i < SIZE_OF_OFFSETS; ++i){
-        OFFSET_TABLE[i].offset=i;
+        OFFSET_TABLE[i].offset=i+1;
         OFFSET_TABLE[i].score=0;
     }
     OT_TRAIN_POINTER=0;
