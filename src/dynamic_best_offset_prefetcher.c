@@ -12,9 +12,9 @@
 #include <string.h>
 
 #define SIZE_OF_HIST 64
-#define SIZE_OF_OFFSETS 128
+#define SIZE_OF_OFFSETS 256
 #define MAX_OFFSET_SCORE 63
-#define MSHR_LIMIT 0.8*L2_MSHR_COUNT 
+#define MSHR_LIMIT 0.5*L2_MSHR_COUNT 
 #define MAX_TABLE_ROUND 50
 
 #define TAG_OFFSET (int)(log2(CACHE_LINE_SIZE))
@@ -26,7 +26,7 @@ typedef struct {
 } RR_Entry;
 
 typedef struct {
-    uint8_t offset;
+    int8_t offset;
     uint8_t score;
 } Offset;
 
@@ -80,7 +80,10 @@ void l2_prefetcher_initialize(int cpu_num)
 
     printf("Resetting offset table\n");
     for(i = 0; i < SIZE_OF_OFFSETS; ++i){
-        OFFSET_TABLE[i].offset=i+1;
+        if(i < SIZE_OF_OFFSETS/2)
+            OFFSET_TABLE[i].offset=i-SIZE_OF_OFFSETS;
+        else
+            OFFSET_TABLE[i].offset=i-SIZE_OF_OFFSETS+1;
         OFFSET_TABLE[i].score=0;
     }
     OT_TRAIN_POINTER=0;
@@ -122,7 +125,7 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
     //TRAIN
     int16_t rr_hit = get_RR_position(tag - OFFSET_TABLE[OT_TRAIN_POINTER].offset);
     if(rr_hit >= 0 && RECENT_REQUESTS[rr_hit].valid){
-        uint8_t increment=1 + RECENT_REQUESTS[rr_hit].filled; //TODO: Look for an alternative
+        uint8_t increment=1;// + RECENT_REQUESTS[rr_hit].filled; //TODO: Look for an alternative
         //printf("RR Hit\n");
         if(OFFSET_TABLE[OT_TRAIN_POINTER].score + increment <= MAX_OFFSET_SCORE) OFFSET_TABLE[OT_TRAIN_POINTER].score+=increment;
         if(OFFSET_TABLE[OT_TRAIN_POINTER].score >= BEST_TRAINED_OFFSET.score){
@@ -145,7 +148,6 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
 
         int i;
         for(i = 0; i < SIZE_OF_OFFSETS; ++i) OFFSET_TABLE[i].score = 0;
-        BEST_OFFSET.score = 0;
         BEST_TRAINED_OFFSET.score = 0;
     }
 
@@ -153,6 +155,9 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
     //Update hit rate
     hit_rate = ((hit_rate*number_of_requests)+cache_hit)/(number_of_requests+1);
     number_of_requests++;
+
+    //Stats on requests
+    printf("[REQ] Cycle: %d\tOccupancy: %d\tQueue: %d\n", get_current_cycle(0), get_l2_mshr_occupancy(0), get_l2_read_queue_occupancy(0));
 }
 
 void l2_cache_fill(int cpu_num, unsigned long long int addr, int set, int way, int prefetch, unsigned long long int evicted_addr)
