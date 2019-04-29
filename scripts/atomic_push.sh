@@ -8,12 +8,12 @@ if [ "$TRAVIS_BRANCH" = "last_state" ]; then
 fi
 
 commit_files() {
-    #git checkout master
+    git checkout master
     # Current month and year, e.g: Apr 2018
     dateAndMonth=`date "+%b %Y"`
     # Stage the modified files in dist/output
-    git add $REPOROOT/logs
-    git add $REPOROOT/docs
+    if [ "$step" = "1" ]; then git add $REPOROOT/logs; fi
+    if [ "$step" = "2" ]; then git add $REPOROOT/docs; fi
     # Create a new commit with a custom build message
     # with "[skip ci]" to avoid a build loop
     # and Travis build number for reference
@@ -43,11 +43,6 @@ save_state() {
 
 echo "Commiting files"
 commit_files
-
-if [ "$step" = "2" ]; then
-    git checkout origin/master
-    git rebase last_state
-fi
 
 echo "Pushing results"
 upload_files
