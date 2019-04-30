@@ -19,7 +19,7 @@ commit_files() {
     # with "[skip ci]" to avoid a build loop
     # and Travis build number for reference
     if [ "$step" = "1" ]; then 
-        git commit -am "$TRAVIS_COMMIT_MESSAGE: step 1 (Build $TRAVIS_BUILD_NUMBER)"; 
+        git commit -am "$TRAVIS_COMMIT_MESSAGE: step 1 (Build $TRAVIS_JOB_NUMBER)"; 
     fi
     if [ "$step" = "2" ]; then 
         git commit -am "$TRAVIS_COMMIT_MESSAGE: step 2 (Build $TRAVIS_BUILD_NUMBER)" -m "[skip ci]"; 
