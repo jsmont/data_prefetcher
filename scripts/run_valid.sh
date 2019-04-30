@@ -55,7 +55,7 @@ for simulator in $BIN_FOLDER/*; do
                 fi
 
                 echo "Running $sim <- $tr [$CONFIG]"
-                zcat $trace | $simulator $config_flag > "$LOG_FOLDER/$CONFIG/$tr/$sim.log"
+                zcat $trace | $simulator -warmup_instructions 0 $config_flag > "$LOG_FOLDER/$CONFIG/$tr/$sim.log"
             else
                 echo "Discarted $sim <- $tr"
             fi

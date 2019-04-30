@@ -11,8 +11,8 @@ grep "Best offset" $1 > $OFFSET_DATAFILE
 sed -i "s/.*Cycle: \([0-9]\+\) .*IPC: \([0-9.]\+\) .*IPC: \([0-9.]\+\).*/\1\t\2\t\3/g" $DATAFILE
 sed -i "s/.*Cycle: \([0-9]\+\).*Best offset: \([0-9.]\+\).*Score: \([0-9.]\+\).*/\1\t\2\t\3/g" $OFFSET_DATAFILE
 if [ -z "$(cat $OFFSET_DATAFILE)" ]; then
-    gnuplot -p $REPOROOT/scripts/temporal.pt
+    gnuplot -p $REPOROOT/scripts/temporal.pt --persist
 else
-    gnuplot -p $REPOROOT/scripts/offset_temporal.pt
+    gnuplot -p $REPOROOT/scripts/offset_temporal.pt --persist
 fi
 

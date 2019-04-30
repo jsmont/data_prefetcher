@@ -79,6 +79,10 @@ void l2_prefetcher_initialize(int cpu_num)
     }
     RR_INSERT_POINTER=0;
 
+    printf("Setting up the minimum score\n");
+    MINIMUM_SCORE=1;
+    if(knob_small_llc) MINIMUM_SCORE=MAX_OFFSET_SCORE/4;
+
     printf("Resetting offset table\n");
     for(i = 0; i < SIZE_OF_OFFSETS/2; ++i){
         //Positive part
@@ -93,7 +97,7 @@ void l2_prefetcher_initialize(int cpu_num)
     printf("Setting initial offset to 1\n");
     BEST_TRAINED_OFFSET = OFFSET_TABLE[0];
     BEST_OFFSET = OFFSET_TABLE[0];
-    BEST_OFFSET.score = MAX_OFFSET_SCORE;
+    BEST_OFFSET.score = MINIMUM_SCORE;
 
     printf("Tag offset: %d\n", TAG_OFFSET);
 
@@ -104,9 +108,6 @@ void l2_prefetcher_initialize(int cpu_num)
     printf("Resetting rable rounds\n");
     TABLE_ROUND=0;
 
-    printf("Setting up the minimum score\n");
-    MINIMUM_SCORE=1;
-    if(knob_small_llc) MINIMUM_SCORE=MAX_OFFSET_SCORE/4;
 }
 
 void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned long long int ip, int cache_hit)

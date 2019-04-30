@@ -58,4 +58,4 @@ if [ ! -d $LOG_FOLDER/$CONFIG/$tr ]; then
 fi
 
 echo "Running $sim <- $tr [$CONFIG]"
-zcat $TRACE_FOLDER/$tr | $BIN_FOLDER/$sim $config_flag> "$LOG_FOLDER/$CONFIG/$tr/$sim.log"
+zcat $TRACE_FOLDER/$tr | $BIN_FOLDER/$sim -warmup_instructions 0 $config_flag> "$LOG_FOLDER/$CONFIG/$tr/$sim.log"
