@@ -45,7 +45,7 @@ echo "Commiting files"
 commit_files
 
 if [ "$step" = "2" ]; then
-    git checkout master
+    git checkout origin/master
     git rebase last_state
 fi
 
