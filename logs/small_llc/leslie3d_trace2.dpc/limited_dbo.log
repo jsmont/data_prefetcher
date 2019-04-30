@@ -1,19 +1,19 @@
 
 *** Data Prefetching Championship 2 Simulator ***
 
-Warmup Instructions: 10000000
+Warmup Instructions: 0
 Simulation Instructions: 100000000
 Scramble loads OFF
 Using 256KB Last Level Cache
 Using 12.8 GB/s DRAM bandwidth
 Knobs visible from prefetcher: 0 1 0
 Resetting history queue.
+Setting up the minimum score
 Resetting offset table
 Setting initial offset to 1
 Tag offset: 6
 Ressetting hit rate
 Resetting rable rounds
-Setting up the minimum score
 [REQ] Cycle: 15	Occupancy: 1	Queue: 7
 [REQ] Cycle: 16	Occupancy: 2	Queue: 7
 [REQ] Cycle: 17	Occupancy: 3	Queue: 7
@@ -23,6 +23,10 @@ Setting up the minimum score
 [REQ] Cycle: 21	Occupancy: 7	Queue: 6
 [REQ] Cycle: 22	Occupancy: 8	Queue: 6
 [REQ] Cycle: 188	Occupancy: 11	Queue: 3
+
+Warmup complete. Instructions retired: 4 Cycles elapsed: 233 IPC: 0.017167
+Prefetcher warmup complete stats
+
 [REQ] Cycle: 245	Occupancy: 10	Queue: 2
 [REQ] Cycle: 289	Occupancy: 11	Queue: 2
 [REQ] Cycle: 305	Occupancy: 12	Queue: 2
@@ -2843,7 +2847,7 @@ Setting up the minimum score
 [REQ] Cycle: 52723	Occupancy: 15	Queue: 3
 [REQ] Cycle: 52724	Occupancy: 15	Queue: 3
 Instructions Retired: 100001 Cycle: 52783 Hearbeat IPC: 1.894568 Cumulative IPC: 1.894568
-Cycle: 52783	Best offset: 1	Score: 63	Hit Rate: 0.653112
+Cycle: 52783	Best offset: 1	Score: 15	Hit Rate: 0.653112
 	---- Offset table ----
 Offset -> Score
 16 -> 33
@@ -5552,7 +5556,7 @@ Offset -> Score
 [REQ] Cycle: 100873	Occupancy: 16	Queue: 7
 [REQ] Cycle: 100885	Occupancy: 15	Queue: 5
 Instructions Retired: 200000 Cycle: 101400 Hearbeat IPC: 2.056873 Cumulative IPC: 1.972387
-Cycle: 101400	Best offset: 1	Score: 63	Hit Rate: 0.687410
+Cycle: 101400	Best offset: 1	Score: 15	Hit Rate: 0.687410
 	---- Offset table ----
 Offset -> Score
 1 -> 63
@@ -86306,6 +86310,6 @@ Offset -> Score
 [REQ] Cycle: 2283359	Occupancy: 5	Queue: 1
 [REQ] Cycle: 2283373	Occupancy: 5	Queue: 1
 
-Simulation complete. Instructions retired: 3099753 Cycles elapsed: 2283392 IPC: 1.357521
+Simulation complete. Instructions retired: 3099749 Cycles elapsed: 2283159 IPC: 1.357658
 
 Prefetcher final stats
