@@ -470,10 +470,10 @@ Instructions Retired: 100001 Cycle: 38156 Hearbeat IPC: 2.620846 Cumulative IPC:
 Cycle: 38156	Best offset: 1	Score: 1	Hit Rate: 0.560268
 	---- Offset table ----
 Offset -> Score
--33 -> 3
--22 -> 3
--4 -> 3
--3 -> 3
+-39 -> 5
+8 -> 5
+33 -> 5
+-29 -> 4
 	----------------------
 [REQ] Cycle: 38374	Occupancy: 0	Queue: 2
 [REQ] Cycle: 38377	Occupancy: 0	Queue: 2
@@ -771,10 +771,10 @@ Instructions Retired: 200002 Cycle: 67142 Hearbeat IPC: 3.449976 Cumulative IPC:
 Cycle: 67142	Best offset: 1	Score: 1	Hit Rate: 0.733784
 	---- Offset table ----
 Offset -> Score
--96 -> 4
--78 -> 4
--32 -> 4
--31 -> 4
+33 -> 7
+-6 -> 6
+-42 -> 5
+-39 -> 5
 	----------------------
 [REQ] Cycle: 67147	Occupancy: 0	Queue: 0
 [REQ] Cycle: 67189	Occupancy: 0	Queue: 1
@@ -1068,10 +1068,10 @@ Instructions Retired: 300001 Cycle: 95810 Hearbeat IPC: 3.488175 Cumulative IPC:
 Cycle: 95810	Best offset: 1	Score: 1	Hit Rate: 0.808366
 	---- Offset table ----
 Offset -> Score
-33 -> 6
--60 -> 5
--110 -> 4
--104 -> 4
+33 -> 9
+1 -> 8
+-42 -> 7
+-32 -> 6
 	----------------------
 [REQ] Cycle: 96205	Occupancy: 0	Queue: 1
 [REQ] Cycle: 96298	Occupancy: 0	Queue: 0
@@ -1366,10 +1366,10 @@ Instructions Retired: 400000 Cycle: 124644 Hearbeat IPC: 3.468093 Cumulative IPC
 Cycle: 124644	Best offset: 1	Score: 1	Hit Rate: 0.850418
 	---- Offset table ----
 Offset -> Score
-33 -> 8
--32 -> 6
--31 -> 6
--30 -> 6
+33 -> 13
+1 -> 10
+-42 -> 9
+2 -> 8
 	----------------------
 [REQ] Cycle: 124797	Occupancy: 0	Queue: 1
 [REQ] Cycle: 124883	Occupancy: 0	Queue: 0
@@ -1661,10 +1661,10 @@ Instructions Retired: 500003 Cycle: 153399 Hearbeat IPC: 3.477760 Cumulative IPC
 Cycle: 153399	Best offset: 1	Score: 1	Hit Rate: 0.877105
 	---- Offset table ----
 Offset -> Score
-33 -> 8
--96 -> 6
--35 -> 6
--32 -> 6
+33 -> 15
+1 -> 14
+30 -> 10
+32 -> 10
 	----------------------
 [REQ] Cycle: 153492	Occupancy: 0	Queue: 1
 [REQ] Cycle: 154079	Occupancy: 0	Queue: 1
@@ -1953,10 +1953,10 @@ Instructions Retired: 600001 Cycle: 182384 Hearbeat IPC: 3.449991 Cumulative IPC
 Cycle: 182384	Best offset: 1	Score: 1	Hit Rate: 0.895546
 	---- Offset table ----
 Offset -> Score
-33 -> 10
--96 -> 8
--35 -> 8
--32 -> 8
+33 -> 19
+1 -> 16
+-32 -> 12
+30 -> 12
 	----------------------
 [REQ] Cycle: 182701	Occupancy: 0	Queue: 1
 [REQ] Cycle: 182753	Occupancy: 0	Queue: 1
@@ -2260,10 +2260,10 @@ Instructions Retired: 700000 Cycle: 211351 Hearbeat IPC: 3.452170 Cumulative IPC
 Cycle: 211351	Best offset: 1	Score: 1	Hit Rate: 0.909799
 	---- Offset table ----
 Offset -> Score
--32 -> 10
--31 -> 10
-33 -> 10
--3 -> 9
+33 -> 19
+-32 -> 16
+1 -> 16
+32 -> 14
 	----------------------
 [REQ] Cycle: 211903	Occupancy: 0	Queue: 1
 [REQ] Cycle: 211985	Occupancy: 0	Queue: 1
@@ -2519,10 +2519,10 @@ Instructions Retired: 800001 Cycle: 240177 Hearbeat IPC: 3.469125 Cumulative IPC
 Cycle: 240177	Best offset: 1	Score: 1	Hit Rate: 0.919063
 	---- Offset table ----
 Offset -> Score
--32 -> 12
--31 -> 12
-1 -> 10
-33 -> 10
+33 -> 19
+-32 -> 18
+1 -> 18
+32 -> 14
 	----------------------
 [REQ] Cycle: 240492	Occupancy: 0	Queue: 1
 [REQ] Cycle: 240573	Occupancy: 0	Queue: 5
@@ -2794,10 +2794,10 @@ Instructions Retired: 900003 Cycle: 269007 Hearbeat IPC: 3.468678 Cumulative IPC
 Cycle: 269007	Best offset: 1	Score: 1	Hit Rate: 0.926667
 	---- Offset table ----
 Offset -> Score
--32 -> 12
--31 -> 12
-1 -> 12
-33 -> 12
+33 -> 23
+-32 -> 20
+1 -> 20
+-2 -> 17
 	----------------------
 [REQ] Cycle: 269015	Occupancy: 0	Queue: 1
 [REQ] Cycle: 269026	Occupancy: 0	Queue: 6
@@ -3086,10 +3086,10 @@ Instructions Retired: 1000004 Cycle: 297781 Hearbeat IPC: 3.475394 Cumulative IP
 Cycle: 297781	Best offset: 1	Score: 1	Hit Rate: 0.933624
 	---- Offset table ----
 Offset -> Score
--32 -> 16
--31 -> 14
-1 -> 14
-33 -> 14
+33 -> 25
+1 -> 24
+-32 -> 20
+-2 -> 19
 	----------------------
 [REQ] Cycle: 297794	Occupancy: 0	Queue: 1
 [REQ] Cycle: 298508	Occupancy: 0	Queue: 1
@@ -3325,10 +3325,10 @@ Instructions Retired: 1100000 Cycle: 326833 Hearbeat IPC: 3.441966 Cumulative IP
 Cycle: 326833	Best offset: 1	Score: 1	Hit Rate: 0.938375
 	---- Offset table ----
 Offset -> Score
--32 -> 16
--31 -> 14
-1 -> 14
-33 -> 14
+1 -> 26
+33 -> 25
+-32 -> 20
+3 -> 20
 	----------------------
 [REQ] Cycle: 327073	Occupancy: 0	Queue: 1
 [REQ] Cycle: 327195	Occupancy: 0	Queue: 1
@@ -3556,10 +3556,10 @@ Instructions Retired: 1200002 Cycle: 355660 Hearbeat IPC: 3.469039 Cumulative IP
 Cycle: 355660	Best offset: 1	Score: 1	Hit Rate: 0.942358
 	---- Offset table ----
 Offset -> Score
--32 -> 18
--31 -> 16
-1 -> 16
-33 -> 16
+1 -> 28
+33 -> 27
+-32 -> 22
+3 -> 20
 	----------------------
 [REQ] Cycle: 355693	Occupancy: 0	Queue: 1
 [REQ] Cycle: 356129	Occupancy: 0	Queue: 0
@@ -3788,10 +3788,10 @@ Instructions Retired: 1300000 Cycle: 384699 Hearbeat IPC: 3.443576 Cumulative IP
 Cycle: 384699	Best offset: 1	Score: 1	Hit Rate: 0.945872
 	---- Offset table ----
 Offset -> Score
--32 -> 18
--31 -> 16
-1 -> 16
-33 -> 16
+33 -> 29
+1 -> 28
+-32 -> 24
+3 -> 22
 	----------------------
 [REQ] Cycle: 384776	Occupancy: 0	Queue: 0
 [REQ] Cycle: 385595	Occupancy: 0	Queue: 1
@@ -4036,10 +4036,10 @@ Instructions Retired: 1400005 Cycle: 413751 Hearbeat IPC: 3.442276 Cumulative IP
 Cycle: 413751	Best offset: 1	Score: 1	Hit Rate: 0.949192
 	---- Offset table ----
 Offset -> Score
--32 -> 18
--31 -> 16
-1 -> 16
-33 -> 16
+33 -> 29
+1 -> 28
+32 -> 26
+-32 -> 24
 	----------------------
 [REQ] Cycle: 414173	Occupancy: 0	Queue: 1
 [REQ] Cycle: 414388	Occupancy: 0	Queue: 1
@@ -4274,10 +4274,10 @@ Instructions Retired: 1500004 Cycle: 442732 Hearbeat IPC: 3.450502 Cumulative IP
 Cycle: 442732	Best offset: 1	Score: 1	Hit Rate: 0.952012
 	---- Offset table ----
 Offset -> Score
--32 -> 18
--31 -> 16
-1 -> 16
-33 -> 16
+33 -> 31
+-32 -> 28
+1 -> 28
+32 -> 28
 	----------------------
 [REQ] Cycle: 442908	Occupancy: 0	Queue: 1
 [REQ] Cycle: 443164	Occupancy: 0	Queue: 1
@@ -4503,10 +4503,10 @@ Instructions Retired: 1600005 Cycle: 471777 Hearbeat IPC: 3.442968 Cumulative IP
 Cycle: 471777	Best offset: 1	Score: 1	Hit Rate: 0.954441
 	---- Offset table ----
 Offset -> Score
--32 -> 18
--31 -> 16
-1 -> 16
-33 -> 16
+33 -> 31
+-32 -> 28
+1 -> 28
+32 -> 28
 	----------------------
 [REQ] Cycle: 471798	Occupancy: 0	Queue: 1
 [REQ] Cycle: 471838	Occupancy: 0	Queue: 3
@@ -4745,10 +4745,10 @@ Instructions Retired: 1700002 Cycle: 500898 Hearbeat IPC: 3.433845 Cumulative IP
 Cycle: 500898	Best offset: 1	Score: 1	Hit Rate: 0.956759
 	---- Offset table ----
 Offset -> Score
--32 -> 20
-1 -> 18
--31 -> 16
-33 -> 16
+1 -> 32
+33 -> 31
+-32 -> 30
+32 -> 28
 	----------------------
 [REQ] Cycle: 501098	Occupancy: 0	Queue: 3
 [REQ] Cycle: 501099	Occupancy: 0	Queue: 3
@@ -4976,10 +4976,10 @@ Instructions Retired: 1800004 Cycle: 530017 Hearbeat IPC: 3.434253 Cumulative IP
 Cycle: 530017	Best offset: 1	Score: 1	Hit Rate: 0.958759
 	---- Offset table ----
 Offset -> Score
--32 -> 22
-1 -> 18
--3 -> 17
--31 -> 16
+1 -> 34
+33 -> 33
+-32 -> 30
+32 -> 30
 	----------------------
 [REQ] Cycle: 530679	Occupancy: 0	Queue: 0
 [REQ] Cycle: 530689	Occupancy: 0	Queue: 0
@@ -5202,10 +5202,10 @@ Instructions Retired: 1900001 Cycle: 558988 Hearbeat IPC: 3.451624 Cumulative IP
 Cycle: 558988	Best offset: 1	Score: 1	Hit Rate: 0.960542
 	---- Offset table ----
 Offset -> Score
--32 -> 22
-1 -> 18
--3 -> 17
--31 -> 16
+1 -> 34
+33 -> 33
+32 -> 32
+-32 -> 30
 	----------------------
 [REQ] Cycle: 559412	Occupancy: 0	Queue: 0
 [REQ] Cycle: 559604	Occupancy: 0	Queue: 1
@@ -5431,10 +5431,10 @@ Instructions Retired: 2000005 Cycle: 588035 Hearbeat IPC: 3.442834 Cumulative IP
 Cycle: 588035	Best offset: 1	Score: 1	Hit Rate: 0.962199
 	---- Offset table ----
 Offset -> Score
--32 -> 24
-1 -> 20
--3 -> 17
--96 -> 16
+1 -> 36
+33 -> 33
+-32 -> 32
+-31 -> 32
 	----------------------
 [REQ] Cycle: 588127	Occupancy: 0	Queue: 0
 [REQ] Cycle: 588137	Occupancy: 0	Queue: 0
@@ -5683,10 +5683,10 @@ Instructions Retired: 2100001 Cycle: 617285 Hearbeat IPC: 3.418667 Cumulative IP
 Cycle: 617285	Best offset: 1	Score: 1	Hit Rate: 0.963693
 	---- Offset table ----
 Offset -> Score
--32 -> 24
-1 -> 20
--3 -> 19
--31 -> 18
+-31 -> 36
+1 -> 36
+-32 -> 34
+33 -> 33
 	----------------------
 [REQ] Cycle: 617637	Occupancy: 0	Queue: 1
 [REQ] Cycle: 617792	Occupancy: 0	Queue: 1
@@ -5967,10 +5967,10 @@ Instructions Retired: 2200005 Cycle: 646559 Hearbeat IPC: 3.416137 Cumulative IP
 Cycle: 646559	Best offset: 1	Score: 1	Hit Rate: 0.965427
 	---- Offset table ----
 Offset -> Score
--32 -> 26
-1 -> 22
--3 -> 19
--31 -> 18
+-31 -> 40
+-32 -> 38
+1 -> 38
+33 -> 33
 	----------------------
 [REQ] Cycle: 646755	Occupancy: 0	Queue: 1
 [REQ] Cycle: 646759	Occupancy: 0	Queue: 1
@@ -6200,10 +6200,10 @@ Instructions Retired: 2300004 Cycle: 675634 Hearbeat IPC: 3.439347 Cumulative IP
 Cycle: 675634	Best offset: 1	Score: 1	Hit Rate: 0.966555
 	---- Offset table ----
 Offset -> Score
--32 -> 26
-1 -> 22
--1 -> 20
--3 -> 19
+-32 -> 40
+-31 -> 40
+1 -> 40
+32 -> 36
 	----------------------
 [REQ] Cycle: 676344	Occupancy: 0	Queue: 5
 [REQ] Cycle: 676347	Occupancy: 0	Queue: 5
@@ -6406,10 +6406,10 @@ Instructions Retired: 2400002 Cycle: 704726 Hearbeat IPC: 3.437302 Cumulative IP
 Cycle: 704726	Best offset: 1	Score: 1	Hit Rate: 0.967622
 	---- Offset table ----
 Offset -> Score
--32 -> 26
--1 -> 22
-1 -> 22
-32 -> 20
+-31 -> 42
+-32 -> 40
+1 -> 40
+32 -> 40
 	----------------------
 [REQ] Cycle: 705172	Occupancy: 0	Queue: 1
 [REQ] Cycle: 705266	Occupancy: 0	Queue: 6
@@ -6630,10 +6630,10 @@ Instructions Retired: 2500003 Cycle: 734724 Hearbeat IPC: 3.333589 Cumulative IP
 Cycle: 734724	Best offset: 1	Score: 1	Hit Rate: 0.967772
 	---- Offset table ----
 Offset -> Score
--32 -> 26
--1 -> 22
-1 -> 22
--96 -> 20
+-32 -> 44
+-31 -> 44
+1 -> 42
+32 -> 40
 	----------------------
 [REQ] Cycle: 735128	Occupancy: 0	Queue: 5
 [REQ] Cycle: 735129	Occupancy: 0	Queue: 5
@@ -6642,1520 +6642,1208 @@ Offset -> Score
 [REQ] Cycle: 735143	Occupancy: 0	Queue: 1
 [REQ] Cycle: 735167	Occupancy: 0	Queue: 2
 [REQ] Cycle: 735170	Occupancy: 0	Queue: 2
+Offset switch to: -32	With score: 44
 [REQ] Cycle: 735183	Occupancy: 0	Queue: 3
 [REQ] Cycle: 735184	Occupancy: 0	Queue: 3
-[REQ] Cycle: 735187	Occupancy: 0	Queue: 3
-[REQ] Cycle: 735198	Occupancy: 0	Queue: 1
-[REQ] Cycle: 735228	Occupancy: 1	Queue: 1
-[REQ] Cycle: 735239	Occupancy: 1	Queue: 0
-[REQ] Cycle: 735261	Occupancy: 1	Queue: 1
-[REQ] Cycle: 735289	Occupancy: 0	Queue: 1
-[REQ] Cycle: 735392	Occupancy: 0	Queue: 1
-[REQ] Cycle: 735444	Occupancy: 0	Queue: 1
-[REQ] Cycle: 736153	Occupancy: 0	Queue: 1
-[REQ] Cycle: 736188	Occupancy: 0	Queue: 1
-[REQ] Cycle: 736291	Occupancy: 0	Queue: 1
-[REQ] Cycle: 736718	Occupancy: 0	Queue: 0
-[REQ] Cycle: 737479	Occupancy: 0	Queue: 1
-[REQ] Cycle: 737700	Occupancy: 0	Queue: 1
-[REQ] Cycle: 737970	Occupancy: 0	Queue: 1
-[REQ] Cycle: 738006	Occupancy: 0	Queue: 3
-[REQ] Cycle: 738010	Occupancy: 0	Queue: 2
-[REQ] Cycle: 738011	Occupancy: 0	Queue: 2
-[REQ] Cycle: 738079	Occupancy: 0	Queue: 1
-[REQ] Cycle: 738128	Occupancy: 0	Queue: 4
-[REQ] Cycle: 738129	Occupancy: 0	Queue: 4
-[REQ] Cycle: 738130	Occupancy: 0	Queue: 4
-[REQ] Cycle: 738131	Occupancy: 0	Queue: 4
-[REQ] Cycle: 738501	Occupancy: 0	Queue: 2
-[REQ] Cycle: 738508	Occupancy: 0	Queue: 2
-[REQ] Cycle: 738587	Occupancy: 0	Queue: 1
-[REQ] Cycle: 738610	Occupancy: 0	Queue: 2
-[REQ] Cycle: 738618	Occupancy: 0	Queue: 1
-[REQ] Cycle: 738648	Occupancy: 0	Queue: 1
-[REQ] Cycle: 738835	Occupancy: 0	Queue: 1
-[REQ] Cycle: 739187	Occupancy: 0	Queue: 1
-[REQ] Cycle: 739340	Occupancy: 0	Queue: 0
-[REQ] Cycle: 739350	Occupancy: 0	Queue: 0
-[REQ] Cycle: 739543	Occupancy: 0	Queue: 1
-[REQ] Cycle: 740127	Occupancy: 0	Queue: 1
-[REQ] Cycle: 740131	Occupancy: 0	Queue: 1
-[REQ] Cycle: 740206	Occupancy: 0	Queue: 1
-[REQ] Cycle: 740762	Occupancy: 0	Queue: 1
-[REQ] Cycle: 740852	Occupancy: 0	Queue: 5
-[REQ] Cycle: 740853	Occupancy: 0	Queue: 5
-[REQ] Cycle: 740854	Occupancy: 0	Queue: 5
-[REQ] Cycle: 740856	Occupancy: 0	Queue: 5
-[REQ] Cycle: 740881	Occupancy: 0	Queue: 2
-[REQ] Cycle: 740892	Occupancy: 0	Queue: 2
-[REQ] Cycle: 740894	Occupancy: 0	Queue: 2
-[REQ] Cycle: 740935	Occupancy: 0	Queue: 3
-[REQ] Cycle: 740936	Occupancy: 0	Queue: 3
-[REQ] Cycle: 740939	Occupancy: 0	Queue: 3
-[REQ] Cycle: 740961	Occupancy: 0	Queue: 2
-[REQ] Cycle: 740977	Occupancy: 0	Queue: 2
-[REQ] Cycle: 740986	Occupancy: 0	Queue: 1
-[REQ] Cycle: 741008	Occupancy: 0	Queue: 1
-[REQ] Cycle: 741019	Occupancy: 0	Queue: 1
-[REQ] Cycle: 741039	Occupancy: 0	Queue: 1
-[REQ] Cycle: 741150	Occupancy: 0	Queue: 1
-[REQ] Cycle: 741204	Occupancy: 0	Queue: 2
-[REQ] Cycle: 741208	Occupancy: 0	Queue: 2
-[REQ] Cycle: 741904	Occupancy: 0	Queue: 1
-[REQ] Cycle: 741941	Occupancy: 0	Queue: 1
-[REQ] Cycle: 742099	Occupancy: 0	Queue: 1
-[REQ] Cycle: 742484	Occupancy: 0	Queue: 0
-[REQ] Cycle: 743275	Occupancy: 0	Queue: 1
-[REQ] Cycle: 743496	Occupancy: 0	Queue: 1
-[REQ] Cycle: 743767	Occupancy: 0	Queue: 1
-[REQ] Cycle: 743806	Occupancy: 0	Queue: 3
-[REQ] Cycle: 743809	Occupancy: 0	Queue: 2
-[REQ] Cycle: 743810	Occupancy: 0	Queue: 2
-[REQ] Cycle: 743835	Occupancy: 0	Queue: 1
-[REQ] Cycle: 743879	Occupancy: 0	Queue: 1
-[REQ] Cycle: 743927	Occupancy: 0	Queue: 4
-[REQ] Cycle: 743928	Occupancy: 0	Queue: 4
-[REQ] Cycle: 743929	Occupancy: 0	Queue: 4
-[REQ] Cycle: 743930	Occupancy: 0	Queue: 4
-[REQ] Cycle: 743976	Occupancy: 0	Queue: 1
-[REQ] Cycle: 744297	Occupancy: 0	Queue: 2
-[REQ] Cycle: 744303	Occupancy: 0	Queue: 2
-[REQ] Cycle: 744333	Occupancy: 0	Queue: 1
-[REQ] Cycle: 744350	Occupancy: 0	Queue: 1
-[REQ] Cycle: 744366	Occupancy: 0	Queue: 2
-[REQ] Cycle: 744368	Occupancy: 0	Queue: 2
-[REQ] Cycle: 744383	Occupancy: 0	Queue: 2
-[REQ] Cycle: 744386	Occupancy: 0	Queue: 3
-[REQ] Cycle: 744395	Occupancy: 0	Queue: 1
-[REQ] Cycle: 744610	Occupancy: 0	Queue: 1
-[REQ] Cycle: 744975	Occupancy: 0	Queue: 1
-[REQ] Cycle: 745039	Occupancy: 0	Queue: 1
-[REQ] Cycle: 745071	Occupancy: 0	Queue: 1
-[REQ] Cycle: 745129	Occupancy: 0	Queue: 0
-[REQ] Cycle: 745350	Occupancy: 0	Queue: 1
-[REQ] Cycle: 745940	Occupancy: 0	Queue: 1
-[REQ] Cycle: 745944	Occupancy: 0	Queue: 1
-[REQ] Cycle: 745991	Occupancy: 0	Queue: 1
-[REQ] Cycle: 746584	Occupancy: 0	Queue: 1
-[REQ] Cycle: 746661	Occupancy: 0	Queue: 1
-[REQ] Cycle: 746673	Occupancy: 0	Queue: 5
-[REQ] Cycle: 746674	Occupancy: 0	Queue: 5
-[REQ] Cycle: 746675	Occupancy: 0	Queue: 5
-[REQ] Cycle: 746676	Occupancy: 0	Queue: 5
-[REQ] Cycle: 746692	Occupancy: 0	Queue: 1
-[REQ] Cycle: 746703	Occupancy: 0	Queue: 1
-[REQ] Cycle: 746714	Occupancy: 0	Queue: 2
-[REQ] Cycle: 746715	Occupancy: 0	Queue: 2
-[REQ] Cycle: 746728	Occupancy: 0	Queue: 1
-[REQ] Cycle: 746751	Occupancy: 0	Queue: 3
-[REQ] Cycle: 746752	Occupancy: 0	Queue: 3
-[REQ] Cycle: 746758	Occupancy: 0	Queue: 3
-[REQ] Cycle: 746779	Occupancy: 0	Queue: 1
-[REQ] Cycle: 746790	Occupancy: 0	Queue: 1
-[REQ] Cycle: 746810	Occupancy: 0	Queue: 0
-[REQ] Cycle: 746823	Occupancy: 0	Queue: 1
-[REQ] Cycle: 746861	Occupancy: 0	Queue: 2
-[REQ] Cycle: 746864	Occupancy: 0	Queue: 2
-[REQ] Cycle: 746964	Occupancy: 0	Queue: 1
-[REQ] Cycle: 747022	Occupancy: 0	Queue: 1
-[REQ] Cycle: 747731	Occupancy: 0	Queue: 1
-[REQ] Cycle: 747768	Occupancy: 0	Queue: 1
-[REQ] Cycle: 747870	Occupancy: 0	Queue: 1
-[REQ] Cycle: 748314	Occupancy: 0	Queue: 0
-[REQ] Cycle: 749091	Occupancy: 0	Queue: 1
-[REQ] Cycle: 749310	Occupancy: 0	Queue: 1
-[REQ] Cycle: 749578	Occupancy: 0	Queue: 1
-[REQ] Cycle: 749614	Occupancy: 0	Queue: 3
-[REQ] Cycle: 749619	Occupancy: 0	Queue: 2
-[REQ] Cycle: 749620	Occupancy: 0	Queue: 2
-[REQ] Cycle: 749687	Occupancy: 0	Queue: 1
-[REQ] Cycle: 749736	Occupancy: 0	Queue: 3
-[REQ] Cycle: 749737	Occupancy: 0	Queue: 3
-[REQ] Cycle: 749739	Occupancy: 0	Queue: 3
-[REQ] Cycle: 750121	Occupancy: 0	Queue: 2
-[REQ] Cycle: 750123	Occupancy: 0	Queue: 2
-[REQ] Cycle: 750143	Occupancy: 0	Queue: 1
-[REQ] Cycle: 750186	Occupancy: 0	Queue: 1
-[REQ] Cycle: 750209	Occupancy: 0	Queue: 2
-[REQ] Cycle: 750215	Occupancy: 0	Queue: 1
-[REQ] Cycle: 750442	Occupancy: 0	Queue: 1
-[REQ] Cycle: 750768	Occupancy: 0	Queue: 1
-[REQ] Cycle: 750794	Occupancy: 0	Queue: 1
-[REQ] Cycle: 750945	Occupancy: 0	Queue: 0
-[REQ] Cycle: 751133	Occupancy: 0	Queue: 1
-[REQ] Cycle: 751722	Occupancy: 0	Queue: 1
-[REQ] Cycle: 751726	Occupancy: 0	Queue: 1
-[REQ] Cycle: 751779	Occupancy: 0	Queue: 1
-[REQ] Cycle: 752435	Occupancy: 0	Queue: 5
-[REQ] Cycle: 752436	Occupancy: 0	Queue: 5
-[REQ] Cycle: 752437	Occupancy: 0	Queue: 5
-[REQ] Cycle: 752438	Occupancy: 0	Queue: 5
-[REQ] Cycle: 752468	Occupancy: 0	Queue: 3
-[REQ] Cycle: 752473	Occupancy: 0	Queue: 3
-[REQ] Cycle: 752475	Occupancy: 0	Queue: 3
-[REQ] Cycle: 752501	Occupancy: 0	Queue: 2
-[REQ] Cycle: 752506	Occupancy: 0	Queue: 3
-[REQ] Cycle: 752512	Occupancy: 0	Queue: 2
-[REQ] Cycle: 752534	Occupancy: 0	Queue: 1
-[REQ] Cycle: 752546	Occupancy: 0	Queue: 2
-[REQ] Cycle: 752549	Occupancy: 0	Queue: 1
-[REQ] Cycle: 752574	Occupancy: 0	Queue: 1
-[REQ] Cycle: 752601	Occupancy: 0	Queue: 1
-[REQ] Cycle: 752713	Occupancy: 0	Queue: 1
-[REQ] Cycle: 752768	Occupancy: 0	Queue: 2
-[REQ] Cycle: 752769	Occupancy: 0	Queue: 2
-[REQ] Cycle: 753472	Occupancy: 0	Queue: 1
-[REQ] Cycle: 753507	Occupancy: 0	Queue: 1
-[REQ] Cycle: 753610	Occupancy: 0	Queue: 1
-[REQ] Cycle: 754050	Occupancy: 0	Queue: 0
-[REQ] Cycle: 754852	Occupancy: 0	Queue: 1
-[REQ] Cycle: 755052	Occupancy: 0	Queue: 1
-[REQ] Cycle: 755308	Occupancy: 0	Queue: 1
-[REQ] Cycle: 755338	Occupancy: 0	Queue: 1
-[REQ] Cycle: 755350	Occupancy: 0	Queue: 1
-[REQ] Cycle: 755351	Occupancy: 0	Queue: 1
-[REQ] Cycle: 755412	Occupancy: 0	Queue: 1
-[REQ] Cycle: 755462	Occupancy: 0	Queue: 2
-[REQ] Cycle: 755463	Occupancy: 0	Queue: 2
-[REQ] Cycle: 755838	Occupancy: 0	Queue: 2
-[REQ] Cycle: 755839	Occupancy: 0	Queue: 2
-[REQ] Cycle: 755864	Occupancy: 0	Queue: 1
-[REQ] Cycle: 755911	Occupancy: 0	Queue: 1
-[REQ] Cycle: 755935	Occupancy: 0	Queue: 2
-[REQ] Cycle: 755940	Occupancy: 0	Queue: 1
-[REQ] Cycle: 756184	Occupancy: 0	Queue: 1
-[REQ] Cycle: 756502	Occupancy: 0	Queue: 1
-[REQ] Cycle: 756525	Occupancy: 0	Queue: 1
-[REQ] Cycle: 756589	Occupancy: 0	Queue: 1
-[REQ] Cycle: 756680	Occupancy: 0	Queue: 0
-[REQ] Cycle: 756690	Occupancy: 0	Queue: 0
-[REQ] Cycle: 756872	Occupancy: 0	Queue: 1
-[REQ] Cycle: 757461	Occupancy: 0	Queue: 1
-[REQ] Cycle: 757465	Occupancy: 0	Queue: 1
-[REQ] Cycle: 757517	Occupancy: 0	Queue: 1
-[REQ] Cycle: 758178	Occupancy: 0	Queue: 1
-[REQ] Cycle: 758190	Occupancy: 0	Queue: 4
-[REQ] Cycle: 758192	Occupancy: 0	Queue: 4
-[REQ] Cycle: 758193	Occupancy: 0	Queue: 4
-[REQ] Cycle: 758208	Occupancy: 0	Queue: 2
-[REQ] Cycle: 758210	Occupancy: 0	Queue: 2
-[REQ] Cycle: 758233	Occupancy: 0	Queue: 3
-[REQ] Cycle: 758235	Occupancy: 0	Queue: 3
-[REQ] Cycle: 758236	Occupancy: 0	Queue: 3
-[REQ] Cycle: 758260	Occupancy: 0	Queue: 2
-[REQ] Cycle: 758264	Occupancy: 0	Queue: 2
-[REQ] Cycle: 758275	Occupancy: 0	Queue: 3
-[REQ] Cycle: 758276	Occupancy: 0	Queue: 3
-[REQ] Cycle: 758297	Occupancy: 1	Queue: 2
-[REQ] Cycle: 758298	Occupancy: 1	Queue: 2
-[REQ] Cycle: 758310	Occupancy: 1	Queue: 0
-[REQ] Cycle: 758337	Occupancy: 1	Queue: 2
-[REQ] Cycle: 758342	Occupancy: 1	Queue: 2
-[REQ] Cycle: 758353	Occupancy: 1	Queue: 2
-[REQ] Cycle: 758360	Occupancy: 1	Queue: 2
-[REQ] Cycle: 758466	Occupancy: 0	Queue: 1
-[REQ] Cycle: 758525	Occupancy: 0	Queue: 2
-[REQ] Cycle: 758527	Occupancy: 0	Queue: 2
-[REQ] Cycle: 759230	Occupancy: 0	Queue: 1
-[REQ] Cycle: 759265	Occupancy: 0	Queue: 1
-[REQ] Cycle: 759369	Occupancy: 0	Queue: 1
-[REQ] Cycle: 759808	Occupancy: 0	Queue: 0
-[REQ] Cycle: 760594	Occupancy: 0	Queue: 1
-[REQ] Cycle: 760813	Occupancy: 0	Queue: 1
-[REQ] Cycle: 761082	Occupancy: 0	Queue: 1
-[REQ] Cycle: 761120	Occupancy: 0	Queue: 3
-[REQ] Cycle: 761123	Occupancy: 0	Queue: 2
-[REQ] Cycle: 761124	Occupancy: 0	Queue: 2
-[REQ] Cycle: 761149	Occupancy: 0	Queue: 1
-[REQ] Cycle: 761181	Occupancy: 0	Queue: 1
-[REQ] Cycle: 761231	Occupancy: 0	Queue: 3
-[REQ] Cycle: 761232	Occupancy: 0	Queue: 3
-[REQ] Cycle: 761234	Occupancy: 0	Queue: 3
-[REQ] Cycle: 761605	Occupancy: 0	Queue: 2
-[REQ] Cycle: 761608	Occupancy: 0	Queue: 2
-[REQ] Cycle: 761637	Occupancy: 0	Queue: 1
-[REQ] Cycle: 761666	Occupancy: 0	Queue: 1
-[REQ] Cycle: 761685	Occupancy: 0	Queue: 2
-[REQ] Cycle: 761686	Occupancy: 0	Queue: 2
-[REQ] Cycle: 761701	Occupancy: 0	Queue: 3
-[REQ] Cycle: 761702	Occupancy: 0	Queue: 3
-[REQ] Cycle: 761710	Occupancy: 0	Queue: 2
-[REQ] Cycle: 761853	Occupancy: 0	Queue: 1
-[REQ] Cycle: 761956	Occupancy: 0	Queue: 1
-[REQ] Cycle: 762278	Occupancy: 0	Queue: 1
-[REQ] Cycle: 762304	Occupancy: 0	Queue: 2
-[REQ] Cycle: 762313	Occupancy: 0	Queue: 2
-[REQ] Cycle: 762376	Occupancy: 0	Queue: 1
-[REQ] Cycle: 762468	Occupancy: 0	Queue: 0
-[REQ] Cycle: 762662	Occupancy: 0	Queue: 1
-[REQ] Cycle: 763237	Occupancy: 0	Queue: 1
-[REQ] Cycle: 763241	Occupancy: 0	Queue: 1
-[REQ] Cycle: 763293	Occupancy: 0	Queue: 1
-Instructions Retired: 2600000 Cycle: 763828 Hearbeat IPC: 3.435851 Cumulative IPC: 3.403908
-Cycle: 763828	Best offset: 1	Score: 1	Hit Rate: 0.969013
+[REQ] Cycle: 735187	Occupancy: 0	Queue: 2
+[REQ] Cycle: 735197	Occupancy: 1	Queue: 0
+[REQ] Cycle: 735208	Occupancy: 1	Queue: 1
+[REQ] Cycle: 735233	Occupancy: 1	Queue: 2
+[REQ] Cycle: 735238	Occupancy: 1	Queue: 2
+[REQ] Cycle: 735261	Occupancy: 3	Queue: 0
+[REQ] Cycle: 735288	Occupancy: 3	Queue: 1
+[REQ] Cycle: 735395	Occupancy: 3	Queue: 1
+[REQ] Cycle: 735447	Occupancy: 2	Queue: 1
+[REQ] Cycle: 736154	Occupancy: 0	Queue: 0
+[REQ] Cycle: 736189	Occupancy: 0	Queue: 0
+[REQ] Cycle: 736292	Occupancy: 0	Queue: 0
+[REQ] Cycle: 736351	Occupancy: 0	Queue: 0
+[REQ] Cycle: 736738	Occupancy: 0	Queue: 1
+[REQ] Cycle: 737524	Occupancy: 0	Queue: 1
+[REQ] Cycle: 737745	Occupancy: 0	Queue: 0
+[REQ] Cycle: 738017	Occupancy: 0	Queue: 0
+[REQ] Cycle: 738054	Occupancy: 0	Queue: 2
+[REQ] Cycle: 738057	Occupancy: 0	Queue: 1
+[REQ] Cycle: 738058	Occupancy: 0	Queue: 0
+[REQ] Cycle: 738127	Occupancy: 0	Queue: 1
+[REQ] Cycle: 738179	Occupancy: 1	Queue: 2
+[REQ] Cycle: 738180	Occupancy: 1	Queue: 1
+[REQ] Cycle: 738182	Occupancy: 1	Queue: 0
+[REQ] Cycle: 738554	Occupancy: 0	Queue: 1
+[REQ] Cycle: 738556	Occupancy: 0	Queue: 1
+[REQ] Cycle: 738598	Occupancy: 1	Queue: 1
+[REQ] Cycle: 738665	Occupancy: 2	Queue: 2
+[REQ] Cycle: 738672	Occupancy: 2	Queue: 2
+[REQ] Cycle: 738757	Occupancy: 3	Queue: 1
+[REQ] Cycle: 738904	Occupancy: 1	Queue: 0
+[REQ] Cycle: 739253	Occupancy: 0	Queue: 0
+[REQ] Cycle: 739409	Occupancy: 0	Queue: 1
+[REQ] Cycle: 739606	Occupancy: 0	Queue: 0
+[REQ] Cycle: 740182	Occupancy: 0	Queue: 2
+[REQ] Cycle: 740186	Occupancy: 0	Queue: 2
+[REQ] Cycle: 740260	Occupancy: 1	Queue: 1
+[REQ] Cycle: 740829	Occupancy: 0	Queue: 0
+[REQ] Cycle: 740921	Occupancy: 0	Queue: 5
+[REQ] Cycle: 740922	Occupancy: 0	Queue: 5
+[REQ] Cycle: 740923	Occupancy: 0	Queue: 5
+[REQ] Cycle: 740924	Occupancy: 0	Queue: 5
+[REQ] Cycle: 740948	Occupancy: 4	Queue: 0
+[REQ] Cycle: 740961	Occupancy: 4	Queue: 1
+[REQ] Cycle: 740986	Occupancy: 5	Queue: 2
+[REQ] Cycle: 740992	Occupancy: 5	Queue: 3
+[REQ] Cycle: 740997	Occupancy: 6	Queue: 1
+[REQ] Cycle: 741018	Occupancy: 6	Queue: 0
+[REQ] Cycle: 741031	Occupancy: 6	Queue: 1
+[REQ] Cycle: 741042	Occupancy: 6	Queue: 1
+[REQ] Cycle: 741066	Occupancy: 5	Queue: 0
+[REQ] Cycle: 741102	Occupancy: 4	Queue: 1
+[REQ] Cycle: 741199	Occupancy: 1	Queue: 1
+[REQ] Cycle: 741954	Occupancy: 0	Queue: 0
+[REQ] Cycle: 741991	Occupancy: 0	Queue: 0
+[REQ] Cycle: 742534	Occupancy: 0	Queue: 1
+[REQ] Cycle: 743532	Occupancy: 0	Queue: 0
+[REQ] Cycle: 743805	Occupancy: 0	Queue: 0
+[REQ] Cycle: 743842	Occupancy: 0	Queue: 1
+[REQ] Cycle: 743845	Occupancy: 0	Queue: 0
+[REQ] Cycle: 743916	Occupancy: 0	Queue: 2
+[REQ] Cycle: 743921	Occupancy: 0	Queue: 1
+[REQ] Cycle: 743969	Occupancy: 0	Queue: 1
+[REQ] Cycle: 743971	Occupancy: 0	Queue: 0
+[REQ] Cycle: 744328	Occupancy: 0	Queue: 2
+[REQ] Cycle: 744329	Occupancy: 0	Queue: 1
+[REQ] Cycle: 744368	Occupancy: 0	Queue: 1
+[REQ] Cycle: 744431	Occupancy: 0	Queue: 1
+[REQ] Cycle: 744521	Occupancy: 0	Queue: 1
+[REQ] Cycle: 744671	Occupancy: 0	Queue: 0
+[REQ] Cycle: 745015	Occupancy: 0	Queue: 0
+[REQ] Cycle: 745115	Occupancy: 0	Queue: 0
+[REQ] Cycle: 745174	Occupancy: 0	Queue: 1
+[REQ] Cycle: 745390	Occupancy: 0	Queue: 0
+[REQ] Cycle: 745955	Occupancy: 0	Queue: 2
+[REQ] Cycle: 745959	Occupancy: 0	Queue: 2
+[REQ] Cycle: 746010	Occupancy: 1	Queue: 1
+[REQ] Cycle: 746683	Occupancy: 0	Queue: 3
+[REQ] Cycle: 746684	Occupancy: 0	Queue: 3
+[REQ] Cycle: 746699	Occupancy: 0	Queue: 0
+[REQ] Cycle: 746724	Occupancy: 0	Queue: 1
+[REQ] Cycle: 746738	Occupancy: 0	Queue: 2
+[REQ] Cycle: 746740	Occupancy: 0	Queue: 2
+[REQ] Cycle: 746754	Occupancy: 0	Queue: 0
+[REQ] Cycle: 746775	Occupancy: 0	Queue: 0
+[REQ] Cycle: 746788	Occupancy: 0	Queue: 1
+[REQ] Cycle: 746806	Occupancy: 0	Queue: 1
+[REQ] Cycle: 746820	Occupancy: 0	Queue: 0
+[REQ] Cycle: 746865	Occupancy: 0	Queue: 1
+[REQ] Cycle: 746958	Occupancy: 0	Queue: 1
+[REQ] Cycle: 747710	Occupancy: 0	Queue: 0
+[REQ] Cycle: 747747	Occupancy: 0	Queue: 0
+[REQ] Cycle: 748293	Occupancy: 0	Queue: 1
+[REQ] Cycle: 749279	Occupancy: 0	Queue: 0
+[REQ] Cycle: 749546	Occupancy: 0	Queue: 0
+[REQ] Cycle: 749583	Occupancy: 0	Queue: 1
+[REQ] Cycle: 749586	Occupancy: 0	Queue: 0
+[REQ] Cycle: 749662	Occupancy: 0	Queue: 2
+[REQ] Cycle: 749663	Occupancy: 0	Queue: 1
+[REQ] Cycle: 749712	Occupancy: 0	Queue: 1
+[REQ] Cycle: 749714	Occupancy: 0	Queue: 0
+[REQ] Cycle: 749851	Occupancy: 0	Queue: 0
+[REQ] Cycle: 750099	Occupancy: 0	Queue: 1
+[REQ] Cycle: 750107	Occupancy: 0	Queue: 1
+[REQ] Cycle: 750130	Occupancy: 0	Queue: 1
+[REQ] Cycle: 750198	Occupancy: 0	Queue: 1
+[REQ] Cycle: 750290	Occupancy: 0	Queue: 1
+[REQ] Cycle: 750432	Occupancy: 0	Queue: 0
+[REQ] Cycle: 750778	Occupancy: 0	Queue: 0
+[REQ] Cycle: 750929	Occupancy: 0	Queue: 1
+[REQ] Cycle: 750940	Occupancy: 0	Queue: 1
+[REQ] Cycle: 750976	Occupancy: 0	Queue: 0
+[REQ] Cycle: 751118	Occupancy: 0	Queue: 0
+[REQ] Cycle: 751714	Occupancy: 0	Queue: 2
+[REQ] Cycle: 751715	Occupancy: 0	Queue: 2
+[REQ] Cycle: 751766	Occupancy: 0	Queue: 1
+[REQ] Cycle: 752437	Occupancy: 0	Queue: 3
+[REQ] Cycle: 752438	Occupancy: 0	Queue: 3
+[REQ] Cycle: 752468	Occupancy: 0	Queue: 1
+[REQ] Cycle: 752476	Occupancy: 0	Queue: 1
+[REQ] Cycle: 752502	Occupancy: 0	Queue: 2
+[REQ] Cycle: 752507	Occupancy: 0	Queue: 3
+[REQ] Cycle: 752516	Occupancy: 0	Queue: 2
+[REQ] Cycle: 752537	Occupancy: 0	Queue: 1
+[REQ] Cycle: 752542	Occupancy: 0	Queue: 1
+[REQ] Cycle: 752554	Occupancy: 0	Queue: 1
+[REQ] Cycle: 752615	Occupancy: 0	Queue: 0
+[REQ] Cycle: 752660	Occupancy: 0	Queue: 1
+[REQ] Cycle: 752723	Occupancy: 1	Queue: 1
+[REQ] Cycle: 753477	Occupancy: 0	Queue: 0
+[REQ] Cycle: 753512	Occupancy: 0	Queue: 0
+[REQ] Cycle: 754045	Occupancy: 0	Queue: 1
+[REQ] Cycle: 755021	Occupancy: 0	Queue: 0
+[REQ] Cycle: 755290	Occupancy: 0	Queue: 0
+[REQ] Cycle: 755320	Occupancy: 0	Queue: 1
+[REQ] Cycle: 755328	Occupancy: 0	Queue: 0
+[REQ] Cycle: 755394	Occupancy: 0	Queue: 1
+[REQ] Cycle: 755395	Occupancy: 0	Queue: 1
+[REQ] Cycle: 755446	Occupancy: 0	Queue: 1
+[REQ] Cycle: 755448	Occupancy: 0	Queue: 0
+[REQ] Cycle: 755580	Occupancy: 0	Queue: 0
+[REQ] Cycle: 755836	Occupancy: 0	Queue: 1
+[REQ] Cycle: 755840	Occupancy: 0	Queue: 1
+[REQ] Cycle: 755877	Occupancy: 0	Queue: 1
+[REQ] Cycle: 755945	Occupancy: 0	Queue: 1
+[REQ] Cycle: 756175	Occupancy: 0	Queue: 2
+[REQ] Cycle: 756182	Occupancy: 0	Queue: 1
+[REQ] Cycle: 756535	Occupancy: 0	Queue: 0
+[REQ] Cycle: 756695	Occupancy: 0	Queue: 1
+[REQ] Cycle: 756706	Occupancy: 0	Queue: 1
+[REQ] Cycle: 756741	Occupancy: 0	Queue: 0
+[REQ] Cycle: 756891	Occupancy: 0	Queue: 0
+[REQ] Cycle: 757469	Occupancy: 0	Queue: 2
+[REQ] Cycle: 757474	Occupancy: 0	Queue: 2
+[REQ] Cycle: 757523	Occupancy: 0	Queue: 1
+[REQ] Cycle: 758189	Occupancy: 0	Queue: 3
+[REQ] Cycle: 758190	Occupancy: 0	Queue: 3
+[REQ] Cycle: 758205	Occupancy: 0	Queue: 0
+[REQ] Cycle: 758227	Occupancy: 0	Queue: 1
+[REQ] Cycle: 758244	Occupancy: 0	Queue: 2
+[REQ] Cycle: 758245	Occupancy: 0	Queue: 3
+[REQ] Cycle: 758255	Occupancy: 0	Queue: 2
+[REQ] Cycle: 758258	Occupancy: 1	Queue: 0
+[REQ] Cycle: 758277	Occupancy: 1	Queue: 0
+[REQ] Cycle: 758288	Occupancy: 1	Queue: 1
+[REQ] Cycle: 758300	Occupancy: 1	Queue: 1
+[REQ] Cycle: 758349	Occupancy: 0	Queue: 1
+[REQ] Cycle: 758382	Occupancy: 0	Queue: 0
+[REQ] Cycle: 758434	Occupancy: 0	Queue: 1
+[REQ] Cycle: 758498	Occupancy: 0	Queue: 1
+[REQ] Cycle: 759258	Occupancy: 0	Queue: 0
+[REQ] Cycle: 759292	Occupancy: 0	Queue: 0
+[REQ] Cycle: 759838	Occupancy: 0	Queue: 1
+[REQ] Cycle: 760829	Occupancy: 0	Queue: 0
+[REQ] Cycle: 761100	Occupancy: 0	Queue: 0
+[REQ] Cycle: 761136	Occupancy: 0	Queue: 1
+[REQ] Cycle: 761139	Occupancy: 0	Queue: 0
+[REQ] Cycle: 761196	Occupancy: 0	Queue: 2
+[REQ] Cycle: 761204	Occupancy: 0	Queue: 2
+[REQ] Cycle: 761254	Occupancy: 1	Queue: 1
+[REQ] Cycle: 761256	Occupancy: 1	Queue: 0
+[REQ] Cycle: 761386	Occupancy: 0	Queue: 0
+[REQ] Cycle: 761583	Occupancy: 0	Queue: 1
+[REQ] Cycle: 761638	Occupancy: 0	Queue: 1
+[REQ] Cycle: 761640	Occupancy: 0	Queue: 1
+[REQ] Cycle: 761667	Occupancy: 0	Queue: 1
+[REQ] Cycle: 761736	Occupancy: 0	Queue: 1
+[REQ] Cycle: 761984	Occupancy: 0	Queue: 1
+[REQ] Cycle: 761985	Occupancy: 0	Queue: 1
+[REQ] Cycle: 762354	Occupancy: 0	Queue: 0
+[REQ] Cycle: 762509	Occupancy: 0	Queue: 1
+[REQ] Cycle: 762700	Occupancy: 0	Queue: 0
+[REQ] Cycle: 763284	Occupancy: 0	Queue: 2
+[REQ] Cycle: 763288	Occupancy: 0	Queue: 2
+[REQ] Cycle: 763336	Occupancy: 0	Queue: 1
+Instructions Retired: 2600000 Cycle: 763874 Hearbeat IPC: 3.430429 Cumulative IPC: 3.403703
+Cycle: 763874	Best offset: -32	Score: 44	Hit Rate: 0.968617
 	---- Offset table ----
 Offset -> Score
--32 -> 26
--1 -> 24
-1 -> 24
--64 -> 21
+64 -> 4
+-50 -> 2
+-26 -> 2
+-8 -> 2
 	----------------------
-[REQ] Cycle: 763942	Occupancy: 0	Queue: 1
-[REQ] Cycle: 763953	Occupancy: 0	Queue: 6
-[REQ] Cycle: 763954	Occupancy: 0	Queue: 6
-[REQ] Cycle: 763955	Occupancy: 0	Queue: 6
-[REQ] Cycle: 763956	Occupancy: 0	Queue: 6
-[REQ] Cycle: 763958	Occupancy: 0	Queue: 6
-[REQ] Cycle: 763971	Occupancy: 1	Queue: 2
-[REQ] Cycle: 763973	Occupancy: 1	Queue: 2
-[REQ] Cycle: 763989	Occupancy: 1	Queue: 2
-[REQ] Cycle: 763992	Occupancy: 1	Queue: 2
-[REQ] Cycle: 764004	Occupancy: 1	Queue: 1
-[REQ] Cycle: 764020	Occupancy: 1	Queue: 2
-[REQ] Cycle: 764024	Occupancy: 1	Queue: 4
-[REQ] Cycle: 764032	Occupancy: 1	Queue: 2
-[REQ] Cycle: 764048	Occupancy: 1	Queue: 3
-[REQ] Cycle: 764056	Occupancy: 1	Queue: 3
-[REQ] Cycle: 764057	Occupancy: 1	Queue: 2
-[REQ] Cycle: 764083	Occupancy: 1	Queue: 2
-[REQ] Cycle: 764084	Occupancy: 1	Queue: 2
-[REQ] Cycle: 764096	Occupancy: 1	Queue: 2
-[REQ] Cycle: 764103	Occupancy: 1	Queue: 3
-[REQ] Cycle: 764107	Occupancy: 1	Queue: 2
-[REQ] Cycle: 764191	Occupancy: 0	Queue: 1
-[REQ] Cycle: 764247	Occupancy: 0	Queue: 2
-[REQ] Cycle: 764250	Occupancy: 0	Queue: 2
-[REQ] Cycle: 764943	Occupancy: 0	Queue: 1
-[REQ] Cycle: 765082	Occupancy: 0	Queue: 1
-[REQ] Cycle: 765533	Occupancy: 0	Queue: 0
-[REQ] Cycle: 766319	Occupancy: 0	Queue: 1
-[REQ] Cycle: 766538	Occupancy: 0	Queue: 1
-[REQ] Cycle: 766809	Occupancy: 0	Queue: 1
-[REQ] Cycle: 766846	Occupancy: 0	Queue: 3
-[REQ] Cycle: 766849	Occupancy: 0	Queue: 2
-[REQ] Cycle: 766850	Occupancy: 0	Queue: 2
-[REQ] Cycle: 766875	Occupancy: 0	Queue: 1
-[REQ] Cycle: 766900	Occupancy: 0	Queue: 1
-[REQ] Cycle: 766933	Occupancy: 0	Queue: 1
-[REQ] Cycle: 766983	Occupancy: 0	Queue: 4
-[REQ] Cycle: 766984	Occupancy: 0	Queue: 4
-[REQ] Cycle: 766985	Occupancy: 0	Queue: 4
-[REQ] Cycle: 766986	Occupancy: 0	Queue: 4
-[REQ] Cycle: 767360	Occupancy: 0	Queue: 2
-[REQ] Cycle: 767361	Occupancy: 0	Queue: 2
-[REQ] Cycle: 767390	Occupancy: 0	Queue: 1
-[REQ] Cycle: 767409	Occupancy: 0	Queue: 1
-[REQ] Cycle: 767433	Occupancy: 0	Queue: 2
-[REQ] Cycle: 767434	Occupancy: 0	Queue: 2
-[REQ] Cycle: 767445	Occupancy: 0	Queue: 3
-[REQ] Cycle: 767446	Occupancy: 0	Queue: 3
-[REQ] Cycle: 767453	Occupancy: 0	Queue: 2
-[REQ] Cycle: 767575	Occupancy: 0	Queue: 1
-[REQ] Cycle: 767685	Occupancy: 0	Queue: 1
-[REQ] Cycle: 768018	Occupancy: 0	Queue: 1
-[REQ] Cycle: 768055	Occupancy: 0	Queue: 1
-[REQ] Cycle: 768118	Occupancy: 0	Queue: 1
-[REQ] Cycle: 768212	Occupancy: 0	Queue: 0
-[REQ] Cycle: 768409	Occupancy: 0	Queue: 1
-[REQ] Cycle: 769017	Occupancy: 0	Queue: 1
-[REQ] Cycle: 769021	Occupancy: 0	Queue: 1
-[REQ] Cycle: 769069	Occupancy: 0	Queue: 1
-[REQ] Cycle: 769731	Occupancy: 0	Queue: 1
-[REQ] Cycle: 769742	Occupancy: 0	Queue: 6
-[REQ] Cycle: 769743	Occupancy: 0	Queue: 6
-[REQ] Cycle: 769744	Occupancy: 0	Queue: 6
-[REQ] Cycle: 769745	Occupancy: 0	Queue: 6
-[REQ] Cycle: 769746	Occupancy: 0	Queue: 6
-[REQ] Cycle: 769760	Occupancy: 0	Queue: 1
-[REQ] Cycle: 769777	Occupancy: 0	Queue: 2
-[REQ] Cycle: 769786	Occupancy: 0	Queue: 3
-[REQ] Cycle: 769788	Occupancy: 0	Queue: 2
-[REQ] Cycle: 769800	Occupancy: 0	Queue: 1
-[REQ] Cycle: 769826	Occupancy: 0	Queue: 3
-[REQ] Cycle: 769828	Occupancy: 0	Queue: 3
-[REQ] Cycle: 769833	Occupancy: 0	Queue: 3
-[REQ] Cycle: 769867	Occupancy: 0	Queue: 2
-[REQ] Cycle: 769875	Occupancy: 0	Queue: 1
-[REQ] Cycle: 769892	Occupancy: 0	Queue: 1
-[REQ] Cycle: 769904	Occupancy: 0	Queue: 1
-[REQ] Cycle: 769925	Occupancy: 0	Queue: 1
-[REQ] Cycle: 770026	Occupancy: 0	Queue: 1
-[REQ] Cycle: 770083	Occupancy: 0	Queue: 2
-[REQ] Cycle: 770086	Occupancy: 0	Queue: 2
-[REQ] Cycle: 770797	Occupancy: 0	Queue: 1
-[REQ] Cycle: 770935	Occupancy: 0	Queue: 1
-[REQ] Cycle: 771375	Occupancy: 0	Queue: 0
-[REQ] Cycle: 772193	Occupancy: 0	Queue: 1
-[REQ] Cycle: 772416	Occupancy: 0	Queue: 1
-[REQ] Cycle: 772685	Occupancy: 0	Queue: 1
-[REQ] Cycle: 772723	Occupancy: 0	Queue: 3
-[REQ] Cycle: 772726	Occupancy: 0	Queue: 2
-[REQ] Cycle: 772727	Occupancy: 0	Queue: 2
-[REQ] Cycle: 772796	Occupancy: 0	Queue: 1
-[REQ] Cycle: 772846	Occupancy: 0	Queue: 4
-[REQ] Cycle: 772847	Occupancy: 0	Queue: 4
-[REQ] Cycle: 772848	Occupancy: 0	Queue: 4
-[REQ] Cycle: 772849	Occupancy: 0	Queue: 4
-[REQ] Cycle: 772982	Occupancy: 0	Queue: 1
-[REQ] Cycle: 773242	Occupancy: 0	Queue: 2
-[REQ] Cycle: 773244	Occupancy: 0	Queue: 2
-[REQ] Cycle: 773271	Occupancy: 0	Queue: 1
-[REQ] Cycle: 773334	Occupancy: 0	Queue: 2
-[REQ] Cycle: 773338	Occupancy: 0	Queue: 3
-[REQ] Cycle: 773346	Occupancy: 0	Queue: 1
-[REQ] Cycle: 773412	Occupancy: 0	Queue: 1
-[REQ] Cycle: 773464	Occupancy: 0	Queue: 1
-[REQ] Cycle: 773557	Occupancy: 0	Queue: 1
-[REQ] Cycle: 773978	Occupancy: 0	Queue: 1
-[REQ] Cycle: 774079	Occupancy: 0	Queue: 0
-[REQ] Cycle: 774262	Occupancy: 0	Queue: 1
-[REQ] Cycle: 774856	Occupancy: 0	Queue: 1
-[REQ] Cycle: 774860	Occupancy: 0	Queue: 1
-[REQ] Cycle: 774907	Occupancy: 0	Queue: 1
-[REQ] Cycle: 775565	Occupancy: 0	Queue: 1
-[REQ] Cycle: 775576	Occupancy: 0	Queue: 6
-[REQ] Cycle: 775577	Occupancy: 0	Queue: 6
-[REQ] Cycle: 775578	Occupancy: 0	Queue: 6
-[REQ] Cycle: 775579	Occupancy: 0	Queue: 6
-[REQ] Cycle: 775580	Occupancy: 0	Queue: 6
-[REQ] Cycle: 775597	Occupancy: 0	Queue: 3
-[REQ] Cycle: 775599	Occupancy: 0	Queue: 3
-[REQ] Cycle: 775616	Occupancy: 0	Queue: 3
-[REQ] Cycle: 775620	Occupancy: 0	Queue: 3
+[REQ] Cycle: 764001	Occupancy: 0	Queue: 4
+[REQ] Cycle: 764003	Occupancy: 0	Queue: 4
+[REQ] Cycle: 764004	Occupancy: 0	Queue: 4
+[REQ] Cycle: 764019	Occupancy: 1	Queue: 0
+[REQ] Cycle: 764046	Occupancy: 1	Queue: 2
+[REQ] Cycle: 764052	Occupancy: 1	Queue: 3
+[REQ] Cycle: 764058	Occupancy: 1	Queue: 3
+[REQ] Cycle: 764064	Occupancy: 1	Queue: 1
+[REQ] Cycle: 764087	Occupancy: 1	Queue: 0
+[REQ] Cycle: 764097	Occupancy: 1	Queue: 1
+[REQ] Cycle: 764108	Occupancy: 1	Queue: 1
+[REQ] Cycle: 764146	Occupancy: 1	Queue: 2
+[REQ] Cycle: 764150	Occupancy: 1	Queue: 1
+[REQ] Cycle: 764195	Occupancy: 0	Queue: 1
+[REQ] Cycle: 764261	Occupancy: 0	Queue: 1
+[REQ] Cycle: 765010	Occupancy: 0	Queue: 0
+[REQ] Cycle: 765591	Occupancy: 0	Queue: 1
+[REQ] Cycle: 766585	Occupancy: 0	Queue: 0
+[REQ] Cycle: 766855	Occupancy: 0	Queue: 0
+[REQ] Cycle: 766893	Occupancy: 0	Queue: 1
+[REQ] Cycle: 766896	Occupancy: 0	Queue: 0
+[REQ] Cycle: 766968	Occupancy: 0	Queue: 2
+[REQ] Cycle: 766975	Occupancy: 0	Queue: 1
+[REQ] Cycle: 767025	Occupancy: 0	Queue: 1
+[REQ] Cycle: 767027	Occupancy: 0	Queue: 0
+[REQ] Cycle: 767163	Occupancy: 0	Queue: 0
+[REQ] Cycle: 767334	Occupancy: 0	Queue: 1
+[REQ] Cycle: 767403	Occupancy: 0	Queue: 1
+[REQ] Cycle: 767408	Occupancy: 0	Queue: 1
+[REQ] Cycle: 767435	Occupancy: 0	Queue: 1
+[REQ] Cycle: 767504	Occupancy: 0	Queue: 1
+[REQ] Cycle: 767742	Occupancy: 0	Queue: 2
+[REQ] Cycle: 767746	Occupancy: 0	Queue: 1
+[REQ] Cycle: 768259	Occupancy: 0	Queue: 1
+[REQ] Cycle: 768455	Occupancy: 0	Queue: 0
+[REQ] Cycle: 769042	Occupancy: 0	Queue: 2
+[REQ] Cycle: 769047	Occupancy: 0	Queue: 2
+[REQ] Cycle: 769094	Occupancy: 0	Queue: 1
+[REQ] Cycle: 769768	Occupancy: 0	Queue: 5
+[REQ] Cycle: 769769	Occupancy: 0	Queue: 4
+[REQ] Cycle: 769770	Occupancy: 0	Queue: 4
+[REQ] Cycle: 769771	Occupancy: 0	Queue: 4
+[REQ] Cycle: 769811	Occupancy: 0	Queue: 3
+[REQ] Cycle: 769812	Occupancy: 0	Queue: 3
+[REQ] Cycle: 769820	Occupancy: 0	Queue: 4
+[REQ] Cycle: 769827	Occupancy: 0	Queue: 1
+[REQ] Cycle: 769863	Occupancy: 0	Queue: 2
+[REQ] Cycle: 769869	Occupancy: 0	Queue: 2
+[REQ] Cycle: 769917	Occupancy: 0	Queue: 1
+[REQ] Cycle: 769960	Occupancy: 0	Queue: 1
+[REQ] Cycle: 770022	Occupancy: 0	Queue: 1
+[REQ] Cycle: 770781	Occupancy: 0	Queue: 0
+[REQ] Cycle: 771360	Occupancy: 0	Queue: 1
+[REQ] Cycle: 772359	Occupancy: 0	Queue: 0
+[REQ] Cycle: 772631	Occupancy: 0	Queue: 0
+[REQ] Cycle: 772668	Occupancy: 0	Queue: 1
+[REQ] Cycle: 772671	Occupancy: 0	Queue: 0
+[REQ] Cycle: 772746	Occupancy: 0	Queue: 1
+[REQ] Cycle: 772749	Occupancy: 0	Queue: 1
+[REQ] Cycle: 772799	Occupancy: 0	Queue: 1
+[REQ] Cycle: 772801	Occupancy: 0	Queue: 0
+[REQ] Cycle: 772939	Occupancy: 0	Queue: 0
+[REQ] Cycle: 773126	Occupancy: 0	Queue: 1
+[REQ] Cycle: 773194	Occupancy: 0	Queue: 1
+[REQ] Cycle: 773200	Occupancy: 0	Queue: 1
+[REQ] Cycle: 773224	Occupancy: 0	Queue: 1
+[REQ] Cycle: 773302	Occupancy: 0	Queue: 1
+[REQ] Cycle: 773383	Occupancy: 0	Queue: 1
+[REQ] Cycle: 773524	Occupancy: 0	Queue: 0
+[REQ] Cycle: 774051	Occupancy: 0	Queue: 1
+[REQ] Cycle: 774238	Occupancy: 0	Queue: 0
+[REQ] Cycle: 774836	Occupancy: 0	Queue: 2
+[REQ] Cycle: 774841	Occupancy: 0	Queue: 2
+[REQ] Cycle: 774891	Occupancy: 0	Queue: 1
+[REQ] Cycle: 775559	Occupancy: 0	Queue: 4
+[REQ] Cycle: 775561	Occupancy: 0	Queue: 4
+[REQ] Cycle: 775562	Occupancy: 0	Queue: 4
+[REQ] Cycle: 775585	Occupancy: 0	Queue: 0
+[REQ] Cycle: 775600	Occupancy: 0	Queue: 1
+[REQ] Cycle: 775622	Occupancy: 0	Queue: 3
 [REQ] Cycle: 775625	Occupancy: 0	Queue: 3
-[REQ] Cycle: 775648	Occupancy: 0	Queue: 3
-[REQ] Cycle: 775649	Occupancy: 0	Queue: 3
-[REQ] Cycle: 775651	Occupancy: 0	Queue: 3
-[REQ] Cycle: 775686	Occupancy: 0	Queue: 1
-[REQ] Cycle: 775697	Occupancy: 0	Queue: 0
-[REQ] Cycle: 775748	Occupancy: 0	Queue: 1
+[REQ] Cycle: 775631	Occupancy: 0	Queue: 2
+[REQ] Cycle: 775667	Occupancy: 0	Queue: 1
+[REQ] Cycle: 775681	Occupancy: 0	Queue: 1
+[REQ] Cycle: 775734	Occupancy: 0	Queue: 1
+[REQ] Cycle: 775790	Occupancy: 0	Queue: 1
 [REQ] Cycle: 775853	Occupancy: 0	Queue: 1
-[REQ] Cycle: 775914	Occupancy: 0	Queue: 1
-[REQ] Cycle: 776619	Occupancy: 0	Queue: 1
-[REQ] Cycle: 776758	Occupancy: 0	Queue: 1
-[REQ] Cycle: 777202	Occupancy: 0	Queue: 0
-[REQ] Cycle: 778037	Occupancy: 0	Queue: 1
-[REQ] Cycle: 778258	Occupancy: 0	Queue: 1
-[REQ] Cycle: 778524	Occupancy: 0	Queue: 1
-[REQ] Cycle: 778560	Occupancy: 0	Queue: 3
-[REQ] Cycle: 778564	Occupancy: 0	Queue: 2
-[REQ] Cycle: 778565	Occupancy: 0	Queue: 2
-[REQ] Cycle: 778633	Occupancy: 0	Queue: 1
-[REQ] Cycle: 778682	Occupancy: 0	Queue: 4
-[REQ] Cycle: 778683	Occupancy: 0	Queue: 4
-[REQ] Cycle: 778684	Occupancy: 0	Queue: 4
-[REQ] Cycle: 778685	Occupancy: 0	Queue: 4
-[REQ] Cycle: 778822	Occupancy: 0	Queue: 1
-[REQ] Cycle: 779081	Occupancy: 0	Queue: 2
-[REQ] Cycle: 779083	Occupancy: 0	Queue: 2
-[REQ] Cycle: 779115	Occupancy: 0	Queue: 1
-[REQ] Cycle: 779161	Occupancy: 0	Queue: 1
-[REQ] Cycle: 779178	Occupancy: 0	Queue: 1
-[REQ] Cycle: 779189	Occupancy: 0	Queue: 0
-[REQ] Cycle: 779409	Occupancy: 0	Queue: 1
-[REQ] Cycle: 779917	Occupancy: 0	Queue: 0
-[REQ] Cycle: 779927	Occupancy: 0	Queue: 0
-[REQ] Cycle: 780114	Occupancy: 0	Queue: 1
-[REQ] Cycle: 780699	Occupancy: 0	Queue: 1
-[REQ] Cycle: 780703	Occupancy: 0	Queue: 2
-[REQ] Cycle: 780709	Occupancy: 0	Queue: 2
-[REQ] Cycle: 780762	Occupancy: 0	Queue: 1
-[REQ] Cycle: 781345	Occupancy: 0	Queue: 1
-[REQ] Cycle: 781432	Occupancy: 0	Queue: 6
-[REQ] Cycle: 781434	Occupancy: 0	Queue: 6
-[REQ] Cycle: 781435	Occupancy: 0	Queue: 6
-[REQ] Cycle: 781436	Occupancy: 0	Queue: 6
-[REQ] Cycle: 781437	Occupancy: 0	Queue: 6
-[REQ] Cycle: 781475	Occupancy: 0	Queue: 2
-[REQ] Cycle: 781477	Occupancy: 0	Queue: 2
-[REQ] Cycle: 781497	Occupancy: 0	Queue: 2
-[REQ] Cycle: 781500	Occupancy: 0	Queue: 3
-[REQ] Cycle: 781509	Occupancy: 0	Queue: 3
-[REQ] Cycle: 781511	Occupancy: 0	Queue: 2
-[REQ] Cycle: 781547	Occupancy: 1	Queue: 1
-[REQ] Cycle: 781560	Occupancy: 1	Queue: 0
-[REQ] Cycle: 781588	Occupancy: 1	Queue: 2
-[REQ] Cycle: 781591	Occupancy: 1	Queue: 2
-[REQ] Cycle: 781737	Occupancy: 0	Queue: 2
-[REQ] Cycle: 781740	Occupancy: 0	Queue: 2
-[REQ] Cycle: 782444	Occupancy: 0	Queue: 1
-[REQ] Cycle: 782582	Occupancy: 0	Queue: 1
-[REQ] Cycle: 783022	Occupancy: 0	Queue: 0
-[REQ] Cycle: 783806	Occupancy: 0	Queue: 1
-[REQ] Cycle: 784027	Occupancy: 0	Queue: 1
-[REQ] Cycle: 784289	Occupancy: 0	Queue: 1
-[REQ] Cycle: 784330	Occupancy: 0	Queue: 1
-[REQ] Cycle: 784331	Occupancy: 0	Queue: 1
-[REQ] Cycle: 784343	Occupancy: 0	Queue: 1
-[REQ] Cycle: 784387	Occupancy: 0	Queue: 1
-[REQ] Cycle: 784438	Occupancy: 0	Queue: 4
-[REQ] Cycle: 784439	Occupancy: 0	Queue: 4
-[REQ] Cycle: 784440	Occupancy: 0	Queue: 4
-[REQ] Cycle: 784441	Occupancy: 0	Queue: 4
-[REQ] Cycle: 784581	Occupancy: 0	Queue: 1
-[REQ] Cycle: 784830	Occupancy: 0	Queue: 2
-[REQ] Cycle: 784837	Occupancy: 0	Queue: 2
-[REQ] Cycle: 784873	Occupancy: 0	Queue: 1
-[REQ] Cycle: 784902	Occupancy: 0	Queue: 1
-[REQ] Cycle: 784920	Occupancy: 0	Queue: 2
-[REQ] Cycle: 784921	Occupancy: 0	Queue: 2
-[REQ] Cycle: 784934	Occupancy: 0	Queue: 2
-[REQ] Cycle: 784935	Occupancy: 0	Queue: 3
-[REQ] Cycle: 784945	Occupancy: 0	Queue: 1
-[REQ] Cycle: 785160	Occupancy: 0	Queue: 1
-[REQ] Cycle: 785578	Occupancy: 0	Queue: 1
-[REQ] Cycle: 785668	Occupancy: 0	Queue: 0
-[REQ] Cycle: 785868	Occupancy: 0	Queue: 1
-[REQ] Cycle: 786448	Occupancy: 0	Queue: 1
-[REQ] Cycle: 786452	Occupancy: 0	Queue: 1
-[REQ] Cycle: 786504	Occupancy: 0	Queue: 1
-[REQ] Cycle: 787162	Occupancy: 0	Queue: 1
-[REQ] Cycle: 787173	Occupancy: 0	Queue: 6
-[REQ] Cycle: 787174	Occupancy: 0	Queue: 6
-[REQ] Cycle: 787175	Occupancy: 0	Queue: 6
-[REQ] Cycle: 787176	Occupancy: 0	Queue: 6
-[REQ] Cycle: 787178	Occupancy: 0	Queue: 6
-[REQ] Cycle: 787193	Occupancy: 1	Queue: 2
-[REQ] Cycle: 787195	Occupancy: 1	Queue: 3
-[REQ] Cycle: 787216	Occupancy: 1	Queue: 2
-[REQ] Cycle: 787219	Occupancy: 1	Queue: 2
-[REQ] Cycle: 787231	Occupancy: 1	Queue: 2
-[REQ] Cycle: 787232	Occupancy: 1	Queue: 2
-[REQ] Cycle: 787246	Occupancy: 1	Queue: 2
-[REQ] Cycle: 787247	Occupancy: 1	Queue: 2
-[REQ] Cycle: 787278	Occupancy: 1	Queue: 2
-[REQ] Cycle: 787285	Occupancy: 1	Queue: 1
-[REQ] Cycle: 787302	Occupancy: 1	Queue: 1
-[REQ] Cycle: 787341	Occupancy: 1	Queue: 1
-[REQ] Cycle: 787442	Occupancy: 0	Queue: 1
-[REQ] Cycle: 787497	Occupancy: 0	Queue: 2
-[REQ] Cycle: 787499	Occupancy: 0	Queue: 2
-[REQ] Cycle: 788204	Occupancy: 0	Queue: 1
-[REQ] Cycle: 788397	Occupancy: 0	Queue: 1
-[REQ] Cycle: 788782	Occupancy: 0	Queue: 0
-[REQ] Cycle: 789549	Occupancy: 0	Queue: 1
-[REQ] Cycle: 789771	Occupancy: 0	Queue: 1
-[REQ] Cycle: 790042	Occupancy: 0	Queue: 1
-[REQ] Cycle: 790081	Occupancy: 0	Queue: 3
-[REQ] Cycle: 790084	Occupancy: 0	Queue: 2
-[REQ] Cycle: 790085	Occupancy: 0	Queue: 2
-[REQ] Cycle: 790110	Occupancy: 0	Queue: 1
-[REQ] Cycle: 790154	Occupancy: 0	Queue: 1
-[REQ] Cycle: 790203	Occupancy: 0	Queue: 4
-[REQ] Cycle: 790204	Occupancy: 0	Queue: 4
-[REQ] Cycle: 790205	Occupancy: 0	Queue: 4
-[REQ] Cycle: 790206	Occupancy: 0	Queue: 4
-[REQ] Cycle: 790555	Occupancy: 0	Queue: 2
-[REQ] Cycle: 790557	Occupancy: 0	Queue: 2
-[REQ] Cycle: 790579	Occupancy: 0	Queue: 1
-[REQ] Cycle: 790601	Occupancy: 0	Queue: 1
-[REQ] Cycle: 790622	Occupancy: 0	Queue: 2
-[REQ] Cycle: 790623	Occupancy: 0	Queue: 2
-[REQ] Cycle: 790636	Occupancy: 0	Queue: 2
-[REQ] Cycle: 790643	Occupancy: 0	Queue: 2
-[REQ] Cycle: 790654	Occupancy: 0	Queue: 0
-[REQ] Cycle: 790787	Occupancy: 0	Queue: 1
-[REQ] Cycle: 790899	Occupancy: 0	Queue: 1
-[REQ] Cycle: 791309	Occupancy: 0	Queue: 1
-[REQ] Cycle: 791398	Occupancy: 0	Queue: 0
-[REQ] Cycle: 791598	Occupancy: 0	Queue: 1
-[REQ] Cycle: 792195	Occupancy: 0	Queue: 1
-[REQ] Cycle: 792201	Occupancy: 0	Queue: 1
-[REQ] Cycle: 792252	Occupancy: 0	Queue: 1
-[REQ] Cycle: 792839	Occupancy: 0	Queue: 1
-[REQ] Cycle: 792906	Occupancy: 0	Queue: 1
-[REQ] Cycle: 792917	Occupancy: 0	Queue: 6
-[REQ] Cycle: 792919	Occupancy: 0	Queue: 6
-[REQ] Cycle: 792920	Occupancy: 0	Queue: 6
-[REQ] Cycle: 792921	Occupancy: 0	Queue: 6
-[REQ] Cycle: 792922	Occupancy: 0	Queue: 6
-[REQ] Cycle: 792936	Occupancy: 0	Queue: 2
-[REQ] Cycle: 792954	Occupancy: 0	Queue: 3
-[REQ] Cycle: 792957	Occupancy: 0	Queue: 3
-[REQ] Cycle: 792960	Occupancy: 0	Queue: 3
-[REQ] Cycle: 792977	Occupancy: 0	Queue: 1
-[REQ] Cycle: 793000	Occupancy: 0	Queue: 3
-[REQ] Cycle: 793001	Occupancy: 0	Queue: 3
-[REQ] Cycle: 793007	Occupancy: 0	Queue: 3
-[REQ] Cycle: 793041	Occupancy: 0	Queue: 1
-[REQ] Cycle: 793058	Occupancy: 0	Queue: 0
-[REQ] Cycle: 793077	Occupancy: 0	Queue: 1
-Instructions Retired: 2700002 Cycle: 793084 Hearbeat IPC: 3.418171 Cumulative IPC: 3.404434
-Cycle: 793084	Best offset: 1	Score: 1	Hit Rate: 0.970266
+[REQ] Cycle: 776593	Occupancy: 0	Queue: 0
+[REQ] Cycle: 777179	Occupancy: 0	Queue: 1
+[REQ] Cycle: 778190	Occupancy: 0	Queue: 0
+[REQ] Cycle: 778457	Occupancy: 0	Queue: 0
+[REQ] Cycle: 778493	Occupancy: 0	Queue: 1
+[REQ] Cycle: 778497	Occupancy: 0	Queue: 0
+[REQ] Cycle: 778569	Occupancy: 0	Queue: 1
+[REQ] Cycle: 778571	Occupancy: 0	Queue: 1
+[REQ] Cycle: 778621	Occupancy: 0	Queue: 1
+[REQ] Cycle: 778623	Occupancy: 0	Queue: 0
+[REQ] Cycle: 778766	Occupancy: 0	Queue: 0
+[REQ] Cycle: 778964	Occupancy: 0	Queue: 1
+[REQ] Cycle: 779016	Occupancy: 0	Queue: 1
+[REQ] Cycle: 779017	Occupancy: 0	Queue: 1
+[REQ] Cycle: 779055	Occupancy: 0	Queue: 1
+[REQ] Cycle: 779122	Occupancy: 0	Queue: 1
+[REQ] Cycle: 779206	Occupancy: 0	Queue: 1
+[REQ] Cycle: 779349	Occupancy: 0	Queue: 0
+[REQ] Cycle: 779858	Occupancy: 0	Queue: 1
+[REQ] Cycle: 780052	Occupancy: 0	Queue: 0
+[REQ] Cycle: 780645	Occupancy: 0	Queue: 2
+[REQ] Cycle: 780646	Occupancy: 0	Queue: 2
+[REQ] Cycle: 780702	Occupancy: 0	Queue: 1
+[REQ] Cycle: 781372	Occupancy: 0	Queue: 4
+[REQ] Cycle: 781374	Occupancy: 0	Queue: 4
+[REQ] Cycle: 781375	Occupancy: 0	Queue: 4
+[REQ] Cycle: 781415	Occupancy: 0	Queue: 1
+[REQ] Cycle: 781448	Occupancy: 0	Queue: 4
+[REQ] Cycle: 781449	Occupancy: 0	Queue: 4
+[REQ] Cycle: 781451	Occupancy: 0	Queue: 3
+[REQ] Cycle: 781457	Occupancy: 1	Queue: 2
+[REQ] Cycle: 781494	Occupancy: 1	Queue: 1
+[REQ] Cycle: 781508	Occupancy: 1	Queue: 1
+[REQ] Cycle: 781534	Occupancy: 1	Queue: 1
+[REQ] Cycle: 781580	Occupancy: 0	Queue: 0
+[REQ] Cycle: 781635	Occupancy: 0	Queue: 1
+[REQ] Cycle: 781745	Occupancy: 0	Queue: 0
+[REQ] Cycle: 782441	Occupancy: 0	Queue: 0
+[REQ] Cycle: 783019	Occupancy: 0	Queue: 1
+[REQ] Cycle: 784032	Occupancy: 0	Queue: 0
+[REQ] Cycle: 784295	Occupancy: 0	Queue: 0
+[REQ] Cycle: 784336	Occupancy: 0	Queue: 0
+[REQ] Cycle: 784349	Occupancy: 0	Queue: 1
+[REQ] Cycle: 784399	Occupancy: 1	Queue: 2
+[REQ] Cycle: 784400	Occupancy: 1	Queue: 1
+[REQ] Cycle: 784449	Occupancy: 0	Queue: 1
+[REQ] Cycle: 784451	Occupancy: 0	Queue: 0
+[REQ] Cycle: 784591	Occupancy: 0	Queue: 0
+[REQ] Cycle: 784784	Occupancy: 0	Queue: 1
+[REQ] Cycle: 784846	Occupancy: 0	Queue: 1
+[REQ] Cycle: 784849	Occupancy: 0	Queue: 1
+[REQ] Cycle: 784883	Occupancy: 0	Queue: 1
+[REQ] Cycle: 784905	Occupancy: 0	Queue: 0
+[REQ] Cycle: 784925	Occupancy: 0	Queue: 1
+[REQ] Cycle: 784949	Occupancy: 1	Queue: 1
+[REQ] Cycle: 785050	Occupancy: 1	Queue: 1
+[REQ] Cycle: 785170	Occupancy: 0	Queue: 0
+[REQ] Cycle: 785682	Occupancy: 0	Queue: 1
+[REQ] Cycle: 785878	Occupancy: 0	Queue: 0
+[REQ] Cycle: 786481	Occupancy: 0	Queue: 2
+[REQ] Cycle: 786484	Occupancy: 0	Queue: 2
+[REQ] Cycle: 786533	Occupancy: 0	Queue: 1
+[REQ] Cycle: 787202	Occupancy: 0	Queue: 4
+[REQ] Cycle: 787204	Occupancy: 0	Queue: 4
+[REQ] Cycle: 787205	Occupancy: 0	Queue: 4
+[REQ] Cycle: 787233	Occupancy: 1	Queue: 0
+[REQ] Cycle: 787244	Occupancy: 1	Queue: 1
+[REQ] Cycle: 787266	Occupancy: 1	Queue: 1
+[REQ] Cycle: 787278	Occupancy: 1	Queue: 3
+[REQ] Cycle: 787279	Occupancy: 1	Queue: 2
+[REQ] Cycle: 787281	Occupancy: 1	Queue: 1
+[REQ] Cycle: 787310	Occupancy: 1	Queue: 2
+[REQ] Cycle: 787318	Occupancy: 1	Queue: 2
+[REQ] Cycle: 787337	Occupancy: 1	Queue: 0
+[REQ] Cycle: 787367	Occupancy: 1	Queue: 1
+[REQ] Cycle: 787418	Occupancy: 0	Queue: 1
+[REQ] Cycle: 787480	Occupancy: 0	Queue: 1
+[REQ] Cycle: 787536	Occupancy: 0	Queue: 0
+[REQ] Cycle: 788230	Occupancy: 0	Queue: 0
+[REQ] Cycle: 788809	Occupancy: 0	Queue: 1
+[REQ] Cycle: 789807	Occupancy: 0	Queue: 0
+[REQ] Cycle: 790077	Occupancy: 0	Queue: 0
+[REQ] Cycle: 790113	Occupancy: 0	Queue: 1
+[REQ] Cycle: 790116	Occupancy: 0	Queue: 0
+[REQ] Cycle: 790142	Occupancy: 0	Queue: 1
+[REQ] Cycle: 790186	Occupancy: 0	Queue: 2
+[REQ] Cycle: 790194	Occupancy: 0	Queue: 1
+[REQ] Cycle: 790242	Occupancy: 0	Queue: 1
+[REQ] Cycle: 790244	Occupancy: 0	Queue: 0
+[REQ] Cycle: 790341	Occupancy: 0	Queue: 0
+[REQ] Cycle: 790537	Occupancy: 0	Queue: 1
+[REQ] Cycle: 790596	Occupancy: 0	Queue: 1
+[REQ] Cycle: 790598	Occupancy: 0	Queue: 1
+[REQ] Cycle: 790631	Occupancy: 0	Queue: 1
+[REQ] Cycle: 790653	Occupancy: 0	Queue: 0
+[REQ] Cycle: 790673	Occupancy: 0	Queue: 1
+[REQ] Cycle: 790697	Occupancy: 0	Queue: 1
+[REQ] Cycle: 790925	Occupancy: 0	Queue: 1
+[REQ] Cycle: 790937	Occupancy: 0	Queue: 0
+[REQ] Cycle: 791447	Occupancy: 0	Queue: 1
+[REQ] Cycle: 791458	Occupancy: 0	Queue: 1
+[REQ] Cycle: 791494	Occupancy: 0	Queue: 0
+[REQ] Cycle: 791647	Occupancy: 0	Queue: 0
+[REQ] Cycle: 792246	Occupancy: 0	Queue: 2
+[REQ] Cycle: 792251	Occupancy: 0	Queue: 2
+[REQ] Cycle: 792302	Occupancy: 0	Queue: 1
+[REQ] Cycle: 792959	Occupancy: 0	Queue: 3
+[REQ] Cycle: 792961	Occupancy: 0	Queue: 3
+[REQ] Cycle: 792993	Occupancy: 0	Queue: 1
+[REQ] Cycle: 793001	Occupancy: 0	Queue: 1
+[REQ] Cycle: 793031	Occupancy: 0	Queue: 4
+[REQ] Cycle: 793032	Occupancy: 0	Queue: 4
+[REQ] Cycle: 793037	Occupancy: 0	Queue: 3
+[REQ] Cycle: 793039	Occupancy: 0	Queue: 2
+[REQ] Cycle: 793075	Occupancy: 0	Queue: 1
+[REQ] Cycle: 793088	Occupancy: 0	Queue: 1
+[REQ] Cycle: 793102	Occupancy: 0	Queue: 0
+Instructions Retired: 2700002 Cycle: 793109 Hearbeat IPC: 3.420626 Cumulative IPC: 3.404326
+Cycle: 793109	Best offset: -32	Score: 44	Hit Rate: 0.969412
 	---- Offset table ----
 Offset -> Score
--32 -> 28
--1 -> 26
-1 -> 26
--31 -> 22
+-50 -> 4
+-32 -> 4
+-26 -> 4
+2 -> 4
 	----------------------
-[REQ] Cycle: 793112	Occupancy: 0	Queue: 1
-[REQ] Cycle: 793214	Occupancy: 0	Queue: 1
-[REQ] Cycle: 793270	Occupancy: 0	Queue: 2
-[REQ] Cycle: 793272	Occupancy: 0	Queue: 2
-[REQ] Cycle: 793967	Occupancy: 0	Queue: 1
-[REQ] Cycle: 794105	Occupancy: 0	Queue: 1
-[REQ] Cycle: 794545	Occupancy: 0	Queue: 0
-[REQ] Cycle: 795336	Occupancy: 0	Queue: 1
-[REQ] Cycle: 795556	Occupancy: 0	Queue: 1
-[REQ] Cycle: 795811	Occupancy: 0	Queue: 1
-[REQ] Cycle: 795848	Occupancy: 0	Queue: 3
-[REQ] Cycle: 795851	Occupancy: 0	Queue: 2
-[REQ] Cycle: 795852	Occupancy: 0	Queue: 2
-[REQ] Cycle: 795877	Occupancy: 0	Queue: 1
-[REQ] Cycle: 795921	Occupancy: 0	Queue: 1
-[REQ] Cycle: 795972	Occupancy: 0	Queue: 4
-[REQ] Cycle: 795973	Occupancy: 0	Queue: 4
-[REQ] Cycle: 795974	Occupancy: 0	Queue: 4
-[REQ] Cycle: 795975	Occupancy: 0	Queue: 4
-[REQ] Cycle: 796364	Occupancy: 0	Queue: 2
-[REQ] Cycle: 796365	Occupancy: 0	Queue: 2
-[REQ] Cycle: 796397	Occupancy: 0	Queue: 1
-[REQ] Cycle: 796424	Occupancy: 0	Queue: 1
-[REQ] Cycle: 796444	Occupancy: 0	Queue: 2
-[REQ] Cycle: 796445	Occupancy: 0	Queue: 2
-[REQ] Cycle: 796459	Occupancy: 0	Queue: 2
-[REQ] Cycle: 796460	Occupancy: 0	Queue: 3
-[REQ] Cycle: 796470	Occupancy: 0	Queue: 1
-[REQ] Cycle: 796591	Occupancy: 0	Queue: 1
-[REQ] Cycle: 796702	Occupancy: 0	Queue: 1
-[REQ] Cycle: 797113	Occupancy: 0	Queue: 1
-[REQ] Cycle: 797209	Occupancy: 0	Queue: 0
-[REQ] Cycle: 797403	Occupancy: 0	Queue: 1
-[REQ] Cycle: 798004	Occupancy: 0	Queue: 1
-[REQ] Cycle: 798008	Occupancy: 0	Queue: 1
-[REQ] Cycle: 798059	Occupancy: 0	Queue: 1
-[REQ] Cycle: 798723	Occupancy: 0	Queue: 1
-[REQ] Cycle: 798734	Occupancy: 0	Queue: 6
-[REQ] Cycle: 798735	Occupancy: 0	Queue: 6
-[REQ] Cycle: 798736	Occupancy: 0	Queue: 6
-[REQ] Cycle: 798737	Occupancy: 0	Queue: 6
-[REQ] Cycle: 798738	Occupancy: 0	Queue: 6
-[REQ] Cycle: 798755	Occupancy: 0	Queue: 2
-[REQ] Cycle: 798761	Occupancy: 0	Queue: 3
-[REQ] Cycle: 798775	Occupancy: 0	Queue: 3
-[REQ] Cycle: 798777	Occupancy: 0	Queue: 3
-[REQ] Cycle: 798782	Occupancy: 0	Queue: 3
-[REQ] Cycle: 798807	Occupancy: 0	Queue: 3
-[REQ] Cycle: 798808	Occupancy: 0	Queue: 3
-[REQ] Cycle: 798813	Occupancy: 0	Queue: 3
-[REQ] Cycle: 798851	Occupancy: 0	Queue: 2
-[REQ] Cycle: 798854	Occupancy: 0	Queue: 1
-[REQ] Cycle: 798880	Occupancy: 0	Queue: 1
-[REQ] Cycle: 798904	Occupancy: 0	Queue: 1
-[REQ] Cycle: 799011	Occupancy: 0	Queue: 1
-[REQ] Cycle: 799066	Occupancy: 0	Queue: 2
-[REQ] Cycle: 799069	Occupancy: 0	Queue: 2
-[REQ] Cycle: 799800	Occupancy: 0	Queue: 1
-[REQ] Cycle: 799939	Occupancy: 0	Queue: 1
-[REQ] Cycle: 800378	Occupancy: 0	Queue: 0
-[REQ] Cycle: 801143	Occupancy: 0	Queue: 1
-[REQ] Cycle: 801371	Occupancy: 0	Queue: 1
-[REQ] Cycle: 801621	Occupancy: 0	Queue: 1
-[REQ] Cycle: 801659	Occupancy: 0	Queue: 3
-[REQ] Cycle: 801662	Occupancy: 0	Queue: 2
-[REQ] Cycle: 801663	Occupancy: 0	Queue: 2
-[REQ] Cycle: 801688	Occupancy: 0	Queue: 1
-[REQ] Cycle: 801714	Occupancy: 0	Queue: 1
-[REQ] Cycle: 801765	Occupancy: 0	Queue: 4
-[REQ] Cycle: 801766	Occupancy: 0	Queue: 4
-[REQ] Cycle: 801767	Occupancy: 0	Queue: 4
-[REQ] Cycle: 801768	Occupancy: 0	Queue: 4
-[REQ] Cycle: 802148	Occupancy: 0	Queue: 2
-[REQ] Cycle: 802149	Occupancy: 0	Queue: 2
-[REQ] Cycle: 802187	Occupancy: 0	Queue: 1
-[REQ] Cycle: 802208	Occupancy: 0	Queue: 1
-[REQ] Cycle: 802227	Occupancy: 0	Queue: 2
-[REQ] Cycle: 802228	Occupancy: 0	Queue: 2
-[REQ] Cycle: 802243	Occupancy: 0	Queue: 2
-[REQ] Cycle: 802246	Occupancy: 0	Queue: 2
-[REQ] Cycle: 802257	Occupancy: 0	Queue: 0
-[REQ] Cycle: 802392	Occupancy: 0	Queue: 1
-[REQ] Cycle: 802495	Occupancy: 0	Queue: 1
-[REQ] Cycle: 802924	Occupancy: 0	Queue: 1
-[REQ] Cycle: 803015	Occupancy: 0	Queue: 0
-[REQ] Cycle: 803205	Occupancy: 0	Queue: 1
-[REQ] Cycle: 803798	Occupancy: 0	Queue: 1
-[REQ] Cycle: 803806	Occupancy: 0	Queue: 1
-[REQ] Cycle: 803858	Occupancy: 0	Queue: 1
-[REQ] Cycle: 804529	Occupancy: 0	Queue: 1
-[REQ] Cycle: 804540	Occupancy: 0	Queue: 6
-[REQ] Cycle: 804541	Occupancy: 0	Queue: 6
-[REQ] Cycle: 804542	Occupancy: 0	Queue: 6
-[REQ] Cycle: 804543	Occupancy: 0	Queue: 6
-[REQ] Cycle: 804544	Occupancy: 0	Queue: 6
-[REQ] Cycle: 804556	Occupancy: 0	Queue: 2
-[REQ] Cycle: 804560	Occupancy: 0	Queue: 3
-[REQ] Cycle: 804576	Occupancy: 0	Queue: 3
-[REQ] Cycle: 804577	Occupancy: 0	Queue: 3
+[REQ] Cycle: 793114	Occupancy: 0	Queue: 1
+[REQ] Cycle: 793139	Occupancy: 0	Queue: 1
+[REQ] Cycle: 793190	Occupancy: 0	Queue: 1
+[REQ] Cycle: 793248	Occupancy: 0	Queue: 1
+[REQ] Cycle: 794002	Occupancy: 0	Queue: 0
+[REQ] Cycle: 794580	Occupancy: 0	Queue: 1
+[REQ] Cycle: 795623	Occupancy: 0	Queue: 0
+[REQ] Cycle: 795874	Occupancy: 0	Queue: 0
+[REQ] Cycle: 795911	Occupancy: 0	Queue: 1
+[REQ] Cycle: 795917	Occupancy: 0	Queue: 0
+[REQ] Cycle: 795940	Occupancy: 0	Queue: 1
+[REQ] Cycle: 795985	Occupancy: 0	Queue: 1
+[REQ] Cycle: 795986	Occupancy: 0	Queue: 1
+[REQ] Cycle: 796038	Occupancy: 0	Queue: 1
+[REQ] Cycle: 796040	Occupancy: 0	Queue: 0
+[REQ] Cycle: 796177	Occupancy: 0	Queue: 0
+[REQ] Cycle: 796372	Occupancy: 0	Queue: 1
+[REQ] Cycle: 796438	Occupancy: 0	Queue: 1
+[REQ] Cycle: 796439	Occupancy: 0	Queue: 1
+[REQ] Cycle: 796462	Occupancy: 0	Queue: 1
+[REQ] Cycle: 796493	Occupancy: 0	Queue: 0
+[REQ] Cycle: 796510	Occupancy: 0	Queue: 1
+[REQ] Cycle: 796533	Occupancy: 0	Queue: 1
+[REQ] Cycle: 796758	Occupancy: 0	Queue: 1
+[REQ] Cycle: 796769	Occupancy: 0	Queue: 0
+[REQ] Cycle: 797285	Occupancy: 0	Queue: 1
+[REQ] Cycle: 797296	Occupancy: 0	Queue: 1
+[REQ] Cycle: 797331	Occupancy: 0	Queue: 0
+[REQ] Cycle: 797475	Occupancy: 0	Queue: 0
+[REQ] Cycle: 798077	Occupancy: 0	Queue: 2
+[REQ] Cycle: 798082	Occupancy: 0	Queue: 2
+[REQ] Cycle: 798129	Occupancy: 0	Queue: 1
+[REQ] Cycle: 798809	Occupancy: 0	Queue: 3
+[REQ] Cycle: 798811	Occupancy: 0	Queue: 3
+[REQ] Cycle: 798837	Occupancy: 0	Queue: 0
+[REQ] Cycle: 798851	Occupancy: 0	Queue: 1
+[REQ] Cycle: 798873	Occupancy: 0	Queue: 2
+[REQ] Cycle: 798877	Occupancy: 0	Queue: 3
+[REQ] Cycle: 798885	Occupancy: 0	Queue: 1
+[REQ] Cycle: 798895	Occupancy: 0	Queue: 0
+[REQ] Cycle: 798920	Occupancy: 0	Queue: 1
+[REQ] Cycle: 798931	Occupancy: 0	Queue: 1
+[REQ] Cycle: 798955	Occupancy: 0	Queue: 1
+[REQ] Cycle: 798957	Occupancy: 0	Queue: 1
+[REQ] Cycle: 798984	Occupancy: 0	Queue: 1
+[REQ] Cycle: 799036	Occupancy: 0	Queue: 1
+[REQ] Cycle: 799101	Occupancy: 0	Queue: 1
+[REQ] Cycle: 799877	Occupancy: 0	Queue: 0
+[REQ] Cycle: 800455	Occupancy: 0	Queue: 1
+[REQ] Cycle: 801427	Occupancy: 0	Queue: 0
+[REQ] Cycle: 801690	Occupancy: 0	Queue: 0
+[REQ] Cycle: 801729	Occupancy: 0	Queue: 1
+[REQ] Cycle: 801731	Occupancy: 0	Queue: 0
+[REQ] Cycle: 801758	Occupancy: 0	Queue: 1
+[REQ] Cycle: 801783	Occupancy: 0	Queue: 2
+[REQ] Cycle: 801784	Occupancy: 0	Queue: 2
+[REQ] Cycle: 801839	Occupancy: 0	Queue: 1
+[REQ] Cycle: 801841	Occupancy: 0	Queue: 0
+[REQ] Cycle: 801970	Occupancy: 0	Queue: 0
+[REQ] Cycle: 802166	Occupancy: 0	Queue: 1
+[REQ] Cycle: 802227	Occupancy: 0	Queue: 1
+[REQ] Cycle: 802228	Occupancy: 0	Queue: 1
+[REQ] Cycle: 802257	Occupancy: 0	Queue: 1
+[REQ] Cycle: 802285	Occupancy: 0	Queue: 0
+[REQ] Cycle: 802305	Occupancy: 0	Queue: 1
+[REQ] Cycle: 802329	Occupancy: 0	Queue: 1
+[REQ] Cycle: 802574	Occupancy: 0	Queue: 1
+[REQ] Cycle: 802575	Occupancy: 0	Queue: 1
+[REQ] Cycle: 803103	Occupancy: 0	Queue: 1
+[REQ] Cycle: 803292	Occupancy: 0	Queue: 0
+[REQ] Cycle: 803877	Occupancy: 0	Queue: 2
+[REQ] Cycle: 803881	Occupancy: 0	Queue: 2
+[REQ] Cycle: 803931	Occupancy: 0	Queue: 1
 [REQ] Cycle: 804581	Occupancy: 0	Queue: 3
-[REQ] Cycle: 804605	Occupancy: 0	Queue: 3
-[REQ] Cycle: 804607	Occupancy: 0	Queue: 3
-[REQ] Cycle: 804611	Occupancy: 0	Queue: 3
-[REQ] Cycle: 804646	Occupancy: 0	Queue: 2
+[REQ] Cycle: 804583	Occupancy: 0	Queue: 3
+[REQ] Cycle: 804600	Occupancy: 0	Queue: 0
+[REQ] Cycle: 804626	Occupancy: 0	Queue: 1
+[REQ] Cycle: 804640	Occupancy: 0	Queue: 2
+[REQ] Cycle: 804641	Occupancy: 0	Queue: 2
 [REQ] Cycle: 804652	Occupancy: 0	Queue: 1
-[REQ] Cycle: 804669	Occupancy: 0	Queue: 1
-[REQ] Cycle: 804694	Occupancy: 0	Queue: 1
-[REQ] Cycle: 804804	Occupancy: 0	Queue: 1
-[REQ] Cycle: 804859	Occupancy: 0	Queue: 1
-[REQ] Cycle: 804923	Occupancy: 0	Queue: 1
-[REQ] Cycle: 805435	Occupancy: 0	Queue: 1
-[REQ] Cycle: 805557	Occupancy: 0	Queue: 1
-[REQ] Cycle: 805750	Occupancy: 0	Queue: 1
-[REQ] Cycle: 806131	Occupancy: 0	Queue: 0
-[REQ] Cycle: 806922	Occupancy: 0	Queue: 1
-[REQ] Cycle: 807143	Occupancy: 0	Queue: 1
-[REQ] Cycle: 807413	Occupancy: 0	Queue: 1
-[REQ] Cycle: 807451	Occupancy: 0	Queue: 3
-[REQ] Cycle: 807454	Occupancy: 0	Queue: 2
-[REQ] Cycle: 807455	Occupancy: 0	Queue: 2
-[REQ] Cycle: 807480	Occupancy: 0	Queue: 1
-[REQ] Cycle: 807524	Occupancy: 0	Queue: 1
-[REQ] Cycle: 807574	Occupancy: 0	Queue: 4
-[REQ] Cycle: 807575	Occupancy: 0	Queue: 4
-[REQ] Cycle: 807576	Occupancy: 0	Queue: 4
-[REQ] Cycle: 807577	Occupancy: 0	Queue: 4
-[REQ] Cycle: 807942	Occupancy: 0	Queue: 2
-[REQ] Cycle: 807948	Occupancy: 0	Queue: 2
-[REQ] Cycle: 807970	Occupancy: 0	Queue: 1
-[REQ] Cycle: 807994	Occupancy: 0	Queue: 1
-[REQ] Cycle: 808018	Occupancy: 0	Queue: 3
-[REQ] Cycle: 808020	Occupancy: 0	Queue: 3
-[REQ] Cycle: 808025	Occupancy: 0	Queue: 4
-[REQ] Cycle: 808031	Occupancy: 0	Queue: 3
-[REQ] Cycle: 808036	Occupancy: 0	Queue: 1
-[REQ] Cycle: 808050	Occupancy: 0	Queue: 1
+[REQ] Cycle: 804655	Occupancy: 0	Queue: 0
+[REQ] Cycle: 804691	Occupancy: 0	Queue: 2
+[REQ] Cycle: 804696	Occupancy: 0	Queue: 2
+[REQ] Cycle: 804718	Occupancy: 0	Queue: 0
+[REQ] Cycle: 804742	Occupancy: 0	Queue: 1
+[REQ] Cycle: 804791	Occupancy: 0	Queue: 1
+[REQ] Cycle: 804854	Occupancy: 0	Queue: 1
+[REQ] Cycle: 804909	Occupancy: 0	Queue: 0
+[REQ] Cycle: 804969	Occupancy: 0	Queue: 1
+[REQ] Cycle: 805600	Occupancy: 0	Queue: 0
+[REQ] Cycle: 806173	Occupancy: 0	Queue: 1
+[REQ] Cycle: 807191	Occupancy: 0	Queue: 0
+[REQ] Cycle: 807462	Occupancy: 0	Queue: 0
+[REQ] Cycle: 807499	Occupancy: 0	Queue: 1
+[REQ] Cycle: 807501	Occupancy: 0	Queue: 0
+[REQ] Cycle: 807528	Occupancy: 0	Queue: 1
+[REQ] Cycle: 807573	Occupancy: 0	Queue: 1
+[REQ] Cycle: 807577	Occupancy: 0	Queue: 1
+[REQ] Cycle: 807627	Occupancy: 0	Queue: 1
+[REQ] Cycle: 807629	Occupancy: 0	Queue: 0
+[REQ] Cycle: 807766	Occupancy: 0	Queue: 0
+[REQ] Cycle: 807795	Occupancy: 0	Queue: 0
+[REQ] Cycle: 807944	Occupancy: 0	Queue: 1
+[REQ] Cycle: 808003	Occupancy: 0	Queue: 1
+[REQ] Cycle: 808010	Occupancy: 0	Queue: 1
+[REQ] Cycle: 808031	Occupancy: 0	Queue: 1
+[REQ] Cycle: 808056	Occupancy: 0	Queue: 0
+[REQ] Cycle: 808080	Occupancy: 0	Queue: 1
+[REQ] Cycle: 808099	Occupancy: 0	Queue: 1
 [REQ] Cycle: 808174	Occupancy: 0	Queue: 1
-[REQ] Cycle: 808258	Occupancy: 0	Queue: 1
-[REQ] Cycle: 808552	Occupancy: 0	Queue: 1
-[REQ] Cycle: 808694	Occupancy: 0	Queue: 1
-[REQ] Cycle: 808784	Occupancy: 0	Queue: 0
-[REQ] Cycle: 808934	Occupancy: 0	Queue: 1
-[REQ] Cycle: 808973	Occupancy: 0	Queue: 1
-[REQ] Cycle: 809573	Occupancy: 0	Queue: 1
-[REQ] Cycle: 809577	Occupancy: 0	Queue: 1
-[REQ] Cycle: 809629	Occupancy: 0	Queue: 1
-[REQ] Cycle: 810291	Occupancy: 0	Queue: 1
-[REQ] Cycle: 810302	Occupancy: 0	Queue: 6
-[REQ] Cycle: 810303	Occupancy: 0	Queue: 6
-[REQ] Cycle: 810304	Occupancy: 0	Queue: 6
-[REQ] Cycle: 810305	Occupancy: 0	Queue: 6
-[REQ] Cycle: 810306	Occupancy: 0	Queue: 6
-[REQ] Cycle: 810324	Occupancy: 1	Queue: 2
-[REQ] Cycle: 810329	Occupancy: 1	Queue: 3
-[REQ] Cycle: 810342	Occupancy: 1	Queue: 3
-[REQ] Cycle: 810344	Occupancy: 1	Queue: 3
-[REQ] Cycle: 810351	Occupancy: 1	Queue: 3
-[REQ] Cycle: 810374	Occupancy: 1	Queue: 3
-[REQ] Cycle: 810376	Occupancy: 1	Queue: 4
-[REQ] Cycle: 810380	Occupancy: 1	Queue: 4
-[REQ] Cycle: 810385	Occupancy: 1	Queue: 3
-[REQ] Cycle: 810414	Occupancy: 1	Queue: 1
-[REQ] Cycle: 810425	Occupancy: 1	Queue: 0
-[REQ] Cycle: 810445	Occupancy: 1	Queue: 1
-[REQ] Cycle: 810475	Occupancy: 1	Queue: 1
-[REQ] Cycle: 810583	Occupancy: 0	Queue: 1
-[REQ] Cycle: 810632	Occupancy: 0	Queue: 2
-[REQ] Cycle: 810640	Occupancy: 0	Queue: 2
-[REQ] Cycle: 810652	Occupancy: 0	Queue: 1
-[REQ] Cycle: 811352	Occupancy: 0	Queue: 1
-[REQ] Cycle: 811491	Occupancy: 0	Queue: 1
-[REQ] Cycle: 811924	Occupancy: 0	Queue: 0
-[REQ] Cycle: 812716	Occupancy: 0	Queue: 1
-[REQ] Cycle: 812935	Occupancy: 0	Queue: 1
-[REQ] Cycle: 813205	Occupancy: 0	Queue: 1
-[REQ] Cycle: 813241	Occupancy: 0	Queue: 3
-[REQ] Cycle: 813244	Occupancy: 0	Queue: 2
-[REQ] Cycle: 813245	Occupancy: 0	Queue: 2
-[REQ] Cycle: 813270	Occupancy: 0	Queue: 1
-[REQ] Cycle: 813314	Occupancy: 0	Queue: 1
-[REQ] Cycle: 813367	Occupancy: 0	Queue: 4
-[REQ] Cycle: 813368	Occupancy: 0	Queue: 4
-[REQ] Cycle: 813369	Occupancy: 0	Queue: 4
-[REQ] Cycle: 813370	Occupancy: 0	Queue: 4
-[REQ] Cycle: 813749	Occupancy: 0	Queue: 2
-[REQ] Cycle: 813757	Occupancy: 0	Queue: 2
-[REQ] Cycle: 813787	Occupancy: 0	Queue: 1
-[REQ] Cycle: 813804	Occupancy: 0	Queue: 1
-[REQ] Cycle: 813824	Occupancy: 0	Queue: 2
-[REQ] Cycle: 813826	Occupancy: 0	Queue: 2
-[REQ] Cycle: 813838	Occupancy: 0	Queue: 3
-[REQ] Cycle: 813840	Occupancy: 0	Queue: 3
-[REQ] Cycle: 813842	Occupancy: 0	Queue: 2
-[REQ] Cycle: 813958	Occupancy: 0	Queue: 1
-[REQ] Cycle: 814075	Occupancy: 0	Queue: 1
-[REQ] Cycle: 814480	Occupancy: 0	Queue: 1
-[REQ] Cycle: 814510	Occupancy: 0	Queue: 2
-[REQ] Cycle: 814513	Occupancy: 0	Queue: 2
-[REQ] Cycle: 814573	Occupancy: 0	Queue: 0
-[REQ] Cycle: 814770	Occupancy: 0	Queue: 1
-[REQ] Cycle: 815367	Occupancy: 0	Queue: 1
-[REQ] Cycle: 815371	Occupancy: 0	Queue: 1
-[REQ] Cycle: 815418	Occupancy: 0	Queue: 1
-[REQ] Cycle: 816083	Occupancy: 0	Queue: 1
-[REQ] Cycle: 816094	Occupancy: 0	Queue: 6
-[REQ] Cycle: 816095	Occupancy: 0	Queue: 6
-[REQ] Cycle: 816096	Occupancy: 0	Queue: 6
-[REQ] Cycle: 816097	Occupancy: 0	Queue: 6
-[REQ] Cycle: 816099	Occupancy: 0	Queue: 6
-[REQ] Cycle: 816114	Occupancy: 0	Queue: 2
-[REQ] Cycle: 816123	Occupancy: 0	Queue: 2
-[REQ] Cycle: 816135	Occupancy: 0	Queue: 2
-[REQ] Cycle: 816139	Occupancy: 0	Queue: 3
-[REQ] Cycle: 816146	Occupancy: 0	Queue: 2
-[REQ] Cycle: 816169	Occupancy: 0	Queue: 3
-[REQ] Cycle: 816170	Occupancy: 0	Queue: 4
-[REQ] Cycle: 816176	Occupancy: 0	Queue: 4
-[REQ] Cycle: 816180	Occupancy: 0	Queue: 3
-[REQ] Cycle: 816211	Occupancy: 0	Queue: 1
-[REQ] Cycle: 816222	Occupancy: 0	Queue: 0
-[REQ] Cycle: 816239	Occupancy: 0	Queue: 1
-[REQ] Cycle: 816281	Occupancy: 0	Queue: 1
-[REQ] Cycle: 816354	Occupancy: 0	Queue: 1
-[REQ] Cycle: 816389	Occupancy: 0	Queue: 1
-[REQ] Cycle: 816443	Occupancy: 0	Queue: 1
-[REQ] Cycle: 816463	Occupancy: 0	Queue: 1
-[REQ] Cycle: 817157	Occupancy: 0	Queue: 1
-[REQ] Cycle: 817296	Occupancy: 0	Queue: 1
-[REQ] Cycle: 817737	Occupancy: 0	Queue: 0
-[REQ] Cycle: 818530	Occupancy: 0	Queue: 1
-[REQ] Cycle: 818750	Occupancy: 0	Queue: 1
-[REQ] Cycle: 819010	Occupancy: 0	Queue: 1
-[REQ] Cycle: 819052	Occupancy: 0	Queue: 2
-[REQ] Cycle: 819053	Occupancy: 0	Queue: 2
-[REQ] Cycle: 819061	Occupancy: 0	Queue: 2
-[REQ] Cycle: 819097	Occupancy: 0	Queue: 1
-[REQ] Cycle: 819148	Occupancy: 0	Queue: 3
-[REQ] Cycle: 819149	Occupancy: 0	Queue: 3
-[REQ] Cycle: 819151	Occupancy: 0	Queue: 3
-[REQ] Cycle: 819215	Occupancy: 0	Queue: 1
-[REQ] Cycle: 819289	Occupancy: 0	Queue: 1
-[REQ] Cycle: 819542	Occupancy: 0	Queue: 1
-[REQ] Cycle: 819553	Occupancy: 0	Queue: 1
-[REQ] Cycle: 819567	Occupancy: 0	Queue: 1
-[REQ] Cycle: 819613	Occupancy: 0	Queue: 1
-[REQ] Cycle: 819635	Occupancy: 0	Queue: 3
-[REQ] Cycle: 819644	Occupancy: 0	Queue: 1
-[REQ] Cycle: 819775	Occupancy: 0	Queue: 1
-[REQ] Cycle: 819895	Occupancy: 0	Queue: 1
-[REQ] Cycle: 820308	Occupancy: 0	Queue: 1
-[REQ] Cycle: 820395	Occupancy: 0	Queue: 0
-[REQ] Cycle: 820588	Occupancy: 0	Queue: 1
-[REQ] Cycle: 821141	Occupancy: 0	Queue: 1
-[REQ] Cycle: 821145	Occupancy: 0	Queue: 1
-[REQ] Cycle: 821198	Occupancy: 0	Queue: 1
-[REQ] Cycle: 821780	Occupancy: 0	Queue: 1
-[REQ] Cycle: 821860	Occupancy: 0	Queue: 1
-[REQ] Cycle: 821871	Occupancy: 0	Queue: 6
-[REQ] Cycle: 821872	Occupancy: 0	Queue: 6
-[REQ] Cycle: 821873	Occupancy: 0	Queue: 6
-[REQ] Cycle: 821874	Occupancy: 0	Queue: 6
-[REQ] Cycle: 821875	Occupancy: 0	Queue: 6
-[REQ] Cycle: 821892	Occupancy: 0	Queue: 2
-[REQ] Cycle: 821895	Occupancy: 0	Queue: 3
-[REQ] Cycle: 821915	Occupancy: 0	Queue: 2
-[REQ] Cycle: 821917	Occupancy: 0	Queue: 3
-[REQ] Cycle: 821926	Occupancy: 0	Queue: 2
-[REQ] Cycle: 821950	Occupancy: 0	Queue: 3
-[REQ] Cycle: 821951	Occupancy: 0	Queue: 3
-[REQ] Cycle: 821956	Occupancy: 0	Queue: 3
-[REQ] Cycle: 821993	Occupancy: 0	Queue: 1
-[REQ] Cycle: 822007	Occupancy: 0	Queue: 0
-[REQ] Cycle: 822038	Occupancy: 0	Queue: 1
-[REQ] Cycle: 822113	Occupancy: 0	Queue: 1
-[REQ] Cycle: 822155	Occupancy: 0	Queue: 1
-[REQ] Cycle: 822204	Occupancy: 0	Queue: 1
-[REQ] Cycle: 822224	Occupancy: 0	Queue: 1
-Instructions Retired: 2800000 Cycle: 822299 Hearbeat IPC: 3.422831 Cumulative IPC: 3.405087
-Cycle: 822299	Best offset: 1	Score: 1	Hit Rate: 0.971409
+[REQ] Cycle: 808318	Occupancy: 0	Queue: 0
+[REQ] Cycle: 808832	Occupancy: 0	Queue: 1
+[REQ] Cycle: 809017	Occupancy: 0	Queue: 0
+[REQ] Cycle: 809616	Occupancy: 0	Queue: 2
+[REQ] Cycle: 809617	Occupancy: 0	Queue: 2
+[REQ] Cycle: 809667	Occupancy: 0	Queue: 1
+[REQ] Cycle: 810327	Occupancy: 0	Queue: 4
+[REQ] Cycle: 810329	Occupancy: 0	Queue: 4
+[REQ] Cycle: 810332	Occupancy: 0	Queue: 4
+[REQ] Cycle: 810347	Occupancy: 1	Queue: 0
+[REQ] Cycle: 810369	Occupancy: 1	Queue: 1
+[REQ] Cycle: 810385	Occupancy: 1	Queue: 2
+[REQ] Cycle: 810386	Occupancy: 1	Queue: 2
+[REQ] Cycle: 810397	Occupancy: 1	Queue: 2
+[REQ] Cycle: 810399	Occupancy: 1	Queue: 1
+[REQ] Cycle: 810400	Occupancy: 2	Queue: 0
+[REQ] Cycle: 810432	Occupancy: 1	Queue: 1
+[REQ] Cycle: 810449	Occupancy: 1	Queue: 1
+[REQ] Cycle: 810476	Occupancy: 1	Queue: 1
+[REQ] Cycle: 810498	Occupancy: 0	Queue: 1
+[REQ] Cycle: 810533	Occupancy: 0	Queue: 0
+[REQ] Cycle: 810579	Occupancy: 0	Queue: 1
+[REQ] Cycle: 810648	Occupancy: 0	Queue: 1
+[REQ] Cycle: 811402	Occupancy: 0	Queue: 0
+[REQ] Cycle: 811974	Occupancy: 0	Queue: 1
+[REQ] Cycle: 812972	Occupancy: 0	Queue: 0
+[REQ] Cycle: 813244	Occupancy: 0	Queue: 0
+[REQ] Cycle: 813282	Occupancy: 0	Queue: 1
+[REQ] Cycle: 813285	Occupancy: 0	Queue: 0
+[REQ] Cycle: 813311	Occupancy: 0	Queue: 1
+[REQ] Cycle: 813358	Occupancy: 0	Queue: 1
+[REQ] Cycle: 813362	Occupancy: 0	Queue: 1
+[REQ] Cycle: 813407	Occupancy: 0	Queue: 1
+[REQ] Cycle: 813409	Occupancy: 0	Queue: 0
+[REQ] Cycle: 813721	Occupancy: 0	Queue: 1
+[REQ] Cycle: 813782	Occupancy: 0	Queue: 1
+[REQ] Cycle: 813786	Occupancy: 0	Queue: 1
+[REQ] Cycle: 813812	Occupancy: 0	Queue: 1
+[REQ] Cycle: 813839	Occupancy: 0	Queue: 0
+[REQ] Cycle: 813855	Occupancy: 0	Queue: 1
+[REQ] Cycle: 813879	Occupancy: 0	Queue: 1
+[REQ] Cycle: 813966	Occupancy: 0	Queue: 1
+[REQ] Cycle: 814112	Occupancy: 0	Queue: 0
+[REQ] Cycle: 814561	Occupancy: 0	Queue: 0
+[REQ] Cycle: 814619	Occupancy: 0	Queue: 1
+[REQ] Cycle: 814818	Occupancy: 0	Queue: 0
+[REQ] Cycle: 815426	Occupancy: 0	Queue: 2
+[REQ] Cycle: 815427	Occupancy: 0	Queue: 2
+[REQ] Cycle: 815475	Occupancy: 0	Queue: 1
+[REQ] Cycle: 816143	Occupancy: 0	Queue: 4
+[REQ] Cycle: 816145	Occupancy: 0	Queue: 4
+[REQ] Cycle: 816148	Occupancy: 0	Queue: 4
+[REQ] Cycle: 816175	Occupancy: 0	Queue: 0
+[REQ] Cycle: 816191	Occupancy: 0	Queue: 1
+[REQ] Cycle: 816213	Occupancy: 0	Queue: 2
+[REQ] Cycle: 816215	Occupancy: 0	Queue: 2
+[REQ] Cycle: 816226	Occupancy: 0	Queue: 0
+[REQ] Cycle: 816263	Occupancy: 0	Queue: 2
+[REQ] Cycle: 816266	Occupancy: 0	Queue: 2
+[REQ] Cycle: 816290	Occupancy: 0	Queue: 0
+[REQ] Cycle: 816316	Occupancy: 0	Queue: 1
+[REQ] Cycle: 816371	Occupancy: 0	Queue: 1
+[REQ] Cycle: 816437	Occupancy: 0	Queue: 1
+[REQ] Cycle: 816497	Occupancy: 0	Queue: 0
+[REQ] Cycle: 817186	Occupancy: 0	Queue: 0
+[REQ] Cycle: 817764	Occupancy: 0	Queue: 1
+[REQ] Cycle: 818776	Occupancy: 0	Queue: 0
+[REQ] Cycle: 819037	Occupancy: 0	Queue: 0
+[REQ] Cycle: 819078	Occupancy: 0	Queue: 0
+[REQ] Cycle: 819125	Occupancy: 0	Queue: 2
+[REQ] Cycle: 819127	Occupancy: 0	Queue: 1
+[REQ] Cycle: 819178	Occupancy: 0	Queue: 1
+[REQ] Cycle: 819180	Occupancy: 0	Queue: 0
+[REQ] Cycle: 819239	Occupancy: 0	Queue: 0
+[REQ] Cycle: 819315	Occupancy: 0	Queue: 0
+[REQ] Cycle: 819504	Occupancy: 0	Queue: 1
+[REQ] Cycle: 819570	Occupancy: 0	Queue: 1
+[REQ] Cycle: 819572	Occupancy: 0	Queue: 1
+[REQ] Cycle: 819606	Occupancy: 0	Queue: 1
+[REQ] Cycle: 819674	Occupancy: 0	Queue: 1
+[REQ] Cycle: 819898	Occupancy: 0	Queue: 2
+[REQ] Cycle: 819906	Occupancy: 0	Queue: 1
+[REQ] Cycle: 820417	Occupancy: 0	Queue: 1
+[REQ] Cycle: 820610	Occupancy: 0	Queue: 0
+[REQ] Cycle: 821171	Occupancy: 0	Queue: 2
+[REQ] Cycle: 821175	Occupancy: 0	Queue: 2
+[REQ] Cycle: 821226	Occupancy: 0	Queue: 1
+[REQ] Cycle: 821895	Occupancy: 0	Queue: 4
+[REQ] Cycle: 821897	Occupancy: 0	Queue: 4
+[REQ] Cycle: 821900	Occupancy: 0	Queue: 3
+[REQ] Cycle: 821916	Occupancy: 0	Queue: 0
+[REQ] Cycle: 821940	Occupancy: 0	Queue: 1
+[REQ] Cycle: 821957	Occupancy: 0	Queue: 2
+[REQ] Cycle: 821958	Occupancy: 0	Queue: 3
+[REQ] Cycle: 821968	Occupancy: 0	Queue: 1
+[REQ] Cycle: 822006	Occupancy: 0	Queue: 1
+[REQ] Cycle: 822019	Occupancy: 0	Queue: 1
+[REQ] Cycle: 822049	Occupancy: 0	Queue: 1
+[REQ] Cycle: 822096	Occupancy: 0	Queue: 1
+[REQ] Cycle: 822160	Occupancy: 0	Queue: 1
+Instructions Retired: 2800003 Cycle: 822284 Hearbeat IPC: 3.427626 Cumulative IPC: 3.405153
+Cycle: 822284	Best offset: -32	Score: 44	Hit Rate: 0.970185
 	---- Offset table ----
 Offset -> Score
--32 -> 28
--1 -> 26
-1 -> 26
--31 -> 24
+42 -> 6
+-64 -> 4
+-50 -> 4
+-42 -> 4
 	----------------------
-[REQ] Cycle: 822936	Occupancy: 0	Queue: 1
-[REQ] Cycle: 823074	Occupancy: 0	Queue: 1
-[REQ] Cycle: 823514	Occupancy: 0	Queue: 0
-[REQ] Cycle: 824298	Occupancy: 0	Queue: 1
-[REQ] Cycle: 824519	Occupancy: 0	Queue: 1
-[REQ] Cycle: 824790	Occupancy: 0	Queue: 1
-[REQ] Cycle: 824826	Occupancy: 0	Queue: 3
-[REQ] Cycle: 824828	Occupancy: 0	Queue: 2
-[REQ] Cycle: 824829	Occupancy: 0	Queue: 2
-[REQ] Cycle: 824899	Occupancy: 0	Queue: 1
-[REQ] Cycle: 824950	Occupancy: 0	Queue: 4
-[REQ] Cycle: 824951	Occupancy: 0	Queue: 4
-[REQ] Cycle: 824952	Occupancy: 0	Queue: 4
-[REQ] Cycle: 824953	Occupancy: 0	Queue: 4
-[REQ] Cycle: 825095	Occupancy: 0	Queue: 1
-[REQ] Cycle: 825349	Occupancy: 0	Queue: 2
-[REQ] Cycle: 825357	Occupancy: 0	Queue: 2
-[REQ] Cycle: 825381	Occupancy: 0	Queue: 1
-[REQ] Cycle: 825424	Occupancy: 0	Queue: 1
-[REQ] Cycle: 825441	Occupancy: 0	Queue: 1
-[REQ] Cycle: 825462	Occupancy: 0	Queue: 0
-[REQ] Cycle: 825685	Occupancy: 0	Queue: 1
-[REQ] Cycle: 826186	Occupancy: 0	Queue: 0
-[REQ] Cycle: 826387	Occupancy: 0	Queue: 1
-[REQ] Cycle: 826975	Occupancy: 0	Queue: 1
-[REQ] Cycle: 826979	Occupancy: 0	Queue: 1
-[REQ] Cycle: 827030	Occupancy: 0	Queue: 1
-[REQ] Cycle: 827616	Occupancy: 0	Queue: 1
-[REQ] Cycle: 827704	Occupancy: 0	Queue: 6
-[REQ] Cycle: 827706	Occupancy: 0	Queue: 6
-[REQ] Cycle: 827707	Occupancy: 0	Queue: 6
-[REQ] Cycle: 827708	Occupancy: 0	Queue: 6
-[REQ] Cycle: 827709	Occupancy: 0	Queue: 6
-[REQ] Cycle: 827736	Occupancy: 0	Queue: 3
-[REQ] Cycle: 827740	Occupancy: 0	Queue: 3
-[REQ] Cycle: 827741	Occupancy: 0	Queue: 3
-[REQ] Cycle: 827775	Occupancy: 0	Queue: 3
-[REQ] Cycle: 827776	Occupancy: 0	Queue: 3
-[REQ] Cycle: 827783	Occupancy: 0	Queue: 3
-[REQ] Cycle: 827819	Occupancy: 0	Queue: 1
-[REQ] Cycle: 827831	Occupancy: 0	Queue: 0
-[REQ] Cycle: 827882	Occupancy: 0	Queue: 1
-[REQ] Cycle: 827961	Occupancy: 0	Queue: 1
-[REQ] Cycle: 827996	Occupancy: 0	Queue: 1
-[REQ] Cycle: 828055	Occupancy: 0	Queue: 1
-[REQ] Cycle: 828755	Occupancy: 0	Queue: 1
-[REQ] Cycle: 828894	Occupancy: 0	Queue: 1
-[REQ] Cycle: 829333	Occupancy: 0	Queue: 0
-[REQ] Cycle: 830135	Occupancy: 0	Queue: 1
-[REQ] Cycle: 830355	Occupancy: 0	Queue: 1
-[REQ] Cycle: 830627	Occupancy: 0	Queue: 1
-[REQ] Cycle: 830663	Occupancy: 0	Queue: 3
-[REQ] Cycle: 830665	Occupancy: 0	Queue: 2
-[REQ] Cycle: 830666	Occupancy: 0	Queue: 2
-[REQ] Cycle: 830736	Occupancy: 0	Queue: 1
-[REQ] Cycle: 830787	Occupancy: 0	Queue: 4
-[REQ] Cycle: 830788	Occupancy: 0	Queue: 4
-[REQ] Cycle: 830789	Occupancy: 0	Queue: 4
-[REQ] Cycle: 830790	Occupancy: 0	Queue: 4
-[REQ] Cycle: 831163	Occupancy: 0	Queue: 2
-[REQ] Cycle: 831167	Occupancy: 0	Queue: 2
-[REQ] Cycle: 831202	Occupancy: 0	Queue: 1
-[REQ] Cycle: 831250	Occupancy: 0	Queue: 1
-[REQ] Cycle: 831262	Occupancy: 0	Queue: 1
-[REQ] Cycle: 831273	Occupancy: 0	Queue: 0
-[REQ] Cycle: 831493	Occupancy: 0	Queue: 1
-[REQ] Cycle: 831999	Occupancy: 0	Queue: 0
-[REQ] Cycle: 832190	Occupancy: 0	Queue: 1
-[REQ] Cycle: 832790	Occupancy: 0	Queue: 1
-[REQ] Cycle: 832794	Occupancy: 0	Queue: 1
-[REQ] Cycle: 832850	Occupancy: 0	Queue: 1
-[REQ] Cycle: 833405	Occupancy: 0	Queue: 1
-[REQ] Cycle: 833491	Occupancy: 0	Queue: 6
-[REQ] Cycle: 833493	Occupancy: 0	Queue: 6
-[REQ] Cycle: 833494	Occupancy: 0	Queue: 6
-[REQ] Cycle: 833495	Occupancy: 0	Queue: 6
-[REQ] Cycle: 833496	Occupancy: 0	Queue: 6
-[REQ] Cycle: 833527	Occupancy: 0	Queue: 3
-[REQ] Cycle: 833532	Occupancy: 0	Queue: 3
-[REQ] Cycle: 833534	Occupancy: 0	Queue: 3
-[REQ] Cycle: 833574	Occupancy: 0	Queue: 4
-[REQ] Cycle: 833575	Occupancy: 0	Queue: 4
-[REQ] Cycle: 833577	Occupancy: 0	Queue: 4
-[REQ] Cycle: 833583	Occupancy: 0	Queue: 4
-[REQ] Cycle: 833618	Occupancy: 1	Queue: 2
-[REQ] Cycle: 833624	Occupancy: 1	Queue: 1
-[REQ] Cycle: 833666	Occupancy: 1	Queue: 1
-[REQ] Cycle: 833737	Occupancy: 0	Queue: 1
-[REQ] Cycle: 833775	Occupancy: 0	Queue: 1
-[REQ] Cycle: 833837	Occupancy: 0	Queue: 1
-[REQ] Cycle: 834540	Occupancy: 0	Queue: 1
-[REQ] Cycle: 834735	Occupancy: 0	Queue: 1
-[REQ] Cycle: 835113	Occupancy: 0	Queue: 0
-[REQ] Cycle: 835903	Occupancy: 0	Queue: 1
-[REQ] Cycle: 836123	Occupancy: 0	Queue: 1
-[REQ] Cycle: 836395	Occupancy: 0	Queue: 1
-[REQ] Cycle: 836432	Occupancy: 0	Queue: 3
-[REQ] Cycle: 836435	Occupancy: 0	Queue: 2
-[REQ] Cycle: 836436	Occupancy: 0	Queue: 2
-[REQ] Cycle: 836505	Occupancy: 0	Queue: 1
-[REQ] Cycle: 836555	Occupancy: 0	Queue: 4
-[REQ] Cycle: 836556	Occupancy: 0	Queue: 4
-[REQ] Cycle: 836557	Occupancy: 0	Queue: 4
-[REQ] Cycle: 836558	Occupancy: 0	Queue: 4
-[REQ] Cycle: 836937	Occupancy: 0	Queue: 1
-[REQ] Cycle: 836950	Occupancy: 0	Queue: 1
-[REQ] Cycle: 836975	Occupancy: 0	Queue: 1
-[REQ] Cycle: 837014	Occupancy: 0	Queue: 1
-[REQ] Cycle: 837031	Occupancy: 0	Queue: 2
-[REQ] Cycle: 837038	Occupancy: 0	Queue: 1
-[REQ] Cycle: 837261	Occupancy: 0	Queue: 1
-[REQ] Cycle: 837748	Occupancy: 0	Queue: 0
-[REQ] Cycle: 837758	Occupancy: 0	Queue: 0
-[REQ] Cycle: 837931	Occupancy: 0	Queue: 1
-[REQ] Cycle: 838507	Occupancy: 0	Queue: 1
-[REQ] Cycle: 838511	Occupancy: 0	Queue: 1
-[REQ] Cycle: 838562	Occupancy: 0	Queue: 1
-[REQ] Cycle: 839132	Occupancy: 0	Queue: 1
-[REQ] Cycle: 839222	Occupancy: 0	Queue: 6
-[REQ] Cycle: 839224	Occupancy: 0	Queue: 6
-[REQ] Cycle: 839225	Occupancy: 0	Queue: 7
-[REQ] Cycle: 839226	Occupancy: 0	Queue: 7
-[REQ] Cycle: 839227	Occupancy: 0	Queue: 7
-[REQ] Cycle: 839235	Occupancy: 0	Queue: 4
-[REQ] Cycle: 839251	Occupancy: 0	Queue: 2
-[REQ] Cycle: 839260	Occupancy: 0	Queue: 1
-[REQ] Cycle: 839270	Occupancy: 0	Queue: 3
-[REQ] Cycle: 839272	Occupancy: 0	Queue: 3
-[REQ] Cycle: 839274	Occupancy: 0	Queue: 3
-[REQ] Cycle: 839291	Occupancy: 0	Queue: 1
-[REQ] Cycle: 839329	Occupancy: 0	Queue: 0
-[REQ] Cycle: 839347	Occupancy: 0	Queue: 1
+[REQ] Cycle: 822926	Occupancy: 0	Queue: 0
+[REQ] Cycle: 823504	Occupancy: 0	Queue: 1
+[REQ] Cycle: 824499	Occupancy: 0	Queue: 0
+[REQ] Cycle: 824763	Occupancy: 0	Queue: 0
+[REQ] Cycle: 824800	Occupancy: 0	Queue: 1
+[REQ] Cycle: 824803	Occupancy: 0	Queue: 0
+[REQ] Cycle: 824873	Occupancy: 0	Queue: 2
+[REQ] Cycle: 824876	Occupancy: 0	Queue: 1
+[REQ] Cycle: 824926	Occupancy: 0	Queue: 1
+[REQ] Cycle: 824928	Occupancy: 0	Queue: 0
+[REQ] Cycle: 825063	Occupancy: 0	Queue: 0
+[REQ] Cycle: 825257	Occupancy: 0	Queue: 1
+[REQ] Cycle: 825319	Occupancy: 0	Queue: 1
+[REQ] Cycle: 825322	Occupancy: 0	Queue: 1
+[REQ] Cycle: 825359	Occupancy: 0	Queue: 1
+[REQ] Cycle: 825427	Occupancy: 0	Queue: 1
+[REQ] Cycle: 825660	Occupancy: 0	Queue: 2
+[REQ] Cycle: 825662	Occupancy: 0	Queue: 1
+[REQ] Cycle: 826172	Occupancy: 0	Queue: 1
+[REQ] Cycle: 826369	Occupancy: 0	Queue: 0
+[REQ] Cycle: 826955	Occupancy: 0	Queue: 2
+[REQ] Cycle: 826958	Occupancy: 0	Queue: 2
+[REQ] Cycle: 827005	Occupancy: 0	Queue: 1
+[REQ] Cycle: 827685	Occupancy: 0	Queue: 4
+[REQ] Cycle: 827687	Occupancy: 0	Queue: 4
+[REQ] Cycle: 827690	Occupancy: 0	Queue: 3
+[REQ] Cycle: 827718	Occupancy: 0	Queue: 1
+[REQ] Cycle: 827725	Occupancy: 0	Queue: 1
+[REQ] Cycle: 827755	Occupancy: 0	Queue: 3
+[REQ] Cycle: 827756	Occupancy: 0	Queue: 3
+[REQ] Cycle: 827763	Occupancy: 0	Queue: 2
+[REQ] Cycle: 827799	Occupancy: 0	Queue: 2
+[REQ] Cycle: 827808	Occupancy: 0	Queue: 2
+[REQ] Cycle: 827861	Occupancy: 0	Queue: 1
+[REQ] Cycle: 827914	Occupancy: 0	Queue: 1
+[REQ] Cycle: 827979	Occupancy: 0	Queue: 1
+[REQ] Cycle: 828733	Occupancy: 0	Queue: 0
+[REQ] Cycle: 829312	Occupancy: 0	Queue: 1
+[REQ] Cycle: 830322	Occupancy: 0	Queue: 0
+[REQ] Cycle: 830593	Occupancy: 0	Queue: 0
+[REQ] Cycle: 830630	Occupancy: 0	Queue: 1
+[REQ] Cycle: 830632	Occupancy: 0	Queue: 0
+[REQ] Cycle: 830704	Occupancy: 0	Queue: 2
+[REQ] Cycle: 830705	Occupancy: 0	Queue: 1
+[REQ] Cycle: 830755	Occupancy: 0	Queue: 1
+[REQ] Cycle: 830757	Occupancy: 0	Queue: 0
+[REQ] Cycle: 830889	Occupancy: 0	Queue: 0
+[REQ] Cycle: 831074	Occupancy: 0	Queue: 1
+[REQ] Cycle: 831135	Occupancy: 0	Queue: 1
+[REQ] Cycle: 831141	Occupancy: 0	Queue: 1
+[REQ] Cycle: 831169	Occupancy: 0	Queue: 1
+[REQ] Cycle: 831244	Occupancy: 0	Queue: 1
+[REQ] Cycle: 831330	Occupancy: 0	Queue: 1
+[REQ] Cycle: 831468	Occupancy: 0	Queue: 0
+[REQ] Cycle: 831979	Occupancy: 0	Queue: 1
+[REQ] Cycle: 832166	Occupancy: 0	Queue: 0
+[REQ] Cycle: 832767	Occupancy: 0	Queue: 2
+[REQ] Cycle: 832770	Occupancy: 0	Queue: 2
+[REQ] Cycle: 832822	Occupancy: 0	Queue: 1
+[REQ] Cycle: 833473	Occupancy: 0	Queue: 4
+[REQ] Cycle: 833475	Occupancy: 0	Queue: 4
+[REQ] Cycle: 833478	Occupancy: 0	Queue: 3
+[REQ] Cycle: 833506	Occupancy: 0	Queue: 0
+[REQ] Cycle: 833516	Occupancy: 0	Queue: 1
+[REQ] Cycle: 833544	Occupancy: 0	Queue: 3
+[REQ] Cycle: 833546	Occupancy: 0	Queue: 3
+[REQ] Cycle: 833551	Occupancy: 0	Queue: 3
+[REQ] Cycle: 833560	Occupancy: 1	Queue: 0
+[REQ] Cycle: 833587	Occupancy: 1	Queue: 1
+[REQ] Cycle: 833598	Occupancy: 1	Queue: 1
+[REQ] Cycle: 833635	Occupancy: 1	Queue: 1
+[REQ] Cycle: 833771	Occupancy: 0	Queue: 1
+[REQ] Cycle: 834518	Occupancy: 0	Queue: 0
+[REQ] Cycle: 835093	Occupancy: 0	Queue: 1
+[REQ] Cycle: 836096	Occupancy: 0	Queue: 0
+[REQ] Cycle: 836366	Occupancy: 0	Queue: 0
+[REQ] Cycle: 836403	Occupancy: 0	Queue: 1
+[REQ] Cycle: 836405	Occupancy: 0	Queue: 0
+[REQ] Cycle: 836457	Occupancy: 0	Queue: 1
+[REQ] Cycle: 836488	Occupancy: 0	Queue: 1
+[REQ] Cycle: 836493	Occupancy: 0	Queue: 1
+[REQ] Cycle: 836543	Occupancy: 0	Queue: 1
+[REQ] Cycle: 836545	Occupancy: 0	Queue: 0
+[REQ] Cycle: 836678	Occupancy: 0	Queue: 0
+[REQ] Cycle: 836869	Occupancy: 0	Queue: 1
+[REQ] Cycle: 836942	Occupancy: 0	Queue: 1
+[REQ] Cycle: 836944	Occupancy: 0	Queue: 1
+[REQ] Cycle: 836967	Occupancy: 0	Queue: 1
+[REQ] Cycle: 837039	Occupancy: 0	Queue: 1
+[REQ] Cycle: 837121	Occupancy: 0	Queue: 1
+[REQ] Cycle: 837264	Occupancy: 0	Queue: 0
+[REQ] Cycle: 837751	Occupancy: 0	Queue: 1
+[REQ] Cycle: 837932	Occupancy: 0	Queue: 0
+[REQ] Cycle: 838502	Occupancy: 0	Queue: 2
+[REQ] Cycle: 838506	Occupancy: 0	Queue: 2
+[REQ] Cycle: 838553	Occupancy: 0	Queue: 1
+[REQ] Cycle: 839225	Occupancy: 0	Queue: 4
+[REQ] Cycle: 839227	Occupancy: 0	Queue: 4
+[REQ] Cycle: 839230	Occupancy: 0	Queue: 5
+[REQ] Cycle: 839238	Occupancy: 0	Queue: 1
+[REQ] Cycle: 839257	Occupancy: 0	Queue: 1
+[REQ] Cycle: 839275	Occupancy: 0	Queue: 2
+[REQ] Cycle: 839283	Occupancy: 0	Queue: 3
+[REQ] Cycle: 839288	Occupancy: 0	Queue: 1
+[REQ] Cycle: 839329	Occupancy: 0	Queue: 1
+[REQ] Cycle: 839343	Occupancy: 0	Queue: 1
 [REQ] Cycle: 839378	Occupancy: 0	Queue: 1
-[REQ] Cycle: 839460	Occupancy: 0	Queue: 1
-[REQ] Cycle: 839494	Occupancy: 0	Queue: 1
-[REQ] Cycle: 839506	Occupancy: 0	Queue: 1
-[REQ] Cycle: 840218	Occupancy: 0	Queue: 1
-[REQ] Cycle: 840357	Occupancy: 0	Queue: 1
-[REQ] Cycle: 840796	Occupancy: 0	Queue: 0
-[REQ] Cycle: 841586	Occupancy: 0	Queue: 1
-[REQ] Cycle: 841805	Occupancy: 0	Queue: 1
-[REQ] Cycle: 842071	Occupancy: 0	Queue: 1
-[REQ] Cycle: 842109	Occupancy: 0	Queue: 3
-[REQ] Cycle: 842113	Occupancy: 0	Queue: 2
-[REQ] Cycle: 842114	Occupancy: 0	Queue: 2
-[REQ] Cycle: 842190	Occupancy: 0	Queue: 1
-[REQ] Cycle: 842239	Occupancy: 0	Queue: 3
-[REQ] Cycle: 842240	Occupancy: 0	Queue: 3
-[REQ] Cycle: 842242	Occupancy: 0	Queue: 3
-[REQ] Cycle: 842630	Occupancy: 0	Queue: 2
-[REQ] Cycle: 842638	Occupancy: 0	Queue: 2
-[REQ] Cycle: 842659	Occupancy: 0	Queue: 1
-[REQ] Cycle: 842700	Occupancy: 0	Queue: 1
-[REQ] Cycle: 842716	Occupancy: 0	Queue: 1
-[REQ] Cycle: 842730	Occupancy: 0	Queue: 0
-[REQ] Cycle: 842967	Occupancy: 0	Queue: 1
-[REQ] Cycle: 843463	Occupancy: 0	Queue: 0
-[REQ] Cycle: 843473	Occupancy: 0	Queue: 0
-[REQ] Cycle: 843664	Occupancy: 0	Queue: 1
-[REQ] Cycle: 844239	Occupancy: 0	Queue: 1
-[REQ] Cycle: 844243	Occupancy: 0	Queue: 1
-[REQ] Cycle: 844296	Occupancy: 0	Queue: 1
-[REQ] Cycle: 844886	Occupancy: 0	Queue: 1
-[REQ] Cycle: 844969	Occupancy: 0	Queue: 6
-[REQ] Cycle: 844971	Occupancy: 0	Queue: 6
-[REQ] Cycle: 844972	Occupancy: 0	Queue: 6
-[REQ] Cycle: 844973	Occupancy: 0	Queue: 6
-[REQ] Cycle: 844974	Occupancy: 0	Queue: 6
-[REQ] Cycle: 845004	Occupancy: 0	Queue: 3
-[REQ] Cycle: 845006	Occupancy: 0	Queue: 3
-[REQ] Cycle: 845008	Occupancy: 0	Queue: 3
-[REQ] Cycle: 845047	Occupancy: 0	Queue: 3
-[REQ] Cycle: 845049	Occupancy: 0	Queue: 3
-[REQ] Cycle: 845050	Occupancy: 0	Queue: 3
-[REQ] Cycle: 845094	Occupancy: 0	Queue: 2
-[REQ] Cycle: 845099	Occupancy: 0	Queue: 1
-[REQ] Cycle: 845157	Occupancy: 0	Queue: 1
-[REQ] Cycle: 845232	Occupancy: 0	Queue: 1
-[REQ] Cycle: 845270	Occupancy: 0	Queue: 1
-[REQ] Cycle: 845332	Occupancy: 0	Queue: 1
-[REQ] Cycle: 846029	Occupancy: 0	Queue: 1
-[REQ] Cycle: 846222	Occupancy: 0	Queue: 1
-[REQ] Cycle: 846606	Occupancy: 0	Queue: 0
-[REQ] Cycle: 847415	Occupancy: 0	Queue: 1
-[REQ] Cycle: 847636	Occupancy: 0	Queue: 1
-[REQ] Cycle: 847901	Occupancy: 0	Queue: 1
-[REQ] Cycle: 847940	Occupancy: 0	Queue: 3
-[REQ] Cycle: 847943	Occupancy: 0	Queue: 2
-[REQ] Cycle: 847944	Occupancy: 0	Queue: 2
-[REQ] Cycle: 848014	Occupancy: 0	Queue: 1
-[REQ] Cycle: 848065	Occupancy: 0	Queue: 4
-[REQ] Cycle: 848066	Occupancy: 0	Queue: 4
-[REQ] Cycle: 848067	Occupancy: 0	Queue: 4
-[REQ] Cycle: 848068	Occupancy: 0	Queue: 4
-[REQ] Cycle: 848456	Occupancy: 0	Queue: 2
-[REQ] Cycle: 848461	Occupancy: 0	Queue: 2
-[REQ] Cycle: 848492	Occupancy: 0	Queue: 1
-[REQ] Cycle: 848533	Occupancy: 0	Queue: 1
-[REQ] Cycle: 848549	Occupancy: 0	Queue: 1
-[REQ] Cycle: 848561	Occupancy: 0	Queue: 0
-[REQ] Cycle: 848804	Occupancy: 0	Queue: 1
-[REQ] Cycle: 849302	Occupancy: 0	Queue: 0
-[REQ] Cycle: 849487	Occupancy: 0	Queue: 1
-[REQ] Cycle: 850078	Occupancy: 0	Queue: 1
-[REQ] Cycle: 850082	Occupancy: 0	Queue: 1
+[REQ] Cycle: 839426	Occupancy: 0	Queue: 1
+[REQ] Cycle: 839491	Occupancy: 0	Queue: 1
+[REQ] Cycle: 840219	Occupancy: 0	Queue: 0
+[REQ] Cycle: 840799	Occupancy: 0	Queue: 1
+[REQ] Cycle: 841797	Occupancy: 0	Queue: 0
+[REQ] Cycle: 842066	Occupancy: 0	Queue: 0
+[REQ] Cycle: 842104	Occupancy: 0	Queue: 1
+[REQ] Cycle: 842107	Occupancy: 0	Queue: 0
+[REQ] Cycle: 842177	Occupancy: 0	Queue: 2
+[REQ] Cycle: 842182	Occupancy: 0	Queue: 2
+[REQ] Cycle: 842230	Occupancy: 0	Queue: 1
+[REQ] Cycle: 842232	Occupancy: 0	Queue: 0
+[REQ] Cycle: 842370	Occupancy: 0	Queue: 0
+[REQ] Cycle: 842567	Occupancy: 0	Queue: 1
+[REQ] Cycle: 842635	Occupancy: 0	Queue: 1
+[REQ] Cycle: 842639	Occupancy: 0	Queue: 1
+[REQ] Cycle: 842663	Occupancy: 0	Queue: 1
+[REQ] Cycle: 842733	Occupancy: 0	Queue: 1
+[REQ] Cycle: 842971	Occupancy: 0	Queue: 2
+[REQ] Cycle: 842973	Occupancy: 0	Queue: 1
+[REQ] Cycle: 843482	Occupancy: 0	Queue: 1
+[REQ] Cycle: 843681	Occupancy: 0	Queue: 0
+[REQ] Cycle: 844262	Occupancy: 0	Queue: 2
+[REQ] Cycle: 844263	Occupancy: 0	Queue: 2
+[REQ] Cycle: 844314	Occupancy: 0	Queue: 1
+[REQ] Cycle: 844989	Occupancy: 0	Queue: 4
+[REQ] Cycle: 844991	Occupancy: 0	Queue: 4
+[REQ] Cycle: 844994	Occupancy: 0	Queue: 4
+[REQ] Cycle: 845025	Occupancy: 0	Queue: 1
+[REQ] Cycle: 845029	Occupancy: 0	Queue: 1
+[REQ] Cycle: 845067	Occupancy: 0	Queue: 3
+[REQ] Cycle: 845069	Occupancy: 0	Queue: 3
+[REQ] Cycle: 845070	Occupancy: 0	Queue: 2
+[REQ] Cycle: 845115	Occupancy: 0	Queue: 2
+[REQ] Cycle: 845119	Occupancy: 0	Queue: 2
+[REQ] Cycle: 845170	Occupancy: 0	Queue: 1
+[REQ] Cycle: 845227	Occupancy: 0	Queue: 1
+[REQ] Cycle: 845291	Occupancy: 0	Queue: 1
+[REQ] Cycle: 846042	Occupancy: 0	Queue: 0
+[REQ] Cycle: 846618	Occupancy: 0	Queue: 1
+[REQ] Cycle: 847622	Occupancy: 0	Queue: 0
+[REQ] Cycle: 847888	Occupancy: 0	Queue: 0
+[REQ] Cycle: 847926	Occupancy: 0	Queue: 1
+[REQ] Cycle: 847929	Occupancy: 0	Queue: 0
+[REQ] Cycle: 847999	Occupancy: 0	Queue: 2
+[REQ] Cycle: 848007	Occupancy: 0	Queue: 1
+[REQ] Cycle: 848056	Occupancy: 0	Queue: 1
+[REQ] Cycle: 848058	Occupancy: 0	Queue: 0
+[REQ] Cycle: 848198	Occupancy: 0	Queue: 0
+[REQ] Cycle: 848391	Occupancy: 0	Queue: 1
+[REQ] Cycle: 848467	Occupancy: 0	Queue: 2
+[REQ] Cycle: 848469	Occupancy: 0	Queue: 1
+[REQ] Cycle: 848482	Occupancy: 0	Queue: 1
+[REQ] Cycle: 848564	Occupancy: 0	Queue: 1
+[REQ] Cycle: 848808	Occupancy: 0	Queue: 0
+[REQ] Cycle: 848860	Occupancy: 0	Queue: 1
+[REQ] Cycle: 849310	Occupancy: 0	Queue: 1
+[REQ] Cycle: 849493	Occupancy: 0	Queue: 0
+[REQ] Cycle: 850079	Occupancy: 0	Queue: 2
+[REQ] Cycle: 850082	Occupancy: 0	Queue: 2
 [REQ] Cycle: 850135	Occupancy: 0	Queue: 1
-[REQ] Cycle: 850726	Occupancy: 0	Queue: 1
-[REQ] Cycle: 850810	Occupancy: 0	Queue: 6
-[REQ] Cycle: 850812	Occupancy: 0	Queue: 6
-[REQ] Cycle: 850813	Occupancy: 0	Queue: 6
-[REQ] Cycle: 850814	Occupancy: 0	Queue: 6
-[REQ] Cycle: 850816	Occupancy: 0	Queue: 6
-[REQ] Cycle: 850837	Occupancy: 0	Queue: 3
-[REQ] Cycle: 850839	Occupancy: 0	Queue: 3
-[REQ] Cycle: 850852	Occupancy: 0	Queue: 1
-[REQ] Cycle: 850885	Occupancy: 0	Queue: 3
-[REQ] Cycle: 850886	Occupancy: 0	Queue: 3
-[REQ] Cycle: 850888	Occupancy: 0	Queue: 3
-[REQ] Cycle: 850927	Occupancy: 0	Queue: 1
-[REQ] Cycle: 850938	Occupancy: 0	Queue: 0
-[REQ] Cycle: 850993	Occupancy: 0	Queue: 1
-[REQ] Cycle: 851067	Occupancy: 0	Queue: 1
-[REQ] Cycle: 851102	Occupancy: 0	Queue: 1
-[REQ] Cycle: 851161	Occupancy: 0	Queue: 1
-Instructions Retired: 2900000 Cycle: 851503 Hearbeat IPC: 3.424188 Cumulative IPC: 3.405743
-Cycle: 851503	Best offset: 1	Score: 1	Hit Rate: 0.972271
+[REQ] Cycle: 850815	Occupancy: 0	Queue: 4
+[REQ] Cycle: 850817	Occupancy: 0	Queue: 4
+[REQ] Cycle: 850820	Occupancy: 0	Queue: 3
+[REQ] Cycle: 850849	Occupancy: 0	Queue: 1
+[REQ] Cycle: 850856	Occupancy: 0	Queue: 1
+[REQ] Cycle: 850886	Occupancy: 0	Queue: 2
+[REQ] Cycle: 850892	Occupancy: 0	Queue: 3
+[REQ] Cycle: 850898	Occupancy: 0	Queue: 1
+[REQ] Cycle: 850934	Occupancy: 0	Queue: 1
+[REQ] Cycle: 850946	Occupancy: 0	Queue: 1
+[REQ] Cycle: 851001	Occupancy: 0	Queue: 1
+[REQ] Cycle: 851043	Occupancy: 0	Queue: 1
+[REQ] Cycle: 851106	Occupancy: 0	Queue: 1
+Instructions Retired: 2900000 Cycle: 851505 Hearbeat IPC: 3.422094 Cumulative IPC: 3.405735
+Cycle: 851505	Best offset: -32	Score: 44	Hit Rate: 0.970797
 	---- Offset table ----
 Offset -> Score
--32 -> 30
--31 -> 26
--1 -> 26
-1 -> 26
+-64 -> 6
+-32 -> 6
+2 -> 6
+30 -> 6
 	----------------------
-[REQ] Cycle: 851862	Occupancy: 0	Queue: 1
-[REQ] Cycle: 852000	Occupancy: 0	Queue: 1
-[REQ] Cycle: 852422	Occupancy: 0	Queue: 0
-[REQ] Cycle: 853183	Occupancy: 0	Queue: 1
-[REQ] Cycle: 853402	Occupancy: 0	Queue: 1
-[REQ] Cycle: 853673	Occupancy: 0	Queue: 1
-[REQ] Cycle: 853709	Occupancy: 0	Queue: 3
-[REQ] Cycle: 853712	Occupancy: 0	Queue: 2
-[REQ] Cycle: 853713	Occupancy: 0	Queue: 2
-[REQ] Cycle: 853834	Occupancy: 0	Queue: 3
-[REQ] Cycle: 853835	Occupancy: 0	Queue: 3
-[REQ] Cycle: 853836	Occupancy: 0	Queue: 3
-[REQ] Cycle: 854195	Occupancy: 0	Queue: 2
-[REQ] Cycle: 854200	Occupancy: 0	Queue: 2
-[REQ] Cycle: 854232	Occupancy: 0	Queue: 1
-[REQ] Cycle: 854275	Occupancy: 0	Queue: 1
-[REQ] Cycle: 854293	Occupancy: 0	Queue: 1
-[REQ] Cycle: 854294	Occupancy: 0	Queue: 1
-[REQ] Cycle: 854418	Occupancy: 0	Queue: 1
-[REQ] Cycle: 855038	Occupancy: 0	Queue: 0
-[REQ] Cycle: 855228	Occupancy: 0	Queue: 1
-[REQ] Cycle: 855281	Occupancy: 0	Queue: 1
-[REQ] Cycle: 855837	Occupancy: 0	Queue: 1
-[REQ] Cycle: 855841	Occupancy: 0	Queue: 1
+[REQ] Cycle: 851865	Occupancy: 0	Queue: 0
+[REQ] Cycle: 852424	Occupancy: 0	Queue: 1
+[REQ] Cycle: 853406	Occupancy: 0	Queue: 0
+[REQ] Cycle: 853675	Occupancy: 0	Queue: 0
+[REQ] Cycle: 853711	Occupancy: 0	Queue: 1
+[REQ] Cycle: 853715	Occupancy: 0	Queue: 0
+[REQ] Cycle: 853785	Occupancy: 0	Queue: 0
+[REQ] Cycle: 853839	Occupancy: 0	Queue: 1
+[REQ] Cycle: 853841	Occupancy: 0	Queue: 0
+[REQ] Cycle: 854148	Occupancy: 0	Queue: 1
+[REQ] Cycle: 854212	Occupancy: 0	Queue: 1
+[REQ] Cycle: 854219	Occupancy: 0	Queue: 1
+[REQ] Cycle: 854236	Occupancy: 0	Queue: 1
+[REQ] Cycle: 854306	Occupancy: 0	Queue: 1
+[REQ] Cycle: 854395	Occupancy: 0	Queue: 1
+[REQ] Cycle: 854436	Occupancy: 0	Queue: 0
+[REQ] Cycle: 854988	Occupancy: 0	Queue: 0
+[REQ] Cycle: 855042	Occupancy: 0	Queue: 1
+[REQ] Cycle: 855237	Occupancy: 0	Queue: 0
+[REQ] Cycle: 855276	Occupancy: 0	Queue: 1
+[REQ] Cycle: 855845	Occupancy: 0	Queue: 2
+[REQ] Cycle: 855846	Occupancy: 0	Queue: 2
 [REQ] Cycle: 855893	Occupancy: 0	Queue: 1
-[REQ] Cycle: 856472	Occupancy: 0	Queue: 1
-[REQ] Cycle: 856555	Occupancy: 0	Queue: 6
-[REQ] Cycle: 856557	Occupancy: 0	Queue: 6
-[REQ] Cycle: 856559	Occupancy: 0	Queue: 5
-[REQ] Cycle: 856560	Occupancy: 0	Queue: 5
-[REQ] Cycle: 856561	Occupancy: 0	Queue: 5
-[REQ] Cycle: 856589	Occupancy: 0	Queue: 3
-[REQ] Cycle: 856592	Occupancy: 0	Queue: 3
-[REQ] Cycle: 856594	Occupancy: 0	Queue: 3
-[REQ] Cycle: 856635	Occupancy: 0	Queue: 4
-[REQ] Cycle: 856636	Occupancy: 0	Queue: 4
-[REQ] Cycle: 856639	Occupancy: 0	Queue: 4
-[REQ] Cycle: 856643	Occupancy: 0	Queue: 4
-[REQ] Cycle: 856681	Occupancy: 1	Queue: 2
-[REQ] Cycle: 856688	Occupancy: 1	Queue: 1
-[REQ] Cycle: 856736	Occupancy: 0	Queue: 1
-[REQ] Cycle: 856816	Occupancy: 0	Queue: 1
-[REQ] Cycle: 856858	Occupancy: 0	Queue: 1
-[REQ] Cycle: 856916	Occupancy: 0	Queue: 1
-[REQ] Cycle: 857611	Occupancy: 0	Queue: 1
-[REQ] Cycle: 857750	Occupancy: 0	Queue: 1
-[REQ] Cycle: 858990	Occupancy: 0	Queue: 1
-[REQ] Cycle: 859210	Occupancy: 0	Queue: 1
-[REQ] Cycle: 859483	Occupancy: 0	Queue: 1
-[REQ] Cycle: 859519	Occupancy: 0	Queue: 3
-[REQ] Cycle: 859522	Occupancy: 0	Queue: 2
-[REQ] Cycle: 859523	Occupancy: 0	Queue: 2
-[REQ] Cycle: 859593	Occupancy: 0	Queue: 1
-[REQ] Cycle: 859643	Occupancy: 0	Queue: 3
-[REQ] Cycle: 859644	Occupancy: 0	Queue: 3
-[REQ] Cycle: 859646	Occupancy: 0	Queue: 3
-[REQ] Cycle: 860030	Occupancy: 0	Queue: 2
-[REQ] Cycle: 860038	Occupancy: 0	Queue: 2
-[REQ] Cycle: 860054	Occupancy: 0	Queue: 1
-[REQ] Cycle: 860097	Occupancy: 0	Queue: 1
-[REQ] Cycle: 860119	Occupancy: 0	Queue: 1
-[REQ] Cycle: 860245	Occupancy: 0	Queue: 1
-[REQ] Cycle: 860856	Occupancy: 0	Queue: 0
-[REQ] Cycle: 861041	Occupancy: 0	Queue: 1
-[REQ] Cycle: 861631	Occupancy: 0	Queue: 1
-[REQ] Cycle: 861639	Occupancy: 0	Queue: 1
-[REQ] Cycle: 861688	Occupancy: 0	Queue: 1
-[REQ] Cycle: 862256	Occupancy: 0	Queue: 1
-[REQ] Cycle: 862348	Occupancy: 0	Queue: 6
-[REQ] Cycle: 862350	Occupancy: 0	Queue: 6
-[REQ] Cycle: 862351	Occupancy: 0	Queue: 6
-[REQ] Cycle: 862353	Occupancy: 0	Queue: 5
-[REQ] Cycle: 862354	Occupancy: 0	Queue: 5
-[REQ] Cycle: 862381	Occupancy: 0	Queue: 3
-[REQ] Cycle: 862385	Occupancy: 0	Queue: 3
-[REQ] Cycle: 862387	Occupancy: 0	Queue: 3
-[REQ] Cycle: 862423	Occupancy: 0	Queue: 3
-[REQ] Cycle: 862425	Occupancy: 0	Queue: 3
-[REQ] Cycle: 862426	Occupancy: 0	Queue: 3
-[REQ] Cycle: 862466	Occupancy: 0	Queue: 2
-[REQ] Cycle: 862475	Occupancy: 0	Queue: 1
-[REQ] Cycle: 862528	Occupancy: 0	Queue: 1
-[REQ] Cycle: 862611	Occupancy: 0	Queue: 1
-[REQ] Cycle: 862649	Occupancy: 0	Queue: 1
-[REQ] Cycle: 862708	Occupancy: 0	Queue: 1
-[REQ] Cycle: 863392	Occupancy: 0	Queue: 1
-[REQ] Cycle: 863531	Occupancy: 0	Queue: 1
-[REQ] Cycle: 863970	Occupancy: 0	Queue: 0
-[REQ] Cycle: 864770	Occupancy: 0	Queue: 1
-[REQ] Cycle: 864989	Occupancy: 0	Queue: 1
-[REQ] Cycle: 865260	Occupancy: 0	Queue: 1
-[REQ] Cycle: 865297	Occupancy: 0	Queue: 3
-[REQ] Cycle: 865300	Occupancy: 0	Queue: 2
-[REQ] Cycle: 865301	Occupancy: 0	Queue: 2
-[REQ] Cycle: 865372	Occupancy: 0	Queue: 1
-[REQ] Cycle: 865422	Occupancy: 0	Queue: 4
-[REQ] Cycle: 865423	Occupancy: 0	Queue: 4
-[REQ] Cycle: 865424	Occupancy: 0	Queue: 4
-[REQ] Cycle: 865425	Occupancy: 0	Queue: 4
-[REQ] Cycle: 865810	Occupancy: 0	Queue: 2
-[REQ] Cycle: 865811	Occupancy: 0	Queue: 2
-[REQ] Cycle: 865833	Occupancy: 0	Queue: 1
-[REQ] Cycle: 865878	Occupancy: 0	Queue: 1
-[REQ] Cycle: 865900	Occupancy: 0	Queue: 2
-[REQ] Cycle: 865909	Occupancy: 0	Queue: 1
-[REQ] Cycle: 866040	Occupancy: 0	Queue: 1
-[REQ] Cycle: 866642	Occupancy: 0	Queue: 0
-[REQ] Cycle: 866824	Occupancy: 0	Queue: 1
-[REQ] Cycle: 867423	Occupancy: 0	Queue: 1
-[REQ] Cycle: 867427	Occupancy: 0	Queue: 1
-[REQ] Cycle: 867476	Occupancy: 0	Queue: 1
-[REQ] Cycle: 868056	Occupancy: 0	Queue: 1
-[REQ] Cycle: 868132	Occupancy: 0	Queue: 6
-[REQ] Cycle: 868134	Occupancy: 0	Queue: 6
-[REQ] Cycle: 868135	Occupancy: 0	Queue: 6
-[REQ] Cycle: 868136	Occupancy: 0	Queue: 6
-[REQ] Cycle: 868137	Occupancy: 0	Queue: 6
-[REQ] Cycle: 868150	Occupancy: 1	Queue: 1
-[REQ] Cycle: 868178	Occupancy: 1	Queue: 2
-[REQ] Cycle: 868186	Occupancy: 1	Queue: 3
-[REQ] Cycle: 868187	Occupancy: 1	Queue: 3
-[REQ] Cycle: 868188	Occupancy: 1	Queue: 3
-[REQ] Cycle: 868207	Occupancy: 1	Queue: 2
-[REQ] Cycle: 868239	Occupancy: 1	Queue: 1
-[REQ] Cycle: 868250	Occupancy: 1	Queue: 0
-[REQ] Cycle: 868300	Occupancy: 1	Queue: 1
-[REQ] Cycle: 868377	Occupancy: 0	Queue: 1
-[REQ] Cycle: 868415	Occupancy: 0	Queue: 1
-[REQ] Cycle: 868439	Occupancy: 0	Queue: 1
-[REQ] Cycle: 868473	Occupancy: 0	Queue: 1
-[REQ] Cycle: 869171	Occupancy: 0	Queue: 1
-[REQ] Cycle: 869310	Occupancy: 0	Queue: 1
-[REQ] Cycle: 869750	Occupancy: 0	Queue: 0
-[REQ] Cycle: 870522	Occupancy: 0	Queue: 1
-[REQ] Cycle: 870741	Occupancy: 0	Queue: 1
-[REQ] Cycle: 871007	Occupancy: 0	Queue: 1
-[REQ] Cycle: 871043	Occupancy: 0	Queue: 3
-[REQ] Cycle: 871046	Occupancy: 0	Queue: 2
-[REQ] Cycle: 871047	Occupancy: 0	Queue: 2
-[REQ] Cycle: 871117	Occupancy: 0	Queue: 1
-[REQ] Cycle: 871167	Occupancy: 0	Queue: 3
-[REQ] Cycle: 871168	Occupancy: 0	Queue: 3
-[REQ] Cycle: 871169	Occupancy: 0	Queue: 3
-[REQ] Cycle: 871539	Occupancy: 0	Queue: 2
-[REQ] Cycle: 871540	Occupancy: 0	Queue: 2
-[REQ] Cycle: 871565	Occupancy: 0	Queue: 1
-[REQ] Cycle: 871612	Occupancy: 0	Queue: 1
-[REQ] Cycle: 871630	Occupancy: 0	Queue: 2
-[REQ] Cycle: 871636	Occupancy: 0	Queue: 1
-[REQ] Cycle: 871785	Occupancy: 0	Queue: 1
-[REQ] Cycle: 872388	Occupancy: 0	Queue: 0
-[REQ] Cycle: 872576	Occupancy: 0	Queue: 1
-[REQ] Cycle: 873149	Occupancy: 0	Queue: 1
-[REQ] Cycle: 873153	Occupancy: 0	Queue: 1
-[REQ] Cycle: 873202	Occupancy: 0	Queue: 1
-[REQ] Cycle: 873805	Occupancy: 0	Queue: 1
-[REQ] Cycle: 873878	Occupancy: 0	Queue: 6
-[REQ] Cycle: 873880	Occupancy: 0	Queue: 6
-[REQ] Cycle: 873881	Occupancy: 0	Queue: 6
-[REQ] Cycle: 873882	Occupancy: 0	Queue: 6
-[REQ] Cycle: 873884	Occupancy: 0	Queue: 6
-[REQ] Cycle: 873903	Occupancy: 0	Queue: 2
-[REQ] Cycle: 873917	Occupancy: 0	Queue: 1
-[REQ] Cycle: 873936	Occupancy: 0	Queue: 2
-[REQ] Cycle: 873944	Occupancy: 0	Queue: 2
-[REQ] Cycle: 873955	Occupancy: 0	Queue: 3
-[REQ] Cycle: 873956	Occupancy: 0	Queue: 3
-[REQ] Cycle: 873979	Occupancy: 0	Queue: 1
-[REQ] Cycle: 873990	Occupancy: 0	Queue: 0
-[REQ] Cycle: 874029	Occupancy: 0	Queue: 1
-[REQ] Cycle: 874109	Occupancy: 0	Queue: 1
-[REQ] Cycle: 874143	Occupancy: 0	Queue: 1
-[REQ] Cycle: 874203	Occupancy: 0	Queue: 1
-[REQ] Cycle: 874903	Occupancy: 0	Queue: 1
-[REQ] Cycle: 875041	Occupancy: 0	Queue: 1
-[REQ] Cycle: 875479	Occupancy: 0	Queue: 0
-[REQ] Cycle: 876305	Occupancy: 0	Queue: 1
-[REQ] Cycle: 876527	Occupancy: 0	Queue: 1
-[REQ] Cycle: 876800	Occupancy: 0	Queue: 1
-[REQ] Cycle: 876836	Occupancy: 0	Queue: 3
-[REQ] Cycle: 876840	Occupancy: 0	Queue: 2
-[REQ] Cycle: 876841	Occupancy: 0	Queue: 2
-[REQ] Cycle: 876916	Occupancy: 0	Queue: 1
-[REQ] Cycle: 876965	Occupancy: 0	Queue: 2
-[REQ] Cycle: 876966	Occupancy: 0	Queue: 2
-[REQ] Cycle: 877344	Occupancy: 0	Queue: 2
-[REQ] Cycle: 877353	Occupancy: 0	Queue: 2
-[REQ] Cycle: 877382	Occupancy: 0	Queue: 1
-[REQ] Cycle: 877421	Occupancy: 0	Queue: 1
-[REQ] Cycle: 877436	Occupancy: 0	Queue: 2
-[REQ] Cycle: 877444	Occupancy: 0	Queue: 1
-[REQ] Cycle: 877671	Occupancy: 0	Queue: 1
-[REQ] Cycle: 878159	Occupancy: 0	Queue: 0
-[REQ] Cycle: 878354	Occupancy: 0	Queue: 1
-[REQ] Cycle: 878947	Occupancy: 0	Queue: 1
-[REQ] Cycle: 878951	Occupancy: 0	Queue: 1
-[REQ] Cycle: 878998	Occupancy: 0	Queue: 1
-[REQ] Cycle: 879584	Occupancy: 0	Queue: 1
-[REQ] Cycle: 879669	Occupancy: 0	Queue: 6
-[REQ] Cycle: 879671	Occupancy: 0	Queue: 6
-[REQ] Cycle: 879672	Occupancy: 0	Queue: 6
-[REQ] Cycle: 879673	Occupancy: 0	Queue: 6
-[REQ] Cycle: 879674	Occupancy: 0	Queue: 6
-[REQ] Cycle: 879685	Occupancy: 0	Queue: 1
-[REQ] Cycle: 879710	Occupancy: 0	Queue: 1
+[REQ] Cycle: 856573	Occupancy: 0	Queue: 4
+[REQ] Cycle: 856575	Occupancy: 0	Queue: 4
+[REQ] Cycle: 856578	Occupancy: 0	Queue: 4
+[REQ] Cycle: 856593	Occupancy: 0	Queue: 0
+[REQ] Cycle: 856621	Occupancy: 0	Queue: 1
+[REQ] Cycle: 856634	Occupancy: 0	Queue: 2
+[REQ] Cycle: 856635	Occupancy: 0	Queue: 2
+[REQ] Cycle: 856649	Occupancy: 0	Queue: 1
+[REQ] Cycle: 856650	Occupancy: 1	Queue: 0
+[REQ] Cycle: 856684	Occupancy: 1	Queue: 1
+[REQ] Cycle: 856698	Occupancy: 1	Queue: 1
+[REQ] Cycle: 856746	Occupancy: 0	Queue: 1
+[REQ] Cycle: 856826	Occupancy: 0	Queue: 1
+[REQ] Cycle: 856889	Occupancy: 0	Queue: 1
+[REQ] Cycle: 857645	Occupancy: 0	Queue: 0
+[REQ] Cycle: 859218	Occupancy: 0	Queue: 0
+[REQ] Cycle: 859489	Occupancy: 0	Queue: 0
+[REQ] Cycle: 859525	Occupancy: 0	Queue: 1
+[REQ] Cycle: 859528	Occupancy: 0	Queue: 0
+[REQ] Cycle: 859601	Occupancy: 0	Queue: 1
+[REQ] Cycle: 859652	Occupancy: 0	Queue: 1
+[REQ] Cycle: 859654	Occupancy: 0	Queue: 0
+[REQ] Cycle: 859793	Occupancy: 0	Queue: 0
+[REQ] Cycle: 859985	Occupancy: 0	Queue: 1
+[REQ] Cycle: 860049	Occupancy: 0	Queue: 1
+[REQ] Cycle: 860051	Occupancy: 0	Queue: 1
+[REQ] Cycle: 860072	Occupancy: 0	Queue: 1
+[REQ] Cycle: 860146	Occupancy: 0	Queue: 1
+[REQ] Cycle: 860227	Occupancy: 0	Queue: 1
+[REQ] Cycle: 860276	Occupancy: 0	Queue: 0
+[REQ] Cycle: 860885	Occupancy: 0	Queue: 1
+[REQ] Cycle: 861070	Occupancy: 0	Queue: 0
+[REQ] Cycle: 861676	Occupancy: 0	Queue: 2
+[REQ] Cycle: 861679	Occupancy: 0	Queue: 2
+[REQ] Cycle: 861727	Occupancy: 0	Queue: 1
+[REQ] Cycle: 862383	Occupancy: 0	Queue: 4
+[REQ] Cycle: 862385	Occupancy: 0	Queue: 4
+[REQ] Cycle: 862388	Occupancy: 0	Queue: 4
+[REQ] Cycle: 862407	Occupancy: 0	Queue: 0
+[REQ] Cycle: 862430	Occupancy: 0	Queue: 1
+[REQ] Cycle: 862447	Occupancy: 0	Queue: 3
+[REQ] Cycle: 862448	Occupancy: 0	Queue: 3
+[REQ] Cycle: 862456	Occupancy: 0	Queue: 2
+[REQ] Cycle: 862493	Occupancy: 0	Queue: 2
+[REQ] Cycle: 862499	Occupancy: 0	Queue: 2
+[REQ] Cycle: 862549	Occupancy: 0	Queue: 1
+[REQ] Cycle: 862604	Occupancy: 0	Queue: 1
+[REQ] Cycle: 862673	Occupancy: 0	Queue: 1
+[REQ] Cycle: 863407	Occupancy: 0	Queue: 0
+[REQ] Cycle: 863985	Occupancy: 0	Queue: 1
+[REQ] Cycle: 864993	Occupancy: 0	Queue: 0
+[REQ] Cycle: 865259	Occupancy: 0	Queue: 0
+[REQ] Cycle: 865296	Occupancy: 0	Queue: 1
+[REQ] Cycle: 865300	Occupancy: 0	Queue: 0
+[REQ] Cycle: 865376	Occupancy: 0	Queue: 1
+[REQ] Cycle: 865426	Occupancy: 0	Queue: 1
+[REQ] Cycle: 865428	Occupancy: 0	Queue: 0
+[REQ] Cycle: 865557	Occupancy: 0	Queue: 0
+[REQ] Cycle: 865750	Occupancy: 0	Queue: 1
+[REQ] Cycle: 865823	Occupancy: 0	Queue: 1
+[REQ] Cycle: 865825	Occupancy: 0	Queue: 1
+[REQ] Cycle: 865845	Occupancy: 0	Queue: 1
+[REQ] Cycle: 865921	Occupancy: 0	Queue: 1
+[REQ] Cycle: 866052	Occupancy: 0	Queue: 0
+[REQ] Cycle: 866149	Occupancy: 0	Queue: 1
+[REQ] Cycle: 866681	Occupancy: 0	Queue: 1
+[REQ] Cycle: 866865	Occupancy: 0	Queue: 0
+[REQ] Cycle: 867474	Occupancy: 0	Queue: 2
+[REQ] Cycle: 867475	Occupancy: 0	Queue: 2
+[REQ] Cycle: 867519	Occupancy: 0	Queue: 1
+[REQ] Cycle: 868189	Occupancy: 0	Queue: 4
+[REQ] Cycle: 868191	Occupancy: 0	Queue: 4
+[REQ] Cycle: 868194	Occupancy: 0	Queue: 4
+[REQ] Cycle: 868210	Occupancy: 1	Queue: 0
+[REQ] Cycle: 868235	Occupancy: 1	Queue: 1
+[REQ] Cycle: 868246	Occupancy: 1	Queue: 3
+[REQ] Cycle: 868247	Occupancy: 1	Queue: 3
+[REQ] Cycle: 868252	Occupancy: 1	Queue: 2
+[REQ] Cycle: 868298	Occupancy: 1	Queue: 2
+[REQ] Cycle: 868302	Occupancy: 1	Queue: 2
+[REQ] Cycle: 868355	Occupancy: 1	Queue: 1
+[REQ] Cycle: 868409	Occupancy: 0	Queue: 1
+[REQ] Cycle: 868475	Occupancy: 0	Queue: 1
+[REQ] Cycle: 869228	Occupancy: 0	Queue: 0
+[REQ] Cycle: 869806	Occupancy: 0	Queue: 1
+[REQ] Cycle: 870804	Occupancy: 0	Queue: 0
+[REQ] Cycle: 871067	Occupancy: 0	Queue: 0
+[REQ] Cycle: 871105	Occupancy: 0	Queue: 1
+[REQ] Cycle: 871107	Occupancy: 0	Queue: 0
+[REQ] Cycle: 871175	Occupancy: 0	Queue: 1
+[REQ] Cycle: 871178	Occupancy: 0	Queue: 1
+[REQ] Cycle: 871213	Occupancy: 0	Queue: 1
+[REQ] Cycle: 871240	Occupancy: 0	Queue: 1
+[REQ] Cycle: 871242	Occupancy: 0	Queue: 0
+[REQ] Cycle: 871355	Occupancy: 0	Queue: 0
+[REQ] Cycle: 871551	Occupancy: 0	Queue: 1
+[REQ] Cycle: 871606	Occupancy: 0	Queue: 2
+[REQ] Cycle: 871611	Occupancy: 0	Queue: 1
+[REQ] Cycle: 871637	Occupancy: 0	Queue: 1
+[REQ] Cycle: 871710	Occupancy: 0	Queue: 1
+[REQ] Cycle: 871848	Occupancy: 0	Queue: 0
+[REQ] Cycle: 871949	Occupancy: 0	Queue: 1
+[REQ] Cycle: 872481	Occupancy: 0	Queue: 1
+[REQ] Cycle: 872663	Occupancy: 0	Queue: 0
+[REQ] Cycle: 873250	Occupancy: 0	Queue: 2
+[REQ] Cycle: 873254	Occupancy: 0	Queue: 2
+[REQ] Cycle: 873303	Occupancy: 0	Queue: 1
+[REQ] Cycle: 873976	Occupancy: 0	Queue: 3
+[REQ] Cycle: 873981	Occupancy: 0	Queue: 3
+[REQ] Cycle: 874010	Occupancy: 0	Queue: 0
+[REQ] Cycle: 874025	Occupancy: 0	Queue: 1
+[REQ] Cycle: 874043	Occupancy: 0	Queue: 1
+[REQ] Cycle: 874054	Occupancy: 0	Queue: 2
+[REQ] Cycle: 874063	Occupancy: 0	Queue: 2
+[REQ] Cycle: 874086	Occupancy: 0	Queue: 2
+[REQ] Cycle: 874095	Occupancy: 0	Queue: 2
+[REQ] Cycle: 874140	Occupancy: 0	Queue: 1
+[REQ] Cycle: 874244	Occupancy: 0	Queue: 1
+[REQ] Cycle: 875002	Occupancy: 0	Queue: 0
+[REQ] Cycle: 875578	Occupancy: 0	Queue: 1
+[REQ] Cycle: 876579	Occupancy: 0	Queue: 0
+[REQ] Cycle: 876854	Occupancy: 0	Queue: 0
+[REQ] Cycle: 876891	Occupancy: 0	Queue: 1
+[REQ] Cycle: 876893	Occupancy: 0	Queue: 0
+[REQ] Cycle: 876945	Occupancy: 0	Queue: 1
+[REQ] Cycle: 876975	Occupancy: 0	Queue: 2
+[REQ] Cycle: 876978	Occupancy: 0	Queue: 1
+[REQ] Cycle: 877026	Occupancy: 0	Queue: 1
+[REQ] Cycle: 877028	Occupancy: 0	Queue: 0
+[REQ] Cycle: 877161	Occupancy: 0	Queue: 0
+[REQ] Cycle: 877352	Occupancy: 0	Queue: 1
+[REQ] Cycle: 877422	Occupancy: 0	Queue: 1
+[REQ] Cycle: 877428	Occupancy: 0	Queue: 1
+[REQ] Cycle: 877446	Occupancy: 0	Queue: 1
+[REQ] Cycle: 877519	Occupancy: 0	Queue: 1
+[REQ] Cycle: 877586	Occupancy: 0	Queue: 1
+[REQ] Cycle: 877743	Occupancy: 0	Queue: 0
+[REQ] Cycle: 878227	Occupancy: 0	Queue: 1
+[REQ] Cycle: 878238	Occupancy: 0	Queue: 1
+[REQ] Cycle: 878274	Occupancy: 0	Queue: 0
+[REQ] Cycle: 878426	Occupancy: 0	Queue: 0
+[REQ] Cycle: 879015	Occupancy: 0	Queue: 2
+[REQ] Cycle: 879020	Occupancy: 0	Queue: 2
+[REQ] Cycle: 879069	Occupancy: 0	Queue: 1
+[REQ] Cycle: 879715	Occupancy: 0	Queue: 3
 [REQ] Cycle: 879720	Occupancy: 0	Queue: 2
-[REQ] Cycle: 879721	Occupancy: 0	Queue: 3
-[REQ] Cycle: 879731	Occupancy: 0	Queue: 4
-[REQ] Cycle: 879735	Occupancy: 0	Queue: 3
-[REQ] Cycle: 879739	Occupancy: 0	Queue: 3
-[REQ] Cycle: 879764	Occupancy: 1	Queue: 2
-[REQ] Cycle: 879773	Occupancy: 1	Queue: 3
-[REQ] Cycle: 879778	Occupancy: 1	Queue: 1
-[REQ] Cycle: 879827	Occupancy: 1	Queue: 1
-[REQ] Cycle: 879906	Occupancy: 0	Queue: 1
-[REQ] Cycle: 879941	Occupancy: 0	Queue: 1
-[REQ] Cycle: 880000	Occupancy: 0	Queue: 1
-Instructions Retired: 3000002 Cycle: 880673 Hearbeat IPC: 3.428248 Cumulative IPC: 3.406488
-Cycle: 880673	Best offset: 1	Score: 1	Hit Rate: 0.973058
+[REQ] Cycle: 879736	Occupancy: 0	Queue: 0
+[REQ] Cycle: 879749	Occupancy: 0	Queue: 1
+[REQ] Cycle: 879774	Occupancy: 0	Queue: 3
+[REQ] Cycle: 879780	Occupancy: 0	Queue: 4
+[REQ] Cycle: 879783	Occupancy: 0	Queue: 3
+[REQ] Cycle: 879788	Occupancy: 1	Queue: 1
+[REQ] Cycle: 879817	Occupancy: 1	Queue: 2
+[REQ] Cycle: 879823	Occupancy: 1	Queue: 2
+[REQ] Cycle: 879873	Occupancy: 0	Queue: 1
+[REQ] Cycle: 879963	Occupancy: 0	Queue: 1
+[REQ] Cycle: 880032	Occupancy: 0	Queue: 1
+Instructions Retired: 3000002 Cycle: 880763 Hearbeat IPC: 3.417937 Cumulative IPC: 3.406140
+Cycle: 880763	Best offset: -32	Score: 44	Hit Rate: 0.971239
 	---- Offset table ----
 Offset -> Score
--32 -> 30
--31 -> 26
--1 -> 26
-1 -> 26
+-32 -> 8
+32 -> 8
+-64 -> 6
+-42 -> 6
 	----------------------
-[REQ] Cycle: 880717	Occupancy: 0	Queue: 1
-[REQ] Cycle: 880856	Occupancy: 0	Queue: 1
-[REQ] Cycle: 881295	Occupancy: 0	Queue: 0
-[REQ] Cycle: 882085	Occupancy: 0	Queue: 1
-[REQ] Cycle: 882303	Occupancy: 0	Queue: 1
-[REQ] Cycle: 882573	Occupancy: 0	Queue: 1
-[REQ] Cycle: 882609	Occupancy: 0	Queue: 3
-[REQ] Cycle: 882613	Occupancy: 0	Queue: 2
-[REQ] Cycle: 882614	Occupancy: 0	Queue: 2
-[REQ] Cycle: 882685	Occupancy: 0	Queue: 1
-[REQ] Cycle: 882735	Occupancy: 0	Queue: 3
-[REQ] Cycle: 882736	Occupancy: 0	Queue: 3
-[REQ] Cycle: 882738	Occupancy: 0	Queue: 3
-[REQ] Cycle: 883115	Occupancy: 0	Queue: 2
-[REQ] Cycle: 883116	Occupancy: 0	Queue: 2
-[REQ] Cycle: 883140	Occupancy: 0	Queue: 1
-[REQ] Cycle: 883189	Occupancy: 0	Queue: 1
-[REQ] Cycle: 883204	Occupancy: 0	Queue: 2
-[REQ] Cycle: 883207	Occupancy: 0	Queue: 1
-[REQ] Cycle: 883428	Occupancy: 0	Queue: 1
-[REQ] Cycle: 883943	Occupancy: 0	Queue: 0
-[REQ] Cycle: 883953	Occupancy: 0	Queue: 0
-[REQ] Cycle: 884141	Occupancy: 0	Queue: 1
-[REQ] Cycle: 884742	Occupancy: 0	Queue: 1
-[REQ] Cycle: 884746	Occupancy: 0	Queue: 1
-[REQ] Cycle: 884791	Occupancy: 0	Queue: 1
-[REQ] Cycle: 885378	Occupancy: 0	Queue: 1
-[REQ] Cycle: 885459	Occupancy: 0	Queue: 6
-[REQ] Cycle: 885461	Occupancy: 0	Queue: 6
-[REQ] Cycle: 885462	Occupancy: 0	Queue: 6
-[REQ] Cycle: 885463	Occupancy: 0	Queue: 6
-[REQ] Cycle: 885464	Occupancy: 0	Queue: 6
-[REQ] Cycle: 885497	Occupancy: 0	Queue: 2
-[REQ] Cycle: 885500	Occupancy: 0	Queue: 2
-[REQ] Cycle: 885540	Occupancy: 0	Queue: 4
-[REQ] Cycle: 885542	Occupancy: 0	Queue: 4
-[REQ] Cycle: 885543	Occupancy: 0	Queue: 4
-[REQ] Cycle: 885548	Occupancy: 0	Queue: 4
-[REQ] Cycle: 885584	Occupancy: 0	Queue: 2
-[REQ] Cycle: 885591	Occupancy: 0	Queue: 1
-[REQ] Cycle: 885642	Occupancy: 0	Queue: 1
-[REQ] Cycle: 885718	Occupancy: 0	Queue: 1
-[REQ] Cycle: 885759	Occupancy: 0	Queue: 1
-[REQ] Cycle: 885819	Occupancy: 0	Queue: 1
-[REQ] Cycle: 886525	Occupancy: 0	Queue: 1
-[REQ] Cycle: 886663	Occupancy: 0	Queue: 1
-[REQ] Cycle: 887104	Occupancy: 0	Queue: 0
-[REQ] Cycle: 887888	Occupancy: 0	Queue: 1
-[REQ] Cycle: 888109	Occupancy: 0	Queue: 1
-[REQ] Cycle: 888379	Occupancy: 0	Queue: 1
-[REQ] Cycle: 888415	Occupancy: 0	Queue: 3
-[REQ] Cycle: 888418	Occupancy: 0	Queue: 2
-[REQ] Cycle: 888419	Occupancy: 0	Queue: 2
-[REQ] Cycle: 888495	Occupancy: 0	Queue: 1
-[REQ] Cycle: 888544	Occupancy: 0	Queue: 4
-[REQ] Cycle: 888545	Occupancy: 0	Queue: 4
-[REQ] Cycle: 888546	Occupancy: 0	Queue: 4
-[REQ] Cycle: 888547	Occupancy: 0	Queue: 4
-[REQ] Cycle: 888923	Occupancy: 0	Queue: 2
-[REQ] Cycle: 888929	Occupancy: 0	Queue: 2
-[REQ] Cycle: 888963	Occupancy: 0	Queue: 1
-[REQ] Cycle: 889025	Occupancy: 0	Queue: 2
-[REQ] Cycle: 889033	Occupancy: 0	Queue: 1
-[REQ] Cycle: 889098	Occupancy: 0	Queue: 1
-[REQ] Cycle: 889264	Occupancy: 0	Queue: 1
-[REQ] Cycle: 889777	Occupancy: 0	Queue: 0
-[REQ] Cycle: 889969	Occupancy: 0	Queue: 1
-[REQ] Cycle: 890534	Occupancy: 0	Queue: 1
-[REQ] Cycle: 890538	Occupancy: 0	Queue: 1
-[REQ] Cycle: 890591	Occupancy: 0	Queue: 1
-[REQ] Cycle: 891177	Occupancy: 0	Queue: 1
-[REQ] Cycle: 891265	Occupancy: 0	Queue: 7
-[REQ] Cycle: 891267	Occupancy: 0	Queue: 7
-[REQ] Cycle: 891268	Occupancy: 0	Queue: 7
-[REQ] Cycle: 891270	Occupancy: 0	Queue: 6
-[REQ] Cycle: 891271	Occupancy: 0	Queue: 6
-[REQ] Cycle: 891273	Occupancy: 0	Queue: 6
-[REQ] Cycle: 891308	Occupancy: 1	Queue: 2
-[REQ] Cycle: 891312	Occupancy: 1	Queue: 2
-[REQ] Cycle: 891328	Occupancy: 1	Queue: 3
-[REQ] Cycle: 891331	Occupancy: 1	Queue: 4
-[REQ] Cycle: 891337	Occupancy: 1	Queue: 5
-[REQ] Cycle: 891339	Occupancy: 1	Queue: 4
-[REQ] Cycle: 891361	Occupancy: 0	Queue: 1
-[REQ] Cycle: 891372	Occupancy: 0	Queue: 0
-[REQ] Cycle: 891416	Occupancy: 0	Queue: 1
-[REQ] Cycle: 891493	Occupancy: 0	Queue: 1
-[REQ] Cycle: 891528	Occupancy: 0	Queue: 1
-[REQ] Cycle: 891580	Occupancy: 0	Queue: 1
-[REQ] Cycle: 892305	Occupancy: 0	Queue: 1
-[REQ] Cycle: 892444	Occupancy: 0	Queue: 1
-[REQ] Cycle: 892883	Occupancy: 0	Queue: 0
-[REQ] Cycle: 893673	Occupancy: 0	Queue: 1
-[REQ] Cycle: 893892	Occupancy: 0	Queue: 1
-[REQ] Cycle: 894163	Occupancy: 0	Queue: 1
-[REQ] Cycle: 894200	Occupancy: 0	Queue: 3
-[REQ] Cycle: 894202	Occupancy: 0	Queue: 2
-[REQ] Cycle: 894203	Occupancy: 0	Queue: 2
-[REQ] Cycle: 894278	Occupancy: 0	Queue: 1
-[REQ] Cycle: 894326	Occupancy: 0	Queue: 4
-[REQ] Cycle: 894327	Occupancy: 0	Queue: 4
-[REQ] Cycle: 894328	Occupancy: 0	Queue: 4
-[REQ] Cycle: 894330	Occupancy: 0	Queue: 4
-[REQ] Cycle: 894708	Occupancy: 0	Queue: 2
-[REQ] Cycle: 894709	Occupancy: 0	Queue: 2
-[REQ] Cycle: 894785	Occupancy: 0	Queue: 1
-[REQ] Cycle: 894801	Occupancy: 0	Queue: 1
-[REQ] Cycle: 894822	Occupancy: 0	Queue: 0
-[REQ] Cycle: 895026	Occupancy: 0	Queue: 1
-[REQ] Cycle: 895037	Occupancy: 0	Queue: 1
-[REQ] Cycle: 895551	Occupancy: 0	Queue: 0
-[REQ] Cycle: 895751	Occupancy: 0	Queue: 1
-[REQ] Cycle: 896336	Occupancy: 0	Queue: 1
-[REQ] Cycle: 896340	Occupancy: 0	Queue: 1
-[REQ] Cycle: 896390	Occupancy: 0	Queue: 1
-[REQ] Cycle: 896987	Occupancy: 0	Queue: 1
-[REQ] Cycle: 897066	Occupancy: 0	Queue: 6
-[REQ] Cycle: 897068	Occupancy: 0	Queue: 6
-[REQ] Cycle: 897069	Occupancy: 0	Queue: 6
-[REQ] Cycle: 897070	Occupancy: 0	Queue: 6
-[REQ] Cycle: 897072	Occupancy: 0	Queue: 6
-[REQ] Cycle: 897094	Occupancy: 0	Queue: 1
-[REQ] Cycle: 897106	Occupancy: 0	Queue: 1
-[REQ] Cycle: 897129	Occupancy: 0	Queue: 2
-[REQ] Cycle: 897135	Occupancy: 0	Queue: 3
-[REQ] Cycle: 897141	Occupancy: 0	Queue: 3
-[REQ] Cycle: 897146	Occupancy: 0	Queue: 3
-[REQ] Cycle: 897169	Occupancy: 0	Queue: 1
-[REQ] Cycle: 897180	Occupancy: 0	Queue: 0
-[REQ] Cycle: 897231	Occupancy: 0	Queue: 1
-[REQ] Cycle: 897314	Occupancy: 0	Queue: 1
-[REQ] Cycle: 897353	Occupancy: 0	Queue: 1
-[REQ] Cycle: 897411	Occupancy: 0	Queue: 1
-[REQ] Cycle: 898114	Occupancy: 0	Queue: 1
-[REQ] Cycle: 898309	Occupancy: 0	Queue: 1
-[REQ] Cycle: 899461	Occupancy: 0	Queue: 1
-[REQ] Cycle: 899686	Occupancy: 0	Queue: 1
-[REQ] Cycle: 899946	Occupancy: 0	Queue: 1
-[REQ] Cycle: 899984	Occupancy: 0	Queue: 3
-[REQ] Cycle: 899987	Occupancy: 0	Queue: 2
-[REQ] Cycle: 899988	Occupancy: 0	Queue: 2
-[REQ] Cycle: 900066	Occupancy: 0	Queue: 1
-[REQ] Cycle: 900117	Occupancy: 0	Queue: 3
-[REQ] Cycle: 900118	Occupancy: 0	Queue: 3
-[REQ] Cycle: 900120	Occupancy: 0	Queue: 3
-[REQ] Cycle: 900508	Occupancy: 0	Queue: 2
-[REQ] Cycle: 900515	Occupancy: 0	Queue: 2
-[REQ] Cycle: 900531	Occupancy: 0	Queue: 1
-[REQ] Cycle: 900577	Occupancy: 0	Queue: 1
-[REQ] Cycle: 900592	Occupancy: 0	Queue: 1
-[REQ] Cycle: 900603	Occupancy: 0	Queue: 0
-[REQ] Cycle: 900815	Occupancy: 0	Queue: 1
-[REQ] Cycle: 901319	Occupancy: 0	Queue: 0
-[REQ] Cycle: 901504	Occupancy: 0	Queue: 1
-[REQ] Cycle: 902104	Occupancy: 0	Queue: 1
-[REQ] Cycle: 902108	Occupancy: 0	Queue: 1
-[REQ] Cycle: 902162	Occupancy: 0	Queue: 1
-[REQ] Cycle: 902722	Occupancy: 0	Queue: 1
-[REQ] Cycle: 902816	Occupancy: 0	Queue: 6
-[REQ] Cycle: 902818	Occupancy: 0	Queue: 6
-[REQ] Cycle: 902819	Occupancy: 0	Queue: 6
-[REQ] Cycle: 902820	Occupancy: 0	Queue: 6
-[REQ] Cycle: 902821	Occupancy: 0	Queue: 6
-[REQ] Cycle: 902836	Occupancy: 0	Queue: 2
-[REQ] Cycle: 902857	Occupancy: 0	Queue: 1
-[REQ] Cycle: 902876	Occupancy: 0	Queue: 3
-[REQ] Cycle: 902879	Occupancy: 0	Queue: 4
-[REQ] Cycle: 902885	Occupancy: 0	Queue: 4
-[REQ] Cycle: 902887	Occupancy: 0	Queue: 3
-[REQ] Cycle: 902918	Occupancy: 0	Queue: 1
-[REQ] Cycle: 902932	Occupancy: 0	Queue: 0
-[REQ] Cycle: 902983	Occupancy: 0	Queue: 1
-[REQ] Cycle: 903065	Occupancy: 0	Queue: 1
-[REQ] Cycle: 903101	Occupancy: 0	Queue: 1
-[REQ] Cycle: 903161	Occupancy: 0	Queue: 1
-[REQ] Cycle: 903856	Occupancy: 0	Queue: 1
-[REQ] Cycle: 903995	Occupancy: 0	Queue: 1
-[REQ] Cycle: 904436	Occupancy: 0	Queue: 0
-[REQ] Cycle: 905221	Occupancy: 0	Queue: 1
-[REQ] Cycle: 905440	Occupancy: 0	Queue: 1
-[REQ] Cycle: 905703	Occupancy: 0	Queue: 1
-[REQ] Cycle: 905741	Occupancy: 0	Queue: 3
-[REQ] Cycle: 905744	Occupancy: 0	Queue: 2
-[REQ] Cycle: 905745	Occupancy: 0	Queue: 2
-[REQ] Cycle: 905822	Occupancy: 0	Queue: 1
-[REQ] Cycle: 905870	Occupancy: 0	Queue: 3
-[REQ] Cycle: 905871	Occupancy: 0	Queue: 3
-[REQ] Cycle: 905873	Occupancy: 0	Queue: 3
-[REQ] Cycle: 906262	Occupancy: 0	Queue: 2
-[REQ] Cycle: 906266	Occupancy: 0	Queue: 2
-[REQ] Cycle: 906286	Occupancy: 0	Queue: 1
-[REQ] Cycle: 906334	Occupancy: 0	Queue: 1
-[REQ] Cycle: 906349	Occupancy: 0	Queue: 2
-[REQ] Cycle: 906358	Occupancy: 0	Queue: 1
-[REQ] Cycle: 906566	Occupancy: 0	Queue: 1
-[REQ] Cycle: 907080	Occupancy: 0	Queue: 0
-[REQ] Cycle: 907268	Occupancy: 0	Queue: 1
-[REQ] Cycle: 907862	Occupancy: 0	Queue: 1
-[REQ] Cycle: 907866	Occupancy: 0	Queue: 1
-[REQ] Cycle: 907916	Occupancy: 0	Queue: 1
-[REQ] Cycle: 908498	Occupancy: 0	Queue: 1
-[REQ] Cycle: 908585	Occupancy: 0	Queue: 6
-[REQ] Cycle: 908587	Occupancy: 0	Queue: 6
-[REQ] Cycle: 908588	Occupancy: 0	Queue: 6
-[REQ] Cycle: 908589	Occupancy: 0	Queue: 6
-[REQ] Cycle: 908590	Occupancy: 0	Queue: 6
-[REQ] Cycle: 908612	Occupancy: 0	Queue: 2
-[REQ] Cycle: 908625	Occupancy: 0	Queue: 1
-[REQ] Cycle: 908651	Occupancy: 0	Queue: 3
-[REQ] Cycle: 908653	Occupancy: 0	Queue: 4
-[REQ] Cycle: 908659	Occupancy: 0	Queue: 5
-[REQ] Cycle: 908662	Occupancy: 0	Queue: 3
-[REQ] Cycle: 908664	Occupancy: 0	Queue: 2
-[REQ] Cycle: 908711	Occupancy: 1	Queue: 0
-[REQ] Cycle: 908722	Occupancy: 1	Queue: 1
-[REQ] Cycle: 908765	Occupancy: 0	Queue: 1
-[REQ] Cycle: 908842	Occupancy: 0	Queue: 1
-[REQ] Cycle: 908876	Occupancy: 0	Queue: 2
-[REQ] Cycle: 908884	Occupancy: 0	Queue: 2
-[REQ] Cycle: 909602	Occupancy: 0	Queue: 1
-[REQ] Cycle: 909740	Occupancy: 0	Queue: 1
+[REQ] Cycle: 880807	Occupancy: 0	Queue: 0
+[REQ] Cycle: 881385	Occupancy: 0	Queue: 1
+[REQ] Cycle: 882382	Occupancy: 0	Queue: 0
+[REQ] Cycle: 882652	Occupancy: 0	Queue: 0
+[REQ] Cycle: 882688	Occupancy: 0	Queue: 1
+[REQ] Cycle: 882692	Occupancy: 0	Queue: 0
+[REQ] Cycle: 882764	Occupancy: 0	Queue: 1
+[REQ] Cycle: 882769	Occupancy: 0	Queue: 1
+[REQ] Cycle: 882820	Occupancy: 0	Queue: 1
+[REQ] Cycle: 882822	Occupancy: 0	Queue: 0
+[REQ] Cycle: 882955	Occupancy: 0	Queue: 0
+[REQ] Cycle: 883151	Occupancy: 0	Queue: 1
+[REQ] Cycle: 883208	Occupancy: 0	Queue: 2
+[REQ] Cycle: 883211	Occupancy: 0	Queue: 1
+[REQ] Cycle: 883234	Occupancy: 0	Queue: 1
+[REQ] Cycle: 883304	Occupancy: 0	Queue: 1
+[REQ] Cycle: 883393	Occupancy: 0	Queue: 1
+[REQ] Cycle: 883538	Occupancy: 0	Queue: 0
+[REQ] Cycle: 884045	Occupancy: 0	Queue: 1
+[REQ] Cycle: 884239	Occupancy: 0	Queue: 0
+[REQ] Cycle: 884841	Occupancy: 0	Queue: 2
+[REQ] Cycle: 884845	Occupancy: 0	Queue: 2
+[REQ] Cycle: 884894	Occupancy: 0	Queue: 1
+[REQ] Cycle: 885555	Occupancy: 0	Queue: 3
+[REQ] Cycle: 885556	Occupancy: 0	Queue: 3
+[REQ] Cycle: 885561	Occupancy: 0	Queue: 3
+[REQ] Cycle: 885599	Occupancy: 0	Queue: 3
+[REQ] Cycle: 885600	Occupancy: 0	Queue: 3
+[REQ] Cycle: 885607	Occupancy: 0	Queue: 4
+[REQ] Cycle: 885614	Occupancy: 0	Queue: 2
+[REQ] Cycle: 885623	Occupancy: 0	Queue: 1
+[REQ] Cycle: 885649	Occupancy: 0	Queue: 2
+[REQ] Cycle: 885658	Occupancy: 0	Queue: 2
+[REQ] Cycle: 885714	Occupancy: 0	Queue: 1
+[REQ] Cycle: 885757	Occupancy: 0	Queue: 1
+[REQ] Cycle: 885821	Occupancy: 0	Queue: 1
+[REQ] Cycle: 886580	Occupancy: 0	Queue: 0
+[REQ] Cycle: 887159	Occupancy: 0	Queue: 1
+[REQ] Cycle: 888122	Occupancy: 0	Queue: 0
+[REQ] Cycle: 888391	Occupancy: 0	Queue: 0
+[REQ] Cycle: 888427	Occupancy: 0	Queue: 1
+[REQ] Cycle: 888430	Occupancy: 0	Queue: 0
+[REQ] Cycle: 888501	Occupancy: 0	Queue: 1
+[REQ] Cycle: 888506	Occupancy: 0	Queue: 1
+[REQ] Cycle: 888556	Occupancy: 0	Queue: 1
+[REQ] Cycle: 888558	Occupancy: 0	Queue: 0
+[REQ] Cycle: 888686	Occupancy: 0	Queue: 0
+[REQ] Cycle: 888871	Occupancy: 0	Queue: 1
+[REQ] Cycle: 888947	Occupancy: 0	Queue: 1
+[REQ] Cycle: 888950	Occupancy: 0	Queue: 1
+[REQ] Cycle: 888983	Occupancy: 0	Queue: 1
+[REQ] Cycle: 889051	Occupancy: 0	Queue: 1
+[REQ] Cycle: 889280	Occupancy: 0	Queue: 0
+[REQ] Cycle: 889353	Occupancy: 0	Queue: 1
+[REQ] Cycle: 889792	Occupancy: 0	Queue: 1
+[REQ] Cycle: 889979	Occupancy: 0	Queue: 0
+[REQ] Cycle: 890545	Occupancy: 0	Queue: 2
+[REQ] Cycle: 890549	Occupancy: 0	Queue: 2
+[REQ] Cycle: 890602	Occupancy: 0	Queue: 1
+[REQ] Cycle: 891269	Occupancy: 0	Queue: 4
+[REQ] Cycle: 891273	Occupancy: 0	Queue: 5
+[REQ] Cycle: 891274	Occupancy: 0	Queue: 5
+[REQ] Cycle: 891280	Occupancy: 0	Queue: 2
+[REQ] Cycle: 891308	Occupancy: 1	Queue: 1
+[REQ] Cycle: 891320	Occupancy: 1	Queue: 2
+[REQ] Cycle: 891327	Occupancy: 1	Queue: 3
+[REQ] Cycle: 891336	Occupancy: 1	Queue: 2
+[REQ] Cycle: 891338	Occupancy: 1	Queue: 0
+[REQ] Cycle: 891364	Occupancy: 0	Queue: 1
+[REQ] Cycle: 891379	Occupancy: 0	Queue: 1
+[REQ] Cycle: 891417	Occupancy: 0	Queue: 1
+[REQ] Cycle: 891469	Occupancy: 0	Queue: 1
+[REQ] Cycle: 891535	Occupancy: 0	Queue: 1
+[REQ] Cycle: 892302	Occupancy: 0	Queue: 0
+[REQ] Cycle: 892880	Occupancy: 0	Queue: 1
+[REQ] Cycle: 893878	Occupancy: 0	Queue: 0
+[REQ] Cycle: 894150	Occupancy: 0	Queue: 0
+[REQ] Cycle: 894187	Occupancy: 0	Queue: 1
+[REQ] Cycle: 894190	Occupancy: 0	Queue: 0
+[REQ] Cycle: 894260	Occupancy: 0	Queue: 2
+[REQ] Cycle: 894262	Occupancy: 0	Queue: 1
+[REQ] Cycle: 894311	Occupancy: 0	Queue: 1
+[REQ] Cycle: 894313	Occupancy: 0	Queue: 0
+[REQ] Cycle: 894452	Occupancy: 0	Queue: 0
+[REQ] Cycle: 894646	Occupancy: 0	Queue: 1
+[REQ] Cycle: 894702	Occupancy: 0	Queue: 1
+[REQ] Cycle: 894705	Occupancy: 0	Queue: 1
+[REQ] Cycle: 894824	Occupancy: 0	Queue: 1
+[REQ] Cycle: 895045	Occupancy: 0	Queue: 1
+[REQ] Cycle: 895060	Occupancy: 0	Queue: 0
+[REQ] Cycle: 895127	Occupancy: 0	Queue: 1
+[REQ] Cycle: 895576	Occupancy: 0	Queue: 1
+[REQ] Cycle: 895772	Occupancy: 0	Queue: 0
+[REQ] Cycle: 896365	Occupancy: 0	Queue: 2
+[REQ] Cycle: 896369	Occupancy: 0	Queue: 2
+[REQ] Cycle: 896418	Occupancy: 0	Queue: 1
+[REQ] Cycle: 897095	Occupancy: 0	Queue: 4
+[REQ] Cycle: 897099	Occupancy: 0	Queue: 4
+[REQ] Cycle: 897101	Occupancy: 0	Queue: 4
+[REQ] Cycle: 897126	Occupancy: 0	Queue: 1
+[REQ] Cycle: 897134	Occupancy: 0	Queue: 1
+[REQ] Cycle: 897164	Occupancy: 0	Queue: 4
+[REQ] Cycle: 897165	Occupancy: 0	Queue: 4
+[REQ] Cycle: 897169	Occupancy: 0	Queue: 3
+[REQ] Cycle: 897171	Occupancy: 0	Queue: 2
+[REQ] Cycle: 897208	Occupancy: 0	Queue: 1
+[REQ] Cycle: 897219	Occupancy: 0	Queue: 1
+[REQ] Cycle: 897273	Occupancy: 0	Queue: 1
+[REQ] Cycle: 897331	Occupancy: 0	Queue: 1
+[REQ] Cycle: 897397	Occupancy: 0	Queue: 1
+[REQ] Cycle: 898146	Occupancy: 0	Queue: 0
+[REQ] Cycle: 899751	Occupancy: 0	Queue: 0
+[REQ] Cycle: 900014	Occupancy: 0	Queue: 0
+[REQ] Cycle: 900052	Occupancy: 0	Queue: 1
+[REQ] Cycle: 900055	Occupancy: 0	Queue: 0
+[REQ] Cycle: 900125	Occupancy: 0	Queue: 1
+[REQ] Cycle: 900177	Occupancy: 0	Queue: 1
+[REQ] Cycle: 900179	Occupancy: 0	Queue: 0
+[REQ] Cycle: 900315	Occupancy: 0	Queue: 0
+[REQ] Cycle: 900504	Occupancy: 0	Queue: 1
+[REQ] Cycle: 900567	Occupancy: 0	Queue: 1
+[REQ] Cycle: 900576	Occupancy: 0	Queue: 1
+[REQ] Cycle: 900605	Occupancy: 0	Queue: 1
+[REQ] Cycle: 900674	Occupancy: 0	Queue: 1
+[REQ] Cycle: 900758	Occupancy: 0	Queue: 1
+[REQ] Cycle: 900899	Occupancy: 0	Queue: 0
+[REQ] Cycle: 901404	Occupancy: 0	Queue: 1
+[REQ] Cycle: 901588	Occupancy: 0	Queue: 0
+[REQ] Cycle: 902188	Occupancy: 0	Queue: 2
+[REQ] Cycle: 902189	Occupancy: 0	Queue: 2
+[REQ] Cycle: 902240	Occupancy: 0	Queue: 1
+[REQ] Cycle: 902913	Occupancy: 0	Queue: 4
+[REQ] Cycle: 902917	Occupancy: 0	Queue: 4
+[REQ] Cycle: 902918	Occupancy: 0	Queue: 4
+[REQ] Cycle: 902942	Occupancy: 0	Queue: 0
+[REQ] Cycle: 902957	Occupancy: 0	Queue: 1
+[REQ] Cycle: 902976	Occupancy: 0	Queue: 2
+[REQ] Cycle: 902981	Occupancy: 0	Queue: 4
+[REQ] Cycle: 902988	Occupancy: 0	Queue: 2
+[REQ] Cycle: 902989	Occupancy: 0	Queue: 1
+[REQ] Cycle: 903023	Occupancy: 0	Queue: 1
+[REQ] Cycle: 903037	Occupancy: 0	Queue: 1
+[REQ] Cycle: 903086	Occupancy: 0	Queue: 1
+[REQ] Cycle: 903135	Occupancy: 0	Queue: 1
+[REQ] Cycle: 903197	Occupancy: 0	Queue: 1
+[REQ] Cycle: 903951	Occupancy: 0	Queue: 0
+[REQ] Cycle: 904530	Occupancy: 0	Queue: 1
+[REQ] Cycle: 905522	Occupancy: 0	Queue: 0
+[REQ] Cycle: 905791	Occupancy: 0	Queue: 0
+[REQ] Cycle: 905829	Occupancy: 0	Queue: 1
+[REQ] Cycle: 905831	Occupancy: 0	Queue: 0
+[REQ] Cycle: 905905	Occupancy: 0	Queue: 1
+[REQ] Cycle: 905956	Occupancy: 0	Queue: 1
+[REQ] Cycle: 905958	Occupancy: 0	Queue: 0
+[REQ] Cycle: 906098	Occupancy: 0	Queue: 0
+[REQ] Cycle: 906296	Occupancy: 0	Queue: 1
+[REQ] Cycle: 906363	Occupancy: 0	Queue: 2
+[REQ] Cycle: 906364	Occupancy: 0	Queue: 1
+[REQ] Cycle: 906386	Occupancy: 0	Queue: 1
+[REQ] Cycle: 906459	Occupancy: 0	Queue: 1
+[REQ] Cycle: 906545	Occupancy: 0	Queue: 1
+[REQ] Cycle: 906698	Occupancy: 0	Queue: 0
+[REQ] Cycle: 907194	Occupancy: 0	Queue: 1
+[REQ] Cycle: 907385	Occupancy: 0	Queue: 0
+[REQ] Cycle: 907975	Occupancy: 0	Queue: 2
+[REQ] Cycle: 907977	Occupancy: 0	Queue: 2
+[REQ] Cycle: 908021	Occupancy: 0	Queue: 1
+[REQ] Cycle: 908692	Occupancy: 0	Queue: 3
+[REQ] Cycle: 908696	Occupancy: 0	Queue: 4
+[REQ] Cycle: 908697	Occupancy: 0	Queue: 4
+[REQ] Cycle: 908719	Occupancy: 0	Queue: 0
+[REQ] Cycle: 908736	Occupancy: 0	Queue: 1
+[REQ] Cycle: 908755	Occupancy: 0	Queue: 2
+[REQ] Cycle: 908764	Occupancy: 0	Queue: 5
+[REQ] Cycle: 908766	Occupancy: 0	Queue: 3
+[REQ] Cycle: 908767	Occupancy: 0	Queue: 2
+[REQ] Cycle: 908768	Occupancy: 1	Queue: 1
+[REQ] Cycle: 908813	Occupancy: 1	Queue: 1
+[REQ] Cycle: 908861	Occupancy: 0	Queue: 1
+[REQ] Cycle: 908880	Occupancy: 0	Queue: 1
+[REQ] Cycle: 908948	Occupancy: 0	Queue: 1
+[REQ] Cycle: 909013	Occupancy: 0	Queue: 1
+[REQ] Cycle: 909743	Occupancy: 0	Queue: 0
 
-Simulation complete. Instructions retired: 3099757 Cycles elapsed: 909812 IPC: 3.407030
+Simulation complete. Instructions retired: 3099757 Cycles elapsed: 909954 IPC: 3.406499
 
 Prefetcher final stats
