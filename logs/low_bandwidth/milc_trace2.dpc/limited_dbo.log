@@ -1,19 +1,23 @@
 
 *** Data Prefetching Championship 2 Simulator ***
 
-Warmup Instructions: 10000000
+Warmup Instructions: 0
 Simulation Instructions: 100000000
 Scramble loads OFF
 Using 1MB Last Level Cache
 Using 3.2 GB/s DRAM bandwidth
 Knobs visible from prefetcher: 0 0 1
 Resetting history queue.
+Setting up the minimum score
 Resetting offset table
 Setting initial offset to 1
 Tag offset: 6
 Ressetting hit rate
 Resetting rable rounds
-Setting up the minimum score
+
+Warmup complete. Instructions retired: 1 Cycles elapsed: 2 IPC: 0.500000
+Prefetcher warmup complete stats
+
 [REQ] Cycle: 15	Occupancy: 1	Queue: 3
 [REQ] Cycle: 17	Occupancy: 2	Queue: 4
 [REQ] Cycle: 18	Occupancy: 3	Queue: 4
@@ -1977,7 +1981,7 @@ Setting up the minimum score
 [REQ] Cycle: 127400	Occupancy: 9	Queue: 6
 [REQ] Cycle: 127868	Occupancy: 3	Queue: 2
 Instructions Retired: 100000 Cycle: 127870 Hearbeat IPC: 0.782044 Cumulative IPC: 0.782044
-Cycle: 127870	Best offset: 1	Score: 63	Hit Rate: 0.008155
+Cycle: 127870	Best offset: 1	Score: 1	Hit Rate: 0.008155
 	---- Offset table ----
 Offset -> Score
 1 -> 15
@@ -3938,7 +3942,7 @@ Offset -> Score
 [REQ] Cycle: 254095	Occupancy: 16	Queue: 11
 [REQ] Cycle: 254117	Occupancy: 16	Queue: 11
 Instructions Retired: 200000 Cycle: 255281 Hearbeat IPC: 0.784862 Cumulative IPC: 0.783450
-Cycle: 255281	Best offset: 1	Score: 63	Hit Rate: 0.006898
+Cycle: 255281	Best offset: 1	Score: 1	Hit Rate: 0.006898
 	---- Offset table ----
 Offset -> Score
 11 -> 31
@@ -5900,7 +5904,7 @@ Offset -> Score
 [REQ] Cycle: 381246	Occupancy: 8	Queue: 7
 [REQ] Cycle: 381340	Occupancy: 8	Queue: 5
 Instructions Retired: 300000 Cycle: 381849 Hearbeat IPC: 0.790089 Cumulative IPC: 0.785651
-Cycle: 381849	Best offset: 1	Score: 63	Hit Rate: 0.005966
+Cycle: 381849	Best offset: 1	Score: 1	Hit Rate: 0.005966
 	---- Offset table ----
 Offset -> Score
 2 -> 45
@@ -60828,6 +60832,6 @@ Offset -> Score
 [REQ] Cycle: 5002434	Occupancy: 9	Queue: 11
 [REQ] Cycle: 5002473	Occupancy: 12	Queue: 8
 
-Simulation complete. Instructions retired: 3099754 Cycles elapsed: 5002494 IPC: 0.619642
+Simulation complete. Instructions retired: 3099753 Cycles elapsed: 5002492 IPC: 0.619642
 
 Prefetcher final stats
