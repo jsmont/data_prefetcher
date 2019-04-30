@@ -14,11 +14,6 @@ CONFIG=""
 
 BRANCH=$(git branch --contains)
 
-if [ -z "$(git branch --contains | grep "master")" ]; then
-    echo "Not in branch master"
-    exit 0
-fi
-
 #if [ ! -z "$1" ]; then
 #    NUM_BUILDS=$1;
 #fi

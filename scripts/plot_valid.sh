@@ -5,11 +5,6 @@ LOG_FOLDER=$REPOROOT/logs
 GH_FILE=$REPOROOT/docs/index.html
 
 
-if [ -z "$(git branch --contains | grep "last_state")" ]; then
-    echo "Not in branch last_state"
-    exit 0
-fi
-
 mkdir $REPOROOT/docs/img 2>/dev/null
 
 cd $LOG_FOLDER

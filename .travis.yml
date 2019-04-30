@@ -20,13 +20,13 @@ env:
 install:
     - cd $TRAVIS_BUILD_DIR;
     - scripts/setup_git.sh
-    - make
+    - if [ "$TRAVIS_BRANCH" = "master" ]; then make; fi
 
 script: 
     - cd $TRAVIS_BUILD_DIR;
-    - scripts/run_valid.sh $MODE;
-    - scripts/plot_valid.sh;
+    - if [ "$TRAVIS_BRANCH" = "master" ]; then scripts/run_valid.sh $MODE; fi
+    - if [ "$TRAVIS_BRANCH" = "last_state" ] && [ -z "$MODE" ]; then scripts/plot_valid.sh; fi
 
 after_success:
     - cd $TRAVIS_BUILD_DIR;
-    - scripts/atomic_push.sh;
+    - if [ "$TRAVIS_BRANCH" = "master" ] || [ -z "$MODE" ]; then scripts/atomic_push.sh; fi

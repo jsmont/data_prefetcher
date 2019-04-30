@@ -3,7 +3,7 @@ REPOROOT=$(git rev-parse --show-toplevel)
 
 step="1"
 
-if [ -z "$(git branch --contains | grep "last_state")" ]; then
+if [ "$TRAVIS_BRANCH" = "last_state" ]; then
     step="2"
 fi
 
