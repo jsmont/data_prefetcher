@@ -12,7 +12,7 @@
 #include <string.h>
 
 #define SIZE_OF_HIST 64
-#define SIZE_OF_OFFSETS 256
+#define SIZE_OF_OFFSETS 128
 #define MAX_OFFSET_SCORE 63
 #define MSHR_LIMIT 0.8*L2_MSHR_COUNT 
 #define MAX_TABLE_ROUND 50
