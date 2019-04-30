@@ -89,6 +89,7 @@ void l2_prefetcher_initialize(int cpu_num)
     printf("Setting initial offset to 1\n");
     BEST_TRAINED_OFFSET = OFFSET_TABLE[0];
     BEST_OFFSET = OFFSET_TABLE[0];
+    BEST_OFFSET.score = MAX_OFFSET_SCORE;
 
     printf("Tag offset: %d\n", TAG_OFFSET);
 
@@ -100,8 +101,8 @@ void l2_prefetcher_initialize(int cpu_num)
     TABLE_ROUND=0;
 
     printf("Setting up the minimum score\n");
-    MINIMUM_SCORE=5;
-    if(knob_small_llc) MINIMUM_SCORE=MAX_OFFSET_SCORE/2;
+    MINIMUM_SCORE=1;
+    if(knob_small_llc) MINIMUM_SCORE=MAX_OFFSET_SCORE/4;
 }
 
 void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned long long int ip, int cache_hit)
