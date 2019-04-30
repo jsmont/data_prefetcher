@@ -14,3 +14,4 @@ if [ ! -z "$GIT_TOKEN" ]; then
 fi
 
 git fetch origin last_state
+git fetch origin master
