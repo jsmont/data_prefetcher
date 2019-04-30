@@ -1531,10 +1531,10 @@ Instructions Retired: 100000 Cycle: 100419 Hearbeat IPC: 0.995827 Cumulative IPC
 Cycle: 100419	Best offset: 1	Score: 1	Hit Rate: 0.339960
 	---- Offset table ----
 Offset -> Score
-1 -> 7
--118 -> 5
--39 -> 5
--36 -> 5
+1 -> 17
+-62 -> 9
+-25 -> 9
+-11 -> 7
 	----------------------
 [REQ] Cycle: 100420	Occupancy: 12	Queue: 2
 [REQ] Cycle: 100421	Occupancy: 12	Queue: 4
@@ -2914,10 +2914,10 @@ Instructions Retired: 200003 Cycle: 191769 Hearbeat IPC: 1.094724 Cumulative IPC
 Cycle: 191769	Best offset: 1	Score: 1	Hit Rate: 0.331946
 	---- Offset table ----
 Offset -> Score
-1 -> 15
-29 -> 9
-35 -> 8
-72 -> 8
+1 -> 31
+-25 -> 14
+-51 -> 13
+30 -> 13
 	----------------------
 [REQ] Cycle: 191774	Occupancy: 10	Queue: 4
 [REQ] Cycle: 191775	Occupancy: 10	Queue: 4
@@ -4175,10 +4175,10 @@ Instructions Retired: 300005 Cycle: 274345 Hearbeat IPC: 1.211030 Cumulative IPC
 Cycle: 274345	Best offset: 1	Score: 1	Hit Rate: 0.343168
 	---- Offset table ----
 Offset -> Score
-1 -> 20
-29 -> 16
-72 -> 10
-10 -> 9
+1 -> 42
+29 -> 21
+21 -> 17
+30 -> 17
 	----------------------
 [REQ] Cycle: 274350	Occupancy: 7	Queue: 2
 [REQ] Cycle: 274361	Occupancy: 7	Queue: 3
@@ -5333,10 +5333,10 @@ Instructions Retired: 400005 Cycle: 349583 Hearbeat IPC: 1.329116 Cumulative IPC
 Cycle: 349583	Best offset: 1	Score: 1	Hit Rate: 0.349924
 	---- Offset table ----
 Offset -> Score
-1 -> 25
-29 -> 17
--28 -> 12
-30 -> 12
+1 -> 52
+29 -> 24
+-51 -> 23
+30 -> 22
 	----------------------
 [REQ] Cycle: 349612	Occupancy: 11	Queue: 2
 [REQ] Cycle: 349613	Occupancy: 11	Queue: 4
@@ -6459,13 +6459,13 @@ Offset -> Score
 [REQ] Cycle: 423789	Occupancy: 10	Queue: 7
 [REQ] Cycle: 423795	Occupancy: 10	Queue: 7
 Instructions Retired: 500005 Cycle: 424226 Hearbeat IPC: 1.339710 Cumulative IPC: 1.178629
-Cycle: 424226	Best offset: 1	Score: 1	Hit Rate: 0.351031
+Cycle: 424226	Best offset: 1	Score: 63	Hit Rate: 0.351031
 	---- Offset table ----
 Offset -> Score
-1 -> 31
-29 -> 17
--28 -> 14
--16 -> 13
+-59 -> 2
+-47 -> 2
+-32 -> 2
+-18 -> 2
 	----------------------
 [REQ] Cycle: 424236	Occupancy: 9	Queue: 2
 [REQ] Cycle: 424238	Occupancy: 9	Queue: 5
@@ -7591,13 +7591,13 @@ Offset -> Score
 [REQ] Cycle: 498485	Occupancy: 16	Queue: 8
 [REQ] Cycle: 498486	Occupancy: 16	Queue: 8
 Instructions Retired: 600004 Cycle: 498686 Hearbeat IPC: 1.342990 Cumulative IPC: 1.203170
-Cycle: 498686	Best offset: 1	Score: 1	Hit Rate: 0.359639
+Cycle: 498686	Best offset: 1	Score: 63	Hit Rate: 0.359639
 	---- Offset table ----
 Offset -> Score
-1 -> 37
-29 -> 20
-6 -> 17
--28 -> 16
+1 -> 9
+6 -> 8
+-61 -> 7
+-59 -> 6
 	----------------------
 [REQ] Cycle: 498721	Occupancy: 13	Queue: 3
 [REQ] Cycle: 498722	Occupancy: 13	Queue: 5
@@ -8714,13 +8714,13 @@ Offset -> Score
 [REQ] Cycle: 572256	Occupancy: 16	Queue: 3
 [REQ] Cycle: 572257	Occupancy: 16	Queue: 5
 Instructions Retired: 700002 Cycle: 572737 Hearbeat IPC: 1.350394 Cumulative IPC: 1.222205
-Cycle: 572737	Best offset: 1	Score: 1	Hit Rate: 0.363268
+Cycle: 572737	Best offset: 1	Score: 63	Hit Rate: 0.363268
 	---- Offset table ----
 Offset -> Score
-1 -> 41
-29 -> 22
-6 -> 19
--28 -> 18
+1 -> 21
+6 -> 12
+-61 -> 11
+7 -> 11
 	----------------------
 [REQ] Cycle: 572764	Occupancy: 6	Queue: 3
 [REQ] Cycle: 572765	Occupancy: 6	Queue: 5
@@ -9837,13 +9837,13 @@ Offset -> Score
 [REQ] Cycle: 645339	Occupancy: 12	Queue: 8
 [REQ] Cycle: 645340	Occupancy: 13	Queue: 8
 Instructions Retired: 800000 Cycle: 645429 Hearbeat IPC: 1.375640 Cumulative IPC: 1.239486
-Cycle: 645429	Best offset: 1	Score: 1	Hit Rate: 0.370989
+Cycle: 645429	Best offset: 1	Score: 63	Hit Rate: 0.370989
 	---- Offset table ----
 Offset -> Score
-1 -> 48
-29 -> 24
-6 -> 20
--80 -> 18
+1 -> 34
+33 -> 15
+6 -> 14
+-61 -> 13
 	----------------------
 [REQ] Cycle: 645571	Occupancy: 15	Queue: 7
 [REQ] Cycle: 645572	Occupancy: 15	Queue: 6
@@ -10966,13 +10966,13 @@ Offset -> Score
 [REQ] Cycle: 722498	Occupancy: 10	Queue: 7
 [REQ] Cycle: 722506	Occupancy: 11	Queue: 6
 Instructions Retired: 900005 Cycle: 722868 Hearbeat IPC: 1.291404 Cumulative IPC: 1.245047
-Cycle: 722868	Best offset: 1	Score: 1	Hit Rate: 0.376000
+Cycle: 722868	Best offset: 1	Score: 63	Hit Rate: 0.376000
 	---- Offset table ----
 Offset -> Score
-1 -> 53
-29 -> 28
-6 -> 21
-109 -> 21
+1 -> 45
+6 -> 18
+-61 -> 17
+29 -> 17
 	----------------------
 [REQ] Cycle: 722877	Occupancy: 8	Queue: 2
 [REQ] Cycle: 722878	Occupancy: 8	Queue: 4
@@ -12096,13 +12096,13 @@ Offset -> Score
 [REQ] Cycle: 797893	Occupancy: 14	Queue: 4
 [REQ] Cycle: 797900	Occupancy: 15	Queue: 5
 Instructions Retired: 1000003 Cycle: 797901 Hearbeat IPC: 1.332720 Cumulative IPC: 1.253292
-Cycle: 797901	Best offset: 1	Score: 1	Hit Rate: 0.377459
+Cycle: 797901	Best offset: 1	Score: 63	Hit Rate: 0.377459
 	---- Offset table ----
 Offset -> Score
 1 -> 60
-29 -> 31
+19 -> 26
 6 -> 24
--115 -> 23
+-18 -> 21
 	----------------------
 [REQ] Cycle: 797901	Occupancy: 15	Queue: 5
 [REQ] Cycle: 797904	Occupancy: 16	Queue: 4
@@ -13221,10 +13221,10 @@ Instructions Retired: 1100001 Cycle: 876152 Hearbeat IPC: 1.277913 Cumulative IP
 Cycle: 876152	Best offset: 1	Score: 63	Hit Rate: 0.374933
 	---- Offset table ----
 Offset -> Score
--120 -> 4
--95 -> 4
-112 -> 4
--84 -> 3
+1 -> 5
+5 -> 5
+-11 -> 4
+9 -> 4
 	----------------------
 [REQ] Cycle: 876195	Occupancy: 9	Queue: 6
 [REQ] Cycle: 876198	Occupancy: 9	Queue: 7
@@ -14348,10 +14348,10 @@ Instructions Retired: 1200005 Cycle: 957472 Hearbeat IPC: 1.229759 Cumulative IP
 Cycle: 957472	Best offset: 1	Score: 63	Hit Rate: 0.373515
 	---- Offset table ----
 Offset -> Score
-1 -> 8
--70 -> 7
-9 -> 7
--95 -> 6
+1 -> 19
+9 -> 11
+5 -> 10
+-42 -> 9
 	----------------------
 [REQ] Cycle: 957514	Occupancy: 13	Queue: 4
 [REQ] Cycle: 957518	Occupancy: 13	Queue: 4
@@ -15480,10 +15480,10 @@ Instructions Retired: 1300002 Cycle: 1053488 Hearbeat IPC: 1.041462 Cumulative I
 Cycle: 1053488	Best offset: 1	Score: 63	Hit Rate: 0.374007
 	---- Offset table ----
 Offset -> Score
-1 -> 14
-9 -> 10
-7 -> 9
-72 -> 9
+1 -> 30
+9 -> 15
+-42 -> 14
+-4 -> 14
 	----------------------
 [REQ] Cycle: 1053488	Occupancy: 12	Queue: 7
 [REQ] Cycle: 1053490	Occupancy: 13	Queue: 6
@@ -16604,10 +16604,10 @@ Instructions Retired: 1400003 Cycle: 1152936 Hearbeat IPC: 1.005561 Cumulative I
 Cycle: 1152936	Best offset: 1	Score: 63	Hit Rate: 0.375342
 	---- Offset table ----
 Offset -> Score
-1 -> 20
-5 -> 12
--59 -> 11
-9 -> 11
+1 -> 42
+-42 -> 19
+5 -> 19
+-39 -> 18
 	----------------------
 [REQ] Cycle: 1152953	Occupancy: 11	Queue: 4
 [REQ] Cycle: 1152960	Occupancy: 11	Queue: 5
@@ -17730,10 +17730,10 @@ Instructions Retired: 1500001 Cycle: 1251764 Hearbeat IPC: 1.011839 Cumulative I
 Cycle: 1251764	Best offset: 1	Score: 63	Hit Rate: 0.374986
 	---- Offset table ----
 Offset -> Score
-1 -> 26
-9 -> 13
--59 -> 12
--27 -> 12
+1 -> 53
+-42 -> 21
+-39 -> 21
+-4 -> 21
 	----------------------
 [REQ] Cycle: 1251767	Occupancy: 9	Queue: 4
 [REQ] Cycle: 1251768	Occupancy: 10	Queue: 4
@@ -18858,10 +18858,10 @@ Instructions Retired: 1600003 Cycle: 1350528 Hearbeat IPC: 1.012535 Cumulative I
 Cycle: 1350528	Best offset: 1	Score: 63	Hit Rate: 0.374312
 	---- Offset table ----
 Offset -> Score
-1 -> 32
--27 -> 17
-5 -> 15
-9 -> 15
+1 -> 62
+9 -> 26
+49 -> 26
+53 -> 26
 	----------------------
 [REQ] Cycle: 1350568	Occupancy: 10	Queue: 4
 [REQ] Cycle: 1350572	Occupancy: 10	Queue: 8
@@ -19983,13 +19983,13 @@ Offset -> Score
 [REQ] Cycle: 1458364	Occupancy: 16	Queue: 4
 [REQ] Cycle: 1458473	Occupancy: 13	Queue: 4
 Instructions Retired: 1700002 Cycle: 1458475 Hearbeat IPC: 0.926371 Cumulative IPC: 1.165602
-Cycle: 1458475	Best offset: 1	Score: 63	Hit Rate: 0.375479
+Cycle: 1458475	Best offset: 1	Score: 62	Hit Rate: 0.375479
 	---- Offset table ----
 Offset -> Score
-1 -> 36
--27 -> 19
-53 -> 18
-9 -> 17
+1 -> 9
+-19 -> 8
+-47 -> 7
+-28 -> 7
 	----------------------
 [REQ] Cycle: 1458480	Occupancy: 13	Queue: 5
 [REQ] Cycle: 1458481	Occupancy: 13	Queue: 5
@@ -21107,13 +21107,13 @@ Offset -> Score
 [REQ] Cycle: 1574386	Occupancy: 16	Queue: 8
 [REQ] Cycle: 1574405	Occupancy: 16	Queue: 8
 Instructions Retired: 1800002 Cycle: 1574406 Hearbeat IPC: 0.862582 Cumulative IPC: 1.143290
-Cycle: 1574406	Best offset: 1	Score: 63	Hit Rate: 0.372104
+Cycle: 1574406	Best offset: 1	Score: 62	Hit Rate: 0.372104
 	---- Offset table ----
 Offset -> Score
-1 -> 40
--27 -> 21
-53 -> 19
--39 -> 18
+1 -> 20
+41 -> 13
+-28 -> 12
+-3 -> 10
 	----------------------
 [REQ] Cycle: 1574406	Occupancy: 16	Queue: 8
 [REQ] Cycle: 1574407	Occupancy: 16	Queue: 7
@@ -22232,13 +22232,13 @@ Offset -> Score
 [REQ] Cycle: 1685671	Occupancy: 12	Queue: 4
 [REQ] Cycle: 1685689	Occupancy: 15	Queue: 1
 Instructions Retired: 1900005 Cycle: 1685763 Hearbeat IPC: 0.898040 Cumulative IPC: 1.127089
-Cycle: 1685763	Best offset: 1	Score: 63	Hit Rate: 0.370641
+Cycle: 1685763	Best offset: 1	Score: 62	Hit Rate: 0.370641
 	---- Offset table ----
 Offset -> Score
-1 -> 47
--27 -> 22
-41 -> 21
-53 -> 21
+1 -> 34
+41 -> 17
+-22 -> 16
+-28 -> 14
 	----------------------
 [REQ] Cycle: 1685784	Occupancy: 14	Queue: 2
 [REQ] Cycle: 1685786	Occupancy: 14	Queue: 5
@@ -23365,13 +23365,13 @@ Offset -> Score
 [REQ] Cycle: 1800546	Occupancy: 13	Queue: 4
 [REQ] Cycle: 1800553	Occupancy: 12	Queue: 4
 Instructions Retired: 2000002 Cycle: 1800561 Hearbeat IPC: 0.871069 Cumulative IPC: 1.110766
-Cycle: 1800561	Best offset: 1	Score: 63	Hit Rate: 0.369320
+Cycle: 1800561	Best offset: 1	Score: 62	Hit Rate: 0.369320
 	---- Offset table ----
 Offset -> Score
-1 -> 52
-53 -> 23
--27 -> 22
--4 -> 22
+1 -> 46
+-28 -> 20
+41 -> 19
+8 -> 18
 	----------------------
 [REQ] Cycle: 1800659	Occupancy: 12	Queue: 2
 [REQ] Cycle: 1800662	Occupancy: 12	Queue: 6
@@ -24488,13 +24488,13 @@ Offset -> Score
 [REQ] Cycle: 1914255	Occupancy: 14	Queue: 4
 [REQ] Cycle: 1914256	Occupancy: 14	Queue: 4
 Instructions Retired: 2100004 Cycle: 1914295 Hearbeat IPC: 0.879262 Cumulative IPC: 1.097012
-Cycle: 1914295	Best offset: 1	Score: 63	Hit Rate: 0.367327
+Cycle: 1914295	Best offset: 1	Score: 62	Hit Rate: 0.367327
 	---- Offset table ----
 Offset -> Score
-1 -> 57
--27 -> 25
-81 -> 25
--4 -> 24
+1 -> 56
+-28 -> 25
+8 -> 24
+41 -> 23
 	----------------------
 [REQ] Cycle: 1914336	Occupancy: 14	Queue: 5
 [REQ] Cycle: 1914340	Occupancy: 14	Queue: 5
@@ -25618,10 +25618,10 @@ Instructions Retired: 2200004 Cycle: 2023776 Hearbeat IPC: 0.913400 Cumulative I
 Cycle: 2023776	Best offset: 1	Score: 63	Hit Rate: 0.365962
 	---- Offset table ----
 Offset -> Score
-1 -> 2
-17 -> 2
-18 -> 2
-25 -> 2
+1 -> 7
+37 -> 4
+54 -> 4
+-51 -> 3
 	----------------------
 [REQ] Cycle: 2023777	Occupancy: 9	Queue: 2
 [REQ] Cycle: 2023778	Occupancy: 9	Queue: 4
@@ -26750,10 +26750,10 @@ Instructions Retired: 2300004 Cycle: 2132508 Hearbeat IPC: 0.919692 Cumulative I
 Cycle: 2132508	Best offset: 1	Score: 63	Hit Rate: 0.365662
 	---- Offset table ----
 Offset -> Score
--68 -> 6
-1 -> 6
-109 -> 6
--23 -> 5
+1 -> 17
+-14 -> 9
+-51 -> 8
+-39 -> 8
 	----------------------
 [REQ] Cycle: 2132541	Occupancy: 14	Queue: 8
 [REQ] Cycle: 2132542	Occupancy: 14	Queue: 8
@@ -28196,10 +28196,10 @@ Instructions Retired: 2400003 Cycle: 2273423 Hearbeat IPC: 0.709641 Cumulative I
 Cycle: 2273423	Best offset: 1	Score: 63	Hit Rate: 0.363285
 	---- Offset table ----
 Offset -> Score
-1 -> 14
--28 -> 10
-30 -> 9
--61 -> 8
+1 -> 32
+-51 -> 14
+30 -> 14
+53 -> 14
 	----------------------
 [REQ] Cycle: 2273428	Occupancy: 10	Queue: 8
 [REQ] Cycle: 2273431	Occupancy: 10	Queue: 8
@@ -29643,10 +29643,10 @@ Instructions Retired: 2500003 Cycle: 2416584 Hearbeat IPC: 0.698514 Cumulative I
 Cycle: 2416584	Best offset: 1	Score: 63	Hit Rate: 0.361231
 	---- Offset table ----
 Offset -> Score
-1 -> 19
--28 -> 12
-19 -> 12
-30 -> 12
+1 -> 46
+53 -> 19
+-51 -> 18
+-19 -> 18
 	----------------------
 [REQ] Cycle: 2416635	Occupancy: 10	Queue: 4
 [REQ] Cycle: 2416636	Occupancy: 10	Queue: 4
@@ -30775,10 +30775,10 @@ Instructions Retired: 2600000 Cycle: 2526407 Hearbeat IPC: 0.910529 Cumulative I
 Cycle: 2526407	Best offset: 1	Score: 63	Hit Rate: 0.361963
 	---- Offset table ----
 Offset -> Score
-1 -> 27
--28 -> 15
-30 -> 14
-60 -> 13
+1 -> 59
+-4 -> 23
+53 -> 22
+-51 -> 21
 	----------------------
 [REQ] Cycle: 2526896	Occupancy: 8	Queue: 2
 [REQ] Cycle: 2526897	Occupancy: 8	Queue: 4
@@ -31895,10 +31895,10 @@ Instructions Retired: 2700002 Cycle: 2634693 Hearbeat IPC: 0.923499 Cumulative I
 Cycle: 2634693	Best offset: 1	Score: 63	Hit Rate: 0.362938
 	---- Offset table ----
 Offset -> Score
-1 -> 31
-29 -> 17
--28 -> 16
-19 -> 15
+1 -> 6
+5 -> 6
+4 -> 5
+8 -> 5
 	----------------------
 [REQ] Cycle: 2634737	Occupancy: 15	Queue: 3
 [REQ] Cycle: 2634738	Occupancy: 15	Queue: 5
@@ -33021,10 +33021,10 @@ Instructions Retired: 2800004 Cycle: 2747211 Hearbeat IPC: 0.888764 Cumulative I
 Cycle: 2747211	Best offset: 1	Score: 63	Hit Rate: 0.363109
 	---- Offset table ----
 Offset -> Score
-1 -> 37
--28 -> 22
-29 -> 19
--23 -> 17
+1 -> 18
+63 -> 12
+8 -> 11
+29 -> 10
 	----------------------
 [REQ] Cycle: 2747222	Occupancy: 13	Queue: 4
 [REQ] Cycle: 2747223	Occupancy: 14	Queue: 4
@@ -34197,10 +34197,10 @@ Instructions Retired: 2900000 Cycle: 2865185 Hearbeat IPC: 0.847610 Cumulative I
 Cycle: 2865185	Best offset: 1	Score: 63	Hit Rate: 0.364679
 	---- Offset table ----
 Offset -> Score
-1 -> 44
--28 -> 23
-29 -> 21
-12 -> 20
+1 -> 33
+8 -> 17
+29 -> 15
+63 -> 15
 	----------------------
 [REQ] Cycle: 2865185	Occupancy: 14	Queue: 9
 [REQ] Cycle: 2865186	Occupancy: 14	Queue: 11
@@ -35527,10 +35527,10 @@ Instructions Retired: 3000005 Cycle: 3003397 Hearbeat IPC: 0.723562 Cumulative I
 Cycle: 3003397	Best offset: 1	Score: 63	Hit Rate: 0.363353
 	---- Offset table ----
 Offset -> Score
-1 -> 51
--28 -> 27
-29 -> 23
-12 -> 21
+1 -> 45
+-11 -> 21
+8 -> 21
+-51 -> 20
 	----------------------
 [REQ] Cycle: 3003496	Occupancy: 13	Queue: 3
 [REQ] Cycle: 3003503	Occupancy: 13	Queue: 9
