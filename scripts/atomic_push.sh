@@ -1,11 +1,14 @@
 #!/bin/sh
 REPOROOT=$(git rev-parse --show-toplevel)
 
+step="1"
 
-# Credit: https://gist.github.com/willprice/e07efd73fb7f13f917ea
+if [ -z "$(git branch --contains | grep "last_state")" ]; then
+    step="2"
+fi
 
 commit_files() {
-    git checkout master
+    #git checkout master
     # Current month and year, e.g: Apr 2018
     dateAndMonth=`date "+%b %Y"`
     # Stage the modified files in dist/output
@@ -41,10 +44,17 @@ save_state() {
 echo "Commiting files"
 commit_files
 
+if [ "$step" == "2" ]; then
+    git checkout master
+    git rebase last_state
+fi
+
 echo "Pushing results"
 upload_files
 
-echo "Saving state"
-save_state
+if [ "$step" == "1" ]; then
+    echo "Saving state"
+    save_state
+fi
 
 echo "Done."
