@@ -12,7 +12,10 @@ env:
         - NUM_BUILDS=1
         - GEN_GH=1
     matrix:
-        - BUILD_ID=0
+        - MODE=
+        - MODE=small_llc
+        - MODE=low_bandwidth
+        - MODE=scramble_loads
 
 install:
     - cd $TRAVIS_BUILD_DIR;
@@ -21,10 +24,7 @@ install:
 
 script: 
     - cd $TRAVIS_BUILD_DIR;
-    - scripts/run_valid.sh;
-    - scripts/run_valid.sh small_llc;
-    - scripts/run_valid.sh low_bandwidth;
-    - scripts/run_valid.sh scramble_loads;
+    - scripts/run_valid.sh $MODE;
     - scripts/plot_valid.sh;
 
 after_success:
