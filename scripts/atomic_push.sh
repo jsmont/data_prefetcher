@@ -44,7 +44,7 @@ save_state() {
 echo "Commiting files"
 commit_files
 
-if [ "$step" == "2" ]; then
+if [ "$step" = "2" ]; then
     git checkout master
     git rebase last_state
 fi
@@ -52,7 +52,7 @@ fi
 echo "Pushing results"
 upload_files
 
-if [ "$step" == "1" ]; then
+if [ "$step" = "1" ]; then
     echo "Saving state"
     save_state
 fi
