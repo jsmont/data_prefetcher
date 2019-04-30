@@ -1,19 +1,23 @@
 
 *** Data Prefetching Championship 2 Simulator ***
 
-Warmup Instructions: 10000000
+Warmup Instructions: 0
 Simulation Instructions: 100000000
 Scramble loads ON
 Using 1MB Last Level Cache
 Using 12.8 GB/s DRAM bandwidth
 Knobs visible from prefetcher: 1 0 0
 Resetting history queue.
+Setting up the minimum score
 Resetting offset table
 Setting initial offset to 1
 Tag offset: 6
 Ressetting hit rate
 Resetting rable rounds
-Setting up the minimum score
+
+Warmup complete. Instructions retired: 3 Cycles elapsed: 2 IPC: 1.500000
+Prefetcher warmup complete stats
+
 [REQ] Cycle: 15	Occupancy: 1	Queue: 6
 [REQ] Cycle: 16	Occupancy: 2	Queue: 6
 [REQ] Cycle: 17	Occupancy: 3	Queue: 6
@@ -1523,7 +1527,7 @@ Setting up the minimum score
 [REQ] Cycle: 44576	Occupancy: 14	Queue: 6
 [REQ] Cycle: 44577	Occupancy: 15	Queue: 6
 Instructions Retired: 100002 Cycle: 45011 Hearbeat IPC: 2.221724 Cumulative IPC: 2.221724
-Cycle: 45011	Best offset: 1	Score: 63	Hit Rate: 0.400531
+Cycle: 45011	Best offset: 1	Score: 1	Hit Rate: 0.400531
 	---- Offset table ----
 Offset -> Score
 1 -> 9
@@ -2906,7 +2910,7 @@ Offset -> Score
 [REQ] Cycle: 89476	Occupancy: 13	Queue: 4
 [REQ] Cycle: 89477	Occupancy: 13	Queue: 4
 Instructions Retired: 200005 Cycle: 89544 Hearbeat IPC: 2.245593 Cumulative IPC: 2.233595
-Cycle: 89544	Best offset: 1	Score: 63	Hit Rate: 0.413949
+Cycle: 89544	Best offset: 1	Score: 1	Hit Rate: 0.413949
 	---- Offset table ----
 Offset -> Score
 1 -> 18
@@ -4166,7 +4170,7 @@ Offset -> Score
 [REQ] Cycle: 130169	Occupancy: 11	Queue: 4
 [REQ] Cycle: 130170	Occupancy: 12	Queue: 4
 Instructions Retired: 300005 Cycle: 130484 Hearbeat IPC: 2.442599 Cumulative IPC: 2.299171
-Cycle: 130484	Best offset: 1	Score: 63	Hit Rate: 0.427051
+Cycle: 130484	Best offset: 1	Score: 1	Hit Rate: 0.427051
 	---- Offset table ----
 Offset -> Score
 1 -> 26
@@ -5325,7 +5329,7 @@ Offset -> Score
 [REQ] Cycle: 169169	Occupancy: 11	Queue: 4
 [REQ] Cycle: 169170	Occupancy: 11	Queue: 4
 Instructions Retired: 400001 Cycle: 169209 Hearbeat IPC: 2.582208 Cumulative IPC: 2.363946
-Cycle: 169209	Best offset: 1	Score: 63	Hit Rate: 0.439902
+Cycle: 169209	Best offset: 1	Score: 1	Hit Rate: 0.439902
 	---- Offset table ----
 Offset -> Score
 1 -> 32
@@ -6454,7 +6458,7 @@ Offset -> Score
 [REQ] Cycle: 207541	Occupancy: 13	Queue: 4
 [REQ] Cycle: 207542	Occupancy: 14	Queue: 4
 Instructions Retired: 500004 Cycle: 207617 Hearbeat IPC: 2.603702 Cumulative IPC: 2.408300
-Cycle: 207617	Best offset: 1	Score: 63	Hit Rate: 0.448071
+Cycle: 207617	Best offset: 1	Score: 1	Hit Rate: 0.448071
 	---- Offset table ----
 Offset -> Score
 1 -> 37
@@ -7586,7 +7590,7 @@ Offset -> Score
 [REQ] Cycle: 245068	Occupancy: 5	Queue: 8
 [REQ] Cycle: 245070	Occupancy: 7	Queue: 7
 Instructions Retired: 600003 Cycle: 245105 Hearbeat IPC: 2.667494 Cumulative IPC: 2.447943
-Cycle: 245105	Best offset: 1	Score: 63	Hit Rate: 0.457746
+Cycle: 245105	Best offset: 1	Score: 1	Hit Rate: 0.457746
 	---- Offset table ----
 Offset -> Score
 1 -> 42
@@ -8709,7 +8713,7 @@ Offset -> Score
 [REQ] Cycle: 281394	Occupancy: 11	Queue: 5
 [REQ] Cycle: 281407	Occupancy: 13	Queue: 4
 Instructions Retired: 700005 Cycle: 281498 Hearbeat IPC: 2.747836 Cumulative IPC: 2.486714
-Cycle: 281498	Best offset: 1	Score: 63	Hit Rate: 0.464352
+Cycle: 281498	Best offset: 1	Score: 1	Hit Rate: 0.464352
 	---- Offset table ----
 Offset -> Score
 1 -> 47
@@ -9839,7 +9843,7 @@ Offset -> Score
 [REQ] Cycle: 319505	Occupancy: 13	Queue: 9
 [REQ] Cycle: 319506	Occupancy: 13	Queue: 9
 Instructions Retired: 800004 Cycle: 319507 Hearbeat IPC: 2.630929 Cumulative IPC: 2.503870
-Cycle: 319507	Best offset: 1	Score: 63	Hit Rate: 0.468702
+Cycle: 319507	Best offset: 1	Score: 1	Hit Rate: 0.468702
 	---- Offset table ----
 Offset -> Score
 1 -> 54
@@ -10963,7 +10967,7 @@ Offset -> Score
 [REQ] Cycle: 358656	Occupancy: 8	Queue: 4
 [REQ] Cycle: 358657	Occupancy: 8	Queue: 4
 Instructions Retired: 900001 Cycle: 358713 Hearbeat IPC: 2.550554 Cumulative IPC: 2.508972
-Cycle: 358713	Best offset: 1	Score: 63	Hit Rate: 0.471497
+Cycle: 358713	Best offset: 1	Score: 1	Hit Rate: 0.471497
 	---- Offset table ----
 Offset -> Score
 1 -> 60
@@ -36932,6 +36936,6 @@ Offset -> Score
 [REQ] Cycle: 1571780	Occupancy: 10	Queue: 4
 [REQ] Cycle: 1571784	Occupancy: 9	Queue: 4
 
-Simulation complete. Instructions retired: 3099754 Cycles elapsed: 1571870 IPC: 1.972017
+Simulation complete. Instructions retired: 3099751 Cycles elapsed: 1571868 IPC: 1.972017
 
 Prefetcher final stats

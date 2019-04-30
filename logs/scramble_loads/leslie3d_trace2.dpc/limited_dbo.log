@@ -1,19 +1,19 @@
 
 *** Data Prefetching Championship 2 Simulator ***
 
-Warmup Instructions: 10000000
+Warmup Instructions: 0
 Simulation Instructions: 100000000
 Scramble loads ON
 Using 1MB Last Level Cache
 Using 12.8 GB/s DRAM bandwidth
 Knobs visible from prefetcher: 1 0 0
 Resetting history queue.
+Setting up the minimum score
 Resetting offset table
 Setting initial offset to 1
 Tag offset: 6
 Ressetting hit rate
 Resetting rable rounds
-Setting up the minimum score
 [REQ] Cycle: 15	Occupancy: 1	Queue: 7
 [REQ] Cycle: 16	Occupancy: 2	Queue: 6
 [REQ] Cycle: 17	Occupancy: 3	Queue: 5
@@ -23,6 +23,10 @@ Setting up the minimum score
 [REQ] Cycle: 21	Occupancy: 7	Queue: 5
 [REQ] Cycle: 22	Occupancy: 8	Queue: 5
 [REQ] Cycle: 197	Occupancy: 12	Queue: 1
+
+Warmup complete. Instructions retired: 4 Cycles elapsed: 234 IPC: 0.017094
+Prefetcher warmup complete stats
+
 [REQ] Cycle: 236	Occupancy: 10	Queue: 2
 [REQ] Cycle: 289	Occupancy: 10	Queue: 3
 [REQ] Cycle: 305	Occupancy: 10	Queue: 3
@@ -2916,7 +2920,7 @@ Setting up the minimum score
 [REQ] Cycle: 55054	Occupancy: 13	Queue: 4
 [REQ] Cycle: 55062	Occupancy: 14	Queue: 2
 Instructions Retired: 100001 Cycle: 55104 Hearbeat IPC: 1.814768 Cumulative IPC: 1.814768
-Cycle: 55104	Best offset: 1	Score: 63	Hit Rate: 0.694243
+Cycle: 55104	Best offset: 1	Score: 1	Hit Rate: 0.694243
 	---- Offset table ----
 Offset -> Score
 1 -> 36
@@ -87109,6 +87113,6 @@ Offset -> Score
 [REQ] Cycle: 2106525	Occupancy: 5	Queue: 1
 [REQ] Cycle: 2106552	Occupancy: 6	Queue: 1
 
-Simulation complete. Instructions retired: 3099757 Cycles elapsed: 2106561 IPC: 1.471477
+Simulation complete. Instructions retired: 3099753 Cycles elapsed: 2106327 IPC: 1.471639
 
 Prefetcher final stats
