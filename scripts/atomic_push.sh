@@ -8,7 +8,8 @@ if [ "$TRAVIS_BRANCH" = "last_state" ]; then
 fi
 
 commit_files() {
-    #git checkout origin/master
+    #git checkout master
+    echo "$(git status)"
     # Current month and year, e.g: Apr 2018
     dateAndMonth=`date "+%b %Y"`
     # Stage the modified files in dist/output
@@ -18,6 +19,7 @@ commit_files() {
     # with "[skip ci]" to avoid a build loop
     # and Travis build number for reference
     git commit -am "Travis update: $dateAndMonth (Build $TRAVIS_BUILD_NUMBER)" -m "[skip ci]"
+    echo "$(git status)"
 }
 
 upload_files() {
@@ -45,11 +47,6 @@ save_state() {
 
 echo "Commiting files"
 commit_files
-
-#if [ "$step" = "2" ]; then
-#    git checkout origin/master
-#    git rebase $TRAVIS_BRANCH
-#fi
 
 echo "Pushing results"
 upload_files
