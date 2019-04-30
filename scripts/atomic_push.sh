@@ -18,7 +18,12 @@ commit_files() {
     # Create a new commit with a custom build message
     # with "[skip ci]" to avoid a build loop
     # and Travis build number for reference
-    git commit -am "Travis update: $dateAndMonth (Build $TRAVIS_BUILD_NUMBER)" -m "[skip ci]"
+    if [ "$step" = "1" ]; then 
+        git commit -am "$TRAVIS_COMMIT_MESSAGE: step 1 (Build $TRAVIS_BUILD_NUMBER)"; 
+    fi
+    if [ "$step" = "2" ]; then 
+        git commit -am "$TRAVIS_COMMIT_MESSAGE: step 2 (Build $TRAVIS_BUILD_NUMBER)" -m "[skip ci]"; 
+    fi
     echo "$(git status)"
 }
 
@@ -48,8 +53,10 @@ save_state() {
 echo "Commiting files"
 commit_files
 
-echo "Pushing results"
-upload_files
+if [ "$step" = "2" ]; then
+    echo "Pushing results"
+    upload_files
+fi
 
 if [ "$step" = "1" ]; then
     echo "Saving state"
