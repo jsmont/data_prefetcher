@@ -4,6 +4,7 @@ REPOROOT=$(git rev-parse --show-toplevel)
 LOG_FOLDER=$REPOROOT/logs
 GH_FILE=$REPOROOT/docs/index.html
 
+
 mkdir $REPOROOT/docs/img 2>/dev/null
 
 cd $LOG_FOLDER

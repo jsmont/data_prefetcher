@@ -12,6 +12,8 @@ BUILD_ID=0;
 
 CONFIG=""
 
+BRANCH=$(git branch --contains)
+
 #if [ ! -z "$1" ]; then
 #    NUM_BUILDS=$1;
 #fi
