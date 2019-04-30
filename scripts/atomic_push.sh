@@ -8,7 +8,7 @@ if [ "$TRAVIS_BRANCH" = "last_state" ]; then
 fi
 
 commit_files() {
-    git checkout origin/master
+    #git checkout origin/master
     # Current month and year, e.g: Apr 2018
     dateAndMonth=`date "+%b %Y"`
     # Stage the modified files in dist/output

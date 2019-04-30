@@ -15,3 +15,5 @@ fi
 
 git fetch origin last_state
 git fetch origin master
+
+git checkout origin/master
