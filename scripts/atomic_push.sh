@@ -8,13 +8,13 @@ if [ "$TRAVIS_BRANCH" = "last_state" ]; then
 fi
 
 commit_files() {
-    #git checkout master
+    git checkout master
     echo "$(git status)"
     # Current month and year, e.g: Apr 2018
     dateAndMonth=`date "+%b %Y"`
     # Stage the modified files in dist/output
-    if [ "$step" = "1" ]; then git add $REPOROOT/logs; fi
-    if [ "$step" = "2" ]; then git add $REPOROOT/docs; fi
+    if [ "$step" = "1" ]; then git add --all $REPOROOT/logs; fi
+    if [ "$step" = "2" ]; then git add --all $REPOROOT/docs; fi
     # Create a new commit with a custom build message
     # with "[skip ci]" to avoid a build loop
     # and Travis build number for reference
