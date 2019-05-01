@@ -11,8 +11,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define SIZE_OF_HIST 256
-#define SIZE_OF_OFFSETS 128
+#define SIZE_OF_HIST 1024
+#define SIZE_OF_OFFSETS 256
 #define MAX_OFFSET_SCORE 32
 #define MAX_TABLE_ROUND 50
 #define MAX_GAUGE 128
@@ -147,7 +147,7 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
             l2_prefetch_line(cpu_num, addr, pf_addr, FILL_L2);
             prefetch_issued=1;
 
-    } else if (enable_LLC) {
+    } else if (enable_LLC == 1) {
             l2_prefetch_line(cpu_num, addr, pf_addr, FILL_LLC);
             prefetch_issued=1;
     }
