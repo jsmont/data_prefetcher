@@ -42,6 +42,8 @@ upload_files() {
 save_state() {
     git checkout last_state
     git pull --rebase origin last_state
+    rm -r logs/*
+    commit_files
     git merge master
     until git push -u origin last_state
     do
