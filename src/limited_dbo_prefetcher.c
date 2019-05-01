@@ -117,7 +117,7 @@ void l2_prefetcher_initialize(int cpu_num)
     rate=128;
     last_miss=0;
     bandwidth=16;
-    if(knob_low_bandwidth) bandwidth=128;
+    if(knob_low_bandwidth) bandwidth=64;
     MSHR_LIMIT=3*L2_MSHR_COUNT/4;
 
 }
