@@ -24,6 +24,7 @@ git fetch origin master
 
 if [ "$step" = "1" ]; then 
     git checkout origin/last_state; 
+    git checkout origin/master -- docs
     git merge origin/master;
 fi
 if [ "$step" = "2" ]; then 
