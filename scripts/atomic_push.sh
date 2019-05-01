@@ -8,7 +8,6 @@ if [ "$TRAVIS_BRANCH" = "last_state" ]; then
 fi
 
 commit_files() {
-    git checkout master
     echo "$(git status)"
     # Current month and year, e.g: Apr 2018
     dateAndMonth=`date "+%b %Y"`
@@ -53,6 +52,7 @@ save_state() {
 }
 
 echo "Commiting files"
+git checkout master
 commit_files
 
 if [ "$step" = "2" ]; then
