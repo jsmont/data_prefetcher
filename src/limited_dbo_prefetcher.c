@@ -203,7 +203,7 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
         int interval = (get_current_cycle(cpu_num)-last_miss);
         int delta = (interval - rate);
         last_miss=get_current_cycle(cpu_num);
-        if ((gauge - delta) <= 0){
+        if ((gauge + delta) <= 0){
             if(rate > 0) rate--;
             gauge = MAX_GAUGE/2;
         } else if (delta + gauge >= MAX_GAUGE) {
