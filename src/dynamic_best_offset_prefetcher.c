@@ -26,7 +26,7 @@ typedef struct {
 } RR_Entry;
 
 typedef struct {
-    uint8_t offset;
+    int8_t offset;
     uint8_t score;
 } Offset;
 
@@ -42,6 +42,7 @@ Offset BEST_OFFSET;
 uint16_t OT_TRAIN_POINTER;
 
 uint8_t TABLE_ROUND;
+uint8_t MINIMUM_SCORE;
 
 int16_t get_RR_position(uint16_t tag){
     int i;
@@ -78,16 +79,25 @@ void l2_prefetcher_initialize(int cpu_num)
     }
     RR_INSERT_POINTER=0;
 
+    printf("Setting up the minimum score\n");
+    MINIMUM_SCORE=1;
+    if(knob_small_llc) MINIMUM_SCORE=MAX_OFFSET_SCORE/4;
+
     printf("Resetting offset table\n");
-    for(i = 0; i < SIZE_OF_OFFSETS; ++i){
+    for(i = 0; i < SIZE_OF_OFFSETS/2; ++i){
+        //Positive part
         OFFSET_TABLE[i].offset=i+1;
         OFFSET_TABLE[i].score=0;
+        //Negative part
+        OFFSET_TABLE[i + (SIZE_OF_OFFSETS/2)].offset=-(i+1);
+        OFFSET_TABLE[i + (SIZE_OF_OFFSETS/2)].score=0;
     }
     OT_TRAIN_POINTER=0;
 
     printf("Setting initial offset to 1\n");
     BEST_TRAINED_OFFSET = OFFSET_TABLE[0];
     BEST_OFFSET = OFFSET_TABLE[0];
+    BEST_OFFSET.score = MINIMUM_SCORE;
 
     printf("Tag offset: %d\n", TAG_OFFSET);
 
@@ -97,6 +107,7 @@ void l2_prefetcher_initialize(int cpu_num)
 
     printf("Resetting rable rounds\n");
     TABLE_ROUND=0;
+
 }
 
 void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned long long int ip, int cache_hit)
@@ -110,7 +121,7 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
     uint8_t fill_level = FILL_L2;
     if (get_l2_mshr_occupancy(0) >= MSHR_LIMIT) fill_level=FILL_LLC;
 
-    l2_prefetch_line(cpu_num, addr, pf_addr, fill_level);
+    if (BEST_OFFSET.score >= MINIMUM_SCORE) l2_prefetch_line(cpu_num, addr, pf_addr, fill_level);
 
     //UPDATE
     RECENT_REQUESTS[RR_INSERT_POINTER].valid = 1;
@@ -122,7 +133,7 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
     //TRAIN
     int16_t rr_hit = get_RR_position(tag - OFFSET_TABLE[OT_TRAIN_POINTER].offset);
     if(rr_hit >= 0 && RECENT_REQUESTS[rr_hit].valid){
-        uint8_t increment=1 + RECENT_REQUESTS[rr_hit].filled; //TODO: Look for an alternative
+        uint8_t increment=1 + RECENT_REQUESTS[rr_hit].filled;
         //printf("RR Hit\n");
         if(OFFSET_TABLE[OT_TRAIN_POINTER].score + increment <= MAX_OFFSET_SCORE) OFFSET_TABLE[OT_TRAIN_POINTER].score+=increment;
         if(OFFSET_TABLE[OT_TRAIN_POINTER].score >= BEST_TRAINED_OFFSET.score){
@@ -161,13 +172,15 @@ void l2_cache_fill(int cpu_num, unsigned long long int addr, int set, int way, i
 {
     // uncomment this line to see the information available to you when there is a cache fill event
     //printf("0x%llx %d %d %d 0x%llx\n", addr, set, way, prefetch, evicted_addr);
-    uint16_t tag = addr >> TAG_OFFSET;
+    uint16_t tag = (addr >> TAG_OFFSET) - BEST_OFFSET.offset;
     int16_t index = get_RR_position(tag);
-    if(index >= 0) RECENT_REQUESTS[index].filled = 1;
+    if(index >= 0 && prefetch==1) RECENT_REQUESTS[index].filled = 1;
 
+    /*
     int16_t evicted_tag = evicted_addr >> TAG_OFFSET;
     index = get_RR_position(evicted_tag);
     if(index >= 0) RECENT_REQUESTS[index].valid = 0;
+    */
 }
 
 Offset sorted_table[SIZE_OF_OFFSETS];

@@ -11,11 +11,11 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define SIZE_OF_HIST 64
+#define SIZE_OF_HIST 256
 #define SIZE_OF_OFFSETS 128
-#define MAX_OFFSET_SCORE 64
-#define MSHR_LIMIT 0.8*L2_MSHR_COUNT 
+#define MAX_OFFSET_SCORE 32
 #define MAX_TABLE_ROUND 50
+#define MAX_GAUGE 256
 
 #define TAG_OFFSET (int)(log2(CACHE_LINE_SIZE))
 
@@ -26,7 +26,7 @@ typedef struct {
 } RR_Entry;
 
 typedef struct {
-    uint8_t offset;
+    int8_t offset;
     uint8_t score;
 } Offset;
 
@@ -43,6 +43,12 @@ uint16_t OT_TRAIN_POINTER;
 
 uint8_t TABLE_ROUND;
 uint8_t MINIMUM_SCORE;
+
+int gauge;
+int rate;
+unsigned long long int last_miss;
+int bandwidth;
+int MSHR_LIMIT;
 
 int16_t get_RR_position(uint16_t tag){
     int i;
@@ -84,9 +90,13 @@ void l2_prefetcher_initialize(int cpu_num)
     if(knob_small_llc) MINIMUM_SCORE=MAX_OFFSET_SCORE/4;
 
     printf("Resetting offset table\n");
-    for(i = 0; i < SIZE_OF_OFFSETS; ++i){
+    for(i = 0; i < SIZE_OF_OFFSETS/2; ++i){
+        //Positive part
         OFFSET_TABLE[i].offset=i+1;
         OFFSET_TABLE[i].score=0;
+        //Negative part
+        OFFSET_TABLE[i + (SIZE_OF_OFFSETS/2)].offset=-(i+1);
+        OFFSET_TABLE[i + (SIZE_OF_OFFSETS/2)].score=0;
     }
     OT_TRAIN_POINTER=0;
 
@@ -104,6 +114,14 @@ void l2_prefetcher_initialize(int cpu_num)
     printf("Resetting rable rounds\n");
     TABLE_ROUND=0;
 
+    printf("Resetting gauge\n");
+    gauge=0;
+    rate=0;
+    last_miss=0;
+    bandwidth=64;
+    if(knob_low_bandwidth) bandwidth=16;
+    MSHR_LIMIT=L2_MSHR_COUNT;
+
 }
 
 void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned long long int ip, int cache_hit)
@@ -112,12 +130,24 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
     //printf("(0x%llx 0x%llx %d %d %d) ", addr, ip, cache_hit, get_l2_read_queue_occupancy(0), get_l2_mshr_occupancy(0));
     uint8_t tag = addr >> TAG_OFFSET;
 
+    //COMPUTE MSHR_LIMIT
+
+    if (rate >= 2*bandwidth || BEST_OFFSET.score > (MAX_OFFSET_SCORE/2)) MSHR_LIMIT=3*L2_MSHR_COUNT/4;
+    else if (rate <= bandwidth) MSHR_LIMIT=L2_MSHR_COUNT/8;
+    else MSHR_LIMIT=L2_MSHR_COUNT/8+(3*L2_MSHR_COUNT*(rate-bandwidth))/(bandwidth*4);
+
     //PREFETCH
+    int prefetch_issued=0;
     unsigned long long int pf_addr = addr + (BEST_OFFSET.offset << TAG_OFFSET);
     uint8_t fill_level = FILL_L2;
-    if (get_l2_mshr_occupancy(0) >= MSHR_LIMIT) fill_level=FILL_LLC;
+    if (get_l2_mshr_occupancy(0) <= MSHR_LIMIT) {
 
-    if (BEST_OFFSET.score >= MINIMUM_SCORE) l2_prefetch_line(cpu_num, addr, pf_addr, fill_level);
+        if (BEST_OFFSET.score >= MINIMUM_SCORE){
+            l2_prefetch_line(cpu_num, addr, pf_addr, fill_level);
+            prefetch_issued=1;
+        }
+
+    }
 
     //UPDATE
     RECENT_REQUESTS[RR_INSERT_POINTER].valid = 1;
@@ -144,7 +174,7 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
 
     if(TABLE_ROUND==MAX_TABLE_ROUND || (BEST_TRAINED_OFFSET.score == MAX_OFFSET_SCORE && OT_TRAIN_POINTER==0)){
         if(BEST_OFFSET.offset != BEST_TRAINED_OFFSET.offset) printf("Offset switch to: %d\tWith score: %d\n", BEST_TRAINED_OFFSET.offset, BEST_TRAINED_OFFSET.score);
-        
+
         BEST_OFFSET = BEST_TRAINED_OFFSET;
 
         TABLE_ROUND=0;
@@ -160,8 +190,20 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
     hit_rate = ((hit_rate*number_of_requests)+cache_hit)/(number_of_requests+1);
     number_of_requests++;
 
-    //Stats on requests
-    printf("[REQ] Cycle: %d\tOccupancy: %d\tQueue: %d\n", get_current_cycle(0), get_l2_mshr_occupancy(0), get_l2_read_queue_occupancy(0));
+    //Update gauge
+    if ((!cache_hit)|| prefetch_issued ){
+        int delta = ((get_current_cycle(cpu_num)-last_miss) - rate);
+        last_miss=get_current_cycle(cpu_num);
+        if (delta >= gauge){
+            if(rate > 0) rate--;
+            gauge = MAX_GAUGE/2;
+        } else if (delta + gauge > MAX_GAUGE) {
+            rate++;
+            gauge = MAX_GAUGE/2;
+        } else {
+            gauge += delta;
+        }
+    }
 }
 
 void l2_cache_fill(int cpu_num, unsigned long long int addr, int set, int way, int prefetch, unsigned long long int evicted_addr)
@@ -173,10 +215,10 @@ void l2_cache_fill(int cpu_num, unsigned long long int addr, int set, int way, i
     if(index >= 0 && prefetch==1) RECENT_REQUESTS[index].filled = 1;
 
     /*
-    int16_t evicted_tag = evicted_addr >> TAG_OFFSET;
-    index = get_RR_position(evicted_tag);
-    if(index >= 0) RECENT_REQUESTS[index].valid = 0;
-    */
+       int16_t evicted_tag = evicted_addr >> TAG_OFFSET;
+       index = get_RR_position(evicted_tag);
+       if(index >= 0) RECENT_REQUESTS[index].valid = 0;
+       */
 }
 
 Offset sorted_table[SIZE_OF_OFFSETS];
@@ -184,7 +226,7 @@ Offset sorted_table[SIZE_OF_OFFSETS];
 void l2_prefetcher_heartbeat_stats(int cpu_num)
 {
     printf("Cycle: %lld\tBest offset: %d\tScore: %d\tHit Rate: %f\n", get_current_cycle(0), BEST_OFFSET.offset, BEST_OFFSET.score, hit_rate);
-    
+
     memcpy(sorted_table, OFFSET_TABLE, sizeof(OFFSET_TABLE));
     qsort (sorted_table, SIZE_OF_OFFSETS, sizeof(Offset), comp);
 

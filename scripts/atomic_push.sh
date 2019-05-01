@@ -2,14 +2,17 @@
 REPOROOT=$(git rev-parse --show-toplevel)
 
 step="1"
+target_branch="last_state"
 
 if [ "$TRAVIS_BRANCH" = "last_state" ]; then
     step="2"
+    target_branch="master"
 fi
 
+
 commit_files() {
-    git checkout master
     echo "$(git status)"
+    git checkout $target_branch
     # Current month and year, e.g: Apr 2018
     dateAndMonth=`date "+%b %Y"`
     # Stage the modified files in dist/output
@@ -40,18 +43,14 @@ upload_files() {
 }
 
 save_state() {
-    git checkout last_state
-    git pull --rebase origin last_state
-    git merge master
     until git push -u origin last_state
     do
         git pull --rebase origin last_state
     done
-    git checkout master
 }
 
 echo "Commiting files"
-commit_files
+commit_files 
 
 if [ "$step" = "2" ]; then
     echo "Pushing results"
