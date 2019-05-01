@@ -15,7 +15,7 @@
 #define SIZE_OF_OFFSETS 128
 #define MAX_OFFSET_SCORE 32
 #define MAX_TABLE_ROUND 50
-#define MAX_GAUGE 512
+#define MAX_GAUGE 128
 
 #define TAG_OFFSET (int)(log2(CACHE_LINE_SIZE))
 
@@ -118,8 +118,8 @@ void l2_prefetcher_initialize(int cpu_num)
     gauge=MAX_GAUGE/2;
     rate=128;
     last_miss=0;
-    bandwidth=16;
-    if(knob_low_bandwidth) bandwidth=64;
+    bandwidth=4;
+    if(knob_low_bandwidth) bandwidth=128;
     MSHR_LIMIT=L2_MSHR_COUNT;
 
 }
