@@ -20,13 +20,13 @@
 #define TAG_OFFSET (int)(log2(CACHE_LINE_SIZE))
 
 typedef struct {
-    uint8_t valid;
-    uint8_t filled;
+    uint8_t valid; //Only 1 bit used
+    uint8_t filled; //Only 1 bit used
     uint16_t tag;
 } RR_Entry;
 
 typedef struct {
-    int8_t offset;
+    int8_t offset; 
     uint8_t score;
 } Offset;
 
@@ -83,6 +83,7 @@ void l2_prefetcher_initialize(int cpu_num)
     printf("Setting up the minimum score\n");
     MINIMUM_SCORE=1;
     if(knob_small_llc) MINIMUM_SCORE=MAX_OFFSET_SCORE/4;
+    if(knob_low_bandwidth) MINIMUM_SCORE=MAX_OFFSET_SCORE/8;
 
     printf("Resetting offset table\n");
     for(i = 0; i < SIZE_OF_OFFSETS/2; ++i){
@@ -117,7 +118,7 @@ void l2_prefetcher_initialize(int cpu_num)
     last_miss=0;
     bandwidth=16;
     if(knob_low_bandwidth) bandwidth=128;
-    MSHR_LIMIT=L2_MSHR_COUNT;
+    MSHR_LIMIT=3*L2_MSHR_COUNT/4;
 
 }
 
@@ -196,7 +197,7 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
 #endif
 
     //Update gauge
-    if ((!cache_hit)|| prefetch_issued ){
+    if ((!cache_hit) || prefetch_issued ){
         int delta = ((get_current_cycle(cpu_num)-last_miss) - rate);
         last_miss=get_current_cycle(cpu_num);
         if (delta >= gauge){
