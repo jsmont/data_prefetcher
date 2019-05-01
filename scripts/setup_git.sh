@@ -28,5 +28,5 @@ if [ "$step" = "1" ]; then
 fi
 if [ "$step" = "2" ]; then 
     git checkout origin/master; 
-    git merge origin/last_state;
+    git checkout origin/last_state -- logs
 fi
