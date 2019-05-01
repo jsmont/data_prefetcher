@@ -15,7 +15,7 @@
 #define SIZE_OF_OFFSETS 256
 #define MAX_OFFSET_SCORE 32
 #define MAX_TABLE_ROUND 50
-#define MAX_GAUGE 128
+#define MAX_GAUGE 64
 
 #define TAG_OFFSET (int)(log2(CACHE_LINE_SIZE))
 
