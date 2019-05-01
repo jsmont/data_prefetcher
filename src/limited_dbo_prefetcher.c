@@ -44,6 +44,10 @@ uint16_t OT_TRAIN_POINTER;
 uint8_t TABLE_ROUND;
 uint8_t MINIMUM_SCORE;
 
+int gauge;
+int rate;
+unsigned long long int last_miss;
+
 int16_t get_RR_position(uint16_t tag){
     int i;
     for(i = 0; i < SIZE_OF_HIST; ++i){
@@ -108,6 +112,11 @@ void l2_prefetcher_initialize(int cpu_num)
     printf("Resetting rable rounds\n");
     TABLE_ROUND=0;
 
+    printf("Resetting gauge\n");
+    gauge=0;
+    rate=0;
+    last_miss=0;
+
 }
 
 void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned long long int ip, int cache_hit)
@@ -164,8 +173,17 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
     hit_rate = ((hit_rate*number_of_requests)+cache_hit)/(number_of_requests+1);
     number_of_requests++;
 
-    //Stats on requests
-    printf("[REQ] Cycle: %d\tOccupancy: %d\tQueue: %d\n", get_current_cycle(0), get_l2_mshr_occupancy(0), get_l2_read_queue_occupancy(0));
+    //Update gauge
+    int delta = ((get_current_cycle(cpu_num)-last_miss) - rate);
+    if (delta >= gauge){
+        if(rate > 0) rate--;
+        gauge = MAX_GAUGE/2;
+    } else if (delta + gauge > MAX_GAUGE) {
+        rate++;
+        gauge = MAX_GAUGE/2;
+    } else {
+        gauge += delta;
+    }
 }
 
 void l2_cache_fill(int cpu_num, unsigned long long int addr, int set, int way, int prefetch, unsigned long long int evicted_addr)
