@@ -11,9 +11,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define SIZE_OF_HIST 64
+#define SIZE_OF_HIST 256
 #define SIZE_OF_OFFSETS 128
-#define MAX_OFFSET_SCORE 64
+#define MAX_OFFSET_SCORE 32
 #define MSHR_LIMIT 0.8*L2_MSHR_COUNT 
 #define MAX_TABLE_ROUND 50
 
@@ -26,7 +26,7 @@ typedef struct {
 } RR_Entry;
 
 typedef struct {
-    uint8_t offset;
+    int8_t offset;
     uint8_t score;
 } Offset;
 
@@ -84,9 +84,13 @@ void l2_prefetcher_initialize(int cpu_num)
     if(knob_small_llc) MINIMUM_SCORE=MAX_OFFSET_SCORE/4;
 
     printf("Resetting offset table\n");
-    for(i = 0; i < SIZE_OF_OFFSETS; ++i){
+    for(i = 0; i < SIZE_OF_OFFSETS/2; ++i){
+        //Positive part
         OFFSET_TABLE[i].offset=i+1;
         OFFSET_TABLE[i].score=0;
+        //Negative part
+        OFFSET_TABLE[i + (SIZE_OF_OFFSETS/2)].offset=-(i+1);
+        OFFSET_TABLE[i + (SIZE_OF_OFFSETS/2)].score=0;
     }
     OT_TRAIN_POINTER=0;
 
