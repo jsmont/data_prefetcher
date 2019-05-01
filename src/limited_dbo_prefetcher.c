@@ -52,6 +52,7 @@ unsigned long long int last_miss;
 int bandwidth;
 int MSHR_LIMIT;
 
+#ifdef VERBOSE
 //STATS
 int comp(const void* e1, const void* e2){
     Offset o1 = *((Offset*)e1);
@@ -66,6 +67,7 @@ int comp(const void* e1, const void* e2){
 
 double hit_rate;
 uint64_t number_of_requests;
+#endif
 
 
 void l2_prefetcher_initialize(int cpu_num)
@@ -100,9 +102,11 @@ void l2_prefetcher_initialize(int cpu_num)
 
     printf("Tag offset: %d\n", TAG_OFFSET);
 
+#ifdef VERBOSE
     printf("Ressetting hit rate\n");
     hit_rate=1;
     number_of_requests=0;
+#endif
 
     printf("Resetting rable rounds\n");
     TABLE_ROUND=0;
@@ -127,7 +131,10 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
 
     uint8_t enable_LLC=1;
     if (rate >= 2*bandwidth || BEST_OFFSET.score > (MAX_OFFSET_SCORE/2)) MSHR_LIMIT=3*L2_MSHR_COUNT/4;
-    else if (rate <= bandwidth) MSHR_LIMIT=L2_MSHR_COUNT/8;
+    else if (rate <= bandwidth){
+        MSHR_LIMIT=L2_MSHR_COUNT/8;
+        enable_LLC=0;
+    }
     else {
         MSHR_LIMIT=L2_MSHR_COUNT/8+(3*L2_MSHR_COUNT*(rate-bandwidth))/(bandwidth*4);
         enable_LLC=0;
@@ -182,9 +189,11 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
     }
 
 
+#ifdef VERBOSE
     //Update hit rate
     hit_rate = ((hit_rate*number_of_requests)+cache_hit)/(number_of_requests+1);
     number_of_requests++;
+#endif
 
     //Update gauge
     if ((!cache_hit)|| prefetch_issued ){
@@ -200,7 +209,10 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
             gauge += delta;
         }
     }
+
+#ifdef VERBOSE
     printf("Cycle: %lld\tRate: %d\n", get_current_cycle(cpu_num), rate);
+#endif
 }
 
 void l2_cache_fill(int cpu_num, unsigned long long int addr, int set, int way, int prefetch, unsigned long long int evicted_addr)
@@ -217,7 +229,9 @@ void l2_cache_fill(int cpu_num, unsigned long long int addr, int set, int way, i
        */
 }
 
+#ifdef VERBOSE
 Offset sorted_table[SIZE_OF_OFFSETS];
+#endif
 
 void l2_prefetcher_heartbeat_stats(int cpu_num)
 {
