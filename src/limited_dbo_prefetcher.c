@@ -15,7 +15,7 @@
 #define SIZE_OF_OFFSETS 256
 #define MAX_OFFSET_SCORE 32
 #define MAX_TABLE_ROUND 50
-#define MAX_GAUGE 64
+#define MAX_GAUGE 256
 
 #define TAG_OFFSET (int)(log2(CACHE_LINE_SIZE))
 
@@ -198,12 +198,13 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
 
     //Update gauge
     if ((!cache_hit) || prefetch_issued ){
-        int delta = ((get_current_cycle(cpu_num)-last_miss) - rate);
+        int interval = (get_current_cycle(cpu_num)-last_miss);
+        int delta = (interval - rate);
         last_miss=get_current_cycle(cpu_num);
-        if (delta >= gauge){
+        if ((gauge - delta) <= 0){
             if(rate > 0) rate--;
             gauge = MAX_GAUGE/2;
-        } else if (delta + gauge > MAX_GAUGE) {
+        } else if (delta + gauge >= MAX_GAUGE) {
             rate++;
             gauge = MAX_GAUGE/2;
         } else {
