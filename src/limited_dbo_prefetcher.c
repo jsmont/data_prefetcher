@@ -125,21 +125,24 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
 
     //COMPUTE MSHR_LIMIT
 
+    uint8_t enable_LLC=1;
     if (rate >= 2*bandwidth || BEST_OFFSET.score > (MAX_OFFSET_SCORE/2)) MSHR_LIMIT=3*L2_MSHR_COUNT/4;
     else if (rate <= bandwidth) MSHR_LIMIT=L2_MSHR_COUNT/8;
-    else MSHR_LIMIT=L2_MSHR_COUNT/8+(3*L2_MSHR_COUNT*(rate-bandwidth))/(bandwidth*4);
+    else {
+        MSHR_LIMIT=L2_MSHR_COUNT/8+(3*L2_MSHR_COUNT*(rate-bandwidth))/(bandwidth*4);
+        enable_LLC=0;
+    }
 
     //PREFETCH
     int prefetch_issued=0;
     unsigned long long int pf_addr = addr + (BEST_OFFSET.offset << TAG_OFFSET);
-    uint8_t fill_level = FILL_L2;
-    if (get_l2_mshr_occupancy(0) <= MSHR_LIMIT) {
-
-        if (BEST_OFFSET.score >= MINIMUM_SCORE){
-            l2_prefetch_line(cpu_num, addr, pf_addr, fill_level);
+    if ((get_l2_mshr_occupancy(0) <= MSHR_LIMIT) && (BEST_OFFSET.score >= MINIMUM_SCORE)){
+            l2_prefetch_line(cpu_num, addr, pf_addr, FILL_L2);
             prefetch_issued=1;
-        }
 
+    } else if (enable_LLC) {
+            l2_prefetch_line(cpu_num, addr, pf_addr, FILL_LLC);
+            prefetch_issued=1;
     }
 
     //UPDATE
