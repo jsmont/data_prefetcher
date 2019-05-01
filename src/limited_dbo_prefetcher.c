@@ -51,6 +51,7 @@ int rate;
 unsigned long long int last_miss;
 int bandwidth;
 int MSHR_LIMIT;
+int default_enable_LLC;
 
 #ifdef VERBOSE
 //STATS
@@ -114,11 +115,13 @@ void l2_prefetcher_initialize(int cpu_num)
 
     printf("Resetting gauge\n");
     gauge=MAX_GAUGE/2;
-    rate=128;
     last_miss=0;
     bandwidth=16;
     if(knob_low_bandwidth) bandwidth=64;
     MSHR_LIMIT=3*L2_MSHR_COUNT/4;
+    rate=2*bandwidth;
+    default_enable_LLC=1;
+    if(knob_small_llc) default_enable_LLC=0;
 
 }
 
@@ -130,15 +133,14 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
 
     //COMPUTE MSHR_LIMIT
 
-    uint8_t enable_LLC=1;
-    if (rate >= 2*bandwidth || BEST_OFFSET.score > (MAX_OFFSET_SCORE/2)) MSHR_LIMIT=3*L2_MSHR_COUNT/4;
-    else if (rate <= bandwidth){
+    uint8_t enable_LLC=default_enable_LLC;
+    if ((rate >= 2*bandwidth) || (BEST_OFFSET.score > (MAX_OFFSET_SCORE/2))) MSHR_LIMIT=3*L2_MSHR_COUNT/4;
+    else if (rate <= bandwidth) {
         MSHR_LIMIT=L2_MSHR_COUNT/8;
         enable_LLC=0;
     }
     else {
         MSHR_LIMIT=L2_MSHR_COUNT/8+(3*L2_MSHR_COUNT*(rate-bandwidth))/(bandwidth*4);
-        enable_LLC=0;
     }
 
     //PREFETCH
