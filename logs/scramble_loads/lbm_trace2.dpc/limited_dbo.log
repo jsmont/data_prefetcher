@@ -19,292 +19,287 @@ Resetting gauge
 Warmup complete. Instructions retired: 3 Cycles elapsed: 2 IPC: 1.500000
 Prefetcher warmup complete stats
 
-Instructions Retired: 100002 Cycle: 67956 Hearbeat IPC: 1.471570 Cumulative IPC: 1.471570
-Cycle: 67956	Best offset: 1	Score: 1	Hit Rate: 0.503974
-	---- Offset table ----
-Offset -> Score
-4 -> 18
-2 -> 17
-1 -> 16
-3 -> 16
-	----------------------
-Instructions Retired: 200005 Cycle: 141824 Hearbeat IPC: 1.353807 Cumulative IPC: 1.410234
-Cycle: 141824	Best offset: 1	Score: 1	Hit Rate: 0.432236
-	---- Offset table ----
-Offset -> Score
-2 -> 32
-3 -> 31
-4 -> 31
-1 -> 30
-	----------------------
-Offset switch to: 2	With score: 32
-Instructions Retired: 300001 Cycle: 192556 Hearbeat IPC: 1.971064 Cumulative IPC: 1.557994
-Cycle: 192556	Best offset: 2	Score: 32	Hit Rate: 0.505317
-	---- Offset table ----
-Offset -> Score
-2 -> 19
-14 -> 17
--11 -> 16
-1 -> 16
-	----------------------
-Instructions Retired: 400003 Cycle: 239170 Hearbeat IPC: 2.145321 Cumulative IPC: 1.672463
-Cycle: 239170	Best offset: 2	Score: 32	Hit Rate: 0.556270
-	---- Offset table ----
-Offset -> Score
-1 -> 32
-2 -> 31
-3 -> 31
-4 -> 31
-	----------------------
-Offset switch to: 1	With score: 32
-Instructions Retired: 500001 Cycle: 284969 Hearbeat IPC: 2.183410 Cumulative IPC: 1.754580
-Cycle: 284969	Best offset: 1	Score: 32	Hit Rate: 0.586061
+Instructions Retired: 100001 Cycle: 73315 Hearbeat IPC: 1.363991 Cumulative IPC: 1.363991
+Cycle: 73315	Best offset: 1	Score: 1	Hit Rate: 0.406623
 	---- Offset table ----
 Offset -> Score
 4 -> 16
+5 -> 16
 1 -> 15
-3 -> 15
-57 -> 15
+-15 -> 14
 	----------------------
-Instructions Retired: 600003 Cycle: 329653 Hearbeat IPC: 2.237982 Cumulative IPC: 1.820105
-Cycle: 329653	Best offset: 1	Score: 32	Hit Rate: 0.609535
+Instructions Retired: 200005 Cycle: 150104 Hearbeat IPC: 1.302322 Cumulative IPC: 1.332443
+Cycle: 150104	Best offset: 1	Score: 1	Hit Rate: 0.375867
 	---- Offset table ----
 Offset -> Score
-1 -> 31
-4 -> 31
-3 -> 29
-5 -> 29
-	----------------------
-Offset switch to: 5	With score: 32
-Instructions Retired: 700002 Cycle: 378031 Hearbeat IPC: 2.067035 Cumulative IPC: 1.851705
-Cycle: 378031	Best offset: 5	Score: 32	Hit Rate: 0.617811
-	---- Offset table ----
-Offset -> Score
-2 -> 13
-3 -> 13
-6 -> 12
-19 -> 12
-	----------------------
-Instructions Retired: 800004 Cycle: 423062 Hearbeat IPC: 2.220737 Cumulative IPC: 1.890985
-Cycle: 423062	Best offset: 5	Score: 32	Hit Rate: 0.634983
-	---- Offset table ----
-Offset -> Score
-2 -> 30
+5 -> 32
+1 -> 30
 3 -> 30
-5 -> 27
-4 -> 26
-	----------------------
-Offset switch to: 2	With score: 32
-Instructions Retired: 900001 Cycle: 467204 Hearbeat IPC: 2.265348 Cumulative IPC: 1.926355
-Cycle: 467204	Best offset: 2	Score: 32	Hit Rate: 0.644220
-	---- Offset table ----
-Offset -> Score
-1 -> 14
-3 -> 13
-44 -> 13
--52 -> 12
-	----------------------
-Instructions Retired: 1000000 Cycle: 514276 Hearbeat IPC: 2.124384 Cumulative IPC: 1.944481
-Cycle: 514276	Best offset: 2	Score: 32	Hit Rate: 0.653656
-	---- Offset table ----
-Offset -> Score
-1 -> 31
-3 -> 28
-2 -> 26
-5 -> 25
-	----------------------
-Offset switch to: 3	With score: 32
-Instructions Retired: 1100003 Cycle: 562106 Hearbeat IPC: 2.090801 Cumulative IPC: 1.956932
-Cycle: 562106	Best offset: 3	Score: 32	Hit Rate: 0.657866
-	---- Offset table ----
-Offset -> Score
-22 -> 12
--28 -> 11
-5 -> 11
-6 -> 11
-	----------------------
-Instructions Retired: 1200005 Cycle: 608500 Hearbeat IPC: 2.155494 Cumulative IPC: 1.972071
-Cycle: 608500	Best offset: 3	Score: 32	Hit Rate: 0.665230
-	---- Offset table ----
-Offset -> Score
-5 -> 28
-3 -> 27
-2 -> 26
-6 -> 26
+4 -> 29
 	----------------------
 Offset switch to: 5	With score: 32
-Instructions Retired: 1300002 Cycle: 666409 Hearbeat IPC: 1.726795 Cumulative IPC: 1.950757
-Cycle: 666409	Best offset: 5	Score: 32	Hit Rate: 0.666950
+Instructions Retired: 300001 Cycle: 207941 Hearbeat IPC: 1.728928 Cumulative IPC: 1.442722
+Cycle: 207941	Best offset: 5	Score: 32	Hit Rate: 0.442512
 	---- Offset table ----
 Offset -> Score
-4 -> 14
-1 -> 12
--6 -> 11
--4 -> 11
+6 -> 16
+2 -> 15
+4 -> 15
+1 -> 14
 	----------------------
-Instructions Retired: 1400002 Cycle: 727072 Hearbeat IPC: 1.648451 Cumulative IPC: 1.925534
-Cycle: 727072	Best offset: 5	Score: 32	Hit Rate: 0.668396
+Instructions Retired: 400001 Cycle: 254813 Hearbeat IPC: 2.133470 Cumulative IPC: 1.569782
+Cycle: 254813	Best offset: 5	Score: 32	Hit Rate: 0.513897
 	---- Offset table ----
 Offset -> Score
-3 -> 29
-4 -> 28
-2 -> 27
-20 -> 26
-	----------------------
-Offset switch to: 4	With score: 32
-Instructions Retired: 1500003 Cycle: 782677 Hearbeat IPC: 1.798417 Cumulative IPC: 1.916503
-Cycle: 782677	Best offset: 4	Score: 32	Hit Rate: 0.671146
-	---- Offset table ----
-Offset -> Score
--16 -> 12
-1 -> 12
--12 -> 10
--2 -> 10
-	----------------------
-Instructions Retired: 1600004 Cycle: 837089 Hearbeat IPC: 1.837848 Cumulative IPC: 1.911391
-Cycle: 837089	Best offset: 4	Score: 32	Hit Rate: 0.675372
-	---- Offset table ----
-Offset -> Score
-1 -> 27
-2 -> 26
-6 -> 26
-3 -> 25
-	----------------------
-Offset switch to: 3	With score: 32
-Instructions Retired: 1700004 Cycle: 896755 Hearbeat IPC: 1.675996 Cumulative IPC: 1.895728
-Cycle: 896755	Best offset: 3	Score: 32	Hit Rate: 0.677694
-	---- Offset table ----
-Offset -> Score
--43 -> 8
-1 -> 8
--51 -> 7
--42 -> 7
-	----------------------
-Instructions Retired: 1800004 Cycle: 961593 Hearbeat IPC: 1.542305 Cumulative IPC: 1.871898
-Cycle: 961593	Best offset: 3	Score: 32	Hit Rate: 0.677391
-	---- Offset table ----
-Offset -> Score
-1 -> 25
-6 -> 23
--7 -> 22
-4 -> 22
-	----------------------
-Offset switch to: 4	With score: 32
-Instructions Retired: 1900003 Cycle: 1023347 Hearbeat IPC: 1.619312 Cumulative IPC: 1.856656
-Cycle: 1023347	Best offset: 4	Score: 32	Hit Rate: 0.677622
-	---- Offset table ----
-Offset -> Score
-47 -> 8
-1 -> 7
-3 -> 7
-5 -> 7
-	----------------------
-Instructions Retired: 2000004 Cycle: 1087504 Hearbeat IPC: 1.558692 Cumulative IPC: 1.839077
-Cycle: 1087504	Best offset: 4	Score: 32	Hit Rate: 0.678403
-	---- Offset table ----
-Offset -> Score
-3 -> 24
-1 -> 23
--6 -> 22
-5 -> 22
+1 -> 30
+2 -> 30
+4 -> 30
+5 -> 30
 	----------------------
 Offset switch to: 6	With score: 32
-Instructions Retired: 2100001 Cycle: 1157539 Hearbeat IPC: 1.427815 Cumulative IPC: 1.814195
-Cycle: 1157539	Best offset: 6	Score: 32	Hit Rate: 0.676097
+Instructions Retired: 500002 Cycle: 302160 Hearbeat IPC: 2.112087 Cumulative IPC: 1.654759
+Cycle: 302160	Best offset: 6	Score: 32	Hit Rate: 0.546787
 	---- Offset table ----
 Offset -> Score
--47 -> 6
--41 -> 6
--15 -> 6
--6 -> 6
+5 -> 16
+3 -> 15
+4 -> 14
+54 -> 14
 	----------------------
-Instructions Retired: 2200000 Cycle: 1218119 Hearbeat IPC: 1.650693 Cumulative IPC: 1.806063
-Cycle: 1218119	Best offset: 6	Score: 32	Hit Rate: 0.678460
+Instructions Retired: 600004 Cycle: 344206 Hearbeat IPC: 2.378395 Cumulative IPC: 1.743154
+Cycle: 344206	Best offset: 6	Score: 32	Hit Rate: 0.588508
 	---- Offset table ----
 Offset -> Score
-1 -> 22
-3 -> 22
-6 -> 22
-2 -> 21
+3 -> 31
+4 -> 30
+5 -> 29
+1 -> 28
 	----------------------
-Offset switch to: 3	With score: 32
-Instructions Retired: 2300001 Cycle: 1276460 Hearbeat IPC: 1.714078 Cumulative IPC: 1.801859
-Cycle: 1276460	Best offset: 3	Score: 32	Hit Rate: 0.678142
+Offset switch to: 4	With score: 32
+Instructions Retired: 700003 Cycle: 387323 Hearbeat IPC: 2.319248 Cumulative IPC: 1.807285
+Cycle: 387323	Best offset: 4	Score: 32	Hit Rate: 0.612304
 	---- Offset table ----
 Offset -> Score
-1 -> 6
-2 -> 6
-3 -> 5
-4 -> 5
+2 -> 15
+10 -> 15
+1 -> 14
+3 -> 14
 	----------------------
-Instructions Retired: 2400003 Cycle: 1351402 Hearbeat IPC: 1.334392 Cumulative IPC: 1.775936
-Cycle: 1351402	Best offset: 3	Score: 32	Hit Rate: 0.677513
-	---- Offset table ----
-Offset -> Score
-1 -> 25
-4 -> 23
-2 -> 22
-3 -> 22
-	----------------------
-Offset switch to: 1	With score: 32
-Instructions Retired: 2500003 Cycle: 1426389 Hearbeat IPC: 1.333565 Cumulative IPC: 1.752680
-Cycle: 1426389	Best offset: 1	Score: 32	Hit Rate: 0.676397
-	---- Offset table ----
-Offset -> Score
-1 -> 11
-2 -> 11
-20 -> 10
-24 -> 10
-	----------------------
-Instructions Retired: 2600002 Cycle: 1487209 Hearbeat IPC: 1.644180 Cumulative IPC: 1.748242
-Cycle: 1487209	Best offset: 1	Score: 32	Hit Rate: 0.675544
+Instructions Retired: 800000 Cycle: 432761 Hearbeat IPC: 2.200735 Cumulative IPC: 1.848595
+Cycle: 432761	Best offset: 4	Score: 32	Hit Rate: 0.631038
 	---- Offset table ----
 Offset -> Score
 2 -> 29
+4 -> 29
+5 -> 29
 1 -> 28
-4 -> 24
--22 -> 22
 	----------------------
-Offset switch to: 2	With score: 32
-Instructions Retired: 2700002 Cycle: 1546997 Hearbeat IPC: 1.672576 Cumulative IPC: 1.745318
-Cycle: 1546997	Best offset: 2	Score: 32	Hit Rate: 0.676470
+Offset switch to: 5	With score: 32
+Instructions Retired: 900001 Cycle: 481427 Hearbeat IPC: 2.054843 Cumulative IPC: 1.869444
+Cycle: 481427	Best offset: 5	Score: 32	Hit Rate: 0.638968
 	---- Offset table ----
 Offset -> Score
--13 -> 11
-3 -> 11
-4 -> 11
--3 -> 10
-	----------------------
-Instructions Retired: 2800003 Cycle: 1609375 Hearbeat IPC: 1.603145 Cumulative IPC: 1.739808
-Cycle: 1609375	Best offset: 2	Score: 32	Hit Rate: 0.677085
-	---- Offset table ----
-Offset -> Score
-3 -> 29
-4 -> 26
--3 -> 25
-1 -> 23
-	----------------------
-Offset switch to: 3	With score: 32
-Instructions Retired: 2900004 Cycle: 1676956 Hearbeat IPC: 1.479721 Cumulative IPC: 1.729326
-Cycle: 1676956	Best offset: 3	Score: 32	Hit Rate: 0.675923
-	---- Offset table ----
-Offset -> Score
--4 -> 14
+2 -> 14
+4 -> 14
 3 -> 13
-5 -> 13
 6 -> 13
 	----------------------
-Instructions Retired: 3000002 Cycle: 1749501 Hearbeat IPC: 1.378427 Cumulative IPC: 1.714776
-Cycle: 1749501	Best offset: 3	Score: 32	Hit Rate: 0.675317
+Instructions Retired: 1000000 Cycle: 525944 Hearbeat IPC: 2.246310 Cumulative IPC: 1.901343
+Cycle: 525944	Best offset: 5	Score: 32	Hit Rate: 0.652188
 	---- Offset table ----
 Offset -> Score
--4 -> 32
-3 -> 32
-5 -> 32
+4 -> 31
+2 -> 30
 6 -> 30
+3 -> 29
 	----------------------
-Offset switch to: -4	With score: 32
+Offset switch to: -6	With score: 32
+Instructions Retired: 1100001 Cycle: 593353 Hearbeat IPC: 1.483496 Cumulative IPC: 1.853873
+Cycle: 593353	Best offset: -6	Score: 32	Hit Rate: 0.620214
+	---- Offset table ----
+Offset -> Score
+2 -> 12
+6 -> 12
+4 -> 11
+5 -> 11
+	----------------------
+Instructions Retired: 1200002 Cycle: 677451 Hearbeat IPC: 1.189101 Cumulative IPC: 1.771349
+Cycle: 677451	Best offset: -6	Score: 32	Hit Rate: 0.572000
+	---- Offset table ----
+Offset -> Score
+6 -> 21
+2 -> 20
+4 -> 20
+5 -> 20
+	----------------------
+Instructions Retired: 1300002 Cycle: 769727 Hearbeat IPC: 1.083705 Cumulative IPC: 1.688913
+Cycle: 769727	Best offset: -6	Score: 32	Hit Rate: 0.530814
+	---- Offset table ----
+Offset -> Score
+6 -> 30
+2 -> 29
+4 -> 28
+5 -> 28
+	----------------------
+Offset switch to: 6	With score: 32
+Instructions Retired: 1400002 Cycle: 852817 Hearbeat IPC: 1.203514 Cumulative IPC: 1.641621
+Cycle: 852817	Best offset: 6	Score: 32	Hit Rate: 0.519278
+	---- Offset table ----
+Offset -> Score
+1 -> 10
+4 -> 10
+6 -> 10
+-24 -> 9
+	----------------------
+Instructions Retired: 1500003 Cycle: 909700 Hearbeat IPC: 1.758012 Cumulative IPC: 1.648898
+Cycle: 909700	Best offset: 6	Score: 32	Hit Rate: 0.533957
+	---- Offset table ----
+Offset -> Score
+6 -> 25
+2 -> 24
+3 -> 24
+4 -> 24
+	----------------------
+Instructions Retired: 1600003 Cycle: 963296 Hearbeat IPC: 1.865811 Cumulative IPC: 1.660967
+Cycle: 963296	Best offset: 6	Score: 32	Hit Rate: 0.547465
+	---- Offset table ----
+Offset -> Score
+1 -> 8
+2 -> 8
+3 -> 8
+21 -> 8
+	----------------------
+Instructions Retired: 1700004 Cycle: 1023935 Hearbeat IPC: 1.649120 Cumulative IPC: 1.660266
+Cycle: 1023935	Best offset: 6	Score: 32	Hit Rate: 0.558104
+	---- Offset table ----
+Offset -> Score
+1 -> 25
+5 -> 25
+3 -> 24
+2 -> 23
+	----------------------
+Offset switch to: 2	With score: 32
+Instructions Retired: 1800004 Cycle: 1085262 Hearbeat IPC: 1.630603 Cumulative IPC: 1.658589
+Cycle: 1085262	Best offset: 2	Score: 32	Hit Rate: 0.564530
+	---- Offset table ----
+Offset -> Score
+-7 -> 6
+1 -> 6
+2 -> 6
+7 -> 6
+	----------------------
+Instructions Retired: 1900003 Cycle: 1148039 Hearbeat IPC: 1.592924 Cumulative IPC: 1.654999
+Cycle: 1148039	Best offset: 2	Score: 32	Hit Rate: 0.570534
+	---- Offset table ----
+Offset -> Score
+1 -> 22
+3 -> 21
+-28 -> 20
+-7 -> 20
+	----------------------
+Offset switch to: 1	With score: 32
+Instructions Retired: 2000004 Cycle: 1210184 Hearbeat IPC: 1.609156 Cumulative IPC: 1.652645
+Cycle: 1210184	Best offset: 1	Score: 32	Hit Rate: 0.575750
+	---- Offset table ----
+Offset -> Score
+-32 -> 4
+-26 -> 4
+-25 -> 4
+-23 -> 4
+	----------------------
+Instructions Retired: 2100001 Cycle: 1274189 Hearbeat IPC: 1.562331 Cumulative IPC: 1.648108
+Cycle: 1274189	Best offset: 1	Score: 32	Hit Rate: 0.580121
+	---- Offset table ----
+Offset -> Score
+4 -> 19
+6 -> 19
+13 -> 19
+-39 -> 18
+	----------------------
+Instructions Retired: 2200002 Cycle: 1336449 Hearbeat IPC: 1.606184 Cumulative IPC: 1.646155
+Cycle: 1336449	Best offset: 1	Score: 32	Hit Rate: 0.585609
+	---- Offset table ----
+Offset -> Score
+1 -> 4
+2 -> 4
+3 -> 4
+4 -> 4
+	----------------------
+Instructions Retired: 2300004 Cycle: 1398089 Hearbeat IPC: 1.622356 Cumulative IPC: 1.645106
+Cycle: 1398089	Best offset: 1	Score: 32	Hit Rate: 0.589616
+	---- Offset table ----
+Offset -> Score
+1 -> 20
+4 -> 20
+5 -> 20
+2 -> 19
+	----------------------
+Instructions Retired: 2400003 Cycle: 1475114 Hearbeat IPC: 1.298267 Cumulative IPC: 1.626995
+Cycle: 1475114	Best offset: 1	Score: 32	Hit Rate: 0.591861
+	---- Offset table ----
+Offset -> Score
+3 -> 8
+6 -> 8
+1 -> 7
+2 -> 7
+	----------------------
+Instructions Retired: 2500002 Cycle: 1553018 Hearbeat IPC: 1.283618 Cumulative IPC: 1.609770
+Cycle: 1553018	Best offset: 1	Score: 32	Hit Rate: 0.592777
+	---- Offset table ----
+Offset -> Score
+2 -> 28
+3 -> 27
+6 -> 24
+1 -> 23
+	----------------------
+Offset switch to: 2	With score: 32
+Instructions Retired: 2600005 Cycle: 1616896 Hearbeat IPC: 1.565531 Cumulative IPC: 1.608022
+Cycle: 1616896	Best offset: 2	Score: 32	Hit Rate: 0.594754
+	---- Offset table ----
+Offset -> Score
+1 -> 8
+2 -> 8
+3 -> 8
+5 -> 7
+	----------------------
+Instructions Retired: 2700002 Cycle: 1675205 Hearbeat IPC: 1.714950 Cumulative IPC: 1.611744
+Cycle: 1675205	Best offset: 2	Score: 32	Hit Rate: 0.597944
+	---- Offset table ----
+Offset -> Score
+2 -> 24
+1 -> 22
+3 -> 20
+6 -> 20
+	----------------------
+Instructions Retired: 2800003 Cycle: 1735306 Hearbeat IPC: 1.663882 Cumulative IPC: 1.613550
+Cycle: 1735306	Best offset: 2	Score: 32	Hit Rate: 0.601992
+	---- Offset table ----
+Offset -> Score
+4 -> 10
+6 -> 10
+-1 -> 9
+1 -> 9
+	----------------------
+Instructions Retired: 2900000 Cycle: 1801067 Hearbeat IPC: 1.520612 Cumulative IPC: 1.610157
+Cycle: 1801067	Best offset: 2	Score: 32	Hit Rate: 0.603535
+	---- Offset table ----
+Offset -> Score
+4 -> 27
+3 -> 25
+2 -> 24
+1 -> 23
+	----------------------
+Offset switch to: 4	With score: 32
+Instructions Retired: 3000002 Cycle: 1881810 Hearbeat IPC: 1.238522 Cumulative IPC: 1.594211
+Cycle: 1881810	Best offset: 4	Score: 32	Hit Rate: 0.602947
+	---- Offset table ----
+Offset -> Score
+2 -> 11
+5 -> 11
+3 -> 10
+6 -> 10
+	----------------------
 
-Simulation complete. Instructions retired: 3099755 Cycles elapsed: 1864099 IPC: 1.662870
+Simulation complete. Instructions retired: 3099755 Cycles elapsed: 1959760 IPC: 1.581701
 
 Prefetcher final stats
