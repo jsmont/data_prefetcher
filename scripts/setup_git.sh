@@ -3,6 +3,12 @@
 REPOROOT=$(git rev-parse --show-toplevel)
 cd $REPOROOT
 
+step="1"
+
+if [ "$TRAVIS_BRANCH" = "last_state" ]; then
+    step="2"
+fi
+
 echo "Setting up git"
 if [ ! -z "$GIT_TOKEN" ]; then
     git config --global user.email "travis@travis-ci.org"
@@ -16,4 +22,11 @@ fi
 git fetch origin last_state
 git fetch origin master
 
-git checkout origin/master
+if [ "$step" = "1" ]; then 
+    git checkout origin/last_state; 
+    git merge origin/master;
+fi
+if [ "$step" = "2" ]; then 
+    git checkout origin/master; 
+    git merge origin/last_state;
+fi
