@@ -115,8 +115,8 @@ void l2_prefetcher_initialize(int cpu_num)
     TABLE_ROUND=0;
 
     printf("Resetting gauge\n");
-    gauge=0;
-    rate=0;
+    gauge=MAX_GAUGE/2;
+    rate=128;
     last_miss=0;
     bandwidth=16;
     if(knob_low_bandwidth) bandwidth=64;
