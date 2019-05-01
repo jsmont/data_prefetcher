@@ -16,6 +16,7 @@
 #define MAX_OFFSET_SCORE 32
 #define MSHR_LIMIT 0.8*L2_MSHR_COUNT 
 #define MAX_TABLE_ROUND 50
+#define MAX_GAUGE 64
 
 #define TAG_OFFSET (int)(log2(CACHE_LINE_SIZE))
 
