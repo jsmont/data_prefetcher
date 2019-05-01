@@ -115,8 +115,8 @@ void l2_prefetcher_initialize(int cpu_num)
     gauge=MAX_GAUGE/2;
     rate=128;
     last_miss=0;
-    bandwidth=4;
-    if(knob_low_bandwidth) bandwidth=64;
+    bandwidth=16;
+    if(knob_low_bandwidth) bandwidth=128;
     MSHR_LIMIT=L2_MSHR_COUNT;
 
 }
@@ -210,9 +210,7 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
         }
     }
 
-#ifdef VERBOSE
     printf("Cycle: %lld\tRate: %d\n", get_current_cycle(cpu_num), rate);
-#endif
 }
 
 void l2_cache_fill(int cpu_num, unsigned long long int addr, int set, int way, int prefetch, unsigned long long int evicted_addr)
