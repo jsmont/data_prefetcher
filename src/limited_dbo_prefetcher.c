@@ -34,7 +34,9 @@ typedef struct {
 #define GET(val, h, l) ((((uint64_t)val) % (((uint64_t)1)<< h)) >> l)
 
 RR_Entry RECENT_REQUESTS[SIZE_OF_HIST];
-uint16_t RR_INSERT_POINTER;
+uint16_t hash(uint16_t tag) {
+    return GET(tag, 6,0);
+}
 
 Offset OFFSET_TABLE[SIZE_OF_OFFSETS];
 Offset BEST_TRAINED_OFFSET;
@@ -49,14 +51,6 @@ int rate;
 unsigned long long int last_miss;
 int bandwidth;
 int MSHR_LIMIT;
-
-int16_t get_RR_position(uint16_t tag){
-    int i;
-    for(i = 0; i < SIZE_OF_HIST; ++i){
-        if (RECENT_REQUESTS[i].tag == tag) return i;
-    }
-    return -1;
-}
 
 //STATS
 int comp(const void* e1, const void* e2){
@@ -83,7 +77,6 @@ void l2_prefetcher_initialize(int cpu_num)
     for(i = 0; i < SIZE_OF_HIST; i++){
         RECENT_REQUESTS[i].valid = 0;
     }
-    RR_INSERT_POINTER=0;
 
     printf("Setting up the minimum score\n");
     MINIMUM_SCORE=1;
@@ -119,7 +112,7 @@ void l2_prefetcher_initialize(int cpu_num)
     rate=128;
     last_miss=0;
     bandwidth=4;
-    if(knob_low_bandwidth) bandwidth=128;
+    if(knob_low_bandwidth) bandwidth=64;
     MSHR_LIMIT=L2_MSHR_COUNT;
 
 }
@@ -150,16 +143,16 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
     }
 
     //UPDATE
-    RECENT_REQUESTS[RR_INSERT_POINTER].valid = 1;
-    RECENT_REQUESTS[RR_INSERT_POINTER].filled = cache_hit;
-    RECENT_REQUESTS[RR_INSERT_POINTER].tag = tag;
-
-    RR_INSERT_POINTER=(RR_INSERT_POINTER+1)%SIZE_OF_HIST;
+    RECENT_REQUESTS[hash(tag)].valid = 1;
+    RECENT_REQUESTS[hash(tag)].filled = 0;
+    RECENT_REQUESTS[hash(tag)].tag = tag;
 
     //TRAIN
-    int16_t rr_hit = get_RR_position(tag - OFFSET_TABLE[OT_TRAIN_POINTER].offset);
-    if(rr_hit >= 0 && RECENT_REQUESTS[rr_hit].valid){
-        uint8_t increment=1 + RECENT_REQUESTS[rr_hit].filled;
+    int16_t train_tag = tag - OFFSET_TABLE[OT_TRAIN_POINTER].offset;
+    int16_t rr = hash(train_tag);
+
+    if((RECENT_REQUESTS[rr].tag == train_tag) && RECENT_REQUESTS[rr].valid){
+        uint8_t increment=1 + RECENT_REQUESTS[rr].filled;
         //printf("RR Hit\n");
         if(OFFSET_TABLE[OT_TRAIN_POINTER].score + increment <= MAX_OFFSET_SCORE) OFFSET_TABLE[OT_TRAIN_POINTER].score+=increment;
         if(OFFSET_TABLE[OT_TRAIN_POINTER].score >= BEST_TRAINED_OFFSET.score){
@@ -204,6 +197,7 @@ void l2_prefetcher_operate(int cpu_num, unsigned long long int addr, unsigned lo
             gauge += delta;
         }
     }
+    printf("Cycle: %lld\tRate: %d\n", get_current_cycle(cpu_num), rate);
 }
 
 void l2_cache_fill(int cpu_num, unsigned long long int addr, int set, int way, int prefetch, unsigned long long int evicted_addr)
@@ -211,8 +205,7 @@ void l2_cache_fill(int cpu_num, unsigned long long int addr, int set, int way, i
     // uncomment this line to see the information available to you when there is a cache fill event
     //printf("0x%llx %d %d %d 0x%llx\n", addr, set, way, prefetch, evicted_addr);
     uint16_t tag = (addr >> TAG_OFFSET) - BEST_OFFSET.offset;
-    int16_t index = get_RR_position(tag);
-    if(index >= 0 && prefetch==1) RECENT_REQUESTS[index].filled = 1;
+    if(index >= 0 && prefetch==1 && (RECENT_REQUESTS[hash(tag)].tag == tag)) RECENT_REQUESTS[hash(tag)].filled = 1;
 
     /*
        int16_t evicted_tag = evicted_addr >> TAG_OFFSET;
@@ -225,6 +218,7 @@ Offset sorted_table[SIZE_OF_OFFSETS];
 
 void l2_prefetcher_heartbeat_stats(int cpu_num)
 {
+#ifdef VERBOSE
     printf("Cycle: %lld\tBest offset: %d\tScore: %d\tHit Rate: %f\n", get_current_cycle(0), BEST_OFFSET.offset, BEST_OFFSET.score, hit_rate);
 
     memcpy(sorted_table, OFFSET_TABLE, sizeof(OFFSET_TABLE));
@@ -236,14 +230,15 @@ void l2_prefetcher_heartbeat_stats(int cpu_num)
         printf("%d -> %d\n", sorted_table[i].offset, sorted_table[i].score);
     }
     printf("\t----------------------\n");
+#endif
 }
 
 void l2_prefetcher_warmup_stats(int cpu_num)
 {
-    printf("Prefetcher warmup complete stats\n\n");
+    //printf("Prefetcher warmup complete stats\n\n");
 }
 
 void l2_prefetcher_final_stats(int cpu_num)
 {
-    printf("Prefetcher final stats\n");
+    //printf("Prefetcher final stats\n");
 }
