@@ -1,0 +1,78 @@
+
+*** Data Prefetching Championship 2 Simulator ***
+
+Warmup Instructions: 0
+Simulation Instructions: 100000000
+Scramble loads OFF
+Using 1MB Last Level Cache
+Using 3.2 GB/s DRAM bandwidth
+No Prefetching
+Knobs visible from prefetcher: 0 0 1
+
+Warmup complete. Instructions retired: 1 Cycles elapsed: 2 IPC: 0.500000
+Prefetcher warmup complete stats
+
+Instructions Retired: 100001 Cycle: 44529 Hearbeat IPC: 2.245750 Cumulative IPC: 2.245750
+Prefetcher heartbeat stats
+Instructions Retired: 200004 Cycle: 73273 Hearbeat IPC: 3.479091 Cumulative IPC: 2.729573
+Prefetcher heartbeat stats
+Instructions Retired: 300003 Cycle: 101713 Hearbeat IPC: 3.516139 Cumulative IPC: 2.949505
+Prefetcher heartbeat stats
+Instructions Retired: 400000 Cycle: 130383 Hearbeat IPC: 3.487862 Cumulative IPC: 3.067885
+Prefetcher heartbeat stats
+Instructions Retired: 500003 Cycle: 159017 Hearbeat IPC: 3.492456 Cumulative IPC: 3.144337
+Prefetcher heartbeat stats
+Instructions Retired: 600001 Cycle: 187638 Hearbeat IPC: 3.493868 Cumulative IPC: 3.197652
+Prefetcher heartbeat stats
+Instructions Retired: 700000 Cycle: 216349 Hearbeat IPC: 3.482951 Cumulative IPC: 3.235513
+Prefetcher heartbeat stats
+Instructions Retired: 800001 Cycle: 244795 Hearbeat IPC: 3.515468 Cumulative IPC: 3.268045
+Prefetcher heartbeat stats
+Instructions Retired: 900003 Cycle: 273342 Hearbeat IPC: 3.503065 Cumulative IPC: 3.292589
+Prefetcher heartbeat stats
+Instructions Retired: 1000002 Cycle: 302172 Hearbeat IPC: 3.468574 Cumulative IPC: 3.309380
+Prefetcher heartbeat stats
+Instructions Retired: 1100000 Cycle: 330907 Hearbeat IPC: 3.480007 Cumulative IPC: 3.324197
+Prefetcher heartbeat stats
+Instructions Retired: 1200002 Cycle: 359666 Hearbeat IPC: 3.477242 Cumulative IPC: 3.336434
+Prefetcher heartbeat stats
+Instructions Retired: 1300000 Cycle: 388510 Hearbeat IPC: 3.466856 Cumulative IPC: 3.346117
+Prefetcher heartbeat stats
+Instructions Retired: 1400005 Cycle: 417409 Hearbeat IPC: 3.460500 Cumulative IPC: 3.354036
+Prefetcher heartbeat stats
+Instructions Retired: 1500000 Cycle: 446311 Hearbeat IPC: 3.459795 Cumulative IPC: 3.360885
+Prefetcher heartbeat stats
+Instructions Retired: 1600005 Cycle: 475067 Hearbeat IPC: 3.477709 Cumulative IPC: 3.367957
+Prefetcher heartbeat stats
+Instructions Retired: 1700002 Cycle: 503874 Hearbeat IPC: 3.471274 Cumulative IPC: 3.373863
+Prefetcher heartbeat stats
+Instructions Retired: 1800001 Cycle: 532534 Hearbeat IPC: 3.489149 Cumulative IPC: 3.380068
+Prefetcher heartbeat stats
+Instructions Retired: 1900001 Cycle: 561148 Hearbeat IPC: 3.494793 Cumulative IPC: 3.385918
+Prefetcher heartbeat stats
+Instructions Retired: 2000005 Cycle: 589905 Hearbeat IPC: 3.477553 Cumulative IPC: 3.390385
+Prefetcher heartbeat stats
+Instructions Retired: 2100001 Cycle: 618715 Hearbeat IPC: 3.470878 Cumulative IPC: 3.394133
+Prefetcher heartbeat stats
+Instructions Retired: 2200005 Cycle: 647582 Hearbeat IPC: 3.464302 Cumulative IPC: 3.397261
+Prefetcher heartbeat stats
+Instructions Retired: 2300004 Cycle: 676358 Hearbeat IPC: 3.475083 Cumulative IPC: 3.400572
+Prefetcher heartbeat stats
+Instructions Retired: 2400002 Cycle: 705175 Hearbeat IPC: 3.470104 Cumulative IPC: 3.403413
+Prefetcher heartbeat stats
+Instructions Retired: 2500003 Cycle: 735355 Hearbeat IPC: 3.313486 Cumulative IPC: 3.399723
+Prefetcher heartbeat stats
+Instructions Retired: 2600000 Cycle: 764029 Hearbeat IPC: 3.487375 Cumulative IPC: 3.403012
+Prefetcher heartbeat stats
+Instructions Retired: 2700002 Cycle: 792715 Hearbeat IPC: 3.486091 Cumulative IPC: 3.406018
+Prefetcher heartbeat stats
+Instructions Retired: 2800000 Cycle: 821429 Hearbeat IPC: 3.482552 Cumulative IPC: 3.408694
+Prefetcher heartbeat stats
+Instructions Retired: 2900000 Cycle: 850117 Hearbeat IPC: 3.485778 Cumulative IPC: 3.411295
+Prefetcher heartbeat stats
+Instructions Retired: 3000002 Cycle: 878934 Hearbeat IPC: 3.470243 Cumulative IPC: 3.413228
+Prefetcher heartbeat stats
+
+Simulation complete. Instructions retired: 3099757 Cycles elapsed: 907621 IPC: 3.415255
+
+Prefetcher final stats
