@@ -35,7 +35,7 @@ typedef struct {
 
 RR_Entry RECENT_REQUESTS[SIZE_OF_HIST];
 uint16_t hash(uint16_t tag) {
-    return GET(tag, 6,0);
+    return GET(tag, 9,0);
 }
 
 Offset OFFSET_TABLE[SIZE_OF_OFFSETS];
