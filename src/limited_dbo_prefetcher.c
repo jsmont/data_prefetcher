@@ -11,7 +11,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define SIZE_OF_HIST 1024
+#define SIZE_OF_HIST 128
 #define SIZE_OF_OFFSETS 256
 #define MAX_OFFSET_SCORE 32
 #define MAX_TABLE_ROUND 50
@@ -35,7 +35,7 @@ typedef struct {
 
 RR_Entry RECENT_REQUESTS[SIZE_OF_HIST];
 uint16_t hash(uint16_t tag) {
-    return GET(tag, 9,0);
+    return GET(tag, 6,0);
 }
 
 Offset OFFSET_TABLE[SIZE_OF_OFFSETS];
